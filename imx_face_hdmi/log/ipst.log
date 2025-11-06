@@ -1,0 +1,32 @@
+#[INFO] IpTool V2025.07 (APP main), Windows 64bit (Release), Build 168007 2025/07/10, 18:32:53 Jul 10 2025 on WIN10-204
+#[INFO] Run at Tue Oct 28 21:56:38 2025
+
+#[INFO] Load ipc data success from D:/TD/prj/imx_isp/uisrc/03_ip/alip/pll.ipc
+#[INFO] Load ipc data success from D:/TD/prj/imx_isp/al_ip/blk_mem_gen_zhenghe.ipc
+#[INFO] Load ipc data success from D:/TD/prj/imx_isp/uisrc/03_ip/isp/raw_matrix_3x3_buffer/ram/blk_mem_gen_demosaic.ipc
+#[INFO] Load ipc data success from D:/TD/prj/imx_isp/al_ip/divider.ipc
+#[INFO] Load ipc data success from D:/TD/prj/imx_isp/al_ip/blk_mem_gen_awb_delay_signal.ipc
+#[INFO] Load ipc data success from D:/TD/prj/imx_isp/uisrc/03_ip/alip/ph1a_ddr/ddr_ip.ipc
+#[INFO] Load ipc data success from D:/TD/prj/imx_isp/uisrc/03_ip/uifdmadbuf/rfifo/rfifo.ipc
+#[INFO] Load ipc data success from D:/TD/prj/imx_isp/uisrc/03_ip/uifdmadbuf/wfifo/wfifo.ipc
+#[INFO] The Tool Ip instance xml path: D:/TD/prj/imx_isp/al_ip/Soft_FIFO_0/Soft_FIFO_0.xml
+#[INFO] Load instance data success from D:/TD/prj/imx_isp/al_ip/Soft_FIFO_0
+#[INFO] Load Catalog data success for IP Name Soft_FIFO
+#[INFO] Load Component data success from D:/TD/ip/depot/Soft_FIFO_3.0
+#[ERROR] The D:/TD/ip/depot/Soft_FIFO_3.0 not exist upgrade.tcl
+#[INFO] Soft_FIFO_0 >> Instance Version:3.0.0 Recommend Version:3.0.0
+#[INFO] The Tool Ip instance xml path: D:/TD/prj/imx_isp/al_ip/ChipWatcher_0/ChipWatcher_0.xml
+#[INFO] Load instance data success from D:/TD/prj/imx_isp/al_ip/ChipWatcher_0
+#[INFO] Load Catalog data success for IP Name ChipWatcher
+#[INFO] Load Component data success from D:/TD/ip/depot/ChipWatcher_1.1
+#[ERROR] The D:/TD/ip/depot/ChipWatcher_1.1 not exist upgrade.tcl
+#[INFO] ChipWatcher_0 >> Instance Version:1.1.0 Recommend Version:1.1.0
+#[INFO] The Tool Ip instance xml path: D:/TD/prj/imx_isp/al_ip/fifo_128bit/fifo_128bit.xml
+#[INFO] Load instance data success from D:/TD/prj/imx_isp/al_ip/fifo_128bit
+#[INFO] Load Catalog data success for IP Name Soft_FIFO
+#[INFO] Load Component data success from D:/TD/ip/depot/Soft_FIFO_3.0
+#[ERROR] The D:/TD/ip/depot/Soft_FIFO_3.0 not exist upgrade.tcl
+#[INFO] fifo_128bit >> Instance Version:3.0.0 Recommend Version:3.0.0
+ipst_gui_select_dialog IP_Status
+ipst_gui_close_dialog IP_Status
+ipst_gui_resize_dialog IP_Status 1800 600 

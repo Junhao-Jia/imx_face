@@ -1,0 +1,1422 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- HMAC is: 4eea40edbc23228b29aba1c532d4dca033d317347492c71242184572f61034b0 -->
+<chipwatcher version="3.040000" project_name="imx_isp" chip_name="PH1A180SFG676">
+	<watcher_nodes>
+		<net name="face_recognition_inst/image_skin_select_inst/frame_end" clock="u_mipi_dphy_rx_ph1a_mipiio_wrapper/O_hs_rx_clk" inst="auto_created_cwc1" type="MARK_DEBUG_PROBE" is_enabled="yes" const="false" trig="enable" data="enable"/>
+		<net name="face_recognition_inst/image_skin_select_inst/frame_end_pulse" clock="u_mipi_dphy_rx_ph1a_mipiio_wrapper/O_hs_rx_clk" inst="auto_created_cwc1" type="MARK_DEBUG_PROBE" is_enabled="yes" const="false" trig="enable" data="enable"/>
+		<net name="face_recognition_inst/image_skin_select_inst/i_last" clock="u_mipi_dphy_rx_ph1a_mipiio_wrapper/O_hs_rx_clk" inst="auto_created_cwc1" type="MARK_DEBUG_PROBE" is_enabled="yes" const="false" trig="enable" data="enable"/>
+		<net name="face_recognition_inst/image_skin_select_inst/i_user" clock="u_mipi_dphy_rx_ph1a_mipiio_wrapper/O_hs_rx_clk" inst="auto_created_cwc1" type="MARK_DEBUG_PROBE" is_enabled="yes" const="false" trig="enable" data="enable"/>
+		<net name="face_recognition_inst/image_skin_select_inst/i_valid" clock="u_mipi_dphy_rx_ph1a_mipiio_wrapper/O_hs_rx_clk" inst="auto_created_cwc1" type="MARK_DEBUG_PROBE" is_enabled="yes" const="false" trig="enable" data="enable"/>
+		<net name="face_recognition_inst/image_skin_select_inst/is_valid_aspect_ratio" clock="u_mipi_dphy_rx_ph1a_mipiio_wrapper/O_hs_rx_clk" inst="auto_created_cwc1" type="MARK_DEBUG_PROBE" is_enabled="yes" const="false" trig="enable" data="enable"/>
+		<net name="face_recognition_inst/image_skin_select_inst/o_last" clock="u_mipi_dphy_rx_ph1a_mipiio_wrapper/O_hs_rx_clk" inst="auto_created_cwc1" type="MARK_DEBUG_PROBE" is_enabled="yes" const="false" trig="enable" data="enable"/>
+		<net name="face_recognition_inst/image_skin_select_inst/o_user" clock="u_mipi_dphy_rx_ph1a_mipiio_wrapper/O_hs_rx_clk" inst="auto_created_cwc1" type="MARK_DEBUG_PROBE" is_enabled="yes" const="false" trig="enable" data="enable"/>
+		<net name="face_recognition_inst/image_skin_select_inst/o_valid" clock="u_mipi_dphy_rx_ph1a_mipiio_wrapper/O_hs_rx_clk" inst="auto_created_cwc1" type="MARK_DEBUG_PROBE" is_enabled="yes" const="false" trig="enable" data="enable"/>
+		<net name="face_recognition_inst/image_skin_select_inst/parallel_output[0]$pixel_in_border" clock="u_mipi_dphy_rx_ph1a_mipiio_wrapper/O_hs_rx_clk" inst="auto_created_cwc1" type="MARK_DEBUG_PROBE" is_enabled="yes" const="false" trig="enable" data="enable"/>
+		<net name="face_recognition_inst/image_skin_select_inst/parallel_output[1]$pixel_in_border" clock="u_mipi_dphy_rx_ph1a_mipiio_wrapper/O_hs_rx_clk" inst="auto_created_cwc1" type="MARK_DEBUG_PROBE" is_enabled="yes" const="false" trig="enable" data="enable"/>
+		<net name="face_recognition_inst/image_skin_select_inst/parallel_output[2]$pixel_in_border" clock="u_mipi_dphy_rx_ph1a_mipiio_wrapper/O_hs_rx_clk" inst="auto_created_cwc1" type="MARK_DEBUG_PROBE" is_enabled="yes" const="false" trig="enable" data="enable"/>
+		<net name="face_recognition_inst/image_skin_select_inst/parallel_output[3]$pixel_in_border" clock="u_mipi_dphy_rx_ph1a_mipiio_wrapper/O_hs_rx_clk" inst="auto_created_cwc1" type="MARK_DEBUG_PROBE" is_enabled="yes" const="false" trig="enable" data="enable"/>
+		<net name="face_recognition_inst/image_skin_select_inst/use_for_boundary" clock="u_mipi_dphy_rx_ph1a_mipiio_wrapper/O_hs_rx_clk" inst="auto_created_cwc1" type="MARK_DEBUG_PROBE" is_enabled="yes" const="false" trig="enable" data="enable"/>
+		<net name="uiFDMA_inst/axi_arvalid" clock="u_ddr_phy/u_ph1_logic_standard_phy/u_clk/hctrl_clk_bufg_syn_3" inst="auto_created_cwc2" type="MARK_DEBUG_PROBE" is_enabled="yes" const="false" trig="enable" data="enable"/>
+		<net name="uiFDMA_inst/axi_rlast" clock="u_ddr_phy/u_ph1_logic_standard_phy/u_clk/hctrl_clk_bufg_syn_3" inst="auto_created_cwc2" type="MARK_DEBUG_PROBE" is_enabled="yes" const="false" trig="enable" data="enable"/>
+		<net name="uiFDMA_inst/axi_rready" clock="" inst="" type="MARK_DEBUG_PROBE" is_enabled="yes" const="false" trig="enable" data="enable"/>
+		<net name="uiFDMA_inst/fdma_rend" clock="u_ddr_phy/u_ph1_logic_standard_phy/u_clk/hctrl_clk_bufg_syn_3" inst="auto_created_cwc2" type="MARK_DEBUG_PROBE" is_enabled="yes" const="false" trig="enable" data="enable"/>
+		<net name="uiFDMA_inst/fdma_rstart" clock="u_ddr_phy/u_ph1_logic_standard_phy/u_clk/hctrl_clk_bufg_syn_3" inst="auto_created_cwc2" type="MARK_DEBUG_PROBE" is_enabled="yes" const="false" trig="enable" data="enable"/>
+		<net name="uiFDMA_inst/fdma_rstart_locked" clock="u_ddr_phy/u_ph1_logic_standard_phy/u_clk/hctrl_clk_bufg_syn_3" inst="auto_created_cwc2" type="MARK_DEBUG_PROBE" is_enabled="yes" const="false" trig="enable" data="enable"/>
+		<net name="uiFDMA_inst/r_next" clock="u_ddr_phy/u_ph1_logic_standard_phy/u_clk/hctrl_clk_bufg_syn_3" inst="auto_created_cwc2" type="MARK_DEBUG_PROBE" is_enabled="yes" const="false" trig="enable" data="enable"/>
+		<net name="uiFDMA_inst/rburst_len_req" clock="u_ddr_phy/u_ph1_logic_standard_phy/u_clk/hctrl_clk_bufg_syn_3" inst="auto_created_cwc2" type="MARK_DEBUG_PROBE" is_enabled="yes" const="false" trig="enable" data="enable"/>
+		<bus name="face_recognition_inst/image_skin_select_inst/h_cnt[10:0]" clock="u_mipi_dphy_rx_ph1a_mipiio_wrapper/O_hs_rx_clk" inst="auto_created_cwc1" type="MARK_DEBUG_PROBE" is_enabled="yes">
+			<net name="face_recognition_inst/image_skin_select_inst/h_cnt[10]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/h_cnt[9]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/h_cnt[8]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/h_cnt[7]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/h_cnt[6]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/h_cnt[5]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/h_cnt[4]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/h_cnt[3]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/h_cnt[2]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/h_cnt[1]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/h_cnt[0]" const="false" data="enable" trig="enable"/>
+		</bus>
+		<bus name="face_recognition_inst/image_skin_select_inst/i_b_original[0][7:0]" clock="u_mipi_dphy_rx_ph1a_mipiio_wrapper/O_hs_rx_clk" inst="auto_created_cwc1" type="MARK_DEBUG_PROBE" is_enabled="yes">
+			<net name="face_recognition_inst/image_skin_select_inst/i_b_original[0][7]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/i_b_original[0][6]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/i_b_original[0][5]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/i_b_original[0][4]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/i_b_original[0][3]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/i_b_original[0][2]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/i_b_original[0][1]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/i_b_original[0][0]" const="false" data="enable" trig="enable"/>
+		</bus>
+		<bus name="face_recognition_inst/image_skin_select_inst/i_b_original[1][7:0]" clock="u_mipi_dphy_rx_ph1a_mipiio_wrapper/O_hs_rx_clk" inst="auto_created_cwc1" type="MARK_DEBUG_PROBE" is_enabled="yes">
+			<net name="face_recognition_inst/image_skin_select_inst/i_b_original[1][7]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/i_b_original[1][6]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/i_b_original[1][5]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/i_b_original[1][4]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/i_b_original[1][3]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/i_b_original[1][2]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/i_b_original[1][1]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/i_b_original[1][0]" const="false" data="enable" trig="enable"/>
+		</bus>
+		<bus name="face_recognition_inst/image_skin_select_inst/i_b_original[2][7:0]" clock="u_mipi_dphy_rx_ph1a_mipiio_wrapper/O_hs_rx_clk" inst="auto_created_cwc1" type="MARK_DEBUG_PROBE" is_enabled="yes">
+			<net name="face_recognition_inst/image_skin_select_inst/i_b_original[2][7]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/i_b_original[2][6]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/i_b_original[2][5]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/i_b_original[2][4]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/i_b_original[2][3]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/i_b_original[2][2]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/i_b_original[2][1]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/i_b_original[2][0]" const="false" data="enable" trig="enable"/>
+		</bus>
+		<bus name="face_recognition_inst/image_skin_select_inst/i_b_original[3][7:0]" clock="u_mipi_dphy_rx_ph1a_mipiio_wrapper/O_hs_rx_clk" inst="auto_created_cwc1" type="MARK_DEBUG_PROBE" is_enabled="yes">
+			<net name="face_recognition_inst/image_skin_select_inst/i_b_original[3][7]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/i_b_original[3][6]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/i_b_original[3][5]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/i_b_original[3][4]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/i_b_original[3][3]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/i_b_original[3][2]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/i_b_original[3][1]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/i_b_original[3][0]" const="false" data="enable" trig="enable"/>
+		</bus>
+		<bus name="face_recognition_inst/image_skin_select_inst/i_g_original[0][7:0]" clock="u_mipi_dphy_rx_ph1a_mipiio_wrapper/O_hs_rx_clk" inst="auto_created_cwc1" type="MARK_DEBUG_PROBE" is_enabled="yes">
+			<net name="face_recognition_inst/image_skin_select_inst/i_g_original[0][7]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/i_g_original[0][6]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/i_g_original[0][5]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/i_g_original[0][4]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/i_g_original[0][3]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/i_g_original[0][2]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/i_g_original[0][1]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/i_g_original[0][0]" const="false" data="enable" trig="enable"/>
+		</bus>
+		<bus name="face_recognition_inst/image_skin_select_inst/i_g_original[1][7:0]" clock="u_mipi_dphy_rx_ph1a_mipiio_wrapper/O_hs_rx_clk" inst="auto_created_cwc1" type="MARK_DEBUG_PROBE" is_enabled="yes">
+			<net name="face_recognition_inst/image_skin_select_inst/i_g_original[1][7]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/i_g_original[1][6]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/i_g_original[1][5]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/i_g_original[1][4]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/i_g_original[1][3]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/i_g_original[1][2]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/i_g_original[1][1]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/i_g_original[1][0]" const="false" data="enable" trig="enable"/>
+		</bus>
+		<bus name="face_recognition_inst/image_skin_select_inst/i_g_original[2][7:0]" clock="u_mipi_dphy_rx_ph1a_mipiio_wrapper/O_hs_rx_clk" inst="auto_created_cwc1" type="MARK_DEBUG_PROBE" is_enabled="yes">
+			<net name="face_recognition_inst/image_skin_select_inst/i_g_original[2][7]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/i_g_original[2][6]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/i_g_original[2][5]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/i_g_original[2][4]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/i_g_original[2][3]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/i_g_original[2][2]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/i_g_original[2][1]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/i_g_original[2][0]" const="false" data="enable" trig="enable"/>
+		</bus>
+		<bus name="face_recognition_inst/image_skin_select_inst/i_g_original[3][7:0]" clock="u_mipi_dphy_rx_ph1a_mipiio_wrapper/O_hs_rx_clk" inst="auto_created_cwc1" type="MARK_DEBUG_PROBE" is_enabled="yes">
+			<net name="face_recognition_inst/image_skin_select_inst/i_g_original[3][7]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/i_g_original[3][6]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/i_g_original[3][5]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/i_g_original[3][4]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/i_g_original[3][3]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/i_g_original[3][2]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/i_g_original[3][1]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/i_g_original[3][0]" const="false" data="enable" trig="enable"/>
+		</bus>
+		<bus name="face_recognition_inst/image_skin_select_inst/i_r[0][7:0]" clock="u_mipi_dphy_rx_ph1a_mipiio_wrapper/O_hs_rx_clk" inst="auto_created_cwc1" type="MARK_DEBUG_PROBE" is_enabled="yes">
+			<net name="face_recognition_inst/image_skin_select_inst/i_r[0][7]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/i_r[0][6]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/i_r[0][5]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/i_r[0][4]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/i_r[0][3]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/i_r[0][2]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/i_r[0][1]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/i_r[0][0]" const="false" data="enable" trig="enable"/>
+		</bus>
+		<bus name="face_recognition_inst/image_skin_select_inst/i_r[1][7:0]" clock="u_mipi_dphy_rx_ph1a_mipiio_wrapper/O_hs_rx_clk" inst="auto_created_cwc1" type="MARK_DEBUG_PROBE" is_enabled="yes">
+			<net name="face_recognition_inst/image_skin_select_inst/i_r[1][7]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/i_r[1][6]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/i_r[1][5]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/i_r[1][4]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/i_r[1][3]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/i_r[1][2]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/i_r[1][1]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/i_r[1][0]" const="false" data="enable" trig="enable"/>
+		</bus>
+		<bus name="face_recognition_inst/image_skin_select_inst/i_r[2][7:0]" clock="u_mipi_dphy_rx_ph1a_mipiio_wrapper/O_hs_rx_clk" inst="auto_created_cwc1" type="MARK_DEBUG_PROBE" is_enabled="yes">
+			<net name="face_recognition_inst/image_skin_select_inst/i_r[2][7]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/i_r[2][6]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/i_r[2][5]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/i_r[2][4]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/i_r[2][3]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/i_r[2][2]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/i_r[2][1]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/i_r[2][0]" const="false" data="enable" trig="enable"/>
+		</bus>
+		<bus name="face_recognition_inst/image_skin_select_inst/i_r[3][7:0]" clock="u_mipi_dphy_rx_ph1a_mipiio_wrapper/O_hs_rx_clk" inst="auto_created_cwc1" type="MARK_DEBUG_PROBE" is_enabled="yes">
+			<net name="face_recognition_inst/image_skin_select_inst/i_r[3][7]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/i_r[3][6]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/i_r[3][5]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/i_r[3][4]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/i_r[3][3]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/i_r[3][2]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/i_r[3][1]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/i_r[3][0]" const="false" data="enable" trig="enable"/>
+		</bus>
+		<bus name="face_recognition_inst/image_skin_select_inst/i_r_original[0][7:0]" clock="u_mipi_dphy_rx_ph1a_mipiio_wrapper/O_hs_rx_clk" inst="auto_created_cwc1" type="MARK_DEBUG_PROBE" is_enabled="yes">
+			<net name="face_recognition_inst/image_skin_select_inst/i_r_original[0][7]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/i_r_original[0][6]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/i_r_original[0][5]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/i_r_original[0][4]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/i_r_original[0][3]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/i_r_original[0][2]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/i_r_original[0][1]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/i_r_original[0][0]" const="false" data="enable" trig="enable"/>
+		</bus>
+		<bus name="face_recognition_inst/image_skin_select_inst/i_r_original[1][7:0]" clock="u_mipi_dphy_rx_ph1a_mipiio_wrapper/O_hs_rx_clk" inst="auto_created_cwc1" type="MARK_DEBUG_PROBE" is_enabled="yes">
+			<net name="face_recognition_inst/image_skin_select_inst/i_r_original[1][7]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/i_r_original[1][6]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/i_r_original[1][5]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/i_r_original[1][4]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/i_r_original[1][3]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/i_r_original[1][2]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/i_r_original[1][1]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/i_r_original[1][0]" const="false" data="enable" trig="enable"/>
+		</bus>
+		<bus name="face_recognition_inst/image_skin_select_inst/i_r_original[2][7:0]" clock="u_mipi_dphy_rx_ph1a_mipiio_wrapper/O_hs_rx_clk" inst="auto_created_cwc1" type="MARK_DEBUG_PROBE" is_enabled="yes">
+			<net name="face_recognition_inst/image_skin_select_inst/i_r_original[2][7]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/i_r_original[2][6]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/i_r_original[2][5]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/i_r_original[2][4]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/i_r_original[2][3]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/i_r_original[2][2]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/i_r_original[2][1]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/i_r_original[2][0]" const="false" data="enable" trig="enable"/>
+		</bus>
+		<bus name="face_recognition_inst/image_skin_select_inst/i_r_original[3][7:0]" clock="u_mipi_dphy_rx_ph1a_mipiio_wrapper/O_hs_rx_clk" inst="auto_created_cwc1" type="MARK_DEBUG_PROBE" is_enabled="yes">
+			<net name="face_recognition_inst/image_skin_select_inst/i_r_original[3][7]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/i_r_original[3][6]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/i_r_original[3][5]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/i_r_original[3][4]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/i_r_original[3][3]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/i_r_original[3][2]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/i_r_original[3][1]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/i_r_original[3][0]" const="false" data="enable" trig="enable"/>
+		</bus>
+		<bus name="face_recognition_inst/image_skin_select_inst/o_b[0][7:0]" clock="u_mipi_dphy_rx_ph1a_mipiio_wrapper/O_hs_rx_clk" inst="auto_created_cwc1" type="MARK_DEBUG_PROBE" is_enabled="yes">
+			<net name="face_recognition_inst/image_skin_select_inst/o_b[0][7]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/o_b[0][6]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/o_b[0][5]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/o_b[0][4]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/o_b[0][3]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/o_b[0][2]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/o_b[0][1]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/o_b[0][0]" const="false" data="enable" trig="enable"/>
+		</bus>
+		<bus name="face_recognition_inst/image_skin_select_inst/o_b[1][7:0]" clock="u_mipi_dphy_rx_ph1a_mipiio_wrapper/O_hs_rx_clk" inst="auto_created_cwc1" type="MARK_DEBUG_PROBE" is_enabled="yes">
+			<net name="face_recognition_inst/image_skin_select_inst/o_b[1][7]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/o_b[1][6]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/o_b[1][5]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/o_b[1][4]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/o_b[1][3]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/o_b[1][2]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/o_b[1][1]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/o_b[1][0]" const="false" data="enable" trig="enable"/>
+		</bus>
+		<bus name="face_recognition_inst/image_skin_select_inst/o_b[2][7:0]" clock="u_mipi_dphy_rx_ph1a_mipiio_wrapper/O_hs_rx_clk" inst="auto_created_cwc1" type="MARK_DEBUG_PROBE" is_enabled="yes">
+			<net name="face_recognition_inst/image_skin_select_inst/o_b[2][7]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/o_b[2][6]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/o_b[2][5]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/o_b[2][4]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/o_b[2][3]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/o_b[2][2]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/o_b[2][1]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/o_b[2][0]" const="false" data="enable" trig="enable"/>
+		</bus>
+		<bus name="face_recognition_inst/image_skin_select_inst/o_b[3][7:0]" clock="u_mipi_dphy_rx_ph1a_mipiio_wrapper/O_hs_rx_clk" inst="auto_created_cwc1" type="MARK_DEBUG_PROBE" is_enabled="yes">
+			<net name="face_recognition_inst/image_skin_select_inst/o_b[3][7]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/o_b[3][6]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/o_b[3][5]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/o_b[3][4]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/o_b[3][3]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/o_b[3][2]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/o_b[3][1]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/o_b[3][0]" const="false" data="enable" trig="enable"/>
+		</bus>
+		<bus name="face_recognition_inst/image_skin_select_inst/o_g[0][7:0]" clock="u_mipi_dphy_rx_ph1a_mipiio_wrapper/O_hs_rx_clk" inst="auto_created_cwc1" type="MARK_DEBUG_PROBE" is_enabled="yes">
+			<net name="face_recognition_inst/image_skin_select_inst/o_g[0][7]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/o_g[0][6]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/o_g[0][5]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/o_g[0][4]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/o_g[0][3]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/o_g[0][2]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/o_g[0][1]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/o_g[0][0]" const="false" data="enable" trig="enable"/>
+		</bus>
+		<bus name="face_recognition_inst/image_skin_select_inst/o_g[1][7:0]" clock="u_mipi_dphy_rx_ph1a_mipiio_wrapper/O_hs_rx_clk" inst="auto_created_cwc1" type="MARK_DEBUG_PROBE" is_enabled="yes">
+			<net name="face_recognition_inst/image_skin_select_inst/o_g[1][7]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/o_g[1][6]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/o_g[1][5]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/o_g[1][4]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/o_g[1][3]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/o_g[1][2]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/o_g[1][1]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/o_g[1][0]" const="false" data="enable" trig="enable"/>
+		</bus>
+		<bus name="face_recognition_inst/image_skin_select_inst/o_g[2][7:0]" clock="u_mipi_dphy_rx_ph1a_mipiio_wrapper/O_hs_rx_clk" inst="auto_created_cwc1" type="MARK_DEBUG_PROBE" is_enabled="yes">
+			<net name="face_recognition_inst/image_skin_select_inst/o_g[2][7]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/o_g[2][6]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/o_g[2][5]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/o_g[2][4]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/o_g[2][3]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/o_g[2][2]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/o_g[2][1]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/o_g[2][0]" const="false" data="enable" trig="enable"/>
+		</bus>
+		<bus name="face_recognition_inst/image_skin_select_inst/o_g[3][7:0]" clock="u_mipi_dphy_rx_ph1a_mipiio_wrapper/O_hs_rx_clk" inst="auto_created_cwc1" type="MARK_DEBUG_PROBE" is_enabled="yes">
+			<net name="face_recognition_inst/image_skin_select_inst/o_g[3][7]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/o_g[3][6]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/o_g[3][5]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/o_g[3][4]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/o_g[3][3]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/o_g[3][2]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/o_g[3][1]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/o_g[3][0]" const="false" data="enable" trig="enable"/>
+		</bus>
+		<bus name="face_recognition_inst/image_skin_select_inst/o_r[0][7:0]" clock="u_mipi_dphy_rx_ph1a_mipiio_wrapper/O_hs_rx_clk" inst="auto_created_cwc1" type="MARK_DEBUG_PROBE" is_enabled="yes">
+			<net name="face_recognition_inst/image_skin_select_inst/o_r[0][7]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/o_r[0][6]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/o_r[0][5]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/o_r[0][4]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/o_r[0][3]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/o_r[0][2]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/o_r[0][1]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/o_r[0][0]" const="false" data="enable" trig="enable"/>
+		</bus>
+		<bus name="face_recognition_inst/image_skin_select_inst/o_r[1][7:0]" clock="u_mipi_dphy_rx_ph1a_mipiio_wrapper/O_hs_rx_clk" inst="auto_created_cwc1" type="MARK_DEBUG_PROBE" is_enabled="yes">
+			<net name="face_recognition_inst/image_skin_select_inst/o_r[1][7]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/o_r[1][6]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/o_r[1][5]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/o_r[1][4]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/o_r[1][3]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/o_r[1][2]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/o_r[1][1]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/o_r[1][0]" const="false" data="enable" trig="enable"/>
+		</bus>
+		<bus name="face_recognition_inst/image_skin_select_inst/o_r[2][7:0]" clock="u_mipi_dphy_rx_ph1a_mipiio_wrapper/O_hs_rx_clk" inst="auto_created_cwc1" type="MARK_DEBUG_PROBE" is_enabled="yes">
+			<net name="face_recognition_inst/image_skin_select_inst/o_r[2][7]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/o_r[2][6]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/o_r[2][5]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/o_r[2][4]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/o_r[2][3]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/o_r[2][2]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/o_r[2][1]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/o_r[2][0]" const="false" data="enable" trig="enable"/>
+		</bus>
+		<bus name="face_recognition_inst/image_skin_select_inst/o_r[3][7:0]" clock="u_mipi_dphy_rx_ph1a_mipiio_wrapper/O_hs_rx_clk" inst="auto_created_cwc1" type="MARK_DEBUG_PROBE" is_enabled="yes">
+			<net name="face_recognition_inst/image_skin_select_inst/o_r[3][7]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/o_r[3][6]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/o_r[3][5]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/o_r[3][4]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/o_r[3][3]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/o_r[3][2]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/o_r[3][1]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/o_r[3][0]" const="false" data="enable" trig="enable"/>
+		</bus>
+		<bus name="face_recognition_inst/image_skin_select_inst/pixel_x[0][10:0]" clock="u_mipi_dphy_rx_ph1a_mipiio_wrapper/O_hs_rx_clk" inst="auto_created_cwc1" type="MARK_DEBUG_PROBE" is_enabled="yes">
+			<net name="face_recognition_inst/image_skin_select_inst/pixel_x[0][10]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/pixel_x[0][9]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/pixel_x[0][8]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/pixel_x[0][7]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/pixel_x[0][6]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/pixel_x[0][5]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/pixel_x[0][4]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/pixel_x[0][3]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/pixel_x[0][2]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/pixel_x[0][1]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/pixel_x[0][0]" const="false" data="enable" trig="enable"/>
+		</bus>
+		<bus name="face_recognition_inst/image_skin_select_inst/pixel_x[1][10:0]" clock="u_mipi_dphy_rx_ph1a_mipiio_wrapper/O_hs_rx_clk" inst="auto_created_cwc1" type="MARK_DEBUG_PROBE" is_enabled="yes">
+			<net name="face_recognition_inst/image_skin_select_inst/pixel_x[1][10]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/pixel_x[1][9]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/pixel_x[1][8]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/pixel_x[1][7]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/pixel_x[1][6]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/pixel_x[1][5]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/pixel_x[1][4]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/pixel_x[1][3]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/pixel_x[1][2]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/pixel_x[1][1]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/pixel_x[1][0]" const="false" data="enable" trig="enable"/>
+		</bus>
+		<bus name="face_recognition_inst/image_skin_select_inst/pixel_x[2][10:0]" clock="u_mipi_dphy_rx_ph1a_mipiio_wrapper/O_hs_rx_clk" inst="auto_created_cwc1" type="MARK_DEBUG_PROBE" is_enabled="yes">
+			<net name="face_recognition_inst/image_skin_select_inst/pixel_x[2][10]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/pixel_x[2][9]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/pixel_x[2][8]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/pixel_x[2][7]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/pixel_x[2][6]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/pixel_x[2][5]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/pixel_x[2][4]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/pixel_x[2][3]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/pixel_x[2][2]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/pixel_x[2][1]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/pixel_x[2][0]" const="false" data="enable" trig="enable"/>
+		</bus>
+		<bus name="face_recognition_inst/image_skin_select_inst/pixel_x[3][10:0]" clock="u_mipi_dphy_rx_ph1a_mipiio_wrapper/O_hs_rx_clk" inst="auto_created_cwc1" type="MARK_DEBUG_PROBE" is_enabled="yes">
+			<net name="face_recognition_inst/image_skin_select_inst/pixel_x[3][10]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/pixel_x[3][9]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/pixel_x[3][8]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/pixel_x[3][7]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/pixel_x[3][6]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/pixel_x[3][5]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/pixel_x[3][4]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/pixel_x[3][3]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/pixel_x[3][2]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/pixel_x[3][1]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/pixel_x[3][0]" const="false" data="enable" trig="enable"/>
+		</bus>
+		<bus name="face_recognition_inst/image_skin_select_inst/pixel_y[0][10:0]" clock="u_mipi_dphy_rx_ph1a_mipiio_wrapper/O_hs_rx_clk" inst="auto_created_cwc1" type="MARK_DEBUG_PROBE" is_enabled="yes">
+			<net name="face_recognition_inst/image_skin_select_inst/pixel_y[0][10]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/pixel_y[0][9]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/pixel_y[0][8]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/pixel_y[0][7]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/pixel_y[0][6]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/pixel_y[0][5]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/pixel_y[0][4]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/pixel_y[0][3]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/pixel_y[0][2]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/pixel_y[0][1]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/pixel_y[0][0]" const="false" data="enable" trig="enable"/>
+		</bus>
+		<bus name="face_recognition_inst/image_skin_select_inst/pixel_y[1][10:0]" clock="u_mipi_dphy_rx_ph1a_mipiio_wrapper/O_hs_rx_clk" inst="auto_created_cwc1" type="MARK_DEBUG_PROBE" is_enabled="yes">
+			<net name="face_recognition_inst/image_skin_select_inst/pixel_y[1][10]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/pixel_y[1][9]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/pixel_y[1][8]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/pixel_y[1][7]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/pixel_y[1][6]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/pixel_y[1][5]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/pixel_y[1][4]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/pixel_y[1][3]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/pixel_y[1][2]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/pixel_y[1][1]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/pixel_y[1][0]" const="false" data="enable" trig="enable"/>
+		</bus>
+		<bus name="face_recognition_inst/image_skin_select_inst/pixel_y[2][10:0]" clock="u_mipi_dphy_rx_ph1a_mipiio_wrapper/O_hs_rx_clk" inst="auto_created_cwc1" type="MARK_DEBUG_PROBE" is_enabled="yes">
+			<net name="face_recognition_inst/image_skin_select_inst/pixel_y[2][10]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/pixel_y[2][9]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/pixel_y[2][8]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/pixel_y[2][7]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/pixel_y[2][6]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/pixel_y[2][5]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/pixel_y[2][4]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/pixel_y[2][3]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/pixel_y[2][2]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/pixel_y[2][1]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/pixel_y[2][0]" const="false" data="enable" trig="enable"/>
+		</bus>
+		<bus name="face_recognition_inst/image_skin_select_inst/pixel_y[3][10:0]" clock="u_mipi_dphy_rx_ph1a_mipiio_wrapper/O_hs_rx_clk" inst="auto_created_cwc1" type="MARK_DEBUG_PROBE" is_enabled="yes">
+			<net name="face_recognition_inst/image_skin_select_inst/pixel_y[3][10]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/pixel_y[3][9]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/pixel_y[3][8]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/pixel_y[3][7]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/pixel_y[3][6]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/pixel_y[3][5]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/pixel_y[3][4]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/pixel_y[3][3]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/pixel_y[3][2]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/pixel_y[3][1]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/pixel_y[3][0]" const="false" data="enable" trig="enable"/>
+		</bus>
+		<bus name="face_recognition_inst/image_skin_select_inst/skin_area_cnt[15:0]" clock="u_mipi_dphy_rx_ph1a_mipiio_wrapper/O_hs_rx_clk" inst="auto_created_cwc1" type="MARK_DEBUG_PROBE" is_enabled="yes">
+			<net name="face_recognition_inst/image_skin_select_inst/skin_area_cnt[15]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/skin_area_cnt[14]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/skin_area_cnt[13]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/skin_area_cnt[12]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/skin_area_cnt[11]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/skin_area_cnt[10]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/skin_area_cnt[9]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/skin_area_cnt[8]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/skin_area_cnt[7]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/skin_area_cnt[6]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/skin_area_cnt[5]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/skin_area_cnt[4]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/skin_area_cnt[3]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/skin_area_cnt[2]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/skin_area_cnt[1]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/skin_area_cnt[0]" const="false" data="enable" trig="enable"/>
+		</bus>
+		<bus name="face_recognition_inst/image_skin_select_inst/skin_h_max[10:0]" clock="u_mipi_dphy_rx_ph1a_mipiio_wrapper/O_hs_rx_clk" inst="auto_created_cwc1" type="MARK_DEBUG_PROBE" is_enabled="yes">
+			<net name="face_recognition_inst/image_skin_select_inst/skin_h_max[10]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/skin_h_max[9]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/skin_h_max[8]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/skin_h_max[7]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/skin_h_max[6]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/skin_h_max[5]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/skin_h_max[4]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/skin_h_max[3]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/skin_h_max[2]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/skin_h_max[1]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/skin_h_max[0]" const="false" data="enable" trig="enable"/>
+		</bus>
+		<bus name="face_recognition_inst/image_skin_select_inst/skin_h_max_d[10:0]" clock="u_mipi_dphy_rx_ph1a_mipiio_wrapper/O_hs_rx_clk" inst="auto_created_cwc1" type="MARK_DEBUG_PROBE" is_enabled="yes">
+			<net name="face_recognition_inst/image_skin_select_inst/skin_h_max_d[10]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/skin_h_max_d[9]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/skin_h_max_d[8]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/skin_h_max_d[7]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/skin_h_max_d[6]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/skin_h_max_d[5]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/skin_h_max_d[4]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/skin_h_max_d[3]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/skin_h_max_d[2]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/skin_h_max_d[1]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/skin_h_max_d[0]" const="false" data="enable" trig="enable"/>
+		</bus>
+		<bus name="face_recognition_inst/image_skin_select_inst/skin_h_min[10:0]" clock="u_mipi_dphy_rx_ph1a_mipiio_wrapper/O_hs_rx_clk" inst="auto_created_cwc1" type="MARK_DEBUG_PROBE" is_enabled="yes">
+			<net name="face_recognition_inst/image_skin_select_inst/skin_h_min[10]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/skin_h_min[9]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/skin_h_min[8]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/skin_h_min[7]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/skin_h_min[6]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/skin_h_min[5]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/skin_h_min[4]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/skin_h_min[3]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/skin_h_min[2]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/skin_h_min[1]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/skin_h_min[0]" const="false" data="enable" trig="enable"/>
+		</bus>
+		<bus name="face_recognition_inst/image_skin_select_inst/skin_h_min_d[10:0]" clock="u_mipi_dphy_rx_ph1a_mipiio_wrapper/O_hs_rx_clk" inst="auto_created_cwc1" type="MARK_DEBUG_PROBE" is_enabled="yes">
+			<net name="face_recognition_inst/image_skin_select_inst/skin_h_min_d[10]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/skin_h_min_d[9]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/skin_h_min_d[8]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/skin_h_min_d[7]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/skin_h_min_d[6]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/skin_h_min_d[5]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/skin_h_min_d[4]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/skin_h_min_d[3]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/skin_h_min_d[2]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/skin_h_min_d[1]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/skin_h_min_d[0]" const="false" data="enable" trig="enable"/>
+		</bus>
+		<bus name="face_recognition_inst/image_skin_select_inst/skin_v_max[10:0]" clock="u_mipi_dphy_rx_ph1a_mipiio_wrapper/O_hs_rx_clk" inst="auto_created_cwc1" type="MARK_DEBUG_PROBE" is_enabled="yes">
+			<net name="face_recognition_inst/image_skin_select_inst/skin_v_max[10]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/skin_v_max[9]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/skin_v_max[8]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/skin_v_max[7]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/skin_v_max[6]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/skin_v_max[5]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/skin_v_max[4]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/skin_v_max[3]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/skin_v_max[2]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/skin_v_max[1]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/skin_v_max[0]" const="false" data="enable" trig="enable"/>
+		</bus>
+		<bus name="face_recognition_inst/image_skin_select_inst/skin_v_max_d[10:0]" clock="u_mipi_dphy_rx_ph1a_mipiio_wrapper/O_hs_rx_clk" inst="auto_created_cwc1" type="MARK_DEBUG_PROBE" is_enabled="yes">
+			<net name="face_recognition_inst/image_skin_select_inst/skin_v_max_d[10]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/skin_v_max_d[9]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/skin_v_max_d[8]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/skin_v_max_d[7]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/skin_v_max_d[6]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/skin_v_max_d[5]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/skin_v_max_d[4]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/skin_v_max_d[3]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/skin_v_max_d[2]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/skin_v_max_d[1]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/skin_v_max_d[0]" const="false" data="enable" trig="enable"/>
+		</bus>
+		<bus name="face_recognition_inst/image_skin_select_inst/skin_v_min[10:0]" clock="u_mipi_dphy_rx_ph1a_mipiio_wrapper/O_hs_rx_clk" inst="auto_created_cwc1" type="MARK_DEBUG_PROBE" is_enabled="yes">
+			<net name="face_recognition_inst/image_skin_select_inst/skin_v_min[10]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/skin_v_min[9]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/skin_v_min[8]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/skin_v_min[7]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/skin_v_min[6]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/skin_v_min[5]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/skin_v_min[4]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/skin_v_min[3]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/skin_v_min[2]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/skin_v_min[1]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/skin_v_min[0]" const="false" data="enable" trig="enable"/>
+		</bus>
+		<bus name="face_recognition_inst/image_skin_select_inst/skin_v_min_d[10:0]" clock="u_mipi_dphy_rx_ph1a_mipiio_wrapper/O_hs_rx_clk" inst="auto_created_cwc1" type="MARK_DEBUG_PROBE" is_enabled="yes">
+			<net name="face_recognition_inst/image_skin_select_inst/skin_v_min_d[10]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/skin_v_min_d[9]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/skin_v_min_d[8]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/skin_v_min_d[7]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/skin_v_min_d[6]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/skin_v_min_d[5]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/skin_v_min_d[4]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/skin_v_min_d[3]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/skin_v_min_d[2]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/skin_v_min_d[1]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/skin_v_min_d[0]" const="false" data="enable" trig="enable"/>
+		</bus>
+		<bus name="face_recognition_inst/image_skin_select_inst/v_cnt[10:0]" clock="u_mipi_dphy_rx_ph1a_mipiio_wrapper/O_hs_rx_clk" inst="auto_created_cwc1" type="MARK_DEBUG_PROBE" is_enabled="yes">
+			<net name="face_recognition_inst/image_skin_select_inst/v_cnt[10]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/v_cnt[9]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/v_cnt[8]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/v_cnt[7]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/v_cnt[6]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/v_cnt[5]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/v_cnt[4]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/v_cnt[3]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/v_cnt[2]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/v_cnt[1]" const="false" data="enable" trig="enable"/>
+			<net name="face_recognition_inst/image_skin_select_inst/v_cnt[0]" const="false" data="enable" trig="enable"/>
+		</bus>
+		<bus name="uiFDMA_inst/axi_araddr[31:0]" clock="u_ddr_phy/u_ph1_logic_standard_phy/u_clk/hctrl_clk_bufg_syn_3" inst="auto_created_cwc2" type="MARK_DEBUG_PROBE" is_enabled="yes">
+			<net name="uiFDMA_inst/axi_araddr[31]" const="false" data="enable" trig="enable"/>
+			<net name="uiFDMA_inst/axi_araddr[30]" const="false" data="enable" trig="enable"/>
+			<net name="uiFDMA_inst/axi_araddr[29]" const="false" data="enable" trig="enable"/>
+			<net name="uiFDMA_inst/axi_araddr[28]" const="false" data="enable" trig="enable"/>
+			<net name="uiFDMA_inst/axi_araddr[27]" const="false" data="enable" trig="enable"/>
+			<net name="uiFDMA_inst/axi_araddr[26]" const="false" data="enable" trig="enable"/>
+			<net name="uiFDMA_inst/axi_araddr[25]" const="false" data="enable" trig="enable"/>
+			<net name="uiFDMA_inst/axi_araddr[24]" const="false" data="enable" trig="enable"/>
+			<net name="uiFDMA_inst/axi_araddr[23]" const="false" data="enable" trig="enable"/>
+			<net name="uiFDMA_inst/axi_araddr[22]" const="false" data="enable" trig="enable"/>
+			<net name="uiFDMA_inst/axi_araddr[21]" const="false" data="enable" trig="enable"/>
+			<net name="uiFDMA_inst/axi_araddr[20]" const="false" data="enable" trig="enable"/>
+			<net name="uiFDMA_inst/axi_araddr[19]" const="false" data="enable" trig="enable"/>
+			<net name="uiFDMA_inst/axi_araddr[18]" const="false" data="enable" trig="enable"/>
+			<net name="uiFDMA_inst/axi_araddr[17]" const="false" data="enable" trig="enable"/>
+			<net name="uiFDMA_inst/axi_araddr[16]" const="false" data="enable" trig="enable"/>
+			<net name="uiFDMA_inst/axi_araddr[15]" const="false" data="enable" trig="enable"/>
+			<net name="uiFDMA_inst/axi_araddr[14]" const="false" data="enable" trig="enable"/>
+			<net name="uiFDMA_inst/axi_araddr[13]" const="false" data="enable" trig="enable"/>
+			<net name="uiFDMA_inst/axi_araddr[12]" const="false" data="enable" trig="enable"/>
+			<net name="uiFDMA_inst/axi_araddr[11]" const="false" data="enable" trig="enable"/>
+			<net name="uiFDMA_inst/axi_araddr[10]" const="false" data="enable" trig="enable"/>
+			<net name="uiFDMA_inst/axi_araddr[9]" const="false" data="enable" trig="enable"/>
+			<net name="uiFDMA_inst/axi_araddr[8]" const="false" data="enable" trig="enable"/>
+			<net name="uiFDMA_inst/axi_araddr[7]" const="false" data="enable" trig="enable"/>
+			<net name="uiFDMA_inst/axi_araddr[6]" const="false" data="enable" trig="enable"/>
+			<net name="uiFDMA_inst/axi_araddr[5]" const="false" data="enable" trig="enable"/>
+			<net name="uiFDMA_inst/axi_araddr[4]" const="false" data="enable" trig="enable"/>
+			<net name="uiFDMA_inst/axi_araddr[3]" const="false" data="enable" trig="enable"/>
+			<net name="uiFDMA_inst/axi_araddr[2]" const="false" data="enable" trig="enable"/>
+			<net name="uiFDMA_inst/axi_araddr[1]" const="false" data="enable" trig="enable"/>
+			<net name="uiFDMA_inst/axi_araddr[0]" const="false" data="enable" trig="enable"/>
+		</bus>
+		<bus name="uiFDMA_inst/axi_rburst_size[15:0]" clock="u_ddr_phy/u_ph1_logic_standard_phy/u_clk/hctrl_clk_bufg_syn_3" inst="auto_created_cwc2" type="MARK_DEBUG_PROBE" is_enabled="yes">
+			<net name="uiFDMA_inst/axi_rburst_size[15]" const="false" data="enable" trig="enable"/>
+			<net name="uiFDMA_inst/axi_rburst_size[14]" const="false" data="enable" trig="enable"/>
+			<net name="uiFDMA_inst/axi_rburst_size[13]" const="false" data="enable" trig="enable"/>
+			<net name="uiFDMA_inst/axi_rburst_size[12]" const="false" data="enable" trig="enable"/>
+			<net name="uiFDMA_inst/axi_rburst_size[11]" const="false" data="enable" trig="enable"/>
+			<net name="uiFDMA_inst/axi_rburst_size[10]" const="false" data="enable" trig="enable"/>
+			<net name="uiFDMA_inst/axi_rburst_size[9]" const="false" data="enable" trig="enable"/>
+			<net name="uiFDMA_inst/axi_rburst_size[8]" const="false" data="enable" trig="enable"/>
+			<net name="uiFDMA_inst/axi_rburst_size[7]" const="false" data="enable" trig="enable"/>
+			<net name="uiFDMA_inst/axi_rburst_size[6]" const="false" data="enable" trig="enable"/>
+			<net name="uiFDMA_inst/axi_rburst_size[5]" const="false" data="enable" trig="enable"/>
+			<net name="uiFDMA_inst/axi_rburst_size[4]" const="false" data="enable" trig="enable"/>
+			<net name="uiFDMA_inst/axi_rburst_size[3]" const="false" data="enable" trig="enable"/>
+			<net name="uiFDMA_inst/axi_rburst_size[2]" const="false" data="enable" trig="enable"/>
+			<net name="uiFDMA_inst/axi_rburst_size[1]" const="false" data="enable" trig="enable"/>
+			<net name="uiFDMA_inst/axi_rburst_size[0]" const="false" data="enable" trig="enable"/>
+		</bus>
+		<bus name="uiFDMA_inst/fdma_rleft_cnt_d[15:0]" clock="u_ddr_phy/u_ph1_logic_standard_phy/u_clk/hctrl_clk_bufg_syn_3" inst="auto_created_cwc2" type="MARK_DEBUG_PROBE" is_enabled="yes">
+			<net name="uiFDMA_inst/fdma_rleft_cnt_d[15]" const="false" data="enable" trig="enable"/>
+			<net name="uiFDMA_inst/fdma_rleft_cnt_d[14]" const="false" data="enable" trig="enable"/>
+			<net name="uiFDMA_inst/fdma_rleft_cnt_d[13]" const="false" data="enable" trig="enable"/>
+			<net name="uiFDMA_inst/fdma_rleft_cnt_d[12]" const="false" data="enable" trig="enable"/>
+			<net name="uiFDMA_inst/fdma_rleft_cnt_d[11]" const="false" data="enable" trig="enable"/>
+			<net name="uiFDMA_inst/fdma_rleft_cnt_d[10]" const="false" data="enable" trig="enable"/>
+			<net name="uiFDMA_inst/fdma_rleft_cnt_d[9]" const="false" data="enable" trig="enable"/>
+			<net name="uiFDMA_inst/fdma_rleft_cnt_d[8]" const="false" data="enable" trig="enable"/>
+			<net name="uiFDMA_inst/fdma_rleft_cnt_d[7]" const="false" data="enable" trig="enable"/>
+			<net name="uiFDMA_inst/fdma_rleft_cnt_d[6]" const="false" data="enable" trig="enable"/>
+			<net name="uiFDMA_inst/fdma_rleft_cnt_d[5]" const="false" data="enable" trig="enable"/>
+			<net name="uiFDMA_inst/fdma_rleft_cnt_d[4]" const="false" data="enable" trig="enable"/>
+			<net name="uiFDMA_inst/fdma_rleft_cnt_d[3]" const="false" data="enable" trig="enable"/>
+			<net name="uiFDMA_inst/fdma_rleft_cnt_d[2]" const="false" data="enable" trig="enable"/>
+			<net name="uiFDMA_inst/fdma_rleft_cnt_d[1]" const="false" data="enable" trig="enable"/>
+			<net name="uiFDMA_inst/fdma_rleft_cnt_d[0]" const="false" data="enable" trig="enable"/>
+		</bus>
+		<bus name="uiFDMA_inst/rb2b_last_cnt[3:0]" clock="u_ddr_phy/u_ph1_logic_standard_phy/u_clk/hctrl_clk_bufg_syn_3" inst="auto_created_cwc2" type="MARK_DEBUG_PROBE" is_enabled="yes">
+			<net name="uiFDMA_inst/rb2b_last_cnt[3]" const="false" data="enable" trig="enable"/>
+			<net name="uiFDMA_inst/rb2b_last_cnt[2]" const="false" data="enable" trig="enable"/>
+			<net name="uiFDMA_inst/rb2b_last_cnt[1]" const="false" data="enable" trig="enable"/>
+			<net name="uiFDMA_inst/rb2b_last_cnt[0]" const="false" data="enable" trig="enable"/>
+		</bus>
+		<bus name="uiFDMA_inst/rburst_cnt[8:0]" clock="u_ddr_phy/u_ph1_logic_standard_phy/u_clk/hctrl_clk_bufg_syn_3" inst="auto_created_cwc2" type="MARK_DEBUG_PROBE" is_enabled="yes">
+			<net name="uiFDMA_inst/rburst_cnt[8]" const="false" data="enable" trig="enable"/>
+			<net name="uiFDMA_inst/rburst_cnt[7]" const="false" data="enable" trig="enable"/>
+			<net name="uiFDMA_inst/rburst_cnt[6]" const="false" data="enable" trig="enable"/>
+			<net name="uiFDMA_inst/rburst_cnt[5]" const="false" data="enable" trig="enable"/>
+			<net name="uiFDMA_inst/rburst_cnt[4]" const="false" data="enable" trig="enable"/>
+			<net name="uiFDMA_inst/rburst_cnt[3]" const="false" data="enable" trig="enable"/>
+			<net name="uiFDMA_inst/rburst_cnt[2]" const="false" data="enable" trig="enable"/>
+			<net name="uiFDMA_inst/rburst_cnt[1]" const="false" data="enable" trig="enable"/>
+			<net name="uiFDMA_inst/rburst_cnt[0]" const="false" data="enable" trig="enable"/>
+		</bus>
+		<bus name="uiFDMA_inst/rburst_len[8:0]" clock="u_ddr_phy/u_ph1_logic_standard_phy/u_clk/hctrl_clk_bufg_syn_3" inst="auto_created_cwc2" type="MARK_DEBUG_PROBE" is_enabled="yes">
+			<net name="uiFDMA_inst/rburst_len[8]" const="false" data="enable" trig="enable"/>
+			<net name="uiFDMA_inst/rburst_len[7]" const="false" data="enable" trig="enable"/>
+			<net name="uiFDMA_inst/rburst_len[6]" const="false" data="enable" trig="enable"/>
+			<net name="uiFDMA_inst/rburst_len[5]" const="false" data="enable" trig="enable"/>
+			<net name="uiFDMA_inst/rburst_len[4]" const="false" data="enable" trig="enable"/>
+			<net name="uiFDMA_inst/rburst_len[3]" const="false" data="enable" trig="enable"/>
+			<net name="uiFDMA_inst/rburst_len[2]" const="false" data="enable" trig="enable"/>
+			<net name="uiFDMA_inst/rburst_len[1]" const="false" data="enable" trig="enable"/>
+			<net name="uiFDMA_inst/rburst_len[0]" const="false" data="enable" trig="enable"/>
+		</bus>
+		<bus name="uiFDMA_inst/rburst_len_d[8:0]" clock="u_ddr_phy/u_ph1_logic_standard_phy/u_clk/hctrl_clk_bufg_syn_3" inst="auto_created_cwc2" type="MARK_DEBUG_PROBE" is_enabled="yes">
+			<net name="uiFDMA_inst/rburst_len_d[8]" const="false" data="enable" trig="enable"/>
+			<net name="uiFDMA_inst/rburst_len_d[7]" const="false" data="enable" trig="enable"/>
+			<net name="uiFDMA_inst/rburst_len_d[6]" const="false" data="enable" trig="enable"/>
+			<net name="uiFDMA_inst/rburst_len_d[5]" const="false" data="enable" trig="enable"/>
+			<net name="uiFDMA_inst/rburst_len_d[4]" const="false" data="enable" trig="enable"/>
+			<net name="uiFDMA_inst/rburst_len_d[3]" const="false" data="enable" trig="enable"/>
+			<net name="uiFDMA_inst/rburst_len_d[2]" const="false" data="enable" trig="enable"/>
+			<net name="uiFDMA_inst/rburst_len_d[1]" const="false" data="enable" trig="enable"/>
+			<net name="uiFDMA_inst/rburst_len_d[0]" const="false" data="enable" trig="enable"/>
+		</bus>
+		<bus name="uiFDMA_inst/rfdma_cnt[15:0]" clock="u_ddr_phy/u_ph1_logic_standard_phy/u_clk/hctrl_clk_bufg_syn_3" inst="auto_created_cwc2" type="MARK_DEBUG_PROBE" is_enabled="yes">
+			<net name="uiFDMA_inst/rfdma_cnt[15]" const="false" data="enable" trig="enable"/>
+			<net name="uiFDMA_inst/rfdma_cnt[14]" const="false" data="enable" trig="enable"/>
+			<net name="uiFDMA_inst/rfdma_cnt[13]" const="false" data="enable" trig="enable"/>
+			<net name="uiFDMA_inst/rfdma_cnt[12]" const="false" data="enable" trig="enable"/>
+			<net name="uiFDMA_inst/rfdma_cnt[11]" const="false" data="enable" trig="enable"/>
+			<net name="uiFDMA_inst/rfdma_cnt[10]" const="false" data="enable" trig="enable"/>
+			<net name="uiFDMA_inst/rfdma_cnt[9]" const="false" data="enable" trig="enable"/>
+			<net name="uiFDMA_inst/rfdma_cnt[8]" const="false" data="enable" trig="enable"/>
+			<net name="uiFDMA_inst/rfdma_cnt[7]" const="false" data="enable" trig="enable"/>
+			<net name="uiFDMA_inst/rfdma_cnt[6]" const="false" data="enable" trig="enable"/>
+			<net name="uiFDMA_inst/rfdma_cnt[5]" const="false" data="enable" trig="enable"/>
+			<net name="uiFDMA_inst/rfdma_cnt[4]" const="false" data="enable" trig="enable"/>
+			<net name="uiFDMA_inst/rfdma_cnt[3]" const="false" data="enable" trig="enable"/>
+			<net name="uiFDMA_inst/rfdma_cnt[2]" const="false" data="enable" trig="enable"/>
+			<net name="uiFDMA_inst/rfdma_cnt[1]" const="false" data="enable" trig="enable"/>
+			<net name="uiFDMA_inst/rfdma_cnt[0]" const="false" data="enable" trig="enable"/>
+		</bus>
+	</watcher_nodes>
+	<instance name="auto_created_cwc1" id="0" ipgen="false" inst_enable="true">
+		<clock clk_name="u_mipi_dphy_rx_ph1a_mipiio_wrapper/O_hs_rx_clk"/>
+		<config bram_name="auto_created_cwc1/wrapper_cwc_top/U_cwc_ram" debughub_name="" input_pipe_num="0" output_pipe_num="0" pwr_on_trigger="disable" capture_mode="disable" sample_depth="1024"/>
+		<signal_vec>
+			<watcher_nodes>
+				<net name="face_recognition_inst/image_skin_select_inst/frame_end" cond="any" capture_cond="any"/>
+				<net name="face_recognition_inst/image_skin_select_inst/frame_end_pulse" cond="any" capture_cond="any"/>
+				<net name="face_recognition_inst/image_skin_select_inst/i_last" cond="any" capture_cond="any"/>
+				<net name="face_recognition_inst/image_skin_select_inst/i_user" cond="any" capture_cond="any"/>
+				<net name="face_recognition_inst/image_skin_select_inst/i_valid" cond="any" capture_cond="any"/>
+				<net name="face_recognition_inst/image_skin_select_inst/is_valid_aspect_ratio" cond="any" capture_cond="any"/>
+				<net name="face_recognition_inst/image_skin_select_inst/o_last" cond="any" capture_cond="any"/>
+				<net name="face_recognition_inst/image_skin_select_inst/o_user" cond="high" capture_cond="any"/>
+				<net name="face_recognition_inst/image_skin_select_inst/o_valid" cond="high" capture_cond="any"/>
+				<net name="face_recognition_inst/image_skin_select_inst/parallel_output[0]$pixel_in_border" cond="any" capture_cond="any"/>
+				<net name="face_recognition_inst/image_skin_select_inst/parallel_output[1]$pixel_in_border" cond="any" capture_cond="any"/>
+				<net name="face_recognition_inst/image_skin_select_inst/parallel_output[2]$pixel_in_border" cond="any" capture_cond="any"/>
+				<net name="face_recognition_inst/image_skin_select_inst/parallel_output[3]$pixel_in_border" cond="any" capture_cond="any"/>
+				<net name="face_recognition_inst/image_skin_select_inst/use_for_boundary" cond="any" capture_cond="any"/>
+				<bus name="face_recognition_inst/image_skin_select_inst/h_cnt[10:0]" op="dont_care" capture_op="dont_care">
+					<net name="face_recognition_inst/image_skin_select_inst/h_cnt[10]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/h_cnt[9]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/h_cnt[8]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/h_cnt[7]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/h_cnt[6]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/h_cnt[5]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/h_cnt[4]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/h_cnt[3]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/h_cnt[2]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/h_cnt[1]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/h_cnt[0]" cond="low" capture_cond="low"/>
+				</bus>
+				<bus name="face_recognition_inst/image_skin_select_inst/i_b_original[0][7:0]" op="dont_care" capture_op="dont_care">
+					<net name="face_recognition_inst/image_skin_select_inst/i_b_original[0][7]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/i_b_original[0][6]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/i_b_original[0][5]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/i_b_original[0][4]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/i_b_original[0][3]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/i_b_original[0][2]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/i_b_original[0][1]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/i_b_original[0][0]" cond="low" capture_cond="low"/>
+				</bus>
+				<bus name="face_recognition_inst/image_skin_select_inst/i_b_original[1][7:0]" op="dont_care" capture_op="dont_care">
+					<net name="face_recognition_inst/image_skin_select_inst/i_b_original[1][7]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/i_b_original[1][6]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/i_b_original[1][5]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/i_b_original[1][4]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/i_b_original[1][3]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/i_b_original[1][2]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/i_b_original[1][1]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/i_b_original[1][0]" cond="low" capture_cond="low"/>
+				</bus>
+				<bus name="face_recognition_inst/image_skin_select_inst/i_b_original[2][7:0]" op="dont_care" capture_op="dont_care">
+					<net name="face_recognition_inst/image_skin_select_inst/i_b_original[2][7]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/i_b_original[2][6]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/i_b_original[2][5]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/i_b_original[2][4]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/i_b_original[2][3]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/i_b_original[2][2]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/i_b_original[2][1]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/i_b_original[2][0]" cond="low" capture_cond="low"/>
+				</bus>
+				<bus name="face_recognition_inst/image_skin_select_inst/i_b_original[3][7:0]" op="dont_care" capture_op="dont_care">
+					<net name="face_recognition_inst/image_skin_select_inst/i_b_original[3][7]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/i_b_original[3][6]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/i_b_original[3][5]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/i_b_original[3][4]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/i_b_original[3][3]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/i_b_original[3][2]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/i_b_original[3][1]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/i_b_original[3][0]" cond="low" capture_cond="low"/>
+				</bus>
+				<bus name="face_recognition_inst/image_skin_select_inst/i_g_original[0][7:0]" op="dont_care" capture_op="dont_care">
+					<net name="face_recognition_inst/image_skin_select_inst/i_g_original[0][7]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/i_g_original[0][6]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/i_g_original[0][5]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/i_g_original[0][4]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/i_g_original[0][3]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/i_g_original[0][2]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/i_g_original[0][1]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/i_g_original[0][0]" cond="low" capture_cond="low"/>
+				</bus>
+				<bus name="face_recognition_inst/image_skin_select_inst/i_g_original[1][7:0]" op="dont_care" capture_op="dont_care">
+					<net name="face_recognition_inst/image_skin_select_inst/i_g_original[1][7]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/i_g_original[1][6]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/i_g_original[1][5]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/i_g_original[1][4]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/i_g_original[1][3]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/i_g_original[1][2]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/i_g_original[1][1]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/i_g_original[1][0]" cond="low" capture_cond="low"/>
+				</bus>
+				<bus name="face_recognition_inst/image_skin_select_inst/i_g_original[2][7:0]" op="dont_care" capture_op="dont_care">
+					<net name="face_recognition_inst/image_skin_select_inst/i_g_original[2][7]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/i_g_original[2][6]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/i_g_original[2][5]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/i_g_original[2][4]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/i_g_original[2][3]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/i_g_original[2][2]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/i_g_original[2][1]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/i_g_original[2][0]" cond="low" capture_cond="low"/>
+				</bus>
+				<bus name="face_recognition_inst/image_skin_select_inst/i_g_original[3][7:0]" op="dont_care" capture_op="dont_care">
+					<net name="face_recognition_inst/image_skin_select_inst/i_g_original[3][7]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/i_g_original[3][6]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/i_g_original[3][5]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/i_g_original[3][4]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/i_g_original[3][3]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/i_g_original[3][2]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/i_g_original[3][1]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/i_g_original[3][0]" cond="low" capture_cond="low"/>
+				</bus>
+				<bus name="face_recognition_inst/image_skin_select_inst/i_r[0][7:0]" op="dont_care" capture_op="dont_care">
+					<net name="face_recognition_inst/image_skin_select_inst/i_r[0][7]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/i_r[0][6]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/i_r[0][5]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/i_r[0][4]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/i_r[0][3]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/i_r[0][2]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/i_r[0][1]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/i_r[0][0]" cond="low" capture_cond="low"/>
+				</bus>
+				<bus name="face_recognition_inst/image_skin_select_inst/i_r[1][7:0]" op="dont_care" capture_op="dont_care">
+					<net name="face_recognition_inst/image_skin_select_inst/i_r[1][7]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/i_r[1][6]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/i_r[1][5]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/i_r[1][4]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/i_r[1][3]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/i_r[1][2]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/i_r[1][1]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/i_r[1][0]" cond="low" capture_cond="low"/>
+				</bus>
+				<bus name="face_recognition_inst/image_skin_select_inst/i_r[2][7:0]" op="dont_care" capture_op="dont_care">
+					<net name="face_recognition_inst/image_skin_select_inst/i_r[2][7]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/i_r[2][6]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/i_r[2][5]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/i_r[2][4]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/i_r[2][3]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/i_r[2][2]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/i_r[2][1]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/i_r[2][0]" cond="low" capture_cond="low"/>
+				</bus>
+				<bus name="face_recognition_inst/image_skin_select_inst/i_r[3][7:0]" op="dont_care" capture_op="dont_care">
+					<net name="face_recognition_inst/image_skin_select_inst/i_r[3][7]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/i_r[3][6]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/i_r[3][5]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/i_r[3][4]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/i_r[3][3]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/i_r[3][2]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/i_r[3][1]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/i_r[3][0]" cond="low" capture_cond="low"/>
+				</bus>
+				<bus name="face_recognition_inst/image_skin_select_inst/i_r_original[0][7:0]" op="dont_care" capture_op="dont_care">
+					<net name="face_recognition_inst/image_skin_select_inst/i_r_original[0][7]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/i_r_original[0][6]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/i_r_original[0][5]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/i_r_original[0][4]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/i_r_original[0][3]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/i_r_original[0][2]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/i_r_original[0][1]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/i_r_original[0][0]" cond="low" capture_cond="low"/>
+				</bus>
+				<bus name="face_recognition_inst/image_skin_select_inst/i_r_original[1][7:0]" op="dont_care" capture_op="dont_care">
+					<net name="face_recognition_inst/image_skin_select_inst/i_r_original[1][7]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/i_r_original[1][6]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/i_r_original[1][5]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/i_r_original[1][4]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/i_r_original[1][3]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/i_r_original[1][2]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/i_r_original[1][1]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/i_r_original[1][0]" cond="low" capture_cond="low"/>
+				</bus>
+				<bus name="face_recognition_inst/image_skin_select_inst/i_r_original[2][7:0]" op="dont_care" capture_op="dont_care">
+					<net name="face_recognition_inst/image_skin_select_inst/i_r_original[2][7]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/i_r_original[2][6]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/i_r_original[2][5]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/i_r_original[2][4]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/i_r_original[2][3]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/i_r_original[2][2]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/i_r_original[2][1]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/i_r_original[2][0]" cond="low" capture_cond="low"/>
+				</bus>
+				<bus name="face_recognition_inst/image_skin_select_inst/i_r_original[3][7:0]" op="dont_care" capture_op="dont_care">
+					<net name="face_recognition_inst/image_skin_select_inst/i_r_original[3][7]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/i_r_original[3][6]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/i_r_original[3][5]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/i_r_original[3][4]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/i_r_original[3][3]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/i_r_original[3][2]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/i_r_original[3][1]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/i_r_original[3][0]" cond="low" capture_cond="low"/>
+				</bus>
+				<bus name="face_recognition_inst/image_skin_select_inst/o_b[0][7:0]" op="dont_care" capture_op="dont_care">
+					<net name="face_recognition_inst/image_skin_select_inst/o_b[0][7]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/o_b[0][6]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/o_b[0][5]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/o_b[0][4]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/o_b[0][3]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/o_b[0][2]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/o_b[0][1]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/o_b[0][0]" cond="low" capture_cond="low"/>
+				</bus>
+				<bus name="face_recognition_inst/image_skin_select_inst/o_b[1][7:0]" op="dont_care" capture_op="dont_care">
+					<net name="face_recognition_inst/image_skin_select_inst/o_b[1][7]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/o_b[1][6]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/o_b[1][5]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/o_b[1][4]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/o_b[1][3]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/o_b[1][2]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/o_b[1][1]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/o_b[1][0]" cond="low" capture_cond="low"/>
+				</bus>
+				<bus name="face_recognition_inst/image_skin_select_inst/o_b[2][7:0]" op="dont_care" capture_op="dont_care">
+					<net name="face_recognition_inst/image_skin_select_inst/o_b[2][7]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/o_b[2][6]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/o_b[2][5]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/o_b[2][4]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/o_b[2][3]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/o_b[2][2]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/o_b[2][1]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/o_b[2][0]" cond="low" capture_cond="low"/>
+				</bus>
+				<bus name="face_recognition_inst/image_skin_select_inst/o_b[3][7:0]" op="dont_care" capture_op="dont_care">
+					<net name="face_recognition_inst/image_skin_select_inst/o_b[3][7]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/o_b[3][6]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/o_b[3][5]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/o_b[3][4]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/o_b[3][3]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/o_b[3][2]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/o_b[3][1]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/o_b[3][0]" cond="low" capture_cond="low"/>
+				</bus>
+				<bus name="face_recognition_inst/image_skin_select_inst/o_g[0][7:0]" op="dont_care" capture_op="dont_care">
+					<net name="face_recognition_inst/image_skin_select_inst/o_g[0][7]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/o_g[0][6]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/o_g[0][5]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/o_g[0][4]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/o_g[0][3]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/o_g[0][2]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/o_g[0][1]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/o_g[0][0]" cond="low" capture_cond="low"/>
+				</bus>
+				<bus name="face_recognition_inst/image_skin_select_inst/o_g[1][7:0]" op="dont_care" capture_op="dont_care">
+					<net name="face_recognition_inst/image_skin_select_inst/o_g[1][7]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/o_g[1][6]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/o_g[1][5]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/o_g[1][4]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/o_g[1][3]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/o_g[1][2]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/o_g[1][1]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/o_g[1][0]" cond="low" capture_cond="low"/>
+				</bus>
+				<bus name="face_recognition_inst/image_skin_select_inst/o_g[2][7:0]" op="dont_care" capture_op="dont_care">
+					<net name="face_recognition_inst/image_skin_select_inst/o_g[2][7]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/o_g[2][6]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/o_g[2][5]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/o_g[2][4]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/o_g[2][3]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/o_g[2][2]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/o_g[2][1]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/o_g[2][0]" cond="low" capture_cond="low"/>
+				</bus>
+				<bus name="face_recognition_inst/image_skin_select_inst/o_g[3][7:0]" op="dont_care" capture_op="dont_care">
+					<net name="face_recognition_inst/image_skin_select_inst/o_g[3][7]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/o_g[3][6]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/o_g[3][5]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/o_g[3][4]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/o_g[3][3]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/o_g[3][2]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/o_g[3][1]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/o_g[3][0]" cond="low" capture_cond="low"/>
+				</bus>
+				<bus name="face_recognition_inst/image_skin_select_inst/o_r[0][7:0]" op="dont_care" capture_op="dont_care">
+					<net name="face_recognition_inst/image_skin_select_inst/o_r[0][7]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/o_r[0][6]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/o_r[0][5]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/o_r[0][4]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/o_r[0][3]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/o_r[0][2]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/o_r[0][1]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/o_r[0][0]" cond="low" capture_cond="low"/>
+				</bus>
+				<bus name="face_recognition_inst/image_skin_select_inst/o_r[1][7:0]" op="dont_care" capture_op="dont_care">
+					<net name="face_recognition_inst/image_skin_select_inst/o_r[1][7]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/o_r[1][6]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/o_r[1][5]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/o_r[1][4]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/o_r[1][3]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/o_r[1][2]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/o_r[1][1]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/o_r[1][0]" cond="low" capture_cond="low"/>
+				</bus>
+				<bus name="face_recognition_inst/image_skin_select_inst/o_r[2][7:0]" op="dont_care" capture_op="dont_care">
+					<net name="face_recognition_inst/image_skin_select_inst/o_r[2][7]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/o_r[2][6]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/o_r[2][5]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/o_r[2][4]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/o_r[2][3]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/o_r[2][2]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/o_r[2][1]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/o_r[2][0]" cond="low" capture_cond="low"/>
+				</bus>
+				<bus name="face_recognition_inst/image_skin_select_inst/o_r[3][7:0]" op="dont_care" capture_op="dont_care">
+					<net name="face_recognition_inst/image_skin_select_inst/o_r[3][7]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/o_r[3][6]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/o_r[3][5]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/o_r[3][4]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/o_r[3][3]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/o_r[3][2]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/o_r[3][1]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/o_r[3][0]" cond="low" capture_cond="low"/>
+				</bus>
+				<bus name="face_recognition_inst/image_skin_select_inst/pixel_x[0][10:0]" op="dont_care" capture_op="dont_care">
+					<net name="face_recognition_inst/image_skin_select_inst/pixel_x[0][10]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/pixel_x[0][9]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/pixel_x[0][8]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/pixel_x[0][7]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/pixel_x[0][6]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/pixel_x[0][5]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/pixel_x[0][4]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/pixel_x[0][3]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/pixel_x[0][2]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/pixel_x[0][1]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/pixel_x[0][0]" cond="low" capture_cond="low"/>
+				</bus>
+				<bus name="face_recognition_inst/image_skin_select_inst/pixel_x[1][10:0]" op="dont_care" capture_op="dont_care">
+					<net name="face_recognition_inst/image_skin_select_inst/pixel_x[1][10]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/pixel_x[1][9]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/pixel_x[1][8]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/pixel_x[1][7]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/pixel_x[1][6]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/pixel_x[1][5]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/pixel_x[1][4]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/pixel_x[1][3]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/pixel_x[1][2]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/pixel_x[1][1]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/pixel_x[1][0]" cond="low" capture_cond="low"/>
+				</bus>
+				<bus name="face_recognition_inst/image_skin_select_inst/pixel_x[2][10:0]" op="dont_care" capture_op="dont_care">
+					<net name="face_recognition_inst/image_skin_select_inst/pixel_x[2][10]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/pixel_x[2][9]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/pixel_x[2][8]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/pixel_x[2][7]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/pixel_x[2][6]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/pixel_x[2][5]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/pixel_x[2][4]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/pixel_x[2][3]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/pixel_x[2][2]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/pixel_x[2][1]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/pixel_x[2][0]" cond="low" capture_cond="low"/>
+				</bus>
+				<bus name="face_recognition_inst/image_skin_select_inst/pixel_x[3][10:0]" op="dont_care" capture_op="dont_care">
+					<net name="face_recognition_inst/image_skin_select_inst/pixel_x[3][10]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/pixel_x[3][9]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/pixel_x[3][8]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/pixel_x[3][7]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/pixel_x[3][6]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/pixel_x[3][5]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/pixel_x[3][4]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/pixel_x[3][3]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/pixel_x[3][2]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/pixel_x[3][1]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/pixel_x[3][0]" cond="low" capture_cond="low"/>
+				</bus>
+				<bus name="face_recognition_inst/image_skin_select_inst/pixel_y[0][10:0]" op="dont_care" capture_op="dont_care">
+					<net name="face_recognition_inst/image_skin_select_inst/pixel_y[0][10]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/pixel_y[0][9]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/pixel_y[0][8]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/pixel_y[0][7]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/pixel_y[0][6]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/pixel_y[0][5]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/pixel_y[0][4]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/pixel_y[0][3]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/pixel_y[0][2]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/pixel_y[0][1]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/pixel_y[0][0]" cond="low" capture_cond="low"/>
+				</bus>
+				<bus name="face_recognition_inst/image_skin_select_inst/pixel_y[1][10:0]" op="dont_care" capture_op="dont_care">
+					<net name="face_recognition_inst/image_skin_select_inst/pixel_y[1][10]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/pixel_y[1][9]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/pixel_y[1][8]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/pixel_y[1][7]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/pixel_y[1][6]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/pixel_y[1][5]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/pixel_y[1][4]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/pixel_y[1][3]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/pixel_y[1][2]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/pixel_y[1][1]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/pixel_y[1][0]" cond="low" capture_cond="low"/>
+				</bus>
+				<bus name="face_recognition_inst/image_skin_select_inst/pixel_y[2][10:0]" op="dont_care" capture_op="dont_care">
+					<net name="face_recognition_inst/image_skin_select_inst/pixel_y[2][10]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/pixel_y[2][9]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/pixel_y[2][8]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/pixel_y[2][7]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/pixel_y[2][6]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/pixel_y[2][5]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/pixel_y[2][4]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/pixel_y[2][3]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/pixel_y[2][2]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/pixel_y[2][1]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/pixel_y[2][0]" cond="low" capture_cond="low"/>
+				</bus>
+				<bus name="face_recognition_inst/image_skin_select_inst/pixel_y[3][10:0]" op="dont_care" capture_op="dont_care">
+					<net name="face_recognition_inst/image_skin_select_inst/pixel_y[3][10]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/pixel_y[3][9]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/pixel_y[3][8]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/pixel_y[3][7]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/pixel_y[3][6]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/pixel_y[3][5]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/pixel_y[3][4]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/pixel_y[3][3]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/pixel_y[3][2]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/pixel_y[3][1]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/pixel_y[3][0]" cond="low" capture_cond="low"/>
+				</bus>
+				<bus name="face_recognition_inst/image_skin_select_inst/skin_area_cnt[15:0]" op="dont_care" capture_op="dont_care">
+					<net name="face_recognition_inst/image_skin_select_inst/skin_area_cnt[15]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/skin_area_cnt[14]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/skin_area_cnt[13]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/skin_area_cnt[12]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/skin_area_cnt[11]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/skin_area_cnt[10]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/skin_area_cnt[9]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/skin_area_cnt[8]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/skin_area_cnt[7]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/skin_area_cnt[6]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/skin_area_cnt[5]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/skin_area_cnt[4]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/skin_area_cnt[3]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/skin_area_cnt[2]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/skin_area_cnt[1]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/skin_area_cnt[0]" cond="low" capture_cond="low"/>
+				</bus>
+				<bus name="face_recognition_inst/image_skin_select_inst/skin_h_max[10:0]" op="dont_care" capture_op="dont_care">
+					<net name="face_recognition_inst/image_skin_select_inst/skin_h_max[10]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/skin_h_max[9]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/skin_h_max[8]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/skin_h_max[7]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/skin_h_max[6]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/skin_h_max[5]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/skin_h_max[4]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/skin_h_max[3]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/skin_h_max[2]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/skin_h_max[1]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/skin_h_max[0]" cond="low" capture_cond="low"/>
+				</bus>
+				<bus name="face_recognition_inst/image_skin_select_inst/skin_h_max_d[10:0]" op="dont_care" capture_op="dont_care">
+					<net name="face_recognition_inst/image_skin_select_inst/skin_h_max_d[10]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/skin_h_max_d[9]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/skin_h_max_d[8]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/skin_h_max_d[7]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/skin_h_max_d[6]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/skin_h_max_d[5]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/skin_h_max_d[4]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/skin_h_max_d[3]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/skin_h_max_d[2]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/skin_h_max_d[1]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/skin_h_max_d[0]" cond="low" capture_cond="low"/>
+				</bus>
+				<bus name="face_recognition_inst/image_skin_select_inst/skin_h_min[10:0]" op="dont_care" capture_op="dont_care">
+					<net name="face_recognition_inst/image_skin_select_inst/skin_h_min[10]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/skin_h_min[9]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/skin_h_min[8]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/skin_h_min[7]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/skin_h_min[6]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/skin_h_min[5]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/skin_h_min[4]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/skin_h_min[3]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/skin_h_min[2]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/skin_h_min[1]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/skin_h_min[0]" cond="low" capture_cond="low"/>
+				</bus>
+				<bus name="face_recognition_inst/image_skin_select_inst/skin_h_min_d[10:0]" op="dont_care" capture_op="dont_care">
+					<net name="face_recognition_inst/image_skin_select_inst/skin_h_min_d[10]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/skin_h_min_d[9]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/skin_h_min_d[8]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/skin_h_min_d[7]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/skin_h_min_d[6]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/skin_h_min_d[5]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/skin_h_min_d[4]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/skin_h_min_d[3]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/skin_h_min_d[2]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/skin_h_min_d[1]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/skin_h_min_d[0]" cond="low" capture_cond="low"/>
+				</bus>
+				<bus name="face_recognition_inst/image_skin_select_inst/skin_v_max[10:0]" op="dont_care" capture_op="dont_care">
+					<net name="face_recognition_inst/image_skin_select_inst/skin_v_max[10]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/skin_v_max[9]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/skin_v_max[8]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/skin_v_max[7]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/skin_v_max[6]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/skin_v_max[5]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/skin_v_max[4]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/skin_v_max[3]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/skin_v_max[2]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/skin_v_max[1]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/skin_v_max[0]" cond="low" capture_cond="low"/>
+				</bus>
+				<bus name="face_recognition_inst/image_skin_select_inst/skin_v_max_d[10:0]" op="dont_care" capture_op="dont_care">
+					<net name="face_recognition_inst/image_skin_select_inst/skin_v_max_d[10]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/skin_v_max_d[9]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/skin_v_max_d[8]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/skin_v_max_d[7]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/skin_v_max_d[6]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/skin_v_max_d[5]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/skin_v_max_d[4]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/skin_v_max_d[3]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/skin_v_max_d[2]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/skin_v_max_d[1]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/skin_v_max_d[0]" cond="low" capture_cond="low"/>
+				</bus>
+				<bus name="face_recognition_inst/image_skin_select_inst/skin_v_min[10:0]" op="dont_care" capture_op="dont_care">
+					<net name="face_recognition_inst/image_skin_select_inst/skin_v_min[10]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/skin_v_min[9]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/skin_v_min[8]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/skin_v_min[7]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/skin_v_min[6]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/skin_v_min[5]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/skin_v_min[4]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/skin_v_min[3]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/skin_v_min[2]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/skin_v_min[1]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/skin_v_min[0]" cond="low" capture_cond="low"/>
+				</bus>
+				<bus name="face_recognition_inst/image_skin_select_inst/skin_v_min_d[10:0]" op="dont_care" capture_op="dont_care">
+					<net name="face_recognition_inst/image_skin_select_inst/skin_v_min_d[10]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/skin_v_min_d[9]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/skin_v_min_d[8]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/skin_v_min_d[7]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/skin_v_min_d[6]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/skin_v_min_d[5]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/skin_v_min_d[4]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/skin_v_min_d[3]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/skin_v_min_d[2]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/skin_v_min_d[1]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/skin_v_min_d[0]" cond="low" capture_cond="low"/>
+				</bus>
+				<bus name="face_recognition_inst/image_skin_select_inst/v_cnt[10:0]" op="dont_care" capture_op="dont_care">
+					<net name="face_recognition_inst/image_skin_select_inst/v_cnt[10]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/v_cnt[9]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/v_cnt[8]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/v_cnt[7]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/v_cnt[6]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/v_cnt[5]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/v_cnt[4]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/v_cnt[3]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/v_cnt[2]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/v_cnt[1]" cond="low" capture_cond="low"/>
+					<net name="face_recognition_inst/image_skin_select_inst/v_cnt[0]" cond="low" capture_cond="low"/>
+				</bus>
+			</watcher_nodes>
+		</signal_vec>
+		<trigger name="auto_created_cwc1_trigger" position="127" window_num="2" window_depth="512">
+			<condition level="1" enabled="yes" type="basic_and" capture_type="basic_and"/>
+		</trigger>
+		<logic_eram name="auto_created_cwc1/wrapper_cwc_top/U_cwc_ram" width="452" depth="1024">
+			<phy_eram name="auto_created_cwc1/wrapper_cwc_top/U_cwc_ram/ramread0_syn_219" wid="0X0000042b" rid="0X0000042b" model_type="AL_PHY_ERAM" width_a="20" width_b="20" debuggable="enable" initialized="enable" width="20" depth="1024" address_offset="0" data_offset="200" address_step="1" num_section="1" section_size="452" width_per_section="20" bytes_in_per_section="1" working_mode_depth="1024" working_mode_width="20" working_mode_ecc="disable" working_mode_num_byte="2" working_mode_super_wide="disable"/>
+			<phy_eram name="auto_created_cwc1/wrapper_cwc_top/U_cwc_ram/ramread0_syn_240" wid="0X00000427" rid="0X00000427" model_type="AL_PHY_ERAM" width_a="20" width_b="20" debuggable="enable" initialized="enable" width="20" depth="1024" address_offset="0" data_offset="220" address_step="1" num_section="1" section_size="452" width_per_section="20" bytes_in_per_section="1" working_mode_depth="1024" working_mode_width="20" working_mode_ecc="disable" working_mode_num_byte="2" working_mode_super_wide="disable"/>
+			<phy_eram name="auto_created_cwc1/wrapper_cwc_top/U_cwc_ram/ramread0_syn_261" wid="0X00000428" rid="0X00000428" model_type="AL_PHY_ERAM" width_a="20" width_b="20" debuggable="enable" initialized="enable" width="20" depth="1024" address_offset="0" data_offset="240" address_step="1" num_section="1" section_size="452" width_per_section="20" bytes_in_per_section="1" working_mode_depth="1024" working_mode_width="20" working_mode_ecc="disable" working_mode_num_byte="2" working_mode_super_wide="disable"/>
+			<phy_eram name="auto_created_cwc1/wrapper_cwc_top/U_cwc_ram/ramread0_syn_282" wid="0X0000042c" rid="0X0000042c" model_type="AL_PHY_ERAM" width_a="20" width_b="20" debuggable="enable" initialized="enable" width="20" depth="1024" address_offset="0" data_offset="260" address_step="1" num_section="1" section_size="452" width_per_section="20" bytes_in_per_section="1" working_mode_depth="1024" working_mode_width="20" working_mode_ecc="disable" working_mode_num_byte="2" working_mode_super_wide="disable"/>
+			<phy_eram name="auto_created_cwc1/wrapper_cwc_top/U_cwc_ram/ramread0_syn_324" wid="0X00000627" rid="0X00000627" model_type="AL_PHY_ERAM" width_a="20" width_b="20" debuggable="enable" initialized="enable" width="20" depth="1024" address_offset="0" data_offset="300" address_step="1" num_section="1" section_size="452" width_per_section="20" bytes_in_per_section="1" working_mode_depth="1024" working_mode_width="20" working_mode_ecc="disable" working_mode_num_byte="2" working_mode_super_wide="disable"/>
+			<phy_eram name="auto_created_cwc1/wrapper_cwc_top/U_cwc_ram/ramread0_syn_345" wid="0X0000022e" rid="0X0000022e" model_type="AL_PHY_ERAM" width_a="20" width_b="20" debuggable="enable" initialized="enable" width="20" depth="1024" address_offset="0" data_offset="320" address_step="1" num_section="1" section_size="452" width_per_section="20" bytes_in_per_section="1" working_mode_depth="1024" working_mode_width="20" working_mode_ecc="disable" working_mode_num_byte="2" working_mode_super_wide="disable"/>
+			<phy_eram name="auto_created_cwc1/wrapper_cwc_top/U_cwc_ram/ramread0_syn_366" wid="0X00000230" rid="0X00000230" model_type="AL_PHY_ERAM" width_a="20" width_b="20" debuggable="enable" initialized="enable" width="20" depth="1024" address_offset="0" data_offset="340" address_step="1" num_section="1" section_size="452" width_per_section="20" bytes_in_per_section="1" working_mode_depth="1024" working_mode_width="20" working_mode_ecc="disable" working_mode_num_byte="2" working_mode_super_wide="disable"/>
+			<phy_eram name="auto_created_cwc1/wrapper_cwc_top/U_cwc_ram/ramread0_syn_387" wid="0X0000042a" rid="0X0000042a" model_type="AL_PHY_ERAM" width_a="20" width_b="20" debuggable="enable" initialized="enable" width="20" depth="1024" address_offset="0" data_offset="360" address_step="1" num_section="1" section_size="452" width_per_section="20" bytes_in_per_section="1" working_mode_depth="1024" working_mode_width="20" working_mode_ecc="disable" working_mode_num_byte="2" working_mode_super_wide="disable"/>
+			<phy_eram name="auto_created_cwc1/wrapper_cwc_top/U_cwc_ram/ramread0_syn_408" wid="0X00000228" rid="0X00000228" model_type="AL_PHY_ERAM" width_a="20" width_b="20" debuggable="enable" initialized="enable" width="20" depth="1024" address_offset="0" data_offset="380" address_step="1" num_section="1" section_size="452" width_per_section="20" bytes_in_per_section="1" working_mode_depth="1024" working_mode_width="20" working_mode_ecc="disable" working_mode_num_byte="2" working_mode_super_wide="disable"/>
+			<phy_eram name="auto_created_cwc1/wrapper_cwc_top/U_cwc_ram/ramread0_syn_429" wid="0X00000429" rid="0X00000429" model_type="AL_PHY_ERAM" width_a="20" width_b="20" debuggable="enable" initialized="enable" width="20" depth="1024" address_offset="0" data_offset="400" address_step="1" num_section="1" section_size="452" width_per_section="20" bytes_in_per_section="1" working_mode_depth="1024" working_mode_width="20" working_mode_ecc="disable" working_mode_num_byte="2" working_mode_super_wide="disable"/>
+			<phy_eram name="auto_created_cwc1/wrapper_cwc_top/U_cwc_ram/ramread0_syn_303" wid="0X00000828" rid="0X00000828" model_type="AL_PHY_ERAM" width_a="20" width_b="20" debuggable="enable" initialized="enable" width="20" depth="1024" address_offset="0" data_offset="280" address_step="1" num_section="1" section_size="452" width_per_section="20" bytes_in_per_section="1" working_mode_depth="1024" working_mode_width="20" working_mode_ecc="disable" working_mode_num_byte="2" working_mode_super_wide="disable"/>
+			<phy_eram name="auto_created_cwc1/wrapper_cwc_top/U_cwc_ram/ramread0_syn_471" wid="0X0000024b" rid="0X0000024b" model_type="AL_PHY_ERAM" width_a="20" width_b="20" debuggable="enable" initialized="enable" width="12" depth="1024" address_offset="0" data_offset="440" address_step="1" num_section="1" section_size="452" width_per_section="12" bytes_in_per_section="1" working_mode_depth="1024" working_mode_width="20" working_mode_ecc="disable" working_mode_num_byte="2" working_mode_super_wide="disable"/>
+			<phy_eram name="auto_created_cwc1/wrapper_cwc_top/U_cwc_ram/ramread0_syn_9" wid="0X0000004f" rid="0X0000004f" model_type="AL_PHY_ERAM" width_a="20" width_b="20" debuggable="enable" initialized="enable" width="20" depth="1024" address_offset="0" data_offset="0" address_step="1" num_section="1" section_size="452" width_per_section="20" bytes_in_per_section="1" working_mode_depth="1024" working_mode_width="20" working_mode_ecc="disable" working_mode_num_byte="2" working_mode_super_wide="disable"/>
+			<phy_eram name="auto_created_cwc1/wrapper_cwc_top/U_cwc_ram/ramread0_syn_30" wid="0X0000004e" rid="0X0000004e" model_type="AL_PHY_ERAM" width_a="20" width_b="20" debuggable="enable" initialized="enable" width="20" depth="1024" address_offset="0" data_offset="20" address_step="1" num_section="1" section_size="452" width_per_section="20" bytes_in_per_section="1" working_mode_depth="1024" working_mode_width="20" working_mode_ecc="disable" working_mode_num_byte="2" working_mode_super_wide="disable"/>
+			<phy_eram name="auto_created_cwc1/wrapper_cwc_top/U_cwc_ram/ramread0_syn_51" wid="0X0000004d" rid="0X0000004d" model_type="AL_PHY_ERAM" width_a="20" width_b="20" debuggable="enable" initialized="enable" width="20" depth="1024" address_offset="0" data_offset="40" address_step="1" num_section="1" section_size="452" width_per_section="20" bytes_in_per_section="1" working_mode_depth="1024" working_mode_width="20" working_mode_ecc="disable" working_mode_num_byte="2" working_mode_super_wide="disable"/>
+			<phy_eram name="auto_created_cwc1/wrapper_cwc_top/U_cwc_ram/ramread0_syn_72" wid="0X0000024a" rid="0X0000024a" model_type="AL_PHY_ERAM" width_a="20" width_b="20" debuggable="enable" initialized="enable" width="20" depth="1024" address_offset="0" data_offset="60" address_step="1" num_section="1" section_size="452" width_per_section="20" bytes_in_per_section="1" working_mode_depth="1024" working_mode_width="20" working_mode_ecc="disable" working_mode_num_byte="2" working_mode_super_wide="disable"/>
+			<phy_eram name="auto_created_cwc1/wrapper_cwc_top/U_cwc_ram/ramread0_syn_93" wid="0X00000048" rid="0X00000048" model_type="AL_PHY_ERAM" width_a="20" width_b="20" debuggable="enable" initialized="enable" width="20" depth="1024" address_offset="0" data_offset="80" address_step="1" num_section="1" section_size="452" width_per_section="20" bytes_in_per_section="1" working_mode_depth="1024" working_mode_width="20" working_mode_ecc="disable" working_mode_num_byte="2" working_mode_super_wide="disable"/>
+			<phy_eram name="auto_created_cwc1/wrapper_cwc_top/U_cwc_ram/ramread0_syn_114" wid="0X00000047" rid="0X00000047" model_type="AL_PHY_ERAM" width_a="20" width_b="20" debuggable="enable" initialized="enable" width="20" depth="1024" address_offset="0" data_offset="100" address_step="1" num_section="1" section_size="452" width_per_section="20" bytes_in_per_section="1" working_mode_depth="1024" working_mode_width="20" working_mode_ecc="disable" working_mode_num_byte="2" working_mode_super_wide="disable"/>
+			<phy_eram name="auto_created_cwc1/wrapper_cwc_top/U_cwc_ram/ramread0_syn_135" wid="0X0000004c" rid="0X0000004c" model_type="AL_PHY_ERAM" width_a="20" width_b="20" debuggable="enable" initialized="enable" width="20" depth="1024" address_offset="0" data_offset="120" address_step="1" num_section="1" section_size="452" width_per_section="20" bytes_in_per_section="1" working_mode_depth="1024" working_mode_width="20" working_mode_ecc="disable" working_mode_num_byte="2" working_mode_super_wide="disable"/>
+			<phy_eram name="auto_created_cwc1/wrapper_cwc_top/U_cwc_ram/ramread0_syn_156" wid="0X0000004b" rid="0X0000004b" model_type="AL_PHY_ERAM" width_a="20" width_b="20" debuggable="enable" initialized="enable" width="20" depth="1024" address_offset="0" data_offset="140" address_step="1" num_section="1" section_size="452" width_per_section="20" bytes_in_per_section="1" working_mode_depth="1024" working_mode_width="20" working_mode_ecc="disable" working_mode_num_byte="2" working_mode_super_wide="disable"/>
+			<phy_eram name="auto_created_cwc1/wrapper_cwc_top/U_cwc_ram/ramread0_syn_177" wid="0X00000247" rid="0X00000247" model_type="AL_PHY_ERAM" width_a="20" width_b="20" debuggable="enable" initialized="enable" width="20" depth="1024" address_offset="0" data_offset="160" address_step="1" num_section="1" section_size="452" width_per_section="20" bytes_in_per_section="1" working_mode_depth="1024" working_mode_width="20" working_mode_ecc="disable" working_mode_num_byte="2" working_mode_super_wide="disable"/>
+			<phy_eram name="auto_created_cwc1/wrapper_cwc_top/U_cwc_ram/ramread0_syn_198" wid="0X00000245" rid="0X00000245" model_type="AL_PHY_ERAM" width_a="20" width_b="20" debuggable="enable" initialized="enable" width="20" depth="1024" address_offset="0" data_offset="180" address_step="1" num_section="1" section_size="452" width_per_section="20" bytes_in_per_section="1" working_mode_depth="1024" working_mode_width="20" working_mode_ecc="disable" working_mode_num_byte="2" working_mode_super_wide="disable"/>
+			<phy_eram name="auto_created_cwc1/wrapper_cwc_top/U_cwc_ram/ramread0_syn_450" wid="0X00000246" rid="0X00000246" model_type="AL_PHY_ERAM" width_a="20" width_b="20" debuggable="enable" initialized="enable" width="20" depth="1024" address_offset="0" data_offset="420" address_step="1" num_section="1" section_size="452" width_per_section="20" bytes_in_per_section="1" working_mode_depth="1024" working_mode_width="20" working_mode_ecc="disable" working_mode_num_byte="2" working_mode_super_wide="disable"/>
+		</logic_eram>
+	</instance>
+	<instance name="auto_created_cwc2" id="1" ipgen="false" inst_enable="true">
+		<clock clk_name="u_ddr_phy/u_ph1_logic_standard_phy/u_clk/hctrl_clk_bufg_syn_3"/>
+		<config bram_name="auto_created_cwc2/wrapper_cwc_top/U_cwc_ram" debughub_name="" input_pipe_num="0" output_pipe_num="0" pwr_on_trigger="disable" capture_mode="disable" sample_depth="1024"/>
+		<signal_vec>
+			<watcher_nodes>
+				<net name="uiFDMA_inst/axi_arvalid" cond="any" capture_cond="any"/>
+				<net name="uiFDMA_inst/axi_rlast" cond="any" capture_cond="any"/>
+				<net name="uiFDMA_inst/fdma_rend" cond="any" capture_cond="any"/>
+				<net name="uiFDMA_inst/fdma_rstart" cond="any" capture_cond="any"/>
+				<net name="uiFDMA_inst/fdma_rstart_locked" cond="any" capture_cond="any"/>
+				<net name="uiFDMA_inst/r_next" cond="any" capture_cond="any"/>
+				<net name="uiFDMA_inst/rburst_len_req" cond="any" capture_cond="any"/>
+				<bus name="uiFDMA_inst/axi_araddr[31:0]" op="dont_care" capture_op="dont_care">
+					<net name="uiFDMA_inst/axi_araddr[31]" cond="low" capture_cond="low"/>
+					<net name="uiFDMA_inst/axi_araddr[30]" cond="low" capture_cond="low"/>
+					<net name="uiFDMA_inst/axi_araddr[29]" cond="low" capture_cond="low"/>
+					<net name="uiFDMA_inst/axi_araddr[28]" cond="low" capture_cond="low"/>
+					<net name="uiFDMA_inst/axi_araddr[27]" cond="low" capture_cond="low"/>
+					<net name="uiFDMA_inst/axi_araddr[26]" cond="low" capture_cond="low"/>
+					<net name="uiFDMA_inst/axi_araddr[25]" cond="low" capture_cond="low"/>
+					<net name="uiFDMA_inst/axi_araddr[24]" cond="low" capture_cond="low"/>
+					<net name="uiFDMA_inst/axi_araddr[23]" cond="low" capture_cond="low"/>
+					<net name="uiFDMA_inst/axi_araddr[22]" cond="low" capture_cond="low"/>
+					<net name="uiFDMA_inst/axi_araddr[21]" cond="low" capture_cond="low"/>
+					<net name="uiFDMA_inst/axi_araddr[20]" cond="low" capture_cond="low"/>
+					<net name="uiFDMA_inst/axi_araddr[19]" cond="low" capture_cond="low"/>
+					<net name="uiFDMA_inst/axi_araddr[18]" cond="low" capture_cond="low"/>
+					<net name="uiFDMA_inst/axi_araddr[17]" cond="low" capture_cond="low"/>
+					<net name="uiFDMA_inst/axi_araddr[16]" cond="low" capture_cond="low"/>
+					<net name="uiFDMA_inst/axi_araddr[15]" cond="low" capture_cond="low"/>
+					<net name="uiFDMA_inst/axi_araddr[14]" cond="low" capture_cond="low"/>
+					<net name="uiFDMA_inst/axi_araddr[13]" cond="low" capture_cond="low"/>
+					<net name="uiFDMA_inst/axi_araddr[12]" cond="low" capture_cond="low"/>
+					<net name="uiFDMA_inst/axi_araddr[11]" cond="low" capture_cond="low"/>
+					<net name="uiFDMA_inst/axi_araddr[10]" cond="low" capture_cond="low"/>
+					<net name="uiFDMA_inst/axi_araddr[9]" cond="low" capture_cond="low"/>
+					<net name="uiFDMA_inst/axi_araddr[8]" cond="low" capture_cond="low"/>
+					<net name="uiFDMA_inst/axi_araddr[7]" cond="low" capture_cond="low"/>
+					<net name="uiFDMA_inst/axi_araddr[6]" cond="low" capture_cond="low"/>
+					<net name="uiFDMA_inst/axi_araddr[5]" cond="low" capture_cond="low"/>
+					<net name="uiFDMA_inst/axi_araddr[4]" cond="low" capture_cond="low"/>
+					<net name="uiFDMA_inst/axi_araddr[3]" cond="low" capture_cond="low"/>
+					<net name="uiFDMA_inst/axi_araddr[2]" cond="low" capture_cond="low"/>
+					<net name="uiFDMA_inst/axi_araddr[1]" cond="low" capture_cond="low"/>
+					<net name="uiFDMA_inst/axi_araddr[0]" cond="low" capture_cond="low"/>
+				</bus>
+				<bus name="uiFDMA_inst/axi_rburst_size[15:0]" op="dont_care" capture_op="dont_care">
+					<net name="uiFDMA_inst/axi_rburst_size[15]" cond="low" capture_cond="low"/>
+					<net name="uiFDMA_inst/axi_rburst_size[14]" cond="low" capture_cond="low"/>
+					<net name="uiFDMA_inst/axi_rburst_size[13]" cond="low" capture_cond="low"/>
+					<net name="uiFDMA_inst/axi_rburst_size[12]" cond="low" capture_cond="low"/>
+					<net name="uiFDMA_inst/axi_rburst_size[11]" cond="low" capture_cond="low"/>
+					<net name="uiFDMA_inst/axi_rburst_size[10]" cond="low" capture_cond="low"/>
+					<net name="uiFDMA_inst/axi_rburst_size[9]" cond="low" capture_cond="low"/>
+					<net name="uiFDMA_inst/axi_rburst_size[8]" cond="low" capture_cond="low"/>
+					<net name="uiFDMA_inst/axi_rburst_size[7]" cond="low" capture_cond="low"/>
+					<net name="uiFDMA_inst/axi_rburst_size[6]" cond="low" capture_cond="low"/>
+					<net name="uiFDMA_inst/axi_rburst_size[5]" cond="low" capture_cond="low"/>
+					<net name="uiFDMA_inst/axi_rburst_size[4]" cond="low" capture_cond="low"/>
+					<net name="uiFDMA_inst/axi_rburst_size[3]" cond="low" capture_cond="low"/>
+					<net name="uiFDMA_inst/axi_rburst_size[2]" cond="low" capture_cond="low"/>
+					<net name="uiFDMA_inst/axi_rburst_size[1]" cond="low" capture_cond="low"/>
+					<net name="uiFDMA_inst/axi_rburst_size[0]" cond="low" capture_cond="low"/>
+				</bus>
+				<bus name="uiFDMA_inst/fdma_rleft_cnt_d[15:0]" op="dont_care" capture_op="dont_care">
+					<net name="uiFDMA_inst/fdma_rleft_cnt_d[15]" cond="low" capture_cond="low"/>
+					<net name="uiFDMA_inst/fdma_rleft_cnt_d[14]" cond="low" capture_cond="low"/>
+					<net name="uiFDMA_inst/fdma_rleft_cnt_d[13]" cond="low" capture_cond="low"/>
+					<net name="uiFDMA_inst/fdma_rleft_cnt_d[12]" cond="low" capture_cond="low"/>
+					<net name="uiFDMA_inst/fdma_rleft_cnt_d[11]" cond="low" capture_cond="low"/>
+					<net name="uiFDMA_inst/fdma_rleft_cnt_d[10]" cond="low" capture_cond="low"/>
+					<net name="uiFDMA_inst/fdma_rleft_cnt_d[9]" cond="low" capture_cond="low"/>
+					<net name="uiFDMA_inst/fdma_rleft_cnt_d[8]" cond="low" capture_cond="low"/>
+					<net name="uiFDMA_inst/fdma_rleft_cnt_d[7]" cond="low" capture_cond="low"/>
+					<net name="uiFDMA_inst/fdma_rleft_cnt_d[6]" cond="low" capture_cond="low"/>
+					<net name="uiFDMA_inst/fdma_rleft_cnt_d[5]" cond="low" capture_cond="low"/>
+					<net name="uiFDMA_inst/fdma_rleft_cnt_d[4]" cond="low" capture_cond="low"/>
+					<net name="uiFDMA_inst/fdma_rleft_cnt_d[3]" cond="low" capture_cond="low"/>
+					<net name="uiFDMA_inst/fdma_rleft_cnt_d[2]" cond="low" capture_cond="low"/>
+					<net name="uiFDMA_inst/fdma_rleft_cnt_d[1]" cond="low" capture_cond="low"/>
+					<net name="uiFDMA_inst/fdma_rleft_cnt_d[0]" cond="low" capture_cond="low"/>
+				</bus>
+				<bus name="uiFDMA_inst/rb2b_last_cnt[3:0]" op="dont_care" capture_op="dont_care">
+					<net name="uiFDMA_inst/rb2b_last_cnt[3]" cond="low" capture_cond="low"/>
+					<net name="uiFDMA_inst/rb2b_last_cnt[2]" cond="low" capture_cond="low"/>
+					<net name="uiFDMA_inst/rb2b_last_cnt[1]" cond="low" capture_cond="low"/>
+					<net name="uiFDMA_inst/rb2b_last_cnt[0]" cond="low" capture_cond="low"/>
+				</bus>
+				<bus name="uiFDMA_inst/rburst_cnt[8:0]" op="dont_care" capture_op="dont_care">
+					<net name="uiFDMA_inst/rburst_cnt[8]" cond="low" capture_cond="low"/>
+					<net name="uiFDMA_inst/rburst_cnt[7]" cond="low" capture_cond="low"/>
+					<net name="uiFDMA_inst/rburst_cnt[6]" cond="low" capture_cond="low"/>
+					<net name="uiFDMA_inst/rburst_cnt[5]" cond="low" capture_cond="low"/>
+					<net name="uiFDMA_inst/rburst_cnt[4]" cond="low" capture_cond="low"/>
+					<net name="uiFDMA_inst/rburst_cnt[3]" cond="low" capture_cond="low"/>
+					<net name="uiFDMA_inst/rburst_cnt[2]" cond="low" capture_cond="low"/>
+					<net name="uiFDMA_inst/rburst_cnt[1]" cond="low" capture_cond="low"/>
+					<net name="uiFDMA_inst/rburst_cnt[0]" cond="low" capture_cond="low"/>
+				</bus>
+				<bus name="uiFDMA_inst/rburst_len[8:0]" op="dont_care" capture_op="dont_care">
+					<net name="uiFDMA_inst/rburst_len[8]" cond="low" capture_cond="low"/>
+					<net name="uiFDMA_inst/rburst_len[7]" cond="low" capture_cond="low"/>
+					<net name="uiFDMA_inst/rburst_len[6]" cond="low" capture_cond="low"/>
+					<net name="uiFDMA_inst/rburst_len[5]" cond="low" capture_cond="low"/>
+					<net name="uiFDMA_inst/rburst_len[4]" cond="low" capture_cond="low"/>
+					<net name="uiFDMA_inst/rburst_len[3]" cond="low" capture_cond="low"/>
+					<net name="uiFDMA_inst/rburst_len[2]" cond="low" capture_cond="low"/>
+					<net name="uiFDMA_inst/rburst_len[1]" cond="low" capture_cond="low"/>
+					<net name="uiFDMA_inst/rburst_len[0]" cond="low" capture_cond="low"/>
+				</bus>
+				<bus name="uiFDMA_inst/rburst_len_d[8:0]" op="dont_care" capture_op="dont_care">
+					<net name="uiFDMA_inst/rburst_len_d[8]" cond="low" capture_cond="low"/>
+					<net name="uiFDMA_inst/rburst_len_d[7]" cond="low" capture_cond="low"/>
+					<net name="uiFDMA_inst/rburst_len_d[6]" cond="low" capture_cond="low"/>
+					<net name="uiFDMA_inst/rburst_len_d[5]" cond="low" capture_cond="low"/>
+					<net name="uiFDMA_inst/rburst_len_d[4]" cond="low" capture_cond="low"/>
+					<net name="uiFDMA_inst/rburst_len_d[3]" cond="low" capture_cond="low"/>
+					<net name="uiFDMA_inst/rburst_len_d[2]" cond="low" capture_cond="low"/>
+					<net name="uiFDMA_inst/rburst_len_d[1]" cond="low" capture_cond="low"/>
+					<net name="uiFDMA_inst/rburst_len_d[0]" cond="low" capture_cond="low"/>
+				</bus>
+				<bus name="uiFDMA_inst/rfdma_cnt[15:0]" op="dont_care" capture_op="dont_care">
+					<net name="uiFDMA_inst/rfdma_cnt[15]" cond="low" capture_cond="low"/>
+					<net name="uiFDMA_inst/rfdma_cnt[14]" cond="low" capture_cond="low"/>
+					<net name="uiFDMA_inst/rfdma_cnt[13]" cond="low" capture_cond="low"/>
+					<net name="uiFDMA_inst/rfdma_cnt[12]" cond="low" capture_cond="low"/>
+					<net name="uiFDMA_inst/rfdma_cnt[11]" cond="low" capture_cond="low"/>
+					<net name="uiFDMA_inst/rfdma_cnt[10]" cond="low" capture_cond="low"/>
+					<net name="uiFDMA_inst/rfdma_cnt[9]" cond="low" capture_cond="low"/>
+					<net name="uiFDMA_inst/rfdma_cnt[8]" cond="low" capture_cond="low"/>
+					<net name="uiFDMA_inst/rfdma_cnt[7]" cond="low" capture_cond="low"/>
+					<net name="uiFDMA_inst/rfdma_cnt[6]" cond="low" capture_cond="low"/>
+					<net name="uiFDMA_inst/rfdma_cnt[5]" cond="low" capture_cond="low"/>
+					<net name="uiFDMA_inst/rfdma_cnt[4]" cond="low" capture_cond="low"/>
+					<net name="uiFDMA_inst/rfdma_cnt[3]" cond="low" capture_cond="low"/>
+					<net name="uiFDMA_inst/rfdma_cnt[2]" cond="low" capture_cond="low"/>
+					<net name="uiFDMA_inst/rfdma_cnt[1]" cond="low" capture_cond="low"/>
+					<net name="uiFDMA_inst/rfdma_cnt[0]" cond="low" capture_cond="low"/>
+				</bus>
+			</watcher_nodes>
+		</signal_vec>
+		<trigger name="auto_created_cwc2_trigger" position="127" window_num="1" window_depth="1024">
+			<condition level="1" enabled="yes" type="basic_and" capture_type="basic_and"/>
+		</trigger>
+		<logic_eram name="auto_created_cwc2/wrapper_cwc_top/U_cwc_ram" width="118" depth="1024">
+			<phy_eram name="auto_created_cwc2/wrapper_cwc_top/U_cwc_ram/ramread0_syn_9" wid="0X0000062d" rid="0X0000062d" model_type="AL_PHY_ERAM" width_a="20" width_b="20" debuggable="enable" initialized="enable" width="20" depth="1024" address_offset="0" data_offset="0" address_step="1" num_section="1" section_size="118" width_per_section="20" bytes_in_per_section="1" working_mode_depth="1024" working_mode_width="20" working_mode_ecc="disable" working_mode_num_byte="2" working_mode_super_wide="disable"/>
+			<phy_eram name="auto_created_cwc2/wrapper_cwc_top/U_cwc_ram/ramread0_syn_51" wid="0X0000062e" rid="0X0000062e" model_type="AL_PHY_ERAM" width_a="20" width_b="20" debuggable="enable" initialized="enable" width="20" depth="1024" address_offset="0" data_offset="40" address_step="1" num_section="1" section_size="118" width_per_section="20" bytes_in_per_section="1" working_mode_depth="1024" working_mode_width="20" working_mode_ecc="disable" working_mode_num_byte="2" working_mode_super_wide="disable"/>
+			<phy_eram name="auto_created_cwc2/wrapper_cwc_top/U_cwc_ram/ramread0_syn_114" wid="0X00000832" rid="0X00000832" model_type="AL_PHY_ERAM" width_a="20" width_b="20" debuggable="enable" initialized="enable" width="18" depth="1024" address_offset="0" data_offset="100" address_step="1" num_section="1" section_size="118" width_per_section="18" bytes_in_per_section="1" working_mode_depth="1024" working_mode_width="20" working_mode_ecc="disable" working_mode_num_byte="2" working_mode_super_wide="disable"/>
+			<phy_eram name="auto_created_cwc2/wrapper_cwc_top/U_cwc_ram/ramread0_syn_30" wid="0X0000082d" rid="0X0000082d" model_type="AL_PHY_ERAM" width_a="20" width_b="20" debuggable="enable" initialized="enable" width="20" depth="1024" address_offset="0" data_offset="20" address_step="1" num_section="1" section_size="118" width_per_section="20" bytes_in_per_section="1" working_mode_depth="1024" working_mode_width="20" working_mode_ecc="disable" working_mode_num_byte="2" working_mode_super_wide="disable"/>
+			<phy_eram name="auto_created_cwc2/wrapper_cwc_top/U_cwc_ram/ramread0_syn_72" wid="0X0000082e" rid="0X0000082e" model_type="AL_PHY_ERAM" width_a="20" width_b="20" debuggable="enable" initialized="enable" width="20" depth="1024" address_offset="0" data_offset="60" address_step="1" num_section="1" section_size="118" width_per_section="20" bytes_in_per_section="1" working_mode_depth="1024" working_mode_width="20" working_mode_ecc="disable" working_mode_num_byte="2" working_mode_super_wide="disable"/>
+			<phy_eram name="auto_created_cwc2/wrapper_cwc_top/U_cwc_ram/ramread0_syn_93" wid="0X00000831" rid="0X00000831" model_type="AL_PHY_ERAM" width_a="20" width_b="20" debuggable="enable" initialized="enable" width="20" depth="1024" address_offset="0" data_offset="80" address_step="1" num_section="1" section_size="118" width_per_section="20" bytes_in_per_section="1" working_mode_depth="1024" working_mode_width="20" working_mode_ecc="disable" working_mode_num_byte="2" working_mode_super_wide="disable"/>
+		</logic_eram>
+	</instance>
+</chipwatcher>

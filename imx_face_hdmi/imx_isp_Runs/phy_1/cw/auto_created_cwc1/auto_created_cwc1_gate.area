@@ -1,0 +1,122 @@
+standard
+***Report Model: auto_created_cwc1 Device: PH1A180SFG676***
+
+Design Statistics
+#IO                      2507   out of    376  666.76%
+  #input                 2483
+  #output                  24
+  #inout                    0
+#lut                     3000
+  #lut1                   171
+  #lut2                  1094
+  #lut3                    38
+  #lut4                   200
+  #lut5                   705
+  #lut6                   792
+#reg                     5353
+  #slice reg             5353   out of 233600    2.29%
+  #pad reg                  0
+
+Utilization Statistics
+#slice*                  3160   out of 116800    2.71%
+  #used ram               224
+    #dram lut               0
+    #shifter lut          224
+  #used logic            2936
+    #with luts*          2149
+    #with adder             0
+    #reg only*            787
+#f7mux                      0   out of  58400    0.00%
+#f8mux                      0   out of  29200    0.00%
+#eram                      23   out of    646    3.56%
+  #eram20k                 23
+  #fifo20k                  0
+#dsp                        0   out of    600    0.00%
+#pcie                       0   out of      1    0.00%
+#serdes dual                0   out of      4    0.00%
+#ddr_cal                    0   out of      1    0.00%
+#ddr_bank                   0   out of      3    0.00%
+#pad                        0   out of    376    0.00%
+#pll                        0   out of     16    0.00%
+#gclk                       0   out of     32    0.00%
+#lclk                       0   out of     40    0.00%
+#sclk                       0   out of    120    0.00%
+#mlclk                      0   out of     22    0.00%
+#ioclk                      0   out of     22    0.00%
+
+* Note! The LUT and Slice count after Optimize-Gate is not the final value, Run Optimize-place for a more realistic count.
+
+Report Hierarchy Area:
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|Instance                                                    |Module                 |logic lut |ripple  |seq     |eram    |dsp     |dram lut |shifter lut |f7mux   |f8mux   |pll     |serdes   |pcie    |ddr     |
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|top                                                         |auto_created_cwc1      |2149      |0       |5353    |23      |0       |0        |224         |0       |0       |0       |0        |0       |0       |
+|  wrapper_cwc_top                                           |top_cwc_hub            |2149      |0       |5353    |23      |0       |0        |224         |0       |0       |0       |0        |0       |0       |
+|    U_cwc                                                   |anlogic01_cwc          |2145      |0       |4408    |0       |0       |0        |0           |0       |0       |0       |0        |0       |0       |
+|      TRIG_ONLY_MODE$U_emb_ctrl                             |anlogic04_cwc_emb_ctrl |28        |0       |36      |0       |0       |0        |0           |0       |0       |0       |0        |0       |0       |
+|      U_cwc_bus_top                                         |anlogic02_cwc_bus_top  |1749      |0       |2687    |0       |0       |0        |0           |0       |0       |0       |0        |0       |0       |
+|        CWC_BUS_DETECTOR[0]$BUS_DETECTOR$U_cwc_bus_det      |anlogic03_cwc_bus_det  |39        |0       |62      |0       |0       |0        |0           |0       |0       |0       |0        |0       |0       |
+|        CWC_BUS_DETECTOR[10]$BUS_DETECTOR$U_cwc_bus_det     |anlogic03_cwc_bus_det  |40        |0       |62      |0       |0       |0        |0           |0       |0       |0       |0        |0       |0       |
+|        CWC_BUS_DETECTOR[11]$BUS_DETECTOR$U_cwc_bus_det     |anlogic03_cwc_bus_det  |40        |0       |62      |0       |0       |0        |0           |0       |0       |0       |0        |0       |0       |
+|        CWC_BUS_DETECTOR[12]$BUS_DETECTOR$U_cwc_bus_det     |anlogic03_cwc_bus_det  |39        |0       |62      |0       |0       |0        |0           |0       |0       |0       |0        |0       |0       |
+|        CWC_BUS_DETECTOR[13]$BUS_DETECTOR$U_cwc_bus_det     |anlogic03_cwc_bus_det  |40        |0       |62      |0       |0       |0        |0           |0       |0       |0       |0        |0       |0       |
+|        CWC_BUS_DETECTOR[14]$BUS_DETECTOR$U_cwc_bus_det     |anlogic03_cwc_bus_det  |40        |0       |62      |0       |0       |0        |0           |0       |0       |0       |0        |0       |0       |
+|        CWC_BUS_DETECTOR[15]$BUS_DETECTOR$U_cwc_bus_det     |anlogic03_cwc_bus_det  |39        |0       |62      |0       |0       |0        |0           |0       |0       |0       |0        |0       |0       |
+|        CWC_BUS_DETECTOR[16]$BUS_DETECTOR$U_cwc_bus_det     |anlogic03_cwc_bus_det  |40        |0       |62      |0       |0       |0        |0           |0       |0       |0       |0        |0       |0       |
+|        CWC_BUS_DETECTOR[17]$BUS_DETECTOR$U_cwc_bus_det     |anlogic03_cwc_bus_det  |40        |0       |62      |0       |0       |0        |0           |0       |0       |0       |0        |0       |0       |
+|        CWC_BUS_DETECTOR[18]$BUS_DETECTOR$U_cwc_bus_det     |anlogic03_cwc_bus_det  |32        |0       |47      |0       |0       |0        |0           |0       |0       |0       |0        |0       |0       |
+|        CWC_BUS_DETECTOR[19]$BUS_DETECTOR$U_cwc_bus_det     |anlogic03_cwc_bus_det  |32        |0       |47      |0       |0       |0        |0           |0       |0       |0       |0        |0       |0       |
+|        CWC_BUS_DETECTOR[1]$BUS_DETECTOR$U_cwc_bus_det      |anlogic03_cwc_bus_det  |39        |0       |62      |0       |0       |0        |0           |0       |0       |0       |0        |0       |0       |
+|        CWC_BUS_DETECTOR[20]$BUS_DETECTOR$U_cwc_bus_det     |anlogic03_cwc_bus_det  |32        |0       |47      |0       |0       |0        |0           |0       |0       |0       |0        |0       |0       |
+|        CWC_BUS_DETECTOR[21]$BUS_DETECTOR$U_cwc_bus_det     |anlogic03_cwc_bus_det  |32        |0       |47      |0       |0       |0        |0           |0       |0       |0       |0        |0       |0       |
+|        CWC_BUS_DETECTOR[22]$BUS_DETECTOR$U_cwc_bus_det     |anlogic03_cwc_bus_det  |32        |0       |47      |0       |0       |0        |0           |0       |0       |0       |0        |0       |0       |
+|        CWC_BUS_DETECTOR[23]$BUS_DETECTOR$U_cwc_bus_det     |anlogic03_cwc_bus_det  |32        |0       |47      |0       |0       |0        |0           |0       |0       |0       |0        |0       |0       |
+|        CWC_BUS_DETECTOR[24]$BUS_DETECTOR$U_cwc_bus_det     |anlogic03_cwc_bus_det  |32        |0       |47      |0       |0       |0        |0           |0       |0       |0       |0        |0       |0       |
+|        CWC_BUS_DETECTOR[25]$BUS_DETECTOR$U_cwc_bus_det     |anlogic03_cwc_bus_det  |32        |0       |47      |0       |0       |0        |0           |0       |0       |0       |0        |0       |0       |
+|        CWC_BUS_DETECTOR[26]$BUS_DETECTOR$U_cwc_bus_det     |anlogic03_cwc_bus_det  |32        |0       |47      |0       |0       |0        |0           |0       |0       |0       |0        |0       |0       |
+|        CWC_BUS_DETECTOR[27]$BUS_DETECTOR$U_cwc_bus_det     |anlogic03_cwc_bus_det  |32        |0       |47      |0       |0       |0        |0           |0       |0       |0       |0        |0       |0       |
+|        CWC_BUS_DETECTOR[28]$BUS_DETECTOR$U_cwc_bus_det     |anlogic03_cwc_bus_det  |32        |0       |47      |0       |0       |0        |0           |0       |0       |0       |0        |0       |0       |
+|        CWC_BUS_DETECTOR[29]$BUS_DETECTOR$U_cwc_bus_det     |anlogic03_cwc_bus_det  |32        |0       |47      |0       |0       |0        |0           |0       |0       |0       |0        |0       |0       |
+|        CWC_BUS_DETECTOR[2]$BUS_DETECTOR$U_cwc_bus_det      |anlogic03_cwc_bus_det  |39        |0       |62      |0       |0       |0        |0           |0       |0       |0       |0        |0       |0       |
+|        CWC_BUS_DETECTOR[30]$BUS_DETECTOR$U_cwc_bus_det     |anlogic03_cwc_bus_det  |32        |0       |47      |0       |0       |0        |0           |0       |0       |0       |0        |0       |0       |
+|        CWC_BUS_DETECTOR[31]$BUS_DETECTOR$U_cwc_bus_det     |anlogic03_cwc_bus_det  |32        |0       |47      |0       |0       |0        |0           |0       |0       |0       |0        |0       |0       |
+|        CWC_BUS_DETECTOR[32]$BUS_DETECTOR$U_cwc_bus_det     |anlogic03_cwc_bus_det  |32        |0       |47      |0       |0       |0        |0           |0       |0       |0       |0        |0       |0       |
+|        CWC_BUS_DETECTOR[33]$BUS_DETECTOR$U_cwc_bus_det     |anlogic03_cwc_bus_det  |32        |0       |47      |0       |0       |0        |0           |0       |0       |0       |0        |0       |0       |
+|        CWC_BUS_DETECTOR[34]$BUS_DETECTOR$U_cwc_bus_det     |anlogic03_cwc_bus_det  |32        |0       |47      |0       |0       |0        |0           |0       |0       |0       |0        |0       |0       |
+|        CWC_BUS_DETECTOR[35]$BUS_DETECTOR$U_cwc_bus_det     |anlogic03_cwc_bus_det  |32        |0       |47      |0       |0       |0        |0           |0       |0       |0       |0        |0       |0       |
+|        CWC_BUS_DETECTOR[36]$BUS_DETECTOR$U_cwc_bus_det     |anlogic03_cwc_bus_det  |32        |0       |47      |0       |0       |0        |0           |0       |0       |0       |0        |0       |0       |
+|        CWC_BUS_DETECTOR[37]$BUS_DETECTOR$U_cwc_bus_det     |anlogic03_cwc_bus_det  |32        |0       |47      |0       |0       |0        |0           |0       |0       |0       |0        |0       |0       |
+|        CWC_BUS_DETECTOR[38]$BUS_DETECTOR$U_cwc_bus_det     |anlogic03_cwc_bus_det  |32        |0       |47      |0       |0       |0        |0           |0       |0       |0       |0        |0       |0       |
+|        CWC_BUS_DETECTOR[39]$BUS_DETECTOR$U_cwc_bus_det     |anlogic03_cwc_bus_det  |32        |0       |47      |0       |0       |0        |0           |0       |0       |0       |0        |0       |0       |
+|        CWC_BUS_DETECTOR[3]$BUS_DETECTOR$U_cwc_bus_det      |anlogic03_cwc_bus_det  |39        |0       |62      |0       |0       |0        |0           |0       |0       |0       |0        |0       |0       |
+|        CWC_BUS_DETECTOR[40]$BUS_DETECTOR$U_cwc_bus_det     |anlogic03_cwc_bus_det  |32        |0       |47      |0       |0       |0        |0           |0       |0       |0       |0        |0       |0       |
+|        CWC_BUS_DETECTOR[41]$BUS_DETECTOR$U_cwc_bus_det     |anlogic03_cwc_bus_det  |32        |0       |47      |0       |0       |0        |0           |0       |0       |0       |0        |0       |0       |
+|        CWC_BUS_DETECTOR[42]$BUS_DETECTOR$U_cwc_bus_det     |anlogic03_cwc_bus_det  |32        |0       |47      |0       |0       |0        |0           |0       |0       |0       |0        |0       |0       |
+|        CWC_BUS_DETECTOR[43]$BUS_DETECTOR$U_cwc_bus_det     |anlogic03_cwc_bus_det  |32        |0       |47      |0       |0       |0        |0           |0       |0       |0       |0        |0       |0       |
+|        CWC_BUS_DETECTOR[44]$BUS_DETECTOR$U_cwc_bus_det     |anlogic03_cwc_bus_det  |32        |0       |47      |0       |0       |0        |0           |0       |0       |0       |0        |0       |0       |
+|        CWC_BUS_DETECTOR[45]$BUS_DETECTOR$U_cwc_bus_det     |anlogic03_cwc_bus_det  |32        |0       |47      |0       |0       |0        |0           |0       |0       |0       |0        |0       |0       |
+|        CWC_BUS_DETECTOR[46]$BUS_DETECTOR$U_cwc_bus_det     |anlogic03_cwc_bus_det  |40        |0       |62      |0       |0       |0        |0           |0       |0       |0       |0        |0       |0       |
+|        CWC_BUS_DETECTOR[47]$NON_BUS_DETECTOR$U_cwc_bus_det |anlogic03_cwc_bus_det  |6         |0       |12      |0       |0       |0        |0           |0       |0       |0       |0        |0       |0       |
+|        CWC_BUS_DETECTOR[48]$NON_BUS_DETECTOR$U_cwc_bus_det |anlogic03_cwc_bus_det  |6         |0       |12      |0       |0       |0        |0           |0       |0       |0       |0        |0       |0       |
+|        CWC_BUS_DETECTOR[49]$NON_BUS_DETECTOR$U_cwc_bus_det |anlogic03_cwc_bus_det  |6         |0       |12      |0       |0       |0        |0           |0       |0       |0       |0        |0       |0       |
+|        CWC_BUS_DETECTOR[4]$BUS_DETECTOR$U_cwc_bus_det      |anlogic03_cwc_bus_det  |40        |0       |62      |0       |0       |0        |0           |0       |0       |0       |0        |0       |0       |
+|        CWC_BUS_DETECTOR[50]$NON_BUS_DETECTOR$U_cwc_bus_det |anlogic03_cwc_bus_det  |6         |0       |12      |0       |0       |0        |0           |0       |0       |0       |0        |0       |0       |
+|        CWC_BUS_DETECTOR[51]$NON_BUS_DETECTOR$U_cwc_bus_det |anlogic03_cwc_bus_det  |6         |0       |12      |0       |0       |0        |0           |0       |0       |0       |0        |0       |0       |
+|        CWC_BUS_DETECTOR[52]$NON_BUS_DETECTOR$U_cwc_bus_det |anlogic03_cwc_bus_det  |6         |0       |12      |0       |0       |0        |0           |0       |0       |0       |0        |0       |0       |
+|        CWC_BUS_DETECTOR[53]$NON_BUS_DETECTOR$U_cwc_bus_det |anlogic03_cwc_bus_det  |6         |0       |12      |0       |0       |0        |0           |0       |0       |0       |0        |0       |0       |
+|        CWC_BUS_DETECTOR[54]$NON_BUS_DETECTOR$U_cwc_bus_det |anlogic03_cwc_bus_det  |6         |0       |12      |0       |0       |0        |0           |0       |0       |0       |0        |0       |0       |
+|        CWC_BUS_DETECTOR[55]$NON_BUS_DETECTOR$U_cwc_bus_det |anlogic03_cwc_bus_det  |6         |0       |12      |0       |0       |0        |0           |0       |0       |0       |0        |0       |0       |
+|        CWC_BUS_DETECTOR[56]$NON_BUS_DETECTOR$U_cwc_bus_det |anlogic03_cwc_bus_det  |6         |0       |12      |0       |0       |0        |0           |0       |0       |0       |0        |0       |0       |
+|        CWC_BUS_DETECTOR[57]$NON_BUS_DETECTOR$U_cwc_bus_det |anlogic03_cwc_bus_det  |6         |0       |12      |0       |0       |0        |0           |0       |0       |0       |0        |0       |0       |
+|        CWC_BUS_DETECTOR[58]$NON_BUS_DETECTOR$U_cwc_bus_det |anlogic03_cwc_bus_det  |6         |0       |12      |0       |0       |0        |0           |0       |0       |0       |0        |0       |0       |
+|        CWC_BUS_DETECTOR[59]$NON_BUS_DETECTOR$U_cwc_bus_det |anlogic03_cwc_bus_det  |6         |0       |12      |0       |0       |0        |0           |0       |0       |0       |0        |0       |0       |
+|        CWC_BUS_DETECTOR[5]$BUS_DETECTOR$U_cwc_bus_det      |anlogic03_cwc_bus_det  |40        |0       |62      |0       |0       |0        |0           |0       |0       |0       |0        |0       |0       |
+|        CWC_BUS_DETECTOR[60]$NON_BUS_DETECTOR$U_cwc_bus_det |anlogic03_cwc_bus_det  |6         |0       |12      |0       |0       |0        |0           |0       |0       |0       |0        |0       |0       |
+|        CWC_BUS_DETECTOR[6]$BUS_DETECTOR$U_cwc_bus_det      |anlogic03_cwc_bus_det  |40        |0       |62      |0       |0       |0        |0           |0       |0       |0       |0        |0       |0       |
+|        CWC_BUS_DETECTOR[7]$BUS_DETECTOR$U_cwc_bus_det      |anlogic03_cwc_bus_det  |40        |0       |62      |0       |0       |0        |0           |0       |0       |0       |0        |0       |0       |
+|        CWC_BUS_DETECTOR[8]$BUS_DETECTOR$U_cwc_bus_det      |anlogic03_cwc_bus_det  |40        |0       |62      |0       |0       |0        |0           |0       |0       |0       |0        |0       |0       |
+|        CWC_BUS_DETECTOR[9]$BUS_DETECTOR$U_cwc_bus_det      |anlogic03_cwc_bus_det  |55        |0       |87      |0       |0       |0        |0           |0       |0       |0       |0        |0       |0       |
+|    U_cwc_ram                                               |anlogic05_cwc_ram      |1         |0       |0       |23      |0       |0        |0           |0       |0       |0       |0        |0       |0       |
+|    status_pipe                                             |anlogic06_pipe         |1         |0       |17      |0       |0       |0        |0           |0       |0       |0       |0        |0       |0       |
+|    watch_pipe                                              |anlogic06_pipe         |0         |0       |924     |0       |0       |0        |224         |0       |0       |0       |0        |0       |0       |
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

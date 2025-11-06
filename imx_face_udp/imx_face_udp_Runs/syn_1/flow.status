@@ -1,0 +1,23 @@
+Location         : D:\TD\prj\imx_udp\imx_face_udp\imx_face_udp_Runs\syn_1
+Running with     : Tang Dynasty v6.2.168116
+                   Copyright (c) 2012-2025 Anlogic Inc.
+Top Model        : system_top
+Device           : PH1A180SFG676
+Speed            : 2
+
+Timing Mode      : basic
+Setup            : WNS -6977ps  TNS  -344209ps  NUM_FEPS   331
+Hold             : WNS    40ps  TNS        0ps  NUM_FEPS     0
+
+Flow Statistics  :
+---------------------------------------------------------------------------------------------------
+     command     |  #calls  |  wall time   |  cpu time(s)  |  used memory(mb)  |  peak memory(mb)  
+---------------------------------------------------------------------------------------------------
+  optimize_gate  |    1     |  4m3s(57%)   |   241(57%)    |       3516        |       3516        
+  optimize_rtl   |    1     |  2m57s(41%)  |   175(41%)    |       3251        |       3318        
+  import_device  |    1     |    5s(1%)    |     3(0%)     |       1194        |       1194        
+    read_adc     |    1     |    0s(0%)    |     0(0%)     |       1885        |       1886        
+    read_sdc     |    4     |    0s(0%)    |     0(0%)     |       1882        |       1886        
+---------------------------------------------------------------------------------------------------
+      total      |    8     |     7m5s     |      419      |       3516        |       3516        
+---------------------------------------------------------------------------------------------------

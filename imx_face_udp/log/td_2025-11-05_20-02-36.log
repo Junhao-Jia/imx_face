@@ -1,0 +1,930 @@
+PRJ-1004 : This project is imported from D:/TD/prj/imx_udp/IMX415_UDP. Its original project is fpga_prj.
+RUN-1002 : start command "open_project imx_face_udp.al -update"
+RUN-1002 : start command "commit_param -step design"
+RUN-1001 : Print Global Property
+RUN-1001 : -------------------------------------------------------------
+RUN-1001 :     Parameters    |   Settings   |  Default Values  |  Note  
+RUN-1001 : -------------------------------------------------------------
+RUN-1001 :    enable_seed    |     off      |       off        |        
+RUN-1001 :    hfn_to_clock   |  1000000000  |    1000000000    |        
+RUN-1001 :      message      |   standard   |     standard     |        
+RUN-1001 :    qor_monitor    |      on      |        on        |        
+RUN-1001 :   speedup_effort  |      0       |        0         |        
+RUN-1001 :    syn_ip_flow    |     off      |       off        |        
+RUN-1001 :       thread      |     auto     |       auto       |        
+RUN-1001 : -------------------------------------------------------------
+RUN-1001 : Print Design Property
+RUN-1001 : ----------------------------------------------------------------
+RUN-1001 :       Parameters       |  Settings  |  Default Values  |  Note  
+RUN-1001 : ----------------------------------------------------------------
+RUN-1001 :   default_reg_initial  |    auto    |       auto       |        
+RUN-1001 :    hdl_warning_level   |   normal   |      normal      |        
+RUN-1001 : ----------------------------------------------------------------
+HDL-1007 : analyze verilog file al_ip/blk_mem_gen_awb_delay_signal.v
+HDL-1007 : undeclared symbol 'open', assumed default net type 'wire' in al_ip/blk_mem_gen_awb_delay_signal.v(91)
+HDL-7201 CRITICAL-WARNING: overwrite current module 'blk_mem_gen_awb_delay_signal' in al_ip/blk_mem_gen_awb_delay_signal.v(14)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'blk_mem_gen_awb_delay_signal' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in al_ip/blk_mem_gen_awb_delay_signal.v(14)
+HDL-1007 : analyze verilog file al_ip/blk_mem_gen_zhenghe.v
+HDL-1007 : undeclared symbol 'open', assumed default net type 'wire' in al_ip/blk_mem_gen_zhenghe.v(91)
+HDL-7201 CRITICAL-WARNING: overwrite current module 'blk_mem_gen_zhenghe' in al_ip/blk_mem_gen_zhenghe.v(14)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'blk_mem_gen_zhenghe' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in al_ip/blk_mem_gen_zhenghe.v(14)
+HDL-1007 : analyze verilog file uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v
+HDL-1007 : undeclared symbol 'dfi_act_n', assumed default net type 'wire' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(970)
+HDL-1007 : undeclared symbol 'dfi_bg', assumed default net type 'wire' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(974)
+HDL-7201 CRITICAL-WARNING: overwrite current module 'ddr_ip' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(28)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'ddr_ip' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(28)
+HDL-5370 WARNING: parameter '**' becomes localparam in '**' with formal parameter declaration list in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(2)
+HDL-5370 WARNING: parameter '**' becomes localparam in '**' with formal parameter declaration list in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(3)
+HDL-5370 WARNING: parameter '**' becomes localparam in '**' with formal parameter declaration list in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(4)
+HDL-5370 WARNING: parameter '**' becomes localparam in '**' with formal parameter declaration list in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(5)
+HDL-7201 CRITICAL-WARNING: overwrite current ** '**' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(1017)
+HDL-7307 CRITICAL-WARNING: previous definition of design element ** '**' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(1017)
+HDL-7201 CRITICAL-WARNING: overwrite current ** '**' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(434)
+HDL-7307 CRITICAL-WARNING: previous definition of design element ** '**' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(434)
+HDL-7201 CRITICAL-WARNING: overwrite current ** '**' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(575)
+HDL-7307 CRITICAL-WARNING: previous definition of design element ** '**' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(575)
+HDL-7201 CRITICAL-WARNING: overwrite current ** '**' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(736)
+HDL-7307 CRITICAL-WARNING: previous definition of design element ** '**' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(736)
+HDL-7201 CRITICAL-WARNING: overwrite current ** '**' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(793)
+HDL-7307 CRITICAL-WARNING: previous definition of design element ** '**' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(793)
+HDL-7201 CRITICAL-WARNING: overwrite current ** '**' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(962)
+HDL-7307 CRITICAL-WARNING: previous definition of design element ** '**' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(962)
+HDL-7201 CRITICAL-WARNING: overwrite current ** '**' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(1023)
+HDL-7307 CRITICAL-WARNING: previous definition of design element ** '**' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(1023)
+HDL-7201 CRITICAL-WARNING: overwrite current ** '**' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(1130)
+HDL-7307 CRITICAL-WARNING: previous definition of design element ** '**' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(1130)
+HDL-7201 CRITICAL-WARNING: overwrite current ** '**' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(1634)
+HDL-7307 CRITICAL-WARNING: previous definition of design element ** '**' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(1634)
+HDL-7201 CRITICAL-WARNING: overwrite current ** '**' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(1874)
+HDL-7307 CRITICAL-WARNING: previous definition of design element ** '**' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(1874)
+HDL-7201 CRITICAL-WARNING: overwrite current ** '**' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(1978)
+HDL-7307 CRITICAL-WARNING: previous definition of design element ** '**' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(1978)
+HDL-7201 CRITICAL-WARNING: overwrite current ** '**' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(2088)
+HDL-7307 CRITICAL-WARNING: previous definition of design element ** '**' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(2088)
+HDL-7201 CRITICAL-WARNING: overwrite current ** '**' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(2324)
+HDL-7307 CRITICAL-WARNING: previous definition of design element ** '**' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(2324)
+HDL-7201 CRITICAL-WARNING: overwrite current ** '**' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(2805)
+HDL-7307 CRITICAL-WARNING: previous definition of design element ** '**' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(2805)
+HDL-7201 CRITICAL-WARNING: overwrite current ** '**' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(2942)
+HDL-7307 CRITICAL-WARNING: previous definition of design element ** '**' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(2942)
+HDL-1007 : back to file 'uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(1097)
+HDL-7201 CRITICAL-WARNING: overwrite current module 'alc_dfi_retiming' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(3406)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'alc_dfi_retiming' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(3406)
+HDL-1007 : undeclared symbol '**', assumed default net type '**' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(830)
+HDL-1007 : undeclared symbol '**', assumed default net type '**' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(831)
+HDL-7201 CRITICAL-WARNING: overwrite current ** '**' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(5022)
+HDL-7307 CRITICAL-WARNING: previous definition of design element ** '**' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(5022)
+HDL-7201 CRITICAL-WARNING: overwrite current ** '**' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(858)
+HDL-7307 CRITICAL-WARNING: previous definition of design element ** '**' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(858)
+HDL-7201 CRITICAL-WARNING: overwrite current ** '**' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(1017)
+HDL-7307 CRITICAL-WARNING: previous definition of design element ** '**' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(1017)
+HDL-7201 CRITICAL-WARNING: overwrite current ** '**' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(1139)
+HDL-7307 CRITICAL-WARNING: previous definition of design element ** '**' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(1139)
+HDL-7201 CRITICAL-WARNING: overwrite current ** '**' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(1260)
+HDL-7307 CRITICAL-WARNING: previous definition of design element ** '**' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(1260)
+HDL-7201 CRITICAL-WARNING: overwrite current ** '**' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(1499)
+HDL-7307 CRITICAL-WARNING: previous definition of design element ** '**' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(1499)
+HDL-7201 CRITICAL-WARNING: overwrite current ** '**' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(1568)
+HDL-7307 CRITICAL-WARNING: previous definition of design element ** '**' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(1568)
+HDL-7201 CRITICAL-WARNING: overwrite current ** '**' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(1658)
+HDL-7307 CRITICAL-WARNING: previous definition of design element ** '**' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(1658)
+HDL-7201 CRITICAL-WARNING: overwrite current ** '**' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(1799)
+HDL-7307 CRITICAL-WARNING: previous definition of design element ** '**' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(1799)
+HDL-7201 CRITICAL-WARNING: overwrite current ** '**' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(1901)
+HDL-7307 CRITICAL-WARNING: previous definition of design element ** '**' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(1901)
+HDL-7201 CRITICAL-WARNING: overwrite current ** '**' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(2110)
+HDL-7307 CRITICAL-WARNING: previous definition of design element ** '**' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(2110)
+HDL-7201 CRITICAL-WARNING: overwrite current ** '**' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(2293)
+HDL-7307 CRITICAL-WARNING: previous definition of design element ** '**' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(2293)
+HDL-7201 CRITICAL-WARNING: overwrite current ** '**' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(2532)
+HDL-7307 CRITICAL-WARNING: previous definition of design element ** '**' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(2532)
+HDL-7201 CRITICAL-WARNING: overwrite current ** '**' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(2590)
+HDL-7307 CRITICAL-WARNING: previous definition of design element ** '**' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(2590)
+HDL-7201 CRITICAL-WARNING: overwrite current ** '**' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(2920)
+HDL-7307 CRITICAL-WARNING: previous definition of design element ** '**' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(2920)
+HDL-7201 CRITICAL-WARNING: overwrite current ** '**' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(3149)
+HDL-7307 CRITICAL-WARNING: previous definition of design element ** '**' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(3149)
+HDL-7201 CRITICAL-WARNING: overwrite current ** '**' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(3266)
+HDL-7307 CRITICAL-WARNING: previous definition of design element ** '**' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(3266)
+HDL-7201 CRITICAL-WARNING: overwrite current ** '**' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(3380)
+HDL-7307 CRITICAL-WARNING: previous definition of design element ** '**' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(3380)
+HDL-7201 CRITICAL-WARNING: overwrite current ** '**' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(3693)
+HDL-7307 CRITICAL-WARNING: previous definition of design element ** '**' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(3693)
+HDL-7201 CRITICAL-WARNING: overwrite current ** '**' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(4490)
+HDL-7307 CRITICAL-WARNING: previous definition of design element ** '**' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(4490)
+HDL-7201 CRITICAL-WARNING: overwrite current ** '**' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(4854)
+HDL-7307 CRITICAL-WARNING: previous definition of design element ** '**' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(4854)
+HDL-7201 CRITICAL-WARNING: overwrite current ** '**' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(4911)
+HDL-7307 CRITICAL-WARNING: previous definition of design element ** '**' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(4911)
+HDL-7201 CRITICAL-WARNING: overwrite current ** '**' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(4969)
+HDL-7307 CRITICAL-WARNING: previous definition of design element ** '**' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(4969)
+HDL-7201 CRITICAL-WARNING: overwrite current ** '**' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(5026)
+HDL-7307 CRITICAL-WARNING: previous definition of design element ** '**' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(5026)
+HDL-7201 CRITICAL-WARNING: overwrite current ** '**' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(5083)
+HDL-7307 CRITICAL-WARNING: previous definition of design element ** '**' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(5083)
+HDL-7201 CRITICAL-WARNING: overwrite current ** '**' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(5562)
+HDL-7307 CRITICAL-WARNING: previous definition of design element ** '**' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(5562)
+HDL-7201 CRITICAL-WARNING: overwrite current ** '**' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(5781)
+HDL-7307 CRITICAL-WARNING: previous definition of design element ** '**' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(5781)
+HDL-7201 CRITICAL-WARNING: overwrite current ** '**' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(6156)
+HDL-7307 CRITICAL-WARNING: previous definition of design element ** '**' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(6156)
+HDL-1007 : back to file 'uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(5148)
+HDL-1007 : undeclared symbol 'user_ram_rd_data', assumed default net type 'wire' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(10597)
+HDL-7201 CRITICAL-WARNING: overwrite current module 'ph1_ddrphy_ip_top' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(10089)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'ph1_ddrphy_ip_top' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(10089)
+HDL-1007 : undeclared symbol 'user_clk0', assumed default net type 'wire' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11187)
+HDL-1007 : undeclared symbol 'user_clk1', assumed default net type 'wire' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11188)
+HDL-1007 : undeclared symbol 'user_clk2', assumed default net type 'wire' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11189)
+HDL-1007 : undeclared symbol 'user_clk3', assumed default net type 'wire' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11190)
+HDL-7201 CRITICAL-WARNING: overwrite current module 'ph1_logic_clk_management' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11125)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'ph1_logic_clk_management' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11125)
+HDL-1007 : undeclared symbol 'ph1_logic_pll0_open0', assumed default net type 'wire' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11408)
+HDL-1007 : undeclared symbol 'ph1_logic_pll0_open1', assumed default net type 'wire' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11417)
+HDL-1007 : undeclared symbol 'ph1_logic_pll0_open2', assumed default net type 'wire' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11418)
+HDL-1007 : undeclared symbol 'ph1_logic_pll0_open10', assumed default net type 'wire' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11419)
+HDL-1007 : undeclared symbol 'ph1_logic_pll0_open9', assumed default net type 'wire' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11419)
+HDL-1007 : undeclared symbol 'ph1_logic_pll0_open8', assumed default net type 'wire' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11419)
+HDL-1007 : undeclared symbol 'ph1_logic_pll0_open7', assumed default net type 'wire' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11419)
+HDL-1007 : undeclared symbol 'ph1_logic_pll0_open6', assumed default net type 'wire' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11419)
+HDL-1007 : undeclared symbol 'ph1_logic_pll0_open5', assumed default net type 'wire' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11419)
+HDL-1007 : undeclared symbol 'ph1_logic_pll0_open4', assumed default net type 'wire' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11419)
+HDL-1007 : undeclared symbol 'ph1_logic_pll0_open3', assumed default net type 'wire' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11419)
+HDL-1007 : undeclared symbol 'ph1_logic_pll0_open19', assumed default net type 'wire' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11421)
+HDL-1007 : undeclared symbol 'ph1_logic_pll0_open17', assumed default net type 'wire' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11421)
+HDL-1007 : undeclared symbol 'ph1_logic_pll0_open15', assumed default net type 'wire' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11421)
+HDL-1007 : undeclared symbol 'ph1_logic_pll0_open13', assumed default net type 'wire' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11421)
+HDL-1007 : undeclared symbol 'ph1_logic_pll0_open20', assumed default net type 'wire' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11422)
+HDL-1007 : undeclared symbol 'ph1_logic_pll0_open18', assumed default net type 'wire' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11422)
+HDL-1007 : undeclared symbol 'ph1_logic_pll0_open16', assumed default net type 'wire' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11422)
+HDL-1007 : undeclared symbol 'ph1_logic_pll0_open14', assumed default net type 'wire' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11422)
+HDL-1007 : undeclared symbol 'ph1_logic_pll0_open12', assumed default net type 'wire' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11422)
+HDL-1007 : undeclared symbol 'ph1_logic_pll0_open11', assumed default net type 'wire' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11422)
+HDL-7201 CRITICAL-WARNING: overwrite current module 'ph1_logic_pll0' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11320)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'ph1_logic_pll0' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11320)
+HDL-1007 : undeclared symbol 'ph1_logic_pll1_open0', assumed default net type 'wire' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11553)
+HDL-1007 : undeclared symbol 'ph1_logic_pll1_open1', assumed default net type 'wire' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11562)
+HDL-1007 : undeclared symbol 'ph1_logic_pll1_open2', assumed default net type 'wire' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11563)
+HDL-1007 : undeclared symbol 'ph1_logic_pll1_open10', assumed default net type 'wire' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11564)
+HDL-1007 : undeclared symbol 'ph1_logic_pll1_open9', assumed default net type 'wire' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11564)
+HDL-1007 : undeclared symbol 'ph1_logic_pll1_open8', assumed default net type 'wire' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11564)
+HDL-1007 : undeclared symbol 'ph1_logic_pll1_open7', assumed default net type 'wire' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11564)
+HDL-1007 : undeclared symbol 'ph1_logic_pll1_open6', assumed default net type 'wire' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11564)
+HDL-1007 : undeclared symbol 'ph1_logic_pll1_open5', assumed default net type 'wire' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11564)
+HDL-1007 : undeclared symbol 'ph1_logic_pll1_open4', assumed default net type 'wire' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11564)
+HDL-1007 : undeclared symbol 'ph1_logic_pll1_open3', assumed default net type 'wire' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11564)
+HDL-1007 : undeclared symbol 'ph1_logic_pll1_open20', assumed default net type 'wire' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11566)
+HDL-1007 : undeclared symbol 'ph1_logic_pll1_open18', assumed default net type 'wire' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11566)
+HDL-1007 : undeclared symbol 'ph1_logic_pll1_open16', assumed default net type 'wire' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11566)
+HDL-1007 : undeclared symbol 'ph1_logic_pll1_open21', assumed default net type 'wire' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11567)
+HDL-1007 : undeclared symbol 'ph1_logic_pll1_open19', assumed default net type 'wire' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11567)
+HDL-1007 : undeclared symbol 'ph1_logic_pll1_open17', assumed default net type 'wire' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11567)
+HDL-1007 : undeclared symbol 'ph1_logic_pll1_open15', assumed default net type 'wire' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11567)
+HDL-1007 : undeclared symbol 'ph1_logic_pll1_open14', assumed default net type 'wire' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11567)
+HDL-1007 : undeclared symbol 'ph1_logic_pll1_open13', assumed default net type 'wire' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11567)
+HDL-1007 : undeclared symbol 'ph1_logic_pll1_open12', assumed default net type 'wire' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11567)
+HDL-1007 : undeclared symbol 'ph1_logic_pll1_open11', assumed default net type 'wire' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11567)
+HDL-7201 CRITICAL-WARNING: overwrite current module 'ph1_logic_pll1' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11447)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'ph1_logic_pll1' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11447)
+HDL-1007 : undeclared symbol 'phy2hctrl_dti_upp', assumed default net type 'wire' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(12239)
+HDL-1007 : undeclared symbol 'phy2hctrl_dti_low', assumed default net type 'wire' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(12240)
+HDL-7201 CRITICAL-WARNING: overwrite current module 'ph1_logic_ddrphy_standard' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11581)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'ph1_logic_ddrphy_standard' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11581)
+HDL-7201 CRITICAL-WARNING: overwrite current module 'ph1_logic_bus_matrix' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(12871)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'ph1_logic_bus_matrix' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(12871)
+HDL-7201 CRITICAL-WARNING: overwrite current module 'ph1_logic_ddrphy_streamlined' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(14008)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'ph1_logic_ddrphy_streamlined' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(14008)
+HDL-7201 CRITICAL-WARNING: overwrite current module 'ph1_logic_dfi_bus_adjust' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(18848)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'ph1_logic_dfi_bus_adjust' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(18848)
+HDL-7201 CRITICAL-WARNING: overwrite current module 'ph1_logic_apb_mux_1_3' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(19186)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'ph1_logic_apb_mux_1_3' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(19186)
+HDL-7201 CRITICAL-WARNING: overwrite current module 'ph1_logic_sopc_top' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(20456)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'ph1_logic_sopc_top' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(20456)
+HDL-7201 CRITICAL-WARNING: overwrite current module 'ph1_logic_SOPC' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(20590)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'ph1_logic_SOPC' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(20590)
+HDL-7201 CRITICAL-WARNING: overwrite current module 'ph1_logic_AlcPipelinedMemoryBusRam' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(21216)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'ph1_logic_AlcPipelinedMemoryBusRam' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(21216)
+HDL-7201 CRITICAL-WARNING: overwrite current module 'ph1_logic_Apb3Decoder' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(21327)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'ph1_logic_Apb3Decoder' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(21327)
+HDL-7201 CRITICAL-WARNING: overwrite current module 'ph1_logic_Apb3Router' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(21375)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'ph1_logic_Apb3Router' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(21375)
+HDL-7201 CRITICAL-WARNING: overwrite current module 'ph1_logic_BufferCC' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(21519)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'ph1_logic_BufferCC' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(21519)
+HDL-1007 : undeclared symbol 'open', assumed default net type 'wire' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(21615)
+HDL-7201 CRITICAL-WARNING: overwrite current module 'ph1_logic_mcu_ram' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(21539)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'ph1_logic_mcu_ram' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(21539)
+HDL-7201 CRITICAL-WARNING: overwrite current module 'ph1_logic_MuraxMasterArbiter' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(21622)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'ph1_logic_MuraxMasterArbiter' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(21622)
+HDL-7201 CRITICAL-WARNING: overwrite current module 'ph1_logic_PipelinedMemoryBusToApbBridge' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(21719)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'ph1_logic_PipelinedMemoryBusToApbBridge' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(21719)
+HDL-7201 CRITICAL-WARNING: overwrite current module 'ph1_logic_mcu' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(21894)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'ph1_logic_mcu' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(21894)
+HDL-7201 CRITICAL-WARNING: overwrite current module 'ph1_logic_StreamFifoLowLatency' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(25186)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'ph1_logic_StreamFifoLowLatency' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(25186)
+HDL-7201 CRITICAL-WARNING: overwrite current module 'ph1_logic_apb_uart' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(25322)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'ph1_logic_apb_uart' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(25322)
+HDL-7201 CRITICAL-WARNING: overwrite current module 'ph1_logic_meta_harden' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(25520)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'ph1_logic_meta_harden' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(25520)
+HDL-7201 CRITICAL-WARNING: overwrite current module 'ph1_logic_uart_baud_gen' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(25552)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'ph1_logic_uart_baud_gen' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(25552)
+HDL-7201 CRITICAL-WARNING: overwrite current module 'ph1_logic_uart_fifo' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(25628)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'ph1_logic_uart_fifo' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(25628)
+HDL-7201 CRITICAL-WARNING: overwrite current module 'ph1_logic_uart_rx_ctl' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(25707)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'ph1_logic_uart_rx_ctl' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(25707)
+HDL-7201 CRITICAL-WARNING: overwrite current module 'ph1_logic_uart_rx' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(25866)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'ph1_logic_uart_rx' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(25866)
+HDL-7201 CRITICAL-WARNING: overwrite current module 'ph1_logic_uart_tx_ctl' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(25937)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'ph1_logic_uart_tx_ctl' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(25937)
+HDL-7201 CRITICAL-WARNING: overwrite current module 'ph1_logic_uart_tx' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(26086)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'ph1_logic_uart_tx' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(26086)
+HDL-7201 CRITICAL-WARNING: overwrite current module 'ph1_logic_SopcGpio' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(26141)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'ph1_logic_SopcGpio' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(26141)
+HDL-7201 CRITICAL-WARNING: overwrite current module 'ph1_logic_SopcUserRam' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(26219)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'ph1_logic_SopcUserRam' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(26219)
+HDL-7201 CRITICAL-WARNING: overwrite current module 'ph1_logic_SopcTimer' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(26303)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'ph1_logic_SopcTimer' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(26303)
+HDL-1007 : analyze verilog file uisrc/03_ip/alip/pll.v
+HDL-1007 : undeclared symbol 'pll_open0', assumed default net type 'wire' in uisrc/03_ip/alip/pll.v(135)
+HDL-1007 : undeclared symbol 'pll_open1', assumed default net type 'wire' in uisrc/03_ip/alip/pll.v(144)
+HDL-1007 : undeclared symbol 'pll_open2', assumed default net type 'wire' in uisrc/03_ip/alip/pll.v(145)
+HDL-1007 : undeclared symbol 'pll_open10', assumed default net type 'wire' in uisrc/03_ip/alip/pll.v(146)
+HDL-1007 : undeclared symbol 'pll_open9', assumed default net type 'wire' in uisrc/03_ip/alip/pll.v(146)
+HDL-1007 : undeclared symbol 'pll_open8', assumed default net type 'wire' in uisrc/03_ip/alip/pll.v(146)
+HDL-1007 : undeclared symbol 'pll_open7', assumed default net type 'wire' in uisrc/03_ip/alip/pll.v(146)
+HDL-1007 : undeclared symbol 'pll_open6', assumed default net type 'wire' in uisrc/03_ip/alip/pll.v(146)
+HDL-1007 : undeclared symbol 'pll_open5', assumed default net type 'wire' in uisrc/03_ip/alip/pll.v(146)
+HDL-1007 : undeclared symbol 'pll_open4', assumed default net type 'wire' in uisrc/03_ip/alip/pll.v(146)
+HDL-1007 : undeclared symbol 'pll_open3', assumed default net type 'wire' in uisrc/03_ip/alip/pll.v(146)
+HDL-1007 : undeclared symbol 'pll_open20', assumed default net type 'wire' in uisrc/03_ip/alip/pll.v(148)
+HDL-1007 : undeclared symbol 'pll_open18', assumed default net type 'wire' in uisrc/03_ip/alip/pll.v(148)
+HDL-1007 : undeclared symbol 'pll_open16', assumed default net type 'wire' in uisrc/03_ip/alip/pll.v(148)
+HDL-1007 : undeclared symbol 'pll_open21', assumed default net type 'wire' in uisrc/03_ip/alip/pll.v(149)
+HDL-1007 : undeclared symbol 'pll_open19', assumed default net type 'wire' in uisrc/03_ip/alip/pll.v(149)
+HDL-1007 : undeclared symbol 'pll_open17', assumed default net type 'wire' in uisrc/03_ip/alip/pll.v(149)
+HDL-1007 : undeclared symbol 'pll_open15', assumed default net type 'wire' in uisrc/03_ip/alip/pll.v(149)
+HDL-1007 : undeclared symbol 'pll_open14', assumed default net type 'wire' in uisrc/03_ip/alip/pll.v(149)
+HDL-1007 : undeclared symbol 'pll_open13', assumed default net type 'wire' in uisrc/03_ip/alip/pll.v(149)
+HDL-1007 : undeclared symbol 'pll_open12', assumed default net type 'wire' in uisrc/03_ip/alip/pll.v(149)
+HDL-1007 : undeclared symbol 'pll_open11', assumed default net type 'wire' in uisrc/03_ip/alip/pll.v(149)
+HDL-7201 CRITICAL-WARNING: overwrite current module 'pll' in uisrc/03_ip/alip/pll.v(26)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'pll' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/alip/pll.v(26)
+HDL-1007 : analyze verilog file uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v
+HDL-1007 : undeclared symbol 'open_n2', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(2729)
+HDL-1007 : undeclared symbol 'open_n5', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(2811)
+HDL-1007 : undeclared symbol 'open_n8', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(3783)
+HDL-1007 : undeclared symbol 'open_n11', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(3872)
+HDL-1007 : undeclared symbol 'open_n14', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(4854)
+HDL-1007 : undeclared symbol 'open_n17', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(4950)
+HDL-1007 : undeclared symbol 'open_n20', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(5948)
+HDL-1007 : undeclared symbol 'open_n23', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(6051)
+HDL-1007 : undeclared symbol 'open_n26', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(7065)
+HDL-1007 : undeclared symbol 'open_n29', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(7175)
+HDL-1007 : undeclared symbol 'open_n32', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(8205)
+HDL-1007 : undeclared symbol 'open_n35', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(8322)
+HDL-1007 : undeclared symbol 'open_n38', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(9368)
+HDL-1007 : undeclared symbol 'open_n41', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(9492)
+HDL-1007 : undeclared symbol 'open_n44', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(10548)
+HDL-1007 : undeclared symbol 'open_n47', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(10679)
+HDL-1007 : undeclared symbol 'open_n50', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(11751)
+HDL-1007 : undeclared symbol 'open_n53', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(11889)
+HDL-1007 : undeclared symbol 'open_n56', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(12977)
+HDL-1007 : undeclared symbol 'open_n59', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(13122)
+HDL-1007 : undeclared symbol 'open_n62', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(15070)
+HDL-1007 : undeclared symbol 'open_n65', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(15222)
+HDL-1007 : undeclared symbol 'open_n68', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(16342)
+HDL-1007 : undeclared symbol 'open_n71', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(16501)
+HDL-1007 : undeclared symbol 'open_n74', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(17631)
+HDL-1007 : undeclared symbol 'open_n77', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(17797)
+HDL-1007 : undeclared symbol 'open_n80', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(18943)
+HDL-1007 : undeclared symbol 'open_n83', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(19116)
+HDL-1007 : undeclared symbol 'open_n86', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(20278)
+HDL-1007 : undeclared symbol 'open_n89', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(20458)
+HDL-1007 : undeclared symbol 'open_n92', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(21636)
+HDL-1007 : undeclared symbol 'open_n95', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(21823)
+HDL-1007 : undeclared symbol 'open_n98', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(23017)
+HDL-1007 : undeclared symbol 'open_n101', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(23211)
+HDL-1007 : undeclared symbol 'open_n104', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(24415)
+HDL-1007 : undeclared symbol 'open_n107', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(24616)
+HDL-1007 : undeclared symbol 'open_n110', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(25836)
+HDL-1007 : undeclared symbol 'open_n113', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(26044)
+HDL-1007 : undeclared symbol 'open_n116', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(27280)
+HDL-1007 : undeclared symbol 'open_n119', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(27495)
+HDL-1007 : undeclared symbol 'open_n122', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(29638)
+HDL-1007 : undeclared symbol 'open_n125', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(29860)
+HDL-1007 : undeclared symbol 'open_n128', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(31128)
+HDL-1007 : undeclared symbol 'open_n129', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(31359)
+HDL-1007 : undeclared symbol 'open_n132', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(32637)
+HDL-1007 : undeclared symbol 'open_n133', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(32868)
+HDL-1007 : undeclared symbol 'open_n134', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(32875)
+HDL-1007 : undeclared symbol 'open_n137', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(34153)
+HDL-1007 : undeclared symbol 'open_n138', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(34384)
+HDL-1007 : undeclared symbol 'open_n139', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(34391)
+HDL-1007 : undeclared symbol 'open_n142', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(35669)
+HDL-1007 : undeclared symbol 'open_n143', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(35900)
+HDL-1007 : undeclared symbol 'open_n144', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(35907)
+HDL-1007 : undeclared symbol 'open_n147', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(37185)
+HDL-1007 : undeclared symbol 'open_n148', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(37416)
+HDL-1007 : undeclared symbol 'open_n149', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(37423)
+HDL-1007 : undeclared symbol 'open_n152', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(38701)
+HDL-1007 : undeclared symbol 'open_n153', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(38932)
+HDL-1007 : undeclared symbol 'open_n154', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(38939)
+HDL-1007 : undeclared symbol 'open_n157', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(40217)
+HDL-1007 : undeclared symbol 'open_n158', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(40448)
+HDL-1007 : undeclared symbol 'open_n159', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(40455)
+HDL-1007 : undeclared symbol 'open_n162', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(41733)
+HDL-1007 : undeclared symbol 'open_n163', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(41964)
+HDL-1007 : undeclared symbol 'open_n164', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(41971)
+HDL-1007 : undeclared symbol 'open_n167', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(43249)
+HDL-1007 : undeclared symbol 'open_n168', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(43480)
+HDL-1007 : undeclared symbol 'open_n169', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(43487)
+HDL-1007 : undeclared symbol 'open_n172', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(45678)
+HDL-1007 : undeclared symbol 'open_n173', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(45909)
+HDL-1007 : undeclared symbol 'open_n174', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(45916)
+HDL-1007 : undeclared symbol 'open_n177', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(47194)
+HDL-1007 : undeclared symbol 'open_n178', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(47425)
+HDL-1007 : undeclared symbol 'open_n179', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(47432)
+HDL-1007 : undeclared symbol 'open_n182', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(48710)
+HDL-1007 : undeclared symbol 'open_n183', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(48941)
+HDL-1007 : undeclared symbol 'open_n184', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(48948)
+HDL-1007 : undeclared symbol 'open_n187', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(50226)
+HDL-1007 : undeclared symbol 'open_n188', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(50457)
+HDL-1007 : undeclared symbol 'open_n189', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(50464)
+HDL-1007 : undeclared symbol 'open_n192', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(51742)
+HDL-1007 : undeclared symbol 'open_n193', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(51973)
+HDL-1007 : undeclared symbol 'open_n194', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(51980)
+HDL-1007 : undeclared symbol 'open_n197', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(53258)
+HDL-1007 : undeclared symbol 'open_n198', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(53489)
+HDL-1007 : undeclared symbol 'open_n199', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(53496)
+HDL-1007 : undeclared symbol 'open_n202', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(54774)
+HDL-1007 : undeclared symbol 'open_n203', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(55005)
+HDL-1007 : undeclared symbol 'open_n204', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(55012)
+HDL-1007 : undeclared symbol 'open_n207', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(57048)
+HDL-1007 : undeclared symbol 'open_n208', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(57167)
+HDL-1007 : undeclared symbol 'open_n209', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(57174)
+HDL-1007 : undeclared symbol 'open_n212', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(58460)
+HDL-1007 : undeclared symbol 'open_n215', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(58507)
+HDL-1007 : undeclared symbol 'open_n218', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(59405)
+HDL-1007 : undeclared symbol 'open_n221', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(59459)
+HDL-1007 : undeclared symbol 'open_n224', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(60367)
+HDL-1007 : undeclared symbol 'open_n227', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(60428)
+HDL-1007 : undeclared symbol 'open_n230', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(61352)
+HDL-1007 : undeclared symbol 'open_n233', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(61420)
+HDL-1007 : undeclared symbol 'open_n236', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(62360)
+HDL-1007 : undeclared symbol 'open_n239', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(62435)
+HDL-7201 CRITICAL-WARNING: overwrite current module 'divider' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(5)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'divider' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(5)
+HDL-1007 : analyze verilog file uisrc/03_ip/isp/raw_matrix_3x3_buffer/ram/blk_mem_gen_demosaic.v
+HDL-1007 : undeclared symbol 'open', assumed default net type 'wire' in uisrc/03_ip/isp/raw_matrix_3x3_buffer/ram/blk_mem_gen_demosaic.v(91)
+HDL-7201 CRITICAL-WARNING: overwrite current module 'blk_mem_gen_demosaic' in uisrc/03_ip/isp/raw_matrix_3x3_buffer/ram/blk_mem_gen_demosaic.v(14)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'blk_mem_gen_demosaic' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/isp/raw_matrix_3x3_buffer/ram/blk_mem_gen_demosaic.v(14)
+HDL-1007 : analyze verilog file uisrc/03_ip/uifdmadbuf/rfifo/rfifo.v
+HDL-7201 CRITICAL-WARNING: overwrite current module 'rfifo' in uisrc/03_ip/uifdmadbuf/rfifo/rfifo.v(13)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'rfifo' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/uifdmadbuf/rfifo/rfifo.v(13)
+HDL-7201 CRITICAL-WARNING: overwrite current module 'fifo_cross_domain_addr_process_al_rfifo' in uisrc/03_ip/uifdmadbuf/rfifo/rfifo.v(369)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'fifo_cross_domain_addr_process_al_rfifo' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/uifdmadbuf/rfifo/rfifo.v(369)
+HDL-7201 CRITICAL-WARNING: overwrite current module 'ram_infer_rfifo' in uisrc/03_ip/uifdmadbuf/rfifo/rfifo.v(457)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'ram_infer_rfifo' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/uifdmadbuf/rfifo/rfifo.v(457)
+HDL-1007 : analyze verilog file uisrc/03_ip/uifdmadbuf/wfifo/wfifo.v
+HDL-7201 CRITICAL-WARNING: overwrite current module 'wfifo' in uisrc/03_ip/uifdmadbuf/wfifo/wfifo.v(13)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'wfifo' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/uifdmadbuf/wfifo/wfifo.v(13)
+HDL-7201 CRITICAL-WARNING: overwrite current module 'fifo_cross_domain_addr_process_al_wfifo' in uisrc/03_ip/uifdmadbuf/wfifo/wfifo.v(369)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'fifo_cross_domain_addr_process_al_wfifo' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/uifdmadbuf/wfifo/wfifo.v(369)
+HDL-7201 CRITICAL-WARNING: overwrite current module 'ram_infer_wfifo' in uisrc/03_ip/uifdmadbuf/wfifo/wfifo.v(457)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'ram_infer_wfifo' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/uifdmadbuf/wfifo/wfifo.v(457)
+HDL-1007 : analyze verilog file uisrc/01_rtl/system_top.v
+HDL-1007 : undeclared symbol 'S_clk_70m', assumed default net type 'wire' in uisrc/01_rtl/system_top.v(118)
+HDL-5007 WARNING: /* is inside a comment in uisrc/01_rtl/system_top.v(265)
+HDL-1007 : undeclared symbol 'O_uart_txd', assumed default net type 'wire' in uisrc/01_rtl/system_top.v(399)
+HDL-1007 : undeclared symbol 'I_uart_rxd', assumed default net type 'wire' in uisrc/01_rtl/system_top.v(400)
+HDL-1007 : undeclared symbol 'gmii_rclk', assumed default net type 'wire' in uisrc/01_rtl/system_top.v(960)
+HDL-1007 : undeclared symbol 'ip_rx_error', assumed default net type 'wire' in uisrc/01_rtl/system_top.v(967)
+HDL-1007 : undeclared symbol 'mac_rx_error', assumed default net type 'wire' in uisrc/01_rtl/system_top.v(968)
+HDL-7201 CRITICAL-WARNING: overwrite current module 'system_top' in uisrc/01_rtl/system_top.v(41)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'system_top' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/01_rtl/system_top.v(41)
+HDL-1007 : analyze verilog file uisrc/03_ip/uifdma/uiFDMA.v
+HDL-7201 CRITICAL-WARNING: overwrite current module 'uiFDMA' in uisrc/03_ip/uifdma/uiFDMA.v(44)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'uiFDMA' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/uifdma/uiFDMA.v(44)
+HDL-1007 : analyze verilog file uisrc/03_ip/alip/ph1a_mipi_dphy_rx/mipi_dphy_rx_ph1a_mipiio_wrapper.sv
+HDL-7201 CRITICAL-WARNING: overwrite current ** '**' in uisrc/03_ip/alip/ph1a_mipi_dphy_rx/mipi_dphy_rx_ph1a_mipiio_wrapper.sv(4)
+HDL-7307 CRITICAL-WARNING: previous definition of design element ** '**' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/alip/ph1a_mipi_dphy_rx/mipi_dphy_rx_ph1a_mipiio_wrapper.sv(4)
+HDL-7201 CRITICAL-WARNING: overwrite current ** '**' in uisrc/03_ip/alip/ph1a_mipi_dphy_rx/mipi_dphy_rx_ph1a_mipiio_wrapper.sv(94)
+HDL-7307 CRITICAL-WARNING: previous definition of design element ** '**' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/alip/ph1a_mipi_dphy_rx/mipi_dphy_rx_ph1a_mipiio_wrapper.sv(94)
+HDL-7201 CRITICAL-WARNING: overwrite current ** '**' in uisrc/03_ip/alip/ph1a_mipi_dphy_rx/mipi_dphy_rx_ph1a_mipiio_wrapper.sv(177)
+HDL-7307 CRITICAL-WARNING: previous definition of design element ** '**' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/alip/ph1a_mipi_dphy_rx/mipi_dphy_rx_ph1a_mipiio_wrapper.sv(177)
+HDL-7201 CRITICAL-WARNING: overwrite current ** '**' in uisrc/03_ip/alip/ph1a_mipi_dphy_rx/mipi_dphy_rx_ph1a_mipiio_wrapper.sv(396)
+HDL-7307 CRITICAL-WARNING: previous definition of design element ** '**' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/alip/ph1a_mipi_dphy_rx/mipi_dphy_rx_ph1a_mipiio_wrapper.sv(396)
+HDL-7201 CRITICAL-WARNING: overwrite current ** '**' in uisrc/03_ip/alip/ph1a_mipi_dphy_rx/mipi_dphy_rx_ph1a_mipiio_wrapper.sv(442)
+HDL-7307 CRITICAL-WARNING: previous definition of design element ** '**' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/alip/ph1a_mipi_dphy_rx/mipi_dphy_rx_ph1a_mipiio_wrapper.sv(442)
+HDL-7201 CRITICAL-WARNING: overwrite current ** '**' in uisrc/03_ip/alip/ph1a_mipi_dphy_rx/mipi_dphy_rx_ph1a_mipiio_wrapper.sv(559)
+HDL-7307 CRITICAL-WARNING: previous definition of design element ** '**' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/alip/ph1a_mipi_dphy_rx/mipi_dphy_rx_ph1a_mipiio_wrapper.sv(559)
+HDL-1007 : undeclared symbol '**', assumed default net type '**' in uisrc/03_ip/alip/ph1a_mipi_dphy_rx/mipi_dphy_rx_ph1a_mipiio_wrapper.sv(1029)
+HDL-1007 : undeclared symbol '**', assumed default net type '**' in uisrc/03_ip/alip/ph1a_mipi_dphy_rx/mipi_dphy_rx_ph1a_mipiio_wrapper.sv(1030)
+HDL-1007 : undeclared symbol '**', assumed default net type '**' in uisrc/03_ip/alip/ph1a_mipi_dphy_rx/mipi_dphy_rx_ph1a_mipiio_wrapper.sv(1053)
+HDL-1007 : undeclared symbol '**', assumed default net type '**' in uisrc/03_ip/alip/ph1a_mipi_dphy_rx/mipi_dphy_rx_ph1a_mipiio_wrapper.sv(1054)
+HDL-1007 : undeclared symbol '**', assumed default net type '**' in uisrc/03_ip/alip/ph1a_mipi_dphy_rx/mipi_dphy_rx_ph1a_mipiio_wrapper.sv(1078)
+HDL-1007 : undeclared symbol '**', assumed default net type '**' in uisrc/03_ip/alip/ph1a_mipi_dphy_rx/mipi_dphy_rx_ph1a_mipiio_wrapper.sv(1079)
+HDL-7201 CRITICAL-WARNING: overwrite current ** '**' in uisrc/03_ip/alip/ph1a_mipi_dphy_rx/mipi_dphy_rx_ph1a_mipiio_wrapper.sv(653)
+HDL-7307 CRITICAL-WARNING: previous definition of design element ** '**' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/alip/ph1a_mipi_dphy_rx/mipi_dphy_rx_ph1a_mipiio_wrapper.sv(653)
+HDL-1007 : back to file 'uisrc/03_ip/alip/ph1a_mipi_dphy_rx/mipi_dphy_rx_ph1a_mipiio_wrapper.sv' in uisrc/03_ip/alip/ph1a_mipi_dphy_rx/mipi_dphy_rx_ph1a_mipiio_wrapper.sv(34)
+HDL-1007 : analyze verilog file uisrc/03_ip/isp/isp_top.v
+HDL-7201 CRITICAL-WARNING: overwrite current module 'isp_top' in uisrc/03_ip/isp/isp_top.v(1)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'isp_top' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/isp/isp_top.v(1)
+HDL-1007 : analyze verilog file uisrc/03_ip/uifdmadbuf/uidbuf.v
+HDL-7201 CRITICAL-WARNING: overwrite current module 'uidbuf' in uisrc/03_ip/uifdmadbuf/uidbuf.v(43)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'uidbuf' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/uifdmadbuf/uidbuf.v(43)
+HDL-1007 : analyze verilog file uisrc/03_ip/uisetvbuf/uisetvbuf.v
+HDL-7201 CRITICAL-WARNING: overwrite current module 'uisetvbuf' in uisrc/03_ip/uisetvbuf/uisetvbuf.v(32)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'uisetvbuf' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/uisetvbuf/uisetvbuf.v(32)
+HDL-1007 : analyze verilog file uisrc/03_ip/isp/uirgb32to24/uirgb32to24.v
+HDL-7201 CRITICAL-WARNING: overwrite current module 'uirgb32to24' in uisrc/03_ip/isp/uirgb32to24/uirgb32to24.v(28)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'uirgb32to24' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/isp/uirgb32to24/uirgb32to24.v(28)
+HDL-1007 : analyze verilog file uisrc/03_ip/vtc/uivtc.v
+HDL-7201 CRITICAL-WARNING: overwrite current module 'uivtc' in uisrc/03_ip/vtc/uivtc.v(42)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'uivtc' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/vtc/uivtc.v(42)
+HDL-1007 : analyze verilog file uisrc/03_ip/isp/BLC/BLC.v
+HDL-7201 CRITICAL-WARNING: overwrite current module 'BLC' in uisrc/03_ip/isp/BLC/BLC.v(11)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'BLC' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/isp/BLC/BLC.v(11)
+HDL-1007 : analyze verilog file uisrc/03_ip/isp/Brightness_adjustment/uisrc/01_rtl/Brightness_adjustment.v
+HDL-5007 WARNING: block identifier is required on this block in uisrc/03_ip/isp/Brightness_adjustment/uisrc/01_rtl/Brightness_adjustment.v(83)
+HDL-7201 CRITICAL-WARNING: overwrite current module 'Brightness_adjustment' in uisrc/03_ip/isp/Brightness_adjustment/uisrc/01_rtl/Brightness_adjustment.v(18)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'Brightness_adjustment' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/isp/Brightness_adjustment/uisrc/01_rtl/Brightness_adjustment.v(18)
+HDL-1007 : analyze verilog file uisrc/03_ip/isp/Contrast_adjustment/uisrc/01_rtl/contrast_adj.v
+HDL-5007 WARNING: block identifier is required on this block in uisrc/03_ip/isp/Contrast_adjustment/uisrc/01_rtl/contrast_adj.v(95)
+HDL-7201 CRITICAL-WARNING: overwrite current module 'contrast_adj' in uisrc/03_ip/isp/Contrast_adjustment/uisrc/01_rtl/contrast_adj.v(18)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'contrast_adj' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/isp/Contrast_adjustment/uisrc/01_rtl/contrast_adj.v(18)
+HDL-1007 : analyze verilog file uisrc/03_ip/isp/awb_1_1/awb.v
+HDL-7201 CRITICAL-WARNING: overwrite current module 'awb' in uisrc/03_ip/isp/awb_1_1/awb.v(20)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'awb' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/isp/awb_1_1/awb.v(20)
+HDL-1007 : analyze verilog file uisrc/03_ip/isp/bilinear_interpolation/bilinear_interpolation.v
+HDL-7201 CRITICAL-WARNING: overwrite current module 'bilinear_interpolation' in uisrc/03_ip/isp/bilinear_interpolation/bilinear_interpolation.v(30)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'bilinear_interpolation' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/isp/bilinear_interpolation/bilinear_interpolation.v(30)
+HDL-1007 : analyze verilog file uisrc/03_ip/isp/data128_96/data128_96.v
+HDL-7201 CRITICAL-WARNING: overwrite current module 'data128_96' in uisrc/03_ip/isp/data128_96/data128_96.v(10)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'data128_96' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/isp/data128_96/data128_96.v(10)
+HDL-1007 : analyze verilog file uisrc/03_ip/isp/data96_128/ip/data96_128.v
+HDL-7201 CRITICAL-WARNING: overwrite current module 'data96_128' in uisrc/03_ip/isp/data96_128/ip/data96_128.v(10)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'data96_128' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/isp/data96_128/ip/data96_128.v(10)
+HDL-1007 : analyze verilog file uisrc/03_ip/isp/gamma/gamma.v
+HDL-7201 CRITICAL-WARNING: overwrite current module 'gamma' in uisrc/03_ip/isp/gamma/gamma.v(9)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'gamma' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/isp/gamma/gamma.v(9)
+HDL-1007 : analyze verilog file uisrc/03_ip/isp/gamma/lut_0_8.v
+HDL-7201 CRITICAL-WARNING: overwrite current module 'lut_0_8' in uisrc/03_ip/isp/gamma/lut_0_8.v(9)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'lut_0_8' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/isp/gamma/lut_0_8.v(9)
+HDL-1007 : analyze verilog file uisrc/03_ip/isp/gamma/lut_1_2.v
+HDL-7201 CRITICAL-WARNING: overwrite current module 'lut_1_2' in uisrc/03_ip/isp/gamma/lut_1_2.v(9)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'lut_1_2' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/isp/gamma/lut_1_2.v(9)
+HDL-1007 : analyze verilog file uisrc/03_ip/isp/gamma/lut_1_4.v
+HDL-7201 CRITICAL-WARNING: overwrite current module 'lut_1_4' in uisrc/03_ip/isp/gamma/lut_1_4.v(9)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'lut_1_4' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/isp/gamma/lut_1_4.v(9)
+HDL-1007 : analyze verilog file uisrc/03_ip/isp/gamma/lut_1_6.v
+HDL-7201 CRITICAL-WARNING: overwrite current module 'lut_1_6' in uisrc/03_ip/isp/gamma/lut_1_6.v(9)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'lut_1_6' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/isp/gamma/lut_1_6.v(9)
+HDL-1007 : analyze verilog file uisrc/03_ip/isp/gamma/lut_1_8.v
+HDL-7201 CRITICAL-WARNING: overwrite current module 'lut_1_8' in uisrc/03_ip/isp/gamma/lut_1_8.v(9)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'lut_1_8' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/isp/gamma/lut_1_8.v(9)
+HDL-1007 : analyze verilog file uisrc/03_ip/isp/gamma/lut_2_0.v
+HDL-7201 CRITICAL-WARNING: overwrite current module 'lut_2_0' in uisrc/03_ip/isp/gamma/lut_2_0.v(9)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'lut_2_0' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/isp/gamma/lut_2_0.v(9)
+HDL-1007 : analyze verilog file uisrc/03_ip/isp/gamma/lut_2_2.v
+HDL-7201 CRITICAL-WARNING: overwrite current module 'lut_2_2' in uisrc/03_ip/isp/gamma/lut_2_2.v(9)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'lut_2_2' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/isp/gamma/lut_2_2.v(9)
+HDL-1007 : analyze verilog file uisrc/03_ip/isp/gamma/lut_2_4.v
+HDL-7201 CRITICAL-WARNING: overwrite current module 'lut_2_4' in uisrc/03_ip/isp/gamma/lut_2_4.v(9)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'lut_2_4' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/isp/gamma/lut_2_4.v(9)
+HDL-1007 : analyze verilog file uisrc/03_ip/isp/gamma/lut_2_6.v
+HDL-7201 CRITICAL-WARNING: overwrite current module 'lut_2_6' in uisrc/03_ip/isp/gamma/lut_2_6.v(9)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'lut_2_6' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/isp/gamma/lut_2_6.v(9)
+HDL-1007 : analyze verilog file uisrc/03_ip/isp/image_cut/uisrc/01_rtl/image_cut.v
+HDL-7201 CRITICAL-WARNING: overwrite current module 'image_cut' in uisrc/03_ip/isp/image_cut/uisrc/01_rtl/image_cut.v(20)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'image_cut' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/isp/image_cut/uisrc/01_rtl/image_cut.v(20)
+HDL-1007 : analyze verilog file uisrc/03_ip/isp/raw_matrix_3x3_buffer/raw_matrix_3x3_buffer.v
+HDL-7201 CRITICAL-WARNING: overwrite current module 'raw_matrix_3x3_buffer' in uisrc/03_ip/isp/raw_matrix_3x3_buffer/raw_matrix_3x3_buffer.v(21)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'raw_matrix_3x3_buffer' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/isp/raw_matrix_3x3_buffer/raw_matrix_3x3_buffer.v(21)
+HDL-1007 : analyze verilog file uisrc/03_ip/isp/Saturation_adj/uisrc/01_rtl/Saturation_adj.v
+HDL-5370 WARNING: parameter 'C0' becomes localparam in 'Saturation_adj' with formal parameter declaration list in uisrc/03_ip/isp/Saturation_adj/uisrc/01_rtl/Saturation_adj.v(125)
+HDL-5370 WARNING: parameter 'C1' becomes localparam in 'Saturation_adj' with formal parameter declaration list in uisrc/03_ip/isp/Saturation_adj/uisrc/01_rtl/Saturation_adj.v(126)
+HDL-5370 WARNING: parameter 'C2' becomes localparam in 'Saturation_adj' with formal parameter declaration list in uisrc/03_ip/isp/Saturation_adj/uisrc/01_rtl/Saturation_adj.v(127)
+HDL-7201 CRITICAL-WARNING: overwrite current module 'Saturation_adj' in uisrc/03_ip/isp/Saturation_adj/uisrc/01_rtl/Saturation_adj.v(25)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'Saturation_adj' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/isp/Saturation_adj/uisrc/01_rtl/Saturation_adj.v(25)
+HDL-1007 : analyze verilog file uisrc/03_ip/isp/raw_matrix_3x3_buffer/line_buffer_demosaic.v
+HDL-7201 CRITICAL-WARNING: overwrite current module 'line_buffer_demosaic' in uisrc/03_ip/isp/raw_matrix_3x3_buffer/line_buffer_demosaic.v(21)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'line_buffer_demosaic' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/isp/raw_matrix_3x3_buffer/line_buffer_demosaic.v(21)
+HDL-1007 : analyze verilog file uisrc/03_ip/isp/raw_matrix_3x3_buffer/mipi_to_raw_converter.v
+HDL-7201 CRITICAL-WARNING: overwrite current module 'mipi_to_raw_converter' in uisrc/03_ip/isp/raw_matrix_3x3_buffer/mipi_to_raw_converter.v(20)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'mipi_to_raw_converter' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/isp/raw_matrix_3x3_buffer/mipi_to_raw_converter.v(20)
+HDL-1007 : analyze verilog file uisrc/01_rtl/signal_delay.v
+HDL-7201 CRITICAL-WARNING: overwrite current module 'signal_delay' in uisrc/01_rtl/signal_delay.v(18)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'signal_delay' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/01_rtl/signal_delay.v(18)
+HDL-1007 : analyze verilog file uisrc/03_ip/uiisp_ph1a/csi_unpacket_4lane.v
+HDL-7201 CRITICAL-WARNING: overwrite current module 'csi_unpacket_4lane' in uisrc/03_ip/uiisp_ph1a/csi_unpacket_4lane.v(34)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'csi_unpacket_4lane' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/uiisp_ph1a/csi_unpacket_4lane.v(34)
+HDL-1007 : analyze verilog file uisrc/01_rtl/image_correction.v
+HDL-1007 : undeclared symbol 'I_raw_tready', assumed default net type 'wire' in uisrc/01_rtl/image_correction.v(93)
+HDL-7201 CRITICAL-WARNING: overwrite current module 'image_correction' in uisrc/01_rtl/image_correction.v(19)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'image_correction' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/01_rtl/image_correction.v(19)
+HDL-1007 : analyze verilog file uisrc/03_ip/isp/raw_matrix_3x3_buffer/zhenghe.v
+HDL-1007 : undeclared symbol 'rd_valid', assumed default net type 'wire' in uisrc/03_ip/isp/raw_matrix_3x3_buffer/zhenghe.v(145)
+HDL-7201 CRITICAL-WARNING: overwrite current module 'zhenghe' in uisrc/03_ip/isp/raw_matrix_3x3_buffer/zhenghe.v(21)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'zhenghe' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/isp/raw_matrix_3x3_buffer/zhenghe.v(21)
+HDL-1007 : analyze verilog file uisrc/03_ip/uiisp_ph1a/raw10_unpacket_4lane.v
+HDL-7201 CRITICAL-WARNING: overwrite current module 'raw10_unpacket_4lane' in uisrc/03_ip/uiisp_ph1a/raw10_unpacket_4lane.v(33)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'raw10_unpacket_4lane' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/uiisp_ph1a/raw10_unpacket_4lane.v(33)
+HDL-1007 : analyze verilog file uisrc/03_ip/uiudp_stack/crc32_check.v
+HDL-7201 CRITICAL-WARNING: overwrite current module 'crc32_check' in uisrc/03_ip/uiudp_stack/crc32_check.v(3)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'crc32_check' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/uiudp_stack/crc32_check.v(3)
+HDL-1007 : analyze verilog file uisrc/03_ip/uiudp_stack/crc32_gen.v
+HDL-7201 CRITICAL-WARNING: overwrite current module 'crc32_gen' in uisrc/03_ip/uiudp_stack/crc32_gen.v(3)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'crc32_gen' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/uiudp_stack/crc32_gen.v(3)
+HDL-1007 : analyze verilog file uisrc/03_ip/uiudp_stack/mac_cache.v
+HDL-7201 CRITICAL-WARNING: overwrite current module 'mac_cache' in uisrc/03_ip/uiudp_stack/mac_cache.v(36)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'mac_cache' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/uiudp_stack/mac_cache.v(36)
+HDL-1007 : analyze verilog file uisrc/03_ip/uiudp_stack/rgmii_interface.v
+HDL-7201 CRITICAL-WARNING: overwrite current module 'rgmii_interface' in uisrc/03_ip/uiudp_stack/rgmii_interface.v(36)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'rgmii_interface' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/uiudp_stack/rgmii_interface.v(36)
+HDL-1007 : analyze verilog file uisrc/03_ip/uiudp_stack/uiarp_layer.v
+HDL-7201 CRITICAL-WARNING: overwrite current module 'uiarp_layer' in uisrc/03_ip/uiudp_stack/uiarp_layer.v(40)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'uiarp_layer' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/uiudp_stack/uiarp_layer.v(40)
+HDL-1007 : analyze verilog file uisrc/03_ip/uiudp_stack/uiarp_rx.v
+HDL-7201 CRITICAL-WARNING: overwrite current module 'uiarp_rx' in uisrc/03_ip/uiudp_stack/uiarp_rx.v(38)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'uiarp_rx' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/uiudp_stack/uiarp_rx.v(38)
+HDL-1007 : analyze verilog file uisrc/03_ip/uiudp_stack/uiarp_tx.v
+HDL-7201 CRITICAL-WARNING: overwrite current module 'uiarp_tx' in uisrc/03_ip/uiudp_stack/uiarp_tx.v(36)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'uiarp_tx' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/uiudp_stack/uiarp_tx.v(36)
+HDL-1007 : analyze verilog file uisrc/03_ip/uiudp_stack/uiicmp_pkg_ctrl.v
+HDL-7201 CRITICAL-WARNING: overwrite current module 'uiicmp_pkg_ctrl' in uisrc/03_ip/uiudp_stack/uiicmp_pkg_ctrl.v(39)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'uiicmp_pkg_ctrl' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/uiudp_stack/uiicmp_pkg_ctrl.v(39)
+HDL-1007 : analyze verilog file uisrc/03_ip/uiudp_stack/uiicmp_pkg_tx.v
+HDL-7201 CRITICAL-WARNING: overwrite current module 'uiicmp_pkg_tx' in uisrc/03_ip/uiudp_stack/uiicmp_pkg_tx.v(37)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'uiicmp_pkg_tx' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/uiudp_stack/uiicmp_pkg_tx.v(37)
+HDL-1007 : analyze verilog file uisrc/03_ip/uiudp_stack/uiip_arp_rx.v
+HDL-7201 CRITICAL-WARNING: overwrite current module 'uiip_arp_rx' in uisrc/03_ip/uiudp_stack/uiip_arp_rx.v(37)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'uiip_arp_rx' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/uiudp_stack/uiip_arp_rx.v(37)
+HDL-1007 : analyze verilog file uisrc/03_ip/uiudp_stack/uiip_arp_tx.v
+HDL-7201 CRITICAL-WARNING: overwrite current module 'uiip_arp_tx' in uisrc/03_ip/uiudp_stack/uiip_arp_tx.v(39)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'uiip_arp_tx' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/uiudp_stack/uiip_arp_tx.v(39)
+HDL-1007 : analyze verilog file uisrc/03_ip/uiudp_stack/uiip_header_checksum.v
+HDL-7201 CRITICAL-WARNING: overwrite current module 'uiip_header_checksum' in uisrc/03_ip/uiudp_stack/uiip_header_checksum.v(37)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'uiip_header_checksum' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/uiudp_stack/uiip_header_checksum.v(37)
+HDL-1007 : analyze verilog file uisrc/03_ip/uiudp_stack/uiip_layer.v
+HDL-7201 CRITICAL-WARNING: overwrite current module 'uiip_layer' in uisrc/03_ip/uiudp_stack/uiip_layer.v(40)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'uiip_layer' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/uiudp_stack/uiip_layer.v(40)
+HDL-1007 : analyze verilog file uisrc/03_ip/uiudp_stack/uiip_rx.v
+HDL-7201 CRITICAL-WARNING: overwrite current module 'uiip_rx' in uisrc/03_ip/uiudp_stack/uiip_rx.v(42)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'uiip_rx' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/uiudp_stack/uiip_rx.v(42)
+HDL-1007 : analyze verilog file uisrc/03_ip/uiudp_stack/uiip_tx.v
+HDL-7201 CRITICAL-WARNING: overwrite current module 'uiip_tx' in uisrc/03_ip/uiudp_stack/uiip_tx.v(39)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'uiip_tx' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/uiudp_stack/uiip_tx.v(39)
+HDL-1007 : analyze verilog file uisrc/03_ip/uiudp_stack/uimac_layer.v
+HDL-1007 : undeclared symbol 'reset', assumed default net type 'wire' in uisrc/03_ip/uiudp_stack/uimac_layer.v(121)
+HDL-7201 CRITICAL-WARNING: overwrite current module 'uimac_layer' in uisrc/03_ip/uiudp_stack/uimac_layer.v(38)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'uimac_layer' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/uiudp_stack/uimac_layer.v(38)
+HDL-1007 : analyze verilog file uisrc/03_ip/uiudp_stack/uimac_rx.v
+HDL-7201 CRITICAL-WARNING: overwrite current module 'uimac_rx' in uisrc/03_ip/uiudp_stack/uimac_rx.v(41)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'uimac_rx' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/uiudp_stack/uimac_rx.v(41)
+HDL-1007 : analyze verilog file uisrc/03_ip/uiudp_stack/uimac_tx.v
+HDL-7201 CRITICAL-WARNING: overwrite current module 'uimac_tx' in uisrc/03_ip/uiudp_stack/uimac_tx.v(39)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'uimac_tx' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/uiudp_stack/uimac_tx.v(39)
+HDL-1007 : analyze verilog file uisrc/03_ip/uiudp_stack/uimac_tx_frame_ctrl.v
+HDL-7201 CRITICAL-WARNING: overwrite current module 'uimac_tx_frame_ctrl' in uisrc/03_ip/uiudp_stack/uimac_tx_frame_ctrl.v(36)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'uimac_tx_frame_ctrl' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/uiudp_stack/uimac_tx_frame_ctrl.v(36)
+HDL-1007 : analyze verilog file uisrc/03_ip/uiudp_stack/uimac_tx_pause_ctrl.v
+HDL-7201 CRITICAL-WARNING: overwrite current module 'uimac_tx_pause_ctrl' in uisrc/03_ip/uiudp_stack/uimac_tx_pause_ctrl.v(38)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'uimac_tx_pause_ctrl' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/uiudp_stack/uimac_tx_pause_ctrl.v(38)
+HDL-1007 : analyze verilog file uisrc/03_ip/uiudp_stack/uiudp_layer.v
+HDL-7201 CRITICAL-WARNING: overwrite current module 'uiudp_layer' in uisrc/03_ip/uiudp_stack/uiudp_layer.v(38)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'uiudp_layer' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/uiudp_stack/uiudp_layer.v(38)
+HDL-1007 : analyze verilog file uisrc/03_ip/uiudp_stack/uiudp_rx.v
+HDL-7201 CRITICAL-WARNING: overwrite current module 'uiudp_rx' in uisrc/03_ip/uiudp_stack/uiudp_rx.v(39)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'uiudp_rx' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/uiudp_stack/uiudp_rx.v(39)
+HDL-1007 : analyze verilog file uisrc/03_ip/uiudp_stack/uiudp_stack.v
+HDL-7201 CRITICAL-WARNING: overwrite current module 'uiudp_stack' in uisrc/03_ip/uiudp_stack/uiudp_stack.v(36)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'uiudp_stack' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/uiudp_stack/uiudp_stack.v(36)
+HDL-1007 : analyze verilog file uisrc/03_ip/uiudp_stack/uiudp_tx.v
+HDL-7201 CRITICAL-WARNING: overwrite current module 'uiudp_tx' in uisrc/03_ip/uiudp_stack/uiudp_tx.v(38)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'uiudp_tx' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/uiudp_stack/uiudp_tx.v(38)
+HDL-1007 : analyze verilog file uisrc/03_ip/uiphyrst/uiphyrst.v
+HDL-7201 CRITICAL-WARNING: overwrite current module 'uiphyrst' in uisrc/03_ip/uiphyrst/uiphyrst.v(32)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'uiphyrst' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/uiphyrst/uiphyrst.v(32)
+HDL-1007 : analyze verilog file uisrc/03_ip/al_softfifo/udp_pkg_buf.v
+HDL-7201 CRITICAL-WARNING: overwrite current module 'udp_pkg_buf' in uisrc/03_ip/al_softfifo/udp_pkg_buf.v(13)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'udp_pkg_buf' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/al_softfifo/udp_pkg_buf.v(13)
+HDL-7201 CRITICAL-WARNING: overwrite current module 'fifo_cross_domain_addr_process_al_udp_pkg_buf' in uisrc/03_ip/al_softfifo/udp_pkg_buf.v(250)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'fifo_cross_domain_addr_process_al_udp_pkg_buf' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/al_softfifo/udp_pkg_buf.v(250)
+HDL-7201 CRITICAL-WARNING: overwrite current module 'ram_infer_udp_pkg_buf' in uisrc/03_ip/al_softfifo/udp_pkg_buf.v(333)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'ram_infer_udp_pkg_buf' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/al_softfifo/udp_pkg_buf.v(333)
+HDL-1007 : analyze verilog file uisrc/03_ip/uiimx415_cfg/uicfgimx415.v
+HDL-1007 : undeclared symbol 'iic_busy', assumed default net type 'wire' in uisrc/03_ip/uiimx415_cfg/uicfgimx415.v(158)
+HDL-7201 CRITICAL-WARNING: overwrite current module 'uicfg_imx415' in uisrc/03_ip/uiimx415_cfg/uicfgimx415.v(5)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'uicfg_imx415' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/uiimx415_cfg/uicfgimx415.v(5)
+HDL-1007 : analyze verilog file uisrc/03_ip/uiimx415_cfg/uii2c.v
+HDL-7201 CRITICAL-WARNING: overwrite current module 'uii2c' in uisrc/03_ip/uiimx415_cfg/uii2c.v(41)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'uii2c' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/uiimx415_cfg/uii2c.v(41)
+HDL-1007 : analyze verilog file uisrc/03_ip/uiimx415_cfg/uiimx415reg.v
+HDL-7201 CRITICAL-WARNING: overwrite current module 'uiimx415reg' in uisrc/03_ip/uiimx415_cfg/uiimx415reg.v(35)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'uiimx415reg' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/uiimx415_cfg/uiimx415reg.v(35)
+PRJ-1401 : Successfully analyzed 72 source files.
+RUN-1003 : finish command "open_project imx_face_udp.al -update" in  1.884829s wall, 2.234375s user + 0.437500s system = 2.671875s CPU (141.8%)
+
+RUN-1004 : used memory is 741 MB, reserved memory is 4248 MB, peak memory is 4138 MB
+RUN-1002 : start command "commit_param -step design"
+RUN-1001 : Print Global Property
+RUN-1001 : -------------------------------------------------------------
+RUN-1001 :     Parameters    |   Settings   |  Default Values  |  Note  
+RUN-1001 : -------------------------------------------------------------
+RUN-1001 :    enable_seed    |     off      |       off        |        
+RUN-1001 :    hfn_to_clock   |  1000000000  |    1000000000    |        
+RUN-1001 :      message      |   standard   |     standard     |        
+RUN-1001 :    qor_monitor    |      on      |        on        |        
+RUN-1001 :   speedup_effort  |      0       |        0         |        
+RUN-1001 :    syn_ip_flow    |     off      |       off        |        
+RUN-1001 :       thread      |     auto     |       auto       |        
+RUN-1001 : -------------------------------------------------------------
+RUN-1001 : Print Design Property
+RUN-1001 : ----------------------------------------------------------------
+RUN-1001 :       Parameters       |  Settings  |  Default Values  |  Note  
+RUN-1001 : ----------------------------------------------------------------
+RUN-1001 :   default_reg_initial  |    auto    |       auto       |        
+RUN-1001 :    hdl_warning_level   |   normal   |      normal      |        
+RUN-1001 : ----------------------------------------------------------------
+HDL-1007 : analyze verilog file al_ip/blk_mem_gen_awb_delay_signal.v
+HDL-1007 : undeclared symbol 'open', assumed default net type 'wire' in al_ip/blk_mem_gen_awb_delay_signal.v(91)
+HDL-1007 : analyze verilog file al_ip/blk_mem_gen_zhenghe.v
+HDL-1007 : undeclared symbol 'open', assumed default net type 'wire' in al_ip/blk_mem_gen_zhenghe.v(91)
+HDL-1007 : analyze verilog file uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v
+HDL-1007 : undeclared symbol 'dfi_act_n', assumed default net type 'wire' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(970)
+HDL-1007 : undeclared symbol 'dfi_bg', assumed default net type 'wire' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(974)
+HDL-5370 WARNING: parameter '**' becomes localparam in '**' with formal parameter declaration list in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(2)
+HDL-5370 WARNING: parameter '**' becomes localparam in '**' with formal parameter declaration list in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(3)
+HDL-5370 WARNING: parameter '**' becomes localparam in '**' with formal parameter declaration list in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(4)
+HDL-5370 WARNING: parameter '**' becomes localparam in '**' with formal parameter declaration list in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(5)
+HDL-1007 : back to file 'uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(1097)
+HDL-1007 : undeclared symbol '**', assumed default net type '**' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(830)
+HDL-1007 : undeclared symbol '**', assumed default net type '**' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(831)
+HDL-1007 : back to file 'uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(5148)
+HDL-1007 : undeclared symbol 'user_ram_rd_data', assumed default net type 'wire' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(10597)
+HDL-1007 : undeclared symbol 'user_clk0', assumed default net type 'wire' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11187)
+HDL-1007 : undeclared symbol 'user_clk1', assumed default net type 'wire' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11188)
+HDL-1007 : undeclared symbol 'user_clk2', assumed default net type 'wire' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11189)
+HDL-1007 : undeclared symbol 'user_clk3', assumed default net type 'wire' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11190)
+HDL-1007 : undeclared symbol 'ph1_logic_pll0_open0', assumed default net type 'wire' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11408)
+HDL-1007 : undeclared symbol 'ph1_logic_pll0_open1', assumed default net type 'wire' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11417)
+HDL-1007 : undeclared symbol 'ph1_logic_pll0_open2', assumed default net type 'wire' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11418)
+HDL-1007 : undeclared symbol 'ph1_logic_pll0_open10', assumed default net type 'wire' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11419)
+HDL-1007 : undeclared symbol 'ph1_logic_pll0_open9', assumed default net type 'wire' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11419)
+HDL-1007 : undeclared symbol 'ph1_logic_pll0_open8', assumed default net type 'wire' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11419)
+HDL-1007 : undeclared symbol 'ph1_logic_pll0_open7', assumed default net type 'wire' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11419)
+HDL-1007 : undeclared symbol 'ph1_logic_pll0_open6', assumed default net type 'wire' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11419)
+HDL-1007 : undeclared symbol 'ph1_logic_pll0_open5', assumed default net type 'wire' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11419)
+HDL-1007 : undeclared symbol 'ph1_logic_pll0_open4', assumed default net type 'wire' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11419)
+HDL-1007 : undeclared symbol 'ph1_logic_pll0_open3', assumed default net type 'wire' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11419)
+HDL-1007 : undeclared symbol 'ph1_logic_pll0_open19', assumed default net type 'wire' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11421)
+HDL-1007 : undeclared symbol 'ph1_logic_pll0_open17', assumed default net type 'wire' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11421)
+HDL-1007 : undeclared symbol 'ph1_logic_pll0_open15', assumed default net type 'wire' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11421)
+HDL-1007 : undeclared symbol 'ph1_logic_pll0_open13', assumed default net type 'wire' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11421)
+HDL-1007 : undeclared symbol 'ph1_logic_pll0_open20', assumed default net type 'wire' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11422)
+HDL-1007 : undeclared symbol 'ph1_logic_pll0_open18', assumed default net type 'wire' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11422)
+HDL-1007 : undeclared symbol 'ph1_logic_pll0_open16', assumed default net type 'wire' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11422)
+HDL-1007 : undeclared symbol 'ph1_logic_pll0_open14', assumed default net type 'wire' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11422)
+HDL-1007 : undeclared symbol 'ph1_logic_pll0_open12', assumed default net type 'wire' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11422)
+HDL-1007 : undeclared symbol 'ph1_logic_pll0_open11', assumed default net type 'wire' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11422)
+HDL-1007 : undeclared symbol 'ph1_logic_pll1_open0', assumed default net type 'wire' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11553)
+HDL-1007 : undeclared symbol 'ph1_logic_pll1_open1', assumed default net type 'wire' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11562)
+HDL-1007 : undeclared symbol 'ph1_logic_pll1_open2', assumed default net type 'wire' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11563)
+HDL-1007 : undeclared symbol 'ph1_logic_pll1_open10', assumed default net type 'wire' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11564)
+HDL-1007 : undeclared symbol 'ph1_logic_pll1_open9', assumed default net type 'wire' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11564)
+HDL-1007 : undeclared symbol 'ph1_logic_pll1_open8', assumed default net type 'wire' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11564)
+HDL-1007 : undeclared symbol 'ph1_logic_pll1_open7', assumed default net type 'wire' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11564)
+HDL-1007 : undeclared symbol 'ph1_logic_pll1_open6', assumed default net type 'wire' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11564)
+HDL-1007 : undeclared symbol 'ph1_logic_pll1_open5', assumed default net type 'wire' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11564)
+HDL-1007 : undeclared symbol 'ph1_logic_pll1_open4', assumed default net type 'wire' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11564)
+HDL-1007 : undeclared symbol 'ph1_logic_pll1_open3', assumed default net type 'wire' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11564)
+HDL-1007 : undeclared symbol 'ph1_logic_pll1_open20', assumed default net type 'wire' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11566)
+HDL-1007 : undeclared symbol 'ph1_logic_pll1_open18', assumed default net type 'wire' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11566)
+HDL-1007 : undeclared symbol 'ph1_logic_pll1_open16', assumed default net type 'wire' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11566)
+HDL-1007 : undeclared symbol 'ph1_logic_pll1_open21', assumed default net type 'wire' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11567)
+HDL-1007 : undeclared symbol 'ph1_logic_pll1_open19', assumed default net type 'wire' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11567)
+HDL-1007 : undeclared symbol 'ph1_logic_pll1_open17', assumed default net type 'wire' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11567)
+HDL-1007 : undeclared symbol 'ph1_logic_pll1_open15', assumed default net type 'wire' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11567)
+HDL-1007 : undeclared symbol 'ph1_logic_pll1_open14', assumed default net type 'wire' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11567)
+HDL-1007 : undeclared symbol 'ph1_logic_pll1_open13', assumed default net type 'wire' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11567)
+HDL-1007 : undeclared symbol 'ph1_logic_pll1_open12', assumed default net type 'wire' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11567)
+HDL-1007 : undeclared symbol 'ph1_logic_pll1_open11', assumed default net type 'wire' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11567)
+HDL-1007 : undeclared symbol 'phy2hctrl_dti_upp', assumed default net type 'wire' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(12239)
+HDL-1007 : undeclared symbol 'phy2hctrl_dti_low', assumed default net type 'wire' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(12240)
+HDL-1007 : undeclared symbol 'open', assumed default net type 'wire' in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(21615)
+HDL-1007 : analyze verilog file uisrc/03_ip/alip/pll.v
+HDL-1007 : undeclared symbol 'pll_open0', assumed default net type 'wire' in uisrc/03_ip/alip/pll.v(135)
+HDL-1007 : undeclared symbol 'pll_open1', assumed default net type 'wire' in uisrc/03_ip/alip/pll.v(144)
+HDL-1007 : undeclared symbol 'pll_open2', assumed default net type 'wire' in uisrc/03_ip/alip/pll.v(145)
+HDL-1007 : undeclared symbol 'pll_open10', assumed default net type 'wire' in uisrc/03_ip/alip/pll.v(146)
+HDL-1007 : undeclared symbol 'pll_open9', assumed default net type 'wire' in uisrc/03_ip/alip/pll.v(146)
+HDL-1007 : undeclared symbol 'pll_open8', assumed default net type 'wire' in uisrc/03_ip/alip/pll.v(146)
+HDL-1007 : undeclared symbol 'pll_open7', assumed default net type 'wire' in uisrc/03_ip/alip/pll.v(146)
+HDL-1007 : undeclared symbol 'pll_open6', assumed default net type 'wire' in uisrc/03_ip/alip/pll.v(146)
+HDL-1007 : undeclared symbol 'pll_open5', assumed default net type 'wire' in uisrc/03_ip/alip/pll.v(146)
+HDL-1007 : undeclared symbol 'pll_open4', assumed default net type 'wire' in uisrc/03_ip/alip/pll.v(146)
+HDL-1007 : undeclared symbol 'pll_open3', assumed default net type 'wire' in uisrc/03_ip/alip/pll.v(146)
+HDL-1007 : undeclared symbol 'pll_open20', assumed default net type 'wire' in uisrc/03_ip/alip/pll.v(148)
+HDL-1007 : undeclared symbol 'pll_open18', assumed default net type 'wire' in uisrc/03_ip/alip/pll.v(148)
+HDL-1007 : undeclared symbol 'pll_open16', assumed default net type 'wire' in uisrc/03_ip/alip/pll.v(148)
+HDL-1007 : undeclared symbol 'pll_open21', assumed default net type 'wire' in uisrc/03_ip/alip/pll.v(149)
+HDL-1007 : undeclared symbol 'pll_open19', assumed default net type 'wire' in uisrc/03_ip/alip/pll.v(149)
+HDL-1007 : undeclared symbol 'pll_open17', assumed default net type 'wire' in uisrc/03_ip/alip/pll.v(149)
+HDL-1007 : undeclared symbol 'pll_open15', assumed default net type 'wire' in uisrc/03_ip/alip/pll.v(149)
+HDL-1007 : undeclared symbol 'pll_open14', assumed default net type 'wire' in uisrc/03_ip/alip/pll.v(149)
+HDL-1007 : undeclared symbol 'pll_open13', assumed default net type 'wire' in uisrc/03_ip/alip/pll.v(149)
+HDL-1007 : undeclared symbol 'pll_open12', assumed default net type 'wire' in uisrc/03_ip/alip/pll.v(149)
+HDL-1007 : undeclared symbol 'pll_open11', assumed default net type 'wire' in uisrc/03_ip/alip/pll.v(149)
+HDL-1007 : analyze verilog file uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v
+HDL-1007 : undeclared symbol 'open_n2', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(2729)
+HDL-1007 : undeclared symbol 'open_n5', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(2811)
+HDL-1007 : undeclared symbol 'open_n8', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(3783)
+HDL-1007 : undeclared symbol 'open_n11', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(3872)
+HDL-1007 : undeclared symbol 'open_n14', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(4854)
+HDL-1007 : undeclared symbol 'open_n17', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(4950)
+HDL-1007 : undeclared symbol 'open_n20', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(5948)
+HDL-1007 : undeclared symbol 'open_n23', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(6051)
+HDL-1007 : undeclared symbol 'open_n26', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(7065)
+HDL-1007 : undeclared symbol 'open_n29', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(7175)
+HDL-1007 : undeclared symbol 'open_n32', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(8205)
+HDL-1007 : undeclared symbol 'open_n35', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(8322)
+HDL-1007 : undeclared symbol 'open_n38', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(9368)
+HDL-1007 : undeclared symbol 'open_n41', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(9492)
+HDL-1007 : undeclared symbol 'open_n44', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(10548)
+HDL-1007 : undeclared symbol 'open_n47', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(10679)
+HDL-1007 : undeclared symbol 'open_n50', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(11751)
+HDL-1007 : undeclared symbol 'open_n53', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(11889)
+HDL-1007 : undeclared symbol 'open_n56', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(12977)
+HDL-1007 : undeclared symbol 'open_n59', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(13122)
+HDL-1007 : undeclared symbol 'open_n62', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(15070)
+HDL-1007 : undeclared symbol 'open_n65', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(15222)
+HDL-1007 : undeclared symbol 'open_n68', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(16342)
+HDL-1007 : undeclared symbol 'open_n71', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(16501)
+HDL-1007 : undeclared symbol 'open_n74', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(17631)
+HDL-1007 : undeclared symbol 'open_n77', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(17797)
+HDL-1007 : undeclared symbol 'open_n80', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(18943)
+HDL-1007 : undeclared symbol 'open_n83', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(19116)
+HDL-1007 : undeclared symbol 'open_n86', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(20278)
+HDL-1007 : undeclared symbol 'open_n89', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(20458)
+HDL-1007 : undeclared symbol 'open_n92', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(21636)
+HDL-1007 : undeclared symbol 'open_n95', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(21823)
+HDL-1007 : undeclared symbol 'open_n98', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(23017)
+HDL-1007 : undeclared symbol 'open_n101', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(23211)
+HDL-1007 : undeclared symbol 'open_n104', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(24415)
+HDL-1007 : undeclared symbol 'open_n107', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(24616)
+HDL-1007 : undeclared symbol 'open_n110', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(25836)
+HDL-1007 : undeclared symbol 'open_n113', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(26044)
+HDL-1007 : undeclared symbol 'open_n116', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(27280)
+HDL-1007 : undeclared symbol 'open_n119', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(27495)
+HDL-1007 : undeclared symbol 'open_n122', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(29638)
+HDL-1007 : undeclared symbol 'open_n125', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(29860)
+HDL-1007 : undeclared symbol 'open_n128', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(31128)
+HDL-1007 : undeclared symbol 'open_n129', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(31359)
+HDL-1007 : undeclared symbol 'open_n132', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(32637)
+HDL-1007 : undeclared symbol 'open_n133', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(32868)
+HDL-1007 : undeclared symbol 'open_n134', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(32875)
+HDL-1007 : undeclared symbol 'open_n137', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(34153)
+HDL-1007 : undeclared symbol 'open_n138', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(34384)
+HDL-1007 : undeclared symbol 'open_n139', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(34391)
+HDL-1007 : undeclared symbol 'open_n142', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(35669)
+HDL-1007 : undeclared symbol 'open_n143', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(35900)
+HDL-1007 : undeclared symbol 'open_n144', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(35907)
+HDL-1007 : undeclared symbol 'open_n147', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(37185)
+HDL-1007 : undeclared symbol 'open_n148', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(37416)
+HDL-1007 : undeclared symbol 'open_n149', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(37423)
+HDL-1007 : undeclared symbol 'open_n152', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(38701)
+HDL-1007 : undeclared symbol 'open_n153', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(38932)
+HDL-1007 : undeclared symbol 'open_n154', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(38939)
+HDL-1007 : undeclared symbol 'open_n157', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(40217)
+HDL-1007 : undeclared symbol 'open_n158', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(40448)
+HDL-1007 : undeclared symbol 'open_n159', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(40455)
+HDL-1007 : undeclared symbol 'open_n162', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(41733)
+HDL-1007 : undeclared symbol 'open_n163', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(41964)
+HDL-1007 : undeclared symbol 'open_n164', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(41971)
+HDL-1007 : undeclared symbol 'open_n167', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(43249)
+HDL-1007 : undeclared symbol 'open_n168', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(43480)
+HDL-1007 : undeclared symbol 'open_n169', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(43487)
+HDL-1007 : undeclared symbol 'open_n172', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(45678)
+HDL-1007 : undeclared symbol 'open_n173', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(45909)
+HDL-1007 : undeclared symbol 'open_n174', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(45916)
+HDL-1007 : undeclared symbol 'open_n177', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(47194)
+HDL-1007 : undeclared symbol 'open_n178', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(47425)
+HDL-1007 : undeclared symbol 'open_n179', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(47432)
+HDL-1007 : undeclared symbol 'open_n182', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(48710)
+HDL-1007 : undeclared symbol 'open_n183', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(48941)
+HDL-1007 : undeclared symbol 'open_n184', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(48948)
+HDL-1007 : undeclared symbol 'open_n187', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(50226)
+HDL-1007 : undeclared symbol 'open_n188', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(50457)
+HDL-1007 : undeclared symbol 'open_n189', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(50464)
+HDL-1007 : undeclared symbol 'open_n192', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(51742)
+HDL-1007 : undeclared symbol 'open_n193', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(51973)
+HDL-1007 : undeclared symbol 'open_n194', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(51980)
+HDL-1007 : undeclared symbol 'open_n197', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(53258)
+HDL-1007 : undeclared symbol 'open_n198', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(53489)
+HDL-1007 : undeclared symbol 'open_n199', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(53496)
+HDL-1007 : undeclared symbol 'open_n202', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(54774)
+HDL-1007 : undeclared symbol 'open_n203', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(55005)
+HDL-1007 : undeclared symbol 'open_n204', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(55012)
+HDL-1007 : undeclared symbol 'open_n207', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(57048)
+HDL-1007 : undeclared symbol 'open_n208', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(57167)
+HDL-1007 : undeclared symbol 'open_n209', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(57174)
+HDL-1007 : undeclared symbol 'open_n212', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(58460)
+HDL-1007 : undeclared symbol 'open_n215', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(58507)
+HDL-1007 : undeclared symbol 'open_n218', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(59405)
+HDL-1007 : undeclared symbol 'open_n221', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(59459)
+HDL-1007 : undeclared symbol 'open_n224', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(60367)
+HDL-1007 : undeclared symbol 'open_n227', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(60428)
+HDL-1007 : undeclared symbol 'open_n230', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(61352)
+HDL-1007 : undeclared symbol 'open_n233', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(61420)
+HDL-1007 : undeclared symbol 'open_n236', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(62360)
+HDL-1007 : undeclared symbol 'open_n239', assumed default net type 'wire' in uisrc/03_ip/isp/awb_1_1/divider/divider_gate.v(62435)
+HDL-1007 : analyze verilog file uisrc/03_ip/isp/raw_matrix_3x3_buffer/ram/blk_mem_gen_demosaic.v
+HDL-1007 : undeclared symbol 'open', assumed default net type 'wire' in uisrc/03_ip/isp/raw_matrix_3x3_buffer/ram/blk_mem_gen_demosaic.v(91)
+HDL-1007 : analyze verilog file uisrc/03_ip/uifdmadbuf/rfifo/rfifo.v
+HDL-1007 : analyze verilog file uisrc/03_ip/uifdmadbuf/wfifo/wfifo.v
+HDL-1007 : analyze verilog file uisrc/01_rtl/system_top.v
+HDL-1007 : undeclared symbol 'S_clk_70m', assumed default net type 'wire' in uisrc/01_rtl/system_top.v(118)
+HDL-5007 WARNING: /* is inside a comment in uisrc/01_rtl/system_top.v(265)
+HDL-1007 : undeclared symbol 'O_uart_txd', assumed default net type 'wire' in uisrc/01_rtl/system_top.v(399)
+HDL-1007 : undeclared symbol 'I_uart_rxd', assumed default net type 'wire' in uisrc/01_rtl/system_top.v(400)
+HDL-1007 : undeclared symbol 'gmii_rclk', assumed default net type 'wire' in uisrc/01_rtl/system_top.v(960)
+HDL-1007 : undeclared symbol 'ip_rx_error', assumed default net type 'wire' in uisrc/01_rtl/system_top.v(967)
+HDL-1007 : undeclared symbol 'mac_rx_error', assumed default net type 'wire' in uisrc/01_rtl/system_top.v(968)
+HDL-1007 : analyze verilog file uisrc/03_ip/uifdma/uiFDMA.v
+HDL-1007 : analyze verilog file uisrc/03_ip/alip/ph1a_mipi_dphy_rx/mipi_dphy_rx_ph1a_mipiio_wrapper.sv
+HDL-1007 : undeclared symbol '**', assumed default net type '**' in uisrc/03_ip/alip/ph1a_mipi_dphy_rx/mipi_dphy_rx_ph1a_mipiio_wrapper.sv(1029)
+HDL-1007 : undeclared symbol '**', assumed default net type '**' in uisrc/03_ip/alip/ph1a_mipi_dphy_rx/mipi_dphy_rx_ph1a_mipiio_wrapper.sv(1030)
+HDL-1007 : undeclared symbol '**', assumed default net type '**' in uisrc/03_ip/alip/ph1a_mipi_dphy_rx/mipi_dphy_rx_ph1a_mipiio_wrapper.sv(1053)
+HDL-1007 : undeclared symbol '**', assumed default net type '**' in uisrc/03_ip/alip/ph1a_mipi_dphy_rx/mipi_dphy_rx_ph1a_mipiio_wrapper.sv(1054)
+HDL-1007 : undeclared symbol '**', assumed default net type '**' in uisrc/03_ip/alip/ph1a_mipi_dphy_rx/mipi_dphy_rx_ph1a_mipiio_wrapper.sv(1078)
+HDL-1007 : undeclared symbol '**', assumed default net type '**' in uisrc/03_ip/alip/ph1a_mipi_dphy_rx/mipi_dphy_rx_ph1a_mipiio_wrapper.sv(1079)
+HDL-1007 : back to file 'uisrc/03_ip/alip/ph1a_mipi_dphy_rx/mipi_dphy_rx_ph1a_mipiio_wrapper.sv' in uisrc/03_ip/alip/ph1a_mipi_dphy_rx/mipi_dphy_rx_ph1a_mipiio_wrapper.sv(34)
+HDL-1007 : analyze verilog file uisrc/03_ip/isp/isp_top.v
+HDL-1007 : analyze verilog file uisrc/03_ip/uifdmadbuf/uidbuf.v
+HDL-1007 : analyze verilog file uisrc/03_ip/uisetvbuf/uisetvbuf.v
+HDL-1007 : analyze verilog file uisrc/03_ip/isp/uirgb32to24/uirgb32to24.v
+HDL-1007 : analyze verilog file uisrc/03_ip/vtc/uivtc.v
+HDL-1007 : analyze verilog file uisrc/03_ip/isp/BLC/BLC.v
+HDL-1007 : analyze verilog file uisrc/03_ip/isp/Brightness_adjustment/uisrc/01_rtl/Brightness_adjustment.v
+HDL-5007 WARNING: block identifier is required on this block in uisrc/03_ip/isp/Brightness_adjustment/uisrc/01_rtl/Brightness_adjustment.v(83)
+HDL-1007 : analyze verilog file uisrc/03_ip/isp/Contrast_adjustment/uisrc/01_rtl/contrast_adj.v
+HDL-5007 WARNING: block identifier is required on this block in uisrc/03_ip/isp/Contrast_adjustment/uisrc/01_rtl/contrast_adj.v(95)
+HDL-1007 : analyze verilog file uisrc/03_ip/isp/awb_1_1/awb.v
+HDL-1007 : analyze verilog file uisrc/03_ip/isp/bilinear_interpolation/bilinear_interpolation.v
+HDL-1007 : analyze verilog file uisrc/03_ip/isp/data128_96/data128_96.v
+HDL-1007 : analyze verilog file uisrc/03_ip/isp/data96_128/ip/data96_128.v
+HDL-1007 : analyze verilog file uisrc/03_ip/isp/gamma/gamma.v
+HDL-1007 : analyze verilog file uisrc/03_ip/isp/gamma/lut_0_8.v
+HDL-1007 : analyze verilog file uisrc/03_ip/isp/gamma/lut_1_2.v
+HDL-1007 : analyze verilog file uisrc/03_ip/isp/gamma/lut_1_4.v
+HDL-1007 : analyze verilog file uisrc/03_ip/isp/gamma/lut_1_6.v
+HDL-1007 : analyze verilog file uisrc/03_ip/isp/gamma/lut_1_8.v
+HDL-1007 : analyze verilog file uisrc/03_ip/isp/gamma/lut_2_0.v
+HDL-1007 : analyze verilog file uisrc/03_ip/isp/gamma/lut_2_2.v
+HDL-1007 : analyze verilog file uisrc/03_ip/isp/gamma/lut_2_4.v
+HDL-1007 : analyze verilog file uisrc/03_ip/isp/gamma/lut_2_6.v
+HDL-1007 : analyze verilog file uisrc/03_ip/isp/image_cut/uisrc/01_rtl/image_cut.v
+HDL-1007 : analyze verilog file uisrc/03_ip/isp/raw_matrix_3x3_buffer/raw_matrix_3x3_buffer.v
+HDL-1007 : analyze verilog file uisrc/03_ip/isp/Saturation_adj/uisrc/01_rtl/Saturation_adj.v
+HDL-5370 WARNING: parameter 'C0' becomes localparam in 'Saturation_adj' with formal parameter declaration list in uisrc/03_ip/isp/Saturation_adj/uisrc/01_rtl/Saturation_adj.v(125)
+HDL-5370 WARNING: parameter 'C1' becomes localparam in 'Saturation_adj' with formal parameter declaration list in uisrc/03_ip/isp/Saturation_adj/uisrc/01_rtl/Saturation_adj.v(126)
+HDL-5370 WARNING: parameter 'C2' becomes localparam in 'Saturation_adj' with formal parameter declaration list in uisrc/03_ip/isp/Saturation_adj/uisrc/01_rtl/Saturation_adj.v(127)
+HDL-1007 : analyze verilog file uisrc/03_ip/isp/raw_matrix_3x3_buffer/line_buffer_demosaic.v
+HDL-1007 : analyze verilog file uisrc/03_ip/isp/raw_matrix_3x3_buffer/mipi_to_raw_converter.v
+HDL-1007 : analyze verilog file uisrc/01_rtl/signal_delay.v
+HDL-1007 : analyze verilog file uisrc/03_ip/uiisp_ph1a/csi_unpacket_4lane.v
+HDL-1007 : analyze verilog file uisrc/01_rtl/image_correction.v
+HDL-1007 : undeclared symbol 'I_raw_tready', assumed default net type 'wire' in uisrc/01_rtl/image_correction.v(93)
+HDL-1007 : analyze verilog file uisrc/03_ip/isp/raw_matrix_3x3_buffer/zhenghe.v
+HDL-1007 : undeclared symbol 'rd_valid', assumed default net type 'wire' in uisrc/03_ip/isp/raw_matrix_3x3_buffer/zhenghe.v(145)
+HDL-1007 : analyze verilog file uisrc/03_ip/uiisp_ph1a/raw10_unpacket_4lane.v
+HDL-1007 : analyze verilog file uisrc/03_ip/uiudp_stack/crc32_check.v
+HDL-1007 : analyze verilog file uisrc/03_ip/uiudp_stack/crc32_gen.v
+HDL-1007 : analyze verilog file uisrc/03_ip/uiudp_stack/mac_cache.v
+HDL-1007 : analyze verilog file uisrc/03_ip/uiudp_stack/rgmii_interface.v
+HDL-1007 : analyze verilog file uisrc/03_ip/uiudp_stack/uiarp_layer.v
+HDL-1007 : analyze verilog file uisrc/03_ip/uiudp_stack/uiarp_rx.v
+HDL-1007 : analyze verilog file uisrc/03_ip/uiudp_stack/uiarp_tx.v
+HDL-1007 : analyze verilog file uisrc/03_ip/uiudp_stack/uiicmp_pkg_ctrl.v
+HDL-1007 : analyze verilog file uisrc/03_ip/uiudp_stack/uiicmp_pkg_tx.v
+HDL-1007 : analyze verilog file uisrc/03_ip/uiudp_stack/uiip_arp_rx.v
+HDL-1007 : analyze verilog file uisrc/03_ip/uiudp_stack/uiip_arp_tx.v
+HDL-1007 : analyze verilog file uisrc/03_ip/uiudp_stack/uiip_header_checksum.v
+HDL-1007 : analyze verilog file uisrc/03_ip/uiudp_stack/uiip_layer.v
+HDL-1007 : analyze verilog file uisrc/03_ip/uiudp_stack/uiip_rx.v
+HDL-1007 : analyze verilog file uisrc/03_ip/uiudp_stack/uiip_tx.v
+HDL-1007 : analyze verilog file uisrc/03_ip/uiudp_stack/uimac_layer.v
+HDL-1007 : undeclared symbol 'reset', assumed default net type 'wire' in uisrc/03_ip/uiudp_stack/uimac_layer.v(121)
+HDL-1007 : analyze verilog file uisrc/03_ip/uiudp_stack/uimac_rx.v
+HDL-1007 : analyze verilog file uisrc/03_ip/uiudp_stack/uimac_tx.v
+HDL-1007 : analyze verilog file uisrc/03_ip/uiudp_stack/uimac_tx_frame_ctrl.v
+HDL-1007 : analyze verilog file uisrc/03_ip/uiudp_stack/uimac_tx_pause_ctrl.v
+HDL-1007 : analyze verilog file uisrc/03_ip/uiudp_stack/uiudp_layer.v
+HDL-1007 : analyze verilog file uisrc/03_ip/uiudp_stack/uiudp_rx.v
+HDL-1007 : analyze verilog file uisrc/03_ip/uiudp_stack/uiudp_stack.v
+HDL-1007 : analyze verilog file uisrc/03_ip/uiudp_stack/uiudp_tx.v
+HDL-1007 : analyze verilog file uisrc/03_ip/uiphyrst/uiphyrst.v
+HDL-1007 : analyze verilog file uisrc/03_ip/al_softfifo/udp_pkg_buf.v
+HDL-1007 : analyze verilog file uisrc/03_ip/uiimx415_cfg/uicfgimx415.v
+HDL-1007 : undeclared symbol 'iic_busy', assumed default net type 'wire' in uisrc/03_ip/uiimx415_cfg/uicfgimx415.v(158)
+HDL-1007 : analyze verilog file uisrc/03_ip/uiimx415_cfg/uii2c.v
+HDL-1007 : analyze verilog file uisrc/03_ip/uiimx415_cfg/uiimx415reg.v

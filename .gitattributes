@@ -1,0 +1,2 @@
+imx_face_hdmi filter=lfs diff=lfs merge=lfs -text
+imx_face_udp filter=lfs diff=lfs merge=lfs -text

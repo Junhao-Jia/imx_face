@@ -1,0 +1,51 @@
+-----------------------------------------------------------
+| QoR metrics               |         value               |
+-----------------------------------------------------------
+| Timing                    |                             |
+|     Setup WNS             |        -4257                |
+|     Setup TNS             |      -141399                |
+|     Num of violated S-EP  |          175                |
+|     Hold WNS              |        -2263                |
+|     Hold TNS              |     -1331544                |
+|     Num of violated H-EP  |          800                |
+-----------------------------------------------------------
+| Routing Resource          |                             |
+|     Wire length           |     12124544                |
+-----------------------------------------------------------
+| Utilization               |                             |
+|     #slices               |        47698                |
+|     slices percentage     |       40.84%                |
+|     #RAMs                 |          137                |
+|     #DSPs                 |           74                |
+|     #DRAMHARDCON          |           51                |
+-----------------------------------------------------------
+Report route stage QoR done.
+
+QoR Evaluation
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+  ID        |  Priority  |  Description                                                   |  Suggestion
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+  QOR-1301  |  HIGH      |  - Route SWNS -4257ps smaller than 0, do not meet timing.      |  - Try following method to drive timing meet:
+            |            |                                                                |      set_param route post_route_opt medium
+            |            |                                                                |      set_param route postrt_opt_extra_round 4
+            |            |                                                                |  
+  QOR-2601  |  HIGH      |  - There are total 2 routing detour net(s) on critical path    |  - Try following method to resolve net detour:
+            |            |                                                                |    Perform extra round of post-route optimization:
+            |            |                                                                |      phys_opt -post_route -effort high
+            |            |                                                                |  
+  QOR-2502  |  MEDIUM    |  - Large cell delay percentage 44% on critical path            |  - Routing delay is smaller enough, check following items:
+            |            |                                                                |    Check design and try to reduce number of macro cell on criti
+            |            |                                                                |    cal path.
+            |            |                                                                |    Check design and try to reduce logic level on this clock gro
+            |            |                                                                |    up.
+            |            |                                                                |  
+  QOR-2604  |  LOW       |  - There are total 1 large delay nets have much number fanout  |  - Try following method to improve fanout net timing:
+            |            |                                                                |      set_param place opt_timing high
+            |            |                                                                |      set_param place hfn_opt_effort high
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+Note* (*) means this parameter has been set already.
+      (+) means this parameter has been set, suggest to upgrade higher effort level.
+Note** plesae resolve priority MUST FIX and HIGH issues firstly
+       because these have highly possible to block the timing convergence even stop the flow.
+Note*** some suggested settings are not suitable to use together
+        take care of using them separately if suggestion mentioned.

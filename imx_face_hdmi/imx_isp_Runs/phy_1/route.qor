@@ -1,0 +1,47 @@
+-----------------------------------------------------------
+| QoR metrics               |         value               |
+-----------------------------------------------------------
+| Timing                    |                             |
+|     Setup WNS             |        -4269                |
+|     Setup TNS             |      -168629                |
+|     Num of violated S-EP  |          167                |
+|     Hold WNS              |         -182                |
+|     Hold TNS              |         -182                |
+|     Num of violated H-EP  |            1                |
+-----------------------------------------------------------
+| Routing Resource          |                             |
+|     Wire length           |      8305472                |
+-----------------------------------------------------------
+| Utilization               |                             |
+|     #slices               |        28807                |
+|     slices percentage     |       24.66%                |
+|     #RAMs                 |          124                |
+|     #DSPs                 |           74                |
+|     #DRAMHARDCON          |           51                |
+-----------------------------------------------------------
+Report route stage QoR done.
+
+QoR Evaluation
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+  ID        |  Priority  |  Description                                                   |  Suggestion
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+  QOR-1301  |  HIGH      |  - Route SWNS -4269ps smaller than 0, do not meet timing.      |  - Try following method to drive timing meet:
+            |            |                                                                |      set_param route post_route_opt medium
+            |            |                                                                |      set_param route postrt_opt_extra_round 4
+            |            |                                                                |  
+  QOR-2502  |  MEDIUM    |  - Large cell delay percentage 41% on critical path            |  - Routing delay is smaller enough, check following items:
+            |            |                                                                |    Check design and try to reduce number of macro cell on criti
+            |            |                                                                |    cal path.
+            |            |                                                                |    Check design and try to reduce logic level on this clock gro
+            |            |                                                                |    up.
+            |            |                                                                |  
+  QOR-2604  |  LOW       |  - There are total 1 large delay nets have much number fanout  |  - Try following method to improve fanout net timing:
+            |            |                                                                |      set_param place opt_timing high
+            |            |                                                                |      set_param place hfn_opt_effort high
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+Note* (*) means this parameter has been set already.
+      (+) means this parameter has been set, suggest to upgrade higher effort level.
+Note** plesae resolve priority MUST FIX and HIGH issues firstly
+       because these have highly possible to block the timing convergence even stop the flow.
+Note*** some suggested settings are not suitable to use together
+        take care of using them separately if suggestion mentioned.

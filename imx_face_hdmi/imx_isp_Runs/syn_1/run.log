@@ -1,0 +1,1860 @@
+============================================================
+   Tang Dynasty, V6.2.168116
+   Copyright (c) 2012-2025 Anlogic Inc.
+   Executable = D:/TD/bin/run.exe
+   Built at =   16:32:07 Jun 12 2025
+   Run by =     sean
+   Run Date =   Wed Nov  5 17:40:19 2025
+
+   Run on =     LAPTOP-18IJM237
+============================================================
+RUN-1002 : start command "import_device ph1_180.db -package PH1A180SFG676 -speed 2"
+ARC-1001 : Device Initialization.
+ARC-1001 : -----------------------------------------------------------
+ARC-1001 :           OPTION          |        IO        |   SETTING   
+ARC-1001 : -----------------------------------------------------------
+ARC-1001 :   non_jtag_persist(none)  |      36 IOs      |    gpio    
+ARC-1001 :            jtag           |  P7/L8/N8/R6/R7  |  dedicate  
+ARC-1001 : -----------------------------------------------------------
+RUN-1003 : finish command "import_device ph1_180.db -package PH1A180SFG676 -speed 2" in  5.528299s wall, 3.593750s user + 0.187500s system = 3.781250s CPU (68.4%)
+
+RUN-1004 : used memory is 1194 MB, reserved memory is 1195 MB, peak memory is 1194 MB
+RUN-1002 : start command "open_project imx_isp.prj"
+RUN-1002 : start command "commit_param -step design"
+RUN-1001 : Print Global Property
+RUN-1001 : -------------------------------------------------------------
+RUN-1001 :     Parameters    |   Settings   |  Default Values  |  Note  
+RUN-1001 : -------------------------------------------------------------
+RUN-1001 :    enable_seed    |     off      |       off        |        
+RUN-1001 :    hfn_to_clock   |  1000000000  |    1000000000    |        
+RUN-1001 :      message      |   standard   |     standard     |        
+RUN-1001 :    qor_monitor    |      on      |        on        |        
+RUN-1001 :   speedup_effort  |      0       |        0         |        
+RUN-1001 :    syn_ip_flow    |     off      |       off        |        
+RUN-1001 :       thread      |     auto     |       auto       |        
+RUN-1001 : -------------------------------------------------------------
+RUN-1001 : Print Design Property
+RUN-1001 : ----------------------------------------------------------------
+RUN-1001 :       Parameters       |  Settings  |  Default Values  |  Note  
+RUN-1001 : ----------------------------------------------------------------
+RUN-1001 :   default_reg_initial  |    auto    |       auto       |        
+RUN-1001 :    hdl_warning_level   |   normal   |      normal      |        
+RUN-1001 : ----------------------------------------------------------------
+HDL-1007 : analyze verilog file ../../al_ip/Soft_FIFO_0/RTL/soft_fifo_3decfaec05bd.v
+Copyright (c) 1998-2019 The OpenSSL Project.  All rights reserved.
+This product includes software developed by the OpenSSL Project
+for use in the OpenSSL Toolkit (http://www.openssl.org/)
+Copyright (C) 1995-1998 Eric Young (eay@cryptsoft.com)
+All rights reserved.
+This product includes cryptographic software written by Eric Young (eay@cryptsoft.com)
+HDL-5007 WARNING: block identifier is required on this block in ../../al_ip/Soft_FIFO_0/RTL/soft_fifo_3decfaec05bd.v(509)
+HDL-1007 : back to file '../../al_ip/Soft_FIFO_0/RTL/soft_fifo_3decfaec05bd.v' in ../../al_ip/Soft_FIFO_0/RTL/soft_fifo_3decfaec05bd.v(1)
+HDL-1007 : analyze verilog file ../../al_ip/Soft_FIFO_0/Soft_FIFO_0.v
+HDL-1007 : analyze verilog file ../../al_ip/blk_mem_gen_awb_delay_signal.v
+HDL-1007 : undeclared symbol 'open', assumed default net type 'wire' in ../../al_ip/blk_mem_gen_awb_delay_signal.v(91)
+HDL-1007 : analyze verilog file ../../al_ip/blk_mem_gen_zhenghe.v
+HDL-1007 : undeclared symbol 'open', assumed default net type 'wire' in ../../al_ip/blk_mem_gen_zhenghe.v(91)
+HDL-1007 : analyze verilog file ../../al_ip/divider_gate.v
+HDL-1007 : undeclared symbol 'open_n2', assumed default net type 'wire' in ../../al_ip/divider_gate.v(2729)
+HDL-1007 : undeclared symbol 'open_n5', assumed default net type 'wire' in ../../al_ip/divider_gate.v(2811)
+HDL-1007 : undeclared symbol 'open_n8', assumed default net type 'wire' in ../../al_ip/divider_gate.v(3783)
+HDL-1007 : undeclared symbol 'open_n11', assumed default net type 'wire' in ../../al_ip/divider_gate.v(3872)
+HDL-1007 : undeclared symbol 'open_n14', assumed default net type 'wire' in ../../al_ip/divider_gate.v(4854)
+HDL-1007 : undeclared symbol 'open_n17', assumed default net type 'wire' in ../../al_ip/divider_gate.v(4950)
+HDL-1007 : undeclared symbol 'open_n20', assumed default net type 'wire' in ../../al_ip/divider_gate.v(5948)
+HDL-1007 : undeclared symbol 'open_n23', assumed default net type 'wire' in ../../al_ip/divider_gate.v(6051)
+HDL-1007 : undeclared symbol 'open_n26', assumed default net type 'wire' in ../../al_ip/divider_gate.v(7065)
+HDL-1007 : undeclared symbol 'open_n29', assumed default net type 'wire' in ../../al_ip/divider_gate.v(7175)
+HDL-1007 : undeclared symbol 'open_n32', assumed default net type 'wire' in ../../al_ip/divider_gate.v(8205)
+HDL-1007 : undeclared symbol 'open_n35', assumed default net type 'wire' in ../../al_ip/divider_gate.v(8322)
+HDL-1007 : undeclared symbol 'open_n38', assumed default net type 'wire' in ../../al_ip/divider_gate.v(9368)
+HDL-1007 : undeclared symbol 'open_n41', assumed default net type 'wire' in ../../al_ip/divider_gate.v(9492)
+HDL-1007 : undeclared symbol 'open_n44', assumed default net type 'wire' in ../../al_ip/divider_gate.v(10548)
+HDL-1007 : undeclared symbol 'open_n47', assumed default net type 'wire' in ../../al_ip/divider_gate.v(10679)
+HDL-1007 : undeclared symbol 'open_n50', assumed default net type 'wire' in ../../al_ip/divider_gate.v(11751)
+HDL-1007 : undeclared symbol 'open_n53', assumed default net type 'wire' in ../../al_ip/divider_gate.v(11889)
+HDL-1007 : undeclared symbol 'open_n56', assumed default net type 'wire' in ../../al_ip/divider_gate.v(12977)
+HDL-1007 : undeclared symbol 'open_n59', assumed default net type 'wire' in ../../al_ip/divider_gate.v(13122)
+HDL-1007 : undeclared symbol 'open_n62', assumed default net type 'wire' in ../../al_ip/divider_gate.v(15070)
+HDL-1007 : undeclared symbol 'open_n65', assumed default net type 'wire' in ../../al_ip/divider_gate.v(15222)
+HDL-1007 : undeclared symbol 'open_n68', assumed default net type 'wire' in ../../al_ip/divider_gate.v(16342)
+HDL-1007 : undeclared symbol 'open_n71', assumed default net type 'wire' in ../../al_ip/divider_gate.v(16501)
+HDL-1007 : undeclared symbol 'open_n74', assumed default net type 'wire' in ../../al_ip/divider_gate.v(17631)
+HDL-1007 : undeclared symbol 'open_n77', assumed default net type 'wire' in ../../al_ip/divider_gate.v(17797)
+HDL-1007 : undeclared symbol 'open_n80', assumed default net type 'wire' in ../../al_ip/divider_gate.v(18943)
+HDL-1007 : undeclared symbol 'open_n83', assumed default net type 'wire' in ../../al_ip/divider_gate.v(19116)
+HDL-1007 : undeclared symbol 'open_n86', assumed default net type 'wire' in ../../al_ip/divider_gate.v(20278)
+HDL-1007 : undeclared symbol 'open_n89', assumed default net type 'wire' in ../../al_ip/divider_gate.v(20458)
+HDL-1007 : undeclared symbol 'open_n92', assumed default net type 'wire' in ../../al_ip/divider_gate.v(21636)
+HDL-1007 : undeclared symbol 'open_n95', assumed default net type 'wire' in ../../al_ip/divider_gate.v(21823)
+HDL-1007 : undeclared symbol 'open_n98', assumed default net type 'wire' in ../../al_ip/divider_gate.v(23017)
+HDL-1007 : undeclared symbol 'open_n101', assumed default net type 'wire' in ../../al_ip/divider_gate.v(23211)
+HDL-1007 : undeclared symbol 'open_n104', assumed default net type 'wire' in ../../al_ip/divider_gate.v(24415)
+HDL-1007 : undeclared symbol 'open_n107', assumed default net type 'wire' in ../../al_ip/divider_gate.v(24616)
+HDL-1007 : undeclared symbol 'open_n110', assumed default net type 'wire' in ../../al_ip/divider_gate.v(25836)
+HDL-1007 : undeclared symbol 'open_n113', assumed default net type 'wire' in ../../al_ip/divider_gate.v(26044)
+HDL-1007 : undeclared symbol 'open_n116', assumed default net type 'wire' in ../../al_ip/divider_gate.v(27280)
+HDL-1007 : undeclared symbol 'open_n119', assumed default net type 'wire' in ../../al_ip/divider_gate.v(27495)
+HDL-1007 : undeclared symbol 'open_n122', assumed default net type 'wire' in ../../al_ip/divider_gate.v(29638)
+HDL-1007 : undeclared symbol 'open_n125', assumed default net type 'wire' in ../../al_ip/divider_gate.v(29860)
+HDL-1007 : undeclared symbol 'open_n128', assumed default net type 'wire' in ../../al_ip/divider_gate.v(31128)
+HDL-1007 : undeclared symbol 'open_n129', assumed default net type 'wire' in ../../al_ip/divider_gate.v(31359)
+HDL-1007 : undeclared symbol 'open_n132', assumed default net type 'wire' in ../../al_ip/divider_gate.v(32637)
+HDL-1007 : undeclared symbol 'open_n133', assumed default net type 'wire' in ../../al_ip/divider_gate.v(32868)
+HDL-1007 : undeclared symbol 'open_n134', assumed default net type 'wire' in ../../al_ip/divider_gate.v(32875)
+HDL-1007 : undeclared symbol 'open_n137', assumed default net type 'wire' in ../../al_ip/divider_gate.v(34153)
+HDL-1007 : undeclared symbol 'open_n138', assumed default net type 'wire' in ../../al_ip/divider_gate.v(34384)
+HDL-1007 : undeclared symbol 'open_n139', assumed default net type 'wire' in ../../al_ip/divider_gate.v(34391)
+HDL-1007 : undeclared symbol 'open_n142', assumed default net type 'wire' in ../../al_ip/divider_gate.v(35669)
+HDL-1007 : undeclared symbol 'open_n143', assumed default net type 'wire' in ../../al_ip/divider_gate.v(35900)
+HDL-1007 : undeclared symbol 'open_n144', assumed default net type 'wire' in ../../al_ip/divider_gate.v(35907)
+HDL-1007 : undeclared symbol 'open_n147', assumed default net type 'wire' in ../../al_ip/divider_gate.v(37185)
+HDL-1007 : undeclared symbol 'open_n148', assumed default net type 'wire' in ../../al_ip/divider_gate.v(37416)
+HDL-1007 : undeclared symbol 'open_n149', assumed default net type 'wire' in ../../al_ip/divider_gate.v(37423)
+HDL-1007 : undeclared symbol 'open_n152', assumed default net type 'wire' in ../../al_ip/divider_gate.v(38701)
+HDL-1007 : undeclared symbol 'open_n153', assumed default net type 'wire' in ../../al_ip/divider_gate.v(38932)
+HDL-1007 : undeclared symbol 'open_n154', assumed default net type 'wire' in ../../al_ip/divider_gate.v(38939)
+HDL-1007 : undeclared symbol 'open_n157', assumed default net type 'wire' in ../../al_ip/divider_gate.v(40217)
+HDL-1007 : undeclared symbol 'open_n158', assumed default net type 'wire' in ../../al_ip/divider_gate.v(40448)
+HDL-1007 : undeclared symbol 'open_n159', assumed default net type 'wire' in ../../al_ip/divider_gate.v(40455)
+HDL-1007 : undeclared symbol 'open_n162', assumed default net type 'wire' in ../../al_ip/divider_gate.v(41733)
+HDL-1007 : undeclared symbol 'open_n163', assumed default net type 'wire' in ../../al_ip/divider_gate.v(41964)
+HDL-1007 : undeclared symbol 'open_n164', assumed default net type 'wire' in ../../al_ip/divider_gate.v(41971)
+HDL-1007 : undeclared symbol 'open_n167', assumed default net type 'wire' in ../../al_ip/divider_gate.v(43249)
+HDL-1007 : undeclared symbol 'open_n168', assumed default net type 'wire' in ../../al_ip/divider_gate.v(43480)
+HDL-1007 : undeclared symbol 'open_n169', assumed default net type 'wire' in ../../al_ip/divider_gate.v(43487)
+HDL-1007 : undeclared symbol 'open_n172', assumed default net type 'wire' in ../../al_ip/divider_gate.v(45678)
+HDL-1007 : undeclared symbol 'open_n173', assumed default net type 'wire' in ../../al_ip/divider_gate.v(45909)
+HDL-1007 : undeclared symbol 'open_n174', assumed default net type 'wire' in ../../al_ip/divider_gate.v(45916)
+HDL-1007 : undeclared symbol 'open_n177', assumed default net type 'wire' in ../../al_ip/divider_gate.v(47194)
+HDL-1007 : undeclared symbol 'open_n178', assumed default net type 'wire' in ../../al_ip/divider_gate.v(47425)
+HDL-1007 : undeclared symbol 'open_n179', assumed default net type 'wire' in ../../al_ip/divider_gate.v(47432)
+HDL-1007 : undeclared symbol 'open_n182', assumed default net type 'wire' in ../../al_ip/divider_gate.v(48710)
+HDL-1007 : undeclared symbol 'open_n183', assumed default net type 'wire' in ../../al_ip/divider_gate.v(48941)
+HDL-1007 : undeclared symbol 'open_n184', assumed default net type 'wire' in ../../al_ip/divider_gate.v(48948)
+HDL-1007 : undeclared symbol 'open_n187', assumed default net type 'wire' in ../../al_ip/divider_gate.v(50226)
+HDL-1007 : undeclared symbol 'open_n188', assumed default net type 'wire' in ../../al_ip/divider_gate.v(50457)
+HDL-1007 : undeclared symbol 'open_n189', assumed default net type 'wire' in ../../al_ip/divider_gate.v(50464)
+HDL-1007 : undeclared symbol 'open_n192', assumed default net type 'wire' in ../../al_ip/divider_gate.v(51742)
+HDL-1007 : undeclared symbol 'open_n193', assumed default net type 'wire' in ../../al_ip/divider_gate.v(51973)
+HDL-1007 : undeclared symbol 'open_n194', assumed default net type 'wire' in ../../al_ip/divider_gate.v(51980)
+HDL-1007 : undeclared symbol 'open_n197', assumed default net type 'wire' in ../../al_ip/divider_gate.v(53258)
+HDL-1007 : undeclared symbol 'open_n198', assumed default net type 'wire' in ../../al_ip/divider_gate.v(53489)
+HDL-1007 : undeclared symbol 'open_n199', assumed default net type 'wire' in ../../al_ip/divider_gate.v(53496)
+HDL-1007 : undeclared symbol 'open_n202', assumed default net type 'wire' in ../../al_ip/divider_gate.v(54774)
+HDL-1007 : undeclared symbol 'open_n203', assumed default net type 'wire' in ../../al_ip/divider_gate.v(55005)
+HDL-1007 : undeclared symbol 'open_n204', assumed default net type 'wire' in ../../al_ip/divider_gate.v(55012)
+HDL-1007 : undeclared symbol 'open_n207', assumed default net type 'wire' in ../../al_ip/divider_gate.v(57048)
+HDL-1007 : undeclared symbol 'open_n208', assumed default net type 'wire' in ../../al_ip/divider_gate.v(57167)
+HDL-1007 : undeclared symbol 'open_n209', assumed default net type 'wire' in ../../al_ip/divider_gate.v(57174)
+HDL-1007 : undeclared symbol 'open_n212', assumed default net type 'wire' in ../../al_ip/divider_gate.v(58460)
+HDL-1007 : undeclared symbol 'open_n215', assumed default net type 'wire' in ../../al_ip/divider_gate.v(58507)
+HDL-1007 : undeclared symbol 'open_n218', assumed default net type 'wire' in ../../al_ip/divider_gate.v(59405)
+HDL-1007 : undeclared symbol 'open_n221', assumed default net type 'wire' in ../../al_ip/divider_gate.v(59459)
+HDL-1007 : undeclared symbol 'open_n224', assumed default net type 'wire' in ../../al_ip/divider_gate.v(60367)
+HDL-1007 : undeclared symbol 'open_n227', assumed default net type 'wire' in ../../al_ip/divider_gate.v(60428)
+HDL-1007 : undeclared symbol 'open_n230', assumed default net type 'wire' in ../../al_ip/divider_gate.v(61352)
+HDL-1007 : undeclared symbol 'open_n233', assumed default net type 'wire' in ../../al_ip/divider_gate.v(61420)
+HDL-1007 : undeclared symbol 'open_n236', assumed default net type 'wire' in ../../al_ip/divider_gate.v(62360)
+HDL-1007 : undeclared symbol 'open_n239', assumed default net type 'wire' in ../../al_ip/divider_gate.v(62435)
+HDL-1007 : analyze verilog file ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v
+HDL-1007 : undeclared symbol 'dfi_act_n', assumed default net type 'wire' in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(970)
+HDL-1007 : undeclared symbol 'dfi_bg', assumed default net type 'wire' in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(974)
+HDL-5370 WARNING: parameter '**' becomes localparam in '**' with formal parameter declaration list in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(2)
+HDL-5370 WARNING: parameter '**' becomes localparam in '**' with formal parameter declaration list in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(3)
+HDL-5370 WARNING: parameter '**' becomes localparam in '**' with formal parameter declaration list in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(4)
+HDL-5370 WARNING: parameter '**' becomes localparam in '**' with formal parameter declaration list in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(5)
+HDL-1007 : back to file '../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v' in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(1097)
+HDL-1007 : undeclared symbol '**', assumed default net type '**' in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(830)
+HDL-1007 : undeclared symbol '**', assumed default net type '**' in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(831)
+HDL-1007 : back to file '../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v' in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(5148)
+HDL-1007 : undeclared symbol 'user_ram_rd_data', assumed default net type 'wire' in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(10597)
+HDL-1007 : undeclared symbol 'user_clk0', assumed default net type 'wire' in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11187)
+HDL-1007 : undeclared symbol 'user_clk1', assumed default net type 'wire' in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11188)
+HDL-1007 : undeclared symbol 'user_clk2', assumed default net type 'wire' in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11189)
+HDL-1007 : undeclared symbol 'user_clk3', assumed default net type 'wire' in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11190)
+HDL-1007 : undeclared symbol 'ph1_logic_pll0_open0', assumed default net type 'wire' in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11408)
+HDL-1007 : undeclared symbol 'ph1_logic_pll0_open1', assumed default net type 'wire' in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11417)
+HDL-1007 : undeclared symbol 'ph1_logic_pll0_open2', assumed default net type 'wire' in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11418)
+HDL-1007 : undeclared symbol 'ph1_logic_pll0_open10', assumed default net type 'wire' in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11419)
+HDL-1007 : undeclared symbol 'ph1_logic_pll0_open9', assumed default net type 'wire' in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11419)
+HDL-1007 : undeclared symbol 'ph1_logic_pll0_open8', assumed default net type 'wire' in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11419)
+HDL-1007 : undeclared symbol 'ph1_logic_pll0_open7', assumed default net type 'wire' in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11419)
+HDL-1007 : undeclared symbol 'ph1_logic_pll0_open6', assumed default net type 'wire' in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11419)
+HDL-1007 : undeclared symbol 'ph1_logic_pll0_open5', assumed default net type 'wire' in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11419)
+HDL-1007 : undeclared symbol 'ph1_logic_pll0_open4', assumed default net type 'wire' in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11419)
+HDL-1007 : undeclared symbol 'ph1_logic_pll0_open3', assumed default net type 'wire' in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11419)
+HDL-1007 : undeclared symbol 'ph1_logic_pll0_open19', assumed default net type 'wire' in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11421)
+HDL-1007 : undeclared symbol 'ph1_logic_pll0_open17', assumed default net type 'wire' in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11421)
+HDL-1007 : undeclared symbol 'ph1_logic_pll0_open15', assumed default net type 'wire' in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11421)
+HDL-1007 : undeclared symbol 'ph1_logic_pll0_open13', assumed default net type 'wire' in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11421)
+HDL-1007 : undeclared symbol 'ph1_logic_pll0_open20', assumed default net type 'wire' in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11422)
+HDL-1007 : undeclared symbol 'ph1_logic_pll0_open18', assumed default net type 'wire' in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11422)
+HDL-1007 : undeclared symbol 'ph1_logic_pll0_open16', assumed default net type 'wire' in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11422)
+HDL-1007 : undeclared symbol 'ph1_logic_pll0_open14', assumed default net type 'wire' in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11422)
+HDL-1007 : undeclared symbol 'ph1_logic_pll0_open12', assumed default net type 'wire' in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11422)
+HDL-1007 : undeclared symbol 'ph1_logic_pll0_open11', assumed default net type 'wire' in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11422)
+HDL-1007 : undeclared symbol 'ph1_logic_pll1_open0', assumed default net type 'wire' in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11553)
+HDL-1007 : undeclared symbol 'ph1_logic_pll1_open1', assumed default net type 'wire' in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11562)
+HDL-1007 : undeclared symbol 'ph1_logic_pll1_open2', assumed default net type 'wire' in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11563)
+HDL-1007 : undeclared symbol 'ph1_logic_pll1_open10', assumed default net type 'wire' in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11564)
+HDL-1007 : undeclared symbol 'ph1_logic_pll1_open9', assumed default net type 'wire' in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11564)
+HDL-1007 : undeclared symbol 'ph1_logic_pll1_open8', assumed default net type 'wire' in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11564)
+HDL-1007 : undeclared symbol 'ph1_logic_pll1_open7', assumed default net type 'wire' in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11564)
+HDL-1007 : undeclared symbol 'ph1_logic_pll1_open6', assumed default net type 'wire' in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11564)
+HDL-1007 : undeclared symbol 'ph1_logic_pll1_open5', assumed default net type 'wire' in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11564)
+HDL-1007 : undeclared symbol 'ph1_logic_pll1_open4', assumed default net type 'wire' in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11564)
+HDL-1007 : undeclared symbol 'ph1_logic_pll1_open3', assumed default net type 'wire' in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11564)
+HDL-1007 : undeclared symbol 'ph1_logic_pll1_open20', assumed default net type 'wire' in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11566)
+HDL-1007 : undeclared symbol 'ph1_logic_pll1_open18', assumed default net type 'wire' in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11566)
+HDL-1007 : undeclared symbol 'ph1_logic_pll1_open16', assumed default net type 'wire' in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11566)
+HDL-1007 : undeclared symbol 'ph1_logic_pll1_open21', assumed default net type 'wire' in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11567)
+HDL-1007 : undeclared symbol 'ph1_logic_pll1_open19', assumed default net type 'wire' in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11567)
+HDL-1007 : undeclared symbol 'ph1_logic_pll1_open17', assumed default net type 'wire' in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11567)
+HDL-1007 : undeclared symbol 'ph1_logic_pll1_open15', assumed default net type 'wire' in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11567)
+HDL-1007 : undeclared symbol 'ph1_logic_pll1_open14', assumed default net type 'wire' in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11567)
+HDL-1007 : undeclared symbol 'ph1_logic_pll1_open13', assumed default net type 'wire' in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11567)
+HDL-1007 : undeclared symbol 'ph1_logic_pll1_open12', assumed default net type 'wire' in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11567)
+HDL-1007 : undeclared symbol 'ph1_logic_pll1_open11', assumed default net type 'wire' in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11567)
+HDL-1007 : undeclared symbol 'phy2hctrl_dti_upp', assumed default net type 'wire' in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(12239)
+HDL-1007 : undeclared symbol 'phy2hctrl_dti_low', assumed default net type 'wire' in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(12240)
+HDL-1007 : undeclared symbol 'open', assumed default net type 'wire' in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(21615)
+HDL-1007 : analyze verilog file ../../uisrc/03_ip/alip/pll.v
+HDL-1007 : undeclared symbol 'pll_open0', assumed default net type 'wire' in ../../uisrc/03_ip/alip/pll.v(125)
+HDL-1007 : undeclared symbol 'pll_open1', assumed default net type 'wire' in ../../uisrc/03_ip/alip/pll.v(134)
+HDL-1007 : undeclared symbol 'pll_open2', assumed default net type 'wire' in ../../uisrc/03_ip/alip/pll.v(135)
+HDL-1007 : undeclared symbol 'pll_open10', assumed default net type 'wire' in ../../uisrc/03_ip/alip/pll.v(136)
+HDL-1007 : undeclared symbol 'pll_open9', assumed default net type 'wire' in ../../uisrc/03_ip/alip/pll.v(136)
+HDL-1007 : undeclared symbol 'pll_open8', assumed default net type 'wire' in ../../uisrc/03_ip/alip/pll.v(136)
+HDL-1007 : undeclared symbol 'pll_open7', assumed default net type 'wire' in ../../uisrc/03_ip/alip/pll.v(136)
+HDL-1007 : undeclared symbol 'pll_open6', assumed default net type 'wire' in ../../uisrc/03_ip/alip/pll.v(136)
+HDL-1007 : undeclared symbol 'pll_open5', assumed default net type 'wire' in ../../uisrc/03_ip/alip/pll.v(136)
+HDL-1007 : undeclared symbol 'pll_open4', assumed default net type 'wire' in ../../uisrc/03_ip/alip/pll.v(136)
+HDL-1007 : undeclared symbol 'pll_open3', assumed default net type 'wire' in ../../uisrc/03_ip/alip/pll.v(136)
+HDL-1007 : undeclared symbol 'pll_open21', assumed default net type 'wire' in ../../uisrc/03_ip/alip/pll.v(138)
+HDL-1007 : undeclared symbol 'pll_open19', assumed default net type 'wire' in ../../uisrc/03_ip/alip/pll.v(138)
+HDL-1007 : undeclared symbol 'pll_open17', assumed default net type 'wire' in ../../uisrc/03_ip/alip/pll.v(138)
+HDL-1007 : undeclared symbol 'pll_open15', assumed default net type 'wire' in ../../uisrc/03_ip/alip/pll.v(138)
+HDL-1007 : undeclared symbol 'pll_open22', assumed default net type 'wire' in ../../uisrc/03_ip/alip/pll.v(139)
+HDL-1007 : undeclared symbol 'pll_open20', assumed default net type 'wire' in ../../uisrc/03_ip/alip/pll.v(139)
+HDL-1007 : undeclared symbol 'pll_open18', assumed default net type 'wire' in ../../uisrc/03_ip/alip/pll.v(139)
+HDL-1007 : undeclared symbol 'pll_open16', assumed default net type 'wire' in ../../uisrc/03_ip/alip/pll.v(139)
+HDL-1007 : undeclared symbol 'pll_open14', assumed default net type 'wire' in ../../uisrc/03_ip/alip/pll.v(139)
+HDL-1007 : undeclared symbol 'pll_open13', assumed default net type 'wire' in ../../uisrc/03_ip/alip/pll.v(139)
+HDL-1007 : undeclared symbol 'pll_open12', assumed default net type 'wire' in ../../uisrc/03_ip/alip/pll.v(139)
+HDL-1007 : undeclared symbol 'pll_open11', assumed default net type 'wire' in ../../uisrc/03_ip/alip/pll.v(139)
+HDL-1007 : analyze verilog file ../../uisrc/03_ip/isp/raw_matrix_3x3_buffer/ram/blk_mem_gen_demosaic.v
+HDL-1007 : undeclared symbol 'open', assumed default net type 'wire' in ../../uisrc/03_ip/isp/raw_matrix_3x3_buffer/ram/blk_mem_gen_demosaic.v(91)
+HDL-1007 : analyze verilog file ../../uisrc/03_ip/uifdmadbuf/rfifo/rfifo.v
+HDL-1007 : analyze verilog file ../../uisrc/03_ip/uifdmadbuf/wfifo/wfifo.v
+HDL-1007 : analyze verilog file ../../uisrc/01_rtl/system_top.v
+HDL-1007 : undeclared symbol 'S_clk_70m', assumed default net type 'wire' in ../../uisrc/01_rtl/system_top.v(75)
+HDL-5007 WARNING: /* is inside a comment in ../../uisrc/01_rtl/system_top.v(220)
+HDL-1007 : undeclared symbol 'O_uart_txd', assumed default net type 'wire' in ../../uisrc/01_rtl/system_top.v(402)
+HDL-1007 : undeclared symbol 'I_uart_rxd', assumed default net type 'wire' in ../../uisrc/01_rtl/system_top.v(403)
+HDL-5333 WARNING: data object 'o_face_last' is already declared in ../../uisrc/01_rtl/system_top.v(700)
+HDL-1007 : previous declaration of 'o_face_last' is from here in ../../uisrc/01_rtl/system_top.v(250)
+HDL-5007 WARNING: second declaration of 'o_face_last' is ignored in ../../uisrc/01_rtl/system_top.v(700)
+HDL-5333 WARNING: data object 'o_face_user' is already declared in ../../uisrc/01_rtl/system_top.v(701)
+HDL-1007 : previous declaration of 'o_face_user' is from here in ../../uisrc/01_rtl/system_top.v(251)
+HDL-5007 WARNING: second declaration of 'o_face_user' is ignored in ../../uisrc/01_rtl/system_top.v(701)
+HDL-5333 WARNING: data object 'o_face_valid' is already declared in ../../uisrc/01_rtl/system_top.v(702)
+HDL-1007 : previous declaration of 'o_face_valid' is from here in ../../uisrc/01_rtl/system_top.v(252)
+HDL-5007 WARNING: second declaration of 'o_face_valid' is ignored in ../../uisrc/01_rtl/system_top.v(702)
+HDL-5333 WARNING: data object 'o_face_data' is already declared in ../../uisrc/01_rtl/system_top.v(703)
+HDL-1007 : previous declaration of 'o_face_data' is from here in ../../uisrc/01_rtl/system_top.v(253)
+HDL-5007 WARNING: second declaration of 'o_face_data' is ignored in ../../uisrc/01_rtl/system_top.v(703)
+HDL-1007 : undeclared symbol 'I_video_in_user', assumed default net type 'wire' in ../../uisrc/01_rtl/system_top.v(743)
+HDL-1007 : undeclared symbol 'I_video_in_valid', assumed default net type 'wire' in ../../uisrc/01_rtl/system_top.v(744)
+HDL-1007 : undeclared symbol 'I_video_in_last', assumed default net type 'wire' in ../../uisrc/01_rtl/system_top.v(745)
+HDL-1007 : undeclared symbol 'I_video_in_data', assumed default net type 'wire' in ../../uisrc/01_rtl/system_top.v(746)
+HDL-7225 CRITICAL-WARNING: 'I_video_in_user' is already implicitly declared on line 743 in ../../uisrc/01_rtl/system_top.v(748)
+HDL-7225 CRITICAL-WARNING: 'I_video_in_valid' is already implicitly declared on line 744 in ../../uisrc/01_rtl/system_top.v(749)
+HDL-7225 CRITICAL-WARNING: 'I_video_in_last' is already implicitly declared on line 745 in ../../uisrc/01_rtl/system_top.v(750)
+HDL-7225 CRITICAL-WARNING: 'I_video_in_data' is already implicitly declared on line 746 in ../../uisrc/01_rtl/system_top.v(751)
+HDL-1007 : analyze verilog file ../../uisrc/03_ip/ae_set/ae_set.v
+HDL-1007 : analyze verilog file ../../uisrc/03_ip/ae_set/key.v
+HDL-5370 WARNING: parameter 'T10MS' becomes localparam in 'key' with formal parameter declaration list in ../../uisrc/03_ip/ae_set/key.v(43)
+HDL-5370 WARNING: parameter 'KEY_S0' becomes localparam in 'key' with formal parameter declaration list in ../../uisrc/03_ip/ae_set/key.v(44)
+HDL-5370 WARNING: parameter 'KEY_S1' becomes localparam in 'key' with formal parameter declaration list in ../../uisrc/03_ip/ae_set/key.v(45)
+HDL-5370 WARNING: parameter 'KEY_S2' becomes localparam in 'key' with formal parameter declaration list in ../../uisrc/03_ip/ae_set/key.v(46)
+HDL-5370 WARNING: parameter 'KEY_S3' becomes localparam in 'key' with formal parameter declaration list in ../../uisrc/03_ip/ae_set/key.v(47)
+HDL-1007 : analyze verilog file ../../uisrc/03_ip/alip/ph1a_mipi_dphy_rx/mipi_dphy_rx_ph1a_mipiio_wrapper.sv
+HDL-1007 : undeclared symbol '**', assumed default net type '**' in ../../uisrc/03_ip/alip/ph1a_mipi_dphy_rx/mipi_dphy_rx_ph1a_mipiio_wrapper.sv(1029)
+HDL-1007 : undeclared symbol '**', assumed default net type '**' in ../../uisrc/03_ip/alip/ph1a_mipi_dphy_rx/mipi_dphy_rx_ph1a_mipiio_wrapper.sv(1030)
+HDL-1007 : undeclared symbol '**', assumed default net type '**' in ../../uisrc/03_ip/alip/ph1a_mipi_dphy_rx/mipi_dphy_rx_ph1a_mipiio_wrapper.sv(1053)
+HDL-1007 : undeclared symbol '**', assumed default net type '**' in ../../uisrc/03_ip/alip/ph1a_mipi_dphy_rx/mipi_dphy_rx_ph1a_mipiio_wrapper.sv(1054)
+HDL-1007 : undeclared symbol '**', assumed default net type '**' in ../../uisrc/03_ip/alip/ph1a_mipi_dphy_rx/mipi_dphy_rx_ph1a_mipiio_wrapper.sv(1078)
+HDL-1007 : undeclared symbol '**', assumed default net type '**' in ../../uisrc/03_ip/alip/ph1a_mipi_dphy_rx/mipi_dphy_rx_ph1a_mipiio_wrapper.sv(1079)
+HDL-1007 : back to file '../../uisrc/03_ip/alip/ph1a_mipi_dphy_rx/mipi_dphy_rx_ph1a_mipiio_wrapper.sv' in ../../uisrc/03_ip/alip/ph1a_mipi_dphy_rx/mipi_dphy_rx_ph1a_mipiio_wrapper.sv(34)
+HDL-1007 : analyze verilog file ../../uisrc/03_ip/uiisp_ph1a/csi_unpacket_4lane.v
+HDL-1007 : analyze verilog file ../../uisrc/03_ip/uiisp_ph1a/raw10_unpacket_4lane.v
+HDL-1007 : analyze verilog file ../../uisrc/01_rtl/image_correction.v
+HDL-1007 : undeclared symbol 'I_raw_tready', assumed default net type 'wire' in ../../uisrc/01_rtl/image_correction.v(93)
+HDL-1007 : analyze verilog file ../../uisrc/03_ip/isp/isp_top.v
+HDL-1007 : analyze verilog file ../../uisrc/03_ip/isp/BLC/BLC.v
+HDL-1007 : analyze verilog file ../../uisrc/03_ip/isp/Brightness_adjustment/uisrc/01_rtl/Brightness_adjustment.v
+HDL-5007 WARNING: block identifier is required on this block in ../../uisrc/03_ip/isp/Brightness_adjustment/uisrc/01_rtl/Brightness_adjustment.v(83)
+HDL-1007 : analyze verilog file ../../uisrc/03_ip/isp/Contrast_adjustment/uisrc/01_rtl/contrast_adj.v
+HDL-5007 WARNING: block identifier is required on this block in ../../uisrc/03_ip/isp/Contrast_adjustment/uisrc/01_rtl/contrast_adj.v(95)
+HDL-1007 : analyze verilog file ../../uisrc/03_ip/isp/Saturation_adj/uisrc/01_rtl/Saturation_adj.v
+HDL-5370 WARNING: parameter 'C0' becomes localparam in 'Saturation_adj' with formal parameter declaration list in ../../uisrc/03_ip/isp/Saturation_adj/uisrc/01_rtl/Saturation_adj.v(125)
+HDL-5370 WARNING: parameter 'C1' becomes localparam in 'Saturation_adj' with formal parameter declaration list in ../../uisrc/03_ip/isp/Saturation_adj/uisrc/01_rtl/Saturation_adj.v(126)
+HDL-5370 WARNING: parameter 'C2' becomes localparam in 'Saturation_adj' with formal parameter declaration list in ../../uisrc/03_ip/isp/Saturation_adj/uisrc/01_rtl/Saturation_adj.v(127)
+HDL-1007 : analyze verilog file ../../uisrc/03_ip/isp/awb_1_3/awb.v
+HDL-1007 : analyze verilog file ../../uisrc/03_ip/isp/awb_1_3/signal_delay.v
+HDL-1007 : analyze verilog file ../../uisrc/03_ip/isp/bilinear_interpolation/bilinear_interpolation.v
+HDL-1007 : analyze verilog file ../../uisrc/03_ip/isp/data128_96/data128_96.v
+HDL-1007 : analyze verilog file ../../uisrc/03_ip/isp/data96_128/ip/data96_128.v
+HDL-1007 : analyze verilog file ../../uisrc/03_ip/isp/gamma/gamma.v
+HDL-1007 : analyze verilog file ../../uisrc/03_ip/isp/gamma/lut_0_8.v
+HDL-1007 : analyze verilog file ../../uisrc/03_ip/isp/gamma/lut_1_2.v
+HDL-1007 : analyze verilog file ../../uisrc/03_ip/isp/gamma/lut_1_4.v
+HDL-1007 : analyze verilog file ../../uisrc/03_ip/isp/gamma/lut_1_6.v
+HDL-1007 : analyze verilog file ../../uisrc/03_ip/isp/gamma/lut_1_8.v
+HDL-1007 : analyze verilog file ../../uisrc/03_ip/isp/gamma/lut_2_0.v
+HDL-1007 : analyze verilog file ../../uisrc/03_ip/isp/gamma/lut_2_2.v
+HDL-1007 : analyze verilog file ../../uisrc/03_ip/isp/gamma/lut_2_4.v
+HDL-1007 : analyze verilog file ../../uisrc/03_ip/isp/gamma/lut_2_6.v
+HDL-1007 : analyze verilog file ../../uisrc/03_ip/isp/image_cut/uisrc/01_rtl/image_cut.v
+HDL-1007 : analyze verilog file ../../uisrc/03_ip/isp/raw_matrix_3x3_buffer/mipi_to_raw_converter.v
+HDL-1007 : analyze verilog file ../../uisrc/03_ip/isp/raw_matrix_3x3_buffer/raw_matrix_3x3_buffer.v
+HDL-1007 : analyze verilog file ../../uisrc/03_ip/isp/raw_matrix_3x3_buffer/zhenghe.v
+HDL-1007 : undeclared symbol 'rd_valid', assumed default net type 'wire' in ../../uisrc/03_ip/isp/raw_matrix_3x3_buffer/zhenghe.v(145)
+HDL-1007 : analyze verilog file ../../uisrc/03_ip/uifdma/uiFDMA.v
+HDL-1007 : analyze verilog file ../../uisrc/03_ip/isp/raw_matrix_3x3_buffer/line_buffer_demosaic.v
+HDL-1007 : analyze verilog file ../../uisrc/03_ip/uifdmadbuf/uidbuf.v
+HDL-1007 : analyze verilog file ../../uisrc/03_ip/uisetvbuf/uisetvbuf.v
+HDL-1007 : analyze verilog file ../../uisrc/03_ip/vtc/uivtc.v
+HDL-1007 : analyze verilog file ../../uisrc/03_ip/alip/ph1a_hdmi_tx_lvds/hdmi_tx.v
+HDL-1007 : analyze verilog file ../../uisrc/03_ip/alip/ph1a_hdmi_tx_lvds/hdmi_edid_receiver_wrapper.v
+HDL-1007 : back to file '../../uisrc/03_ip/alip/ph1a_hdmi_tx_lvds/hdmi_edid_receiver_wrapper.v' in ../../uisrc/03_ip/alip/ph1a_hdmi_tx_lvds/hdmi_edid_receiver_wrapper.v(19)
+HDL-1007 : analyze verilog file ../../uisrc/03_ip/alip/ph1a_hdmi_tx_lvds/hdmi_phy_wrapper.v
+HDL-1007 : analyze verilog file ../../uisrc/03_ip/alip/ph1a_hdmi_tx_lvds/hdmi_tx_controller_wrapper.v
+HDL-1007 : undeclared symbol '**', assumed default net type '**' in ../../uisrc/03_ip/alip/ph1a_hdmi_tx_lvds/hdmi_tx_controller_wrapper.v(163)
+HDL-1007 : undeclared symbol '**', assumed default net type '**' in ../../uisrc/03_ip/alip/ph1a_hdmi_tx_lvds/hdmi_tx_controller_wrapper.v(265)
+HDL-1007 : undeclared symbol '**', assumed default net type '**' in ../../uisrc/03_ip/alip/ph1a_hdmi_tx_lvds/hdmi_tx_controller_wrapper.v(273)
+HDL-1007 : back to file '../../uisrc/03_ip/alip/ph1a_hdmi_tx_lvds/hdmi_tx_controller_wrapper.v' in ../../uisrc/03_ip/alip/ph1a_hdmi_tx_lvds/hdmi_tx_controller_wrapper.v(48)
+HDL-1007 : analyze verilog file ../../uisrc/03_ip/alip/ph1a_hdmi_tx_lvds/lane_lvds_10_1.v
+HDL-1007 : analyze verilog file ../../uisrc/01_rtl/face_recognition.v
+HDL-5370 WARNING: parameter 'TOTAL_R_WIDTH' becomes localparam in 'face_recognition' with formal parameter declaration list in ../../uisrc/01_rtl/face_recognition.v(39)
+HDL-7259 CRITICAL-WARNING: multiple packed dimensions are not allowed in this mode of Verilog in ../../uisrc/01_rtl/face_recognition.v(41)
+HDL-7259 CRITICAL-WARNING: multiple packed dimensions are not allowed in this mode of Verilog in ../../uisrc/01_rtl/face_recognition.v(42)
+HDL-7259 CRITICAL-WARNING: multiple packed dimensions are not allowed in this mode of Verilog in ../../uisrc/01_rtl/face_recognition.v(43)
+HDL-7259 CRITICAL-WARNING: multiple packed dimensions are not allowed in this mode of Verilog in ../../uisrc/01_rtl/face_recognition.v(44)
+HDL-7259 CRITICAL-WARNING: multiple packed dimensions are not allowed in this mode of Verilog in ../../uisrc/01_rtl/face_recognition.v(66)
+HDL-7259 CRITICAL-WARNING: multiple packed dimensions are not allowed in this mode of Verilog in ../../uisrc/01_rtl/face_recognition.v(67)
+HDL-7259 CRITICAL-WARNING: multiple packed dimensions are not allowed in this mode of Verilog in ../../uisrc/01_rtl/face_recognition.v(68)
+HDL-7259 CRITICAL-WARNING: multiple packed dimensions are not allowed in this mode of Verilog in ../../uisrc/01_rtl/face_recognition.v(145)
+HDL-7259 CRITICAL-WARNING: multiple packed dimensions are not allowed in this mode of Verilog in ../../uisrc/01_rtl/face_recognition.v(146)
+HDL-7259 CRITICAL-WARNING: multiple packed dimensions are not allowed in this mode of Verilog in ../../uisrc/01_rtl/face_recognition.v(147)
+HDL-1007 : analyze verilog file ../../uisrc/01_rtl/image_dilate_filtering.v
+HDL-7259 CRITICAL-WARNING: multiple packed dimensions are not allowed in this mode of Verilog in ../../uisrc/01_rtl/image_dilate_filtering.v(28)
+HDL-7259 CRITICAL-WARNING: multiple packed dimensions are not allowed in this mode of Verilog in ../../uisrc/01_rtl/image_dilate_filtering.v(29)
+HDL-7259 CRITICAL-WARNING: multiple packed dimensions are not allowed in this mode of Verilog in ../../uisrc/01_rtl/image_dilate_filtering.v(30)
+HDL-7259 CRITICAL-WARNING: multiple packed dimensions are not allowed in this mode of Verilog in ../../uisrc/01_rtl/image_dilate_filtering.v(31)
+HDL-7259 CRITICAL-WARNING: multiple packed dimensions are not allowed in this mode of Verilog in ../../uisrc/01_rtl/image_dilate_filtering.v(32)
+HDL-7259 CRITICAL-WARNING: multiple packed dimensions are not allowed in this mode of Verilog in ../../uisrc/01_rtl/image_dilate_filtering.v(33)
+HDL-7259 CRITICAL-WARNING: multiple packed dimensions are not allowed in this mode of Verilog in ../../uisrc/01_rtl/image_dilate_filtering.v(34)
+HDL-7259 CRITICAL-WARNING: multiple packed dimensions are not allowed in this mode of Verilog in ../../uisrc/01_rtl/image_dilate_filtering.v(35)
+HDL-7259 CRITICAL-WARNING: multiple packed dimensions are not allowed in this mode of Verilog in ../../uisrc/01_rtl/image_dilate_filtering.v(36)
+HDL-7259 CRITICAL-WARNING: multiple packed dimensions are not allowed in this mode of Verilog in ../../uisrc/01_rtl/image_dilate_filtering.v(37)
+HDL-1007 : analyze verilog file ../../uisrc/01_rtl/image_erode_filtering.v
+HDL-7259 CRITICAL-WARNING: multiple packed dimensions are not allowed in this mode of Verilog in ../../uisrc/01_rtl/image_erode_filtering.v(35)
+HDL-7259 CRITICAL-WARNING: multiple packed dimensions are not allowed in this mode of Verilog in ../../uisrc/01_rtl/image_erode_filtering.v(36)
+HDL-7259 CRITICAL-WARNING: multiple packed dimensions are not allowed in this mode of Verilog in ../../uisrc/01_rtl/image_erode_filtering.v(37)
+HDL-7259 CRITICAL-WARNING: multiple packed dimensions are not allowed in this mode of Verilog in ../../uisrc/01_rtl/image_erode_filtering.v(38)
+HDL-7259 CRITICAL-WARNING: multiple packed dimensions are not allowed in this mode of Verilog in ../../uisrc/01_rtl/image_erode_filtering.v(39)
+HDL-7259 CRITICAL-WARNING: multiple packed dimensions are not allowed in this mode of Verilog in ../../uisrc/01_rtl/image_erode_filtering.v(40)
+HDL-7259 CRITICAL-WARNING: multiple packed dimensions are not allowed in this mode of Verilog in ../../uisrc/01_rtl/image_erode_filtering.v(41)
+HDL-7259 CRITICAL-WARNING: multiple packed dimensions are not allowed in this mode of Verilog in ../../uisrc/01_rtl/image_erode_filtering.v(42)
+HDL-7259 CRITICAL-WARNING: multiple packed dimensions are not allowed in this mode of Verilog in ../../uisrc/01_rtl/image_erode_filtering.v(43)
+HDL-1007 : analyze verilog file ../../uisrc/01_rtl/image_skin_select.v
+HDL-7187 CRITICAL-WARNING: attribute 'MARK_DEBUG' is already specified; last one will take precedence in ../../uisrc/01_rtl/image_skin_select.v(25)
+HDL-7187 CRITICAL-WARNING: attribute 'MARK_DEBUG' is already specified; last one will take precedence in ../../uisrc/01_rtl/image_skin_select.v(30)
+HDL-5370 WARNING: parameter 'SKIN_AREA_THRESH_MIN' becomes localparam in 'image_skin_select' with formal parameter declaration list in ../../uisrc/01_rtl/image_skin_select.v(34)
+HDL-5370 WARNING: parameter 'SKIN_AREA_THRESH_MAX' becomes localparam in 'image_skin_select' with formal parameter declaration list in ../../uisrc/01_rtl/image_skin_select.v(35)
+HDL-5370 WARNING: parameter 'BORDER_WIDTH' becomes localparam in 'image_skin_select' with formal parameter declaration list in ../../uisrc/01_rtl/image_skin_select.v(36)
+HDL-5370 WARNING: parameter 'MAX_BORDER_STEP' becomes localparam in 'image_skin_select' with formal parameter declaration list in ../../uisrc/01_rtl/image_skin_select.v(37)
+HDL-5370 WARNING: parameter 'FACE_ASPECT_RATIO_MIN' becomes localparam in 'image_skin_select' with formal parameter declaration list in ../../uisrc/01_rtl/image_skin_select.v(38)
+HDL-5370 WARNING: parameter 'FACE_ASPECT_RATIO_MAX' becomes localparam in 'image_skin_select' with formal parameter declaration list in ../../uisrc/01_rtl/image_skin_select.v(39)
+HDL-7259 CRITICAL-WARNING: multiple packed dimensions are not allowed in this mode of Verilog in ../../uisrc/01_rtl/image_skin_select.v(59)
+HDL-7259 CRITICAL-WARNING: multiple packed dimensions are not allowed in this mode of Verilog in ../../uisrc/01_rtl/image_skin_select.v(60)
+HDL-7259 CRITICAL-WARNING: multiple packed dimensions are not allowed in this mode of Verilog in ../../uisrc/01_rtl/image_skin_select.v(61)
+HDL-7259 CRITICAL-WARNING: multiple packed dimensions are not allowed in this mode of Verilog in ../../uisrc/01_rtl/image_skin_select.v(62)
+HDL-7259 CRITICAL-WARNING: multiple packed dimensions are not allowed in this mode of Verilog in ../../uisrc/01_rtl/image_skin_select.v(63)
+HDL-7259 CRITICAL-WARNING: multiple packed dimensions are not allowed in this mode of Verilog in ../../uisrc/01_rtl/image_skin_select.v(64)
+HDL-7259 CRITICAL-WARNING: multiple packed dimensions are not allowed in this mode of Verilog in ../../uisrc/01_rtl/image_skin_select.v(134)
+HDL-7259 CRITICAL-WARNING: multiple packed dimensions are not allowed in this mode of Verilog in ../../uisrc/01_rtl/image_skin_select.v(135)
+HDL-1007 : analyze verilog file ../../uisrc/01_rtl/image_template.v
+HDL-7259 CRITICAL-WARNING: multiple packed dimensions are not allowed in this mode of Verilog in ../../uisrc/01_rtl/image_template.v(65)
+HDL-7259 CRITICAL-WARNING: multiple packed dimensions are not allowed in this mode of Verilog in ../../uisrc/01_rtl/image_template.v(68)
+HDL-7259 CRITICAL-WARNING: multiple packed dimensions are not allowed in this mode of Verilog in ../../uisrc/01_rtl/image_template.v(71)
+HDL-7259 CRITICAL-WARNING: multiple packed dimensions are not allowed in this mode of Verilog in ../../uisrc/01_rtl/image_template.v(74)
+HDL-1007 : analyze verilog file ../../uisrc/01_rtl/skin_color_algorithm.v
+HDL-5370 WARNING: parameter 'CB_LOW' becomes localparam in 'skin_color_algorithm' with formal parameter declaration list in ../../uisrc/01_rtl/skin_color_algorithm.v(33)
+HDL-5370 WARNING: parameter 'CB_HIGH' becomes localparam in 'skin_color_algorithm' with formal parameter declaration list in ../../uisrc/01_rtl/skin_color_algorithm.v(34)
+HDL-5370 WARNING: parameter 'CR_LOW' becomes localparam in 'skin_color_algorithm' with formal parameter declaration list in ../../uisrc/01_rtl/skin_color_algorithm.v(35)
+HDL-5370 WARNING: parameter 'CR_HIGH' becomes localparam in 'skin_color_algorithm' with formal parameter declaration list in ../../uisrc/01_rtl/skin_color_algorithm.v(36)
+HDL-7259 CRITICAL-WARNING: multiple packed dimensions are not allowed in this mode of Verilog in ../../uisrc/01_rtl/skin_color_algorithm.v(39)
+HDL-7259 CRITICAL-WARNING: multiple packed dimensions are not allowed in this mode of Verilog in ../../uisrc/01_rtl/skin_color_algorithm.v(40)
+HDL-7259 CRITICAL-WARNING: multiple packed dimensions are not allowed in this mode of Verilog in ../../uisrc/01_rtl/skin_color_algorithm.v(41)
+HDL-7259 CRITICAL-WARNING: multiple packed dimensions are not allowed in this mode of Verilog in ../../uisrc/01_rtl/skin_color_algorithm.v(43)
+HDL-7259 CRITICAL-WARNING: multiple packed dimensions are not allowed in this mode of Verilog in ../../uisrc/01_rtl/skin_color_algorithm.v(44)
+HDL-7259 CRITICAL-WARNING: multiple packed dimensions are not allowed in this mode of Verilog in ../../uisrc/01_rtl/skin_color_algorithm.v(45)
+HDL-7259 CRITICAL-WARNING: multiple packed dimensions are not allowed in this mode of Verilog in ../../uisrc/01_rtl/skin_color_algorithm.v(47)
+HDL-7259 CRITICAL-WARNING: multiple packed dimensions are not allowed in this mode of Verilog in ../../uisrc/01_rtl/skin_color_algorithm.v(48)
+HDL-7259 CRITICAL-WARNING: multiple packed dimensions are not allowed in this mode of Verilog in ../../uisrc/01_rtl/skin_color_algorithm.v(49)
+HDL-7259 CRITICAL-WARNING: multiple packed dimensions are not allowed in this mode of Verilog in ../../uisrc/01_rtl/skin_color_algorithm.v(51)
+HDL-7259 Similar messages will be suppressed.
+HDL-1007 : analyze verilog file ../../uisrc/01_rtl/u888to_24_to_128.v
+HDL-1007 : analyze verilog file ../../uisrc/01_rtl/128_to_24_to_888.v
+HDL-1007 : analyze verilog file ../../uisrc/03_ip/uimx_415_cfg/u_imx_415.v
+HDL-1007 : undeclared symbol 'iic_busy', assumed default net type 'wire' in ../../uisrc/03_ip/uimx_415_cfg/u_imx_415.v(158)
+HDL-1007 : analyze verilog file ../../uisrc/03_ip/uimx_415_cfg/u_imx_415_reg.v
+HDL-1007 : analyze verilog file ../../uisrc/03_ip/uimx_415_cfg/uii2c.v
+PRJ-1401 : Successfully analyzed 62 source files.
+RUN-1003 : finish command "open_project imx_isp.prj" in  1.168205s wall, 1.000000s user + 0.109375s system = 1.109375s CPU (95.0%)
+
+RUN-1004 : used memory is 1216 MB, reserved memory is 1212 MB, peak memory is 1216 MB
+RUN-1002 : start command "commit_param -step design"
+RUN-1001 : Print Global Property
+RUN-1001 : -------------------------------------------------------------
+RUN-1001 :     Parameters    |   Settings   |  Default Values  |  Note  
+RUN-1001 : -------------------------------------------------------------
+RUN-1001 :    enable_seed    |     off      |       off        |        
+RUN-1001 :    hfn_to_clock   |  1000000000  |    1000000000    |        
+RUN-1001 :      message      |   standard   |     standard     |        
+RUN-1001 :    qor_monitor    |      on      |        on        |        
+RUN-1001 :   speedup_effort  |      0       |        0         |        
+RUN-1001 :    syn_ip_flow    |     off      |       off        |        
+RUN-1001 :       thread      |     auto     |       auto       |        
+RUN-1001 : -------------------------------------------------------------
+RUN-1001 : Print Design Property
+RUN-1001 : ----------------------------------------------------------------
+RUN-1001 :       Parameters       |  Settings  |  Default Values  |  Note  
+RUN-1001 : ----------------------------------------------------------------
+RUN-1001 :   default_reg_initial  |    auto    |       auto       |        
+RUN-1001 :    hdl_warning_level   |   normal   |      normal      |        
+RUN-1001 : ----------------------------------------------------------------
+RUN-1002 : start command "elaborate -top system_top"
+HDL-1007 : port 'O_lp_rx_lane0_p' remains unconnected for this instance in ../../uisrc/01_rtl/system_top.v(135)
+HDL-1007 : port 'O_lp_rx_lane0_n' remains unconnected for this instance in ../../uisrc/01_rtl/system_top.v(135)
+HDL-1007 : port 'O_raw_tready' remains unconnected for this instance in ../../uisrc/01_rtl/system_top.v(207)
+HDL-1007 : port 'M_AXI_WID' remains unconnected for this instance in ../../uisrc/01_rtl/system_top.v(530)
+HDL-1007 : port 'O_fdma_wbuf' remains unconnected for this instance in ../../uisrc/01_rtl/system_top.v(630)
+HDL-1007 : port 'O_fdma_wirq' remains unconnected for this instance in ../../uisrc/01_rtl/system_top.v(630)
+HDL-1007 : port 'O_fdma_rbuf' remains unconnected for this instance in ../../uisrc/01_rtl/system_top.v(630)
+HDL-1007 : port 'O_fdma_rirq' remains unconnected for this instance in ../../uisrc/01_rtl/system_top.v(630)
+HDL-1007 : port 'o_en_pos' remains unconnected for this instance in ../../uisrc/01_rtl/system_top.v(716)
+HDL-1007 : port 'o_x_pos' remains unconnected for this instance in ../../uisrc/01_rtl/system_top.v(716)
+HDL-1007 : port 'o_y_pos' remains unconnected for this instance in ../../uisrc/01_rtl/system_top.v(716)
+HDL-1007 : port 'O_edid_read_valid' remains unconnected for this instance in ../../uisrc/01_rtl/system_top.v(759)
+HDL-1007 : port 'O_edid_read_data' remains unconnected for this instance in ../../uisrc/01_rtl/system_top.v(759)
+HDL-1007 : port 'I_video_rgb_enable' remains unconnected for this instance in ../../uisrc/01_rtl/system_top.v(759)
+HDL-1007 : port 'I_video_in_de' remains unconnected for this instance in ../../uisrc/01_rtl/system_top.v(759)
+HDL-1007 : port 'I_video_in_vs' remains unconnected for this instance in ../../uisrc/01_rtl/system_top.v(759)
+HDL-1007 : port 'O_video_in_ready' remains unconnected for this instance in ../../uisrc/01_rtl/system_top.v(759)
+HDL-1007 : port 'O_edid_iic_scl' remains unconnected for this instance in ../../uisrc/01_rtl/system_top.v(759)
+HDL-1007 : port 'IO_edid_iic_sda' remains unconnected for this instance in ../../uisrc/01_rtl/system_top.v(759)
+HDL-1007 : port 'O_tmds_ch0_p' remains unconnected for this instance in ../../uisrc/01_rtl/system_top.v(759)
+HDL-1007 : port 'O_tmds_ch1_p' remains unconnected for this instance in ../../uisrc/01_rtl/system_top.v(759)
+HDL-1007 : port 'O_tmds_ch2_p' remains unconnected for this instance in ../../uisrc/01_rtl/system_top.v(759)
+HDL-1007 : port 'O_tmds_clk_p' remains unconnected for this instance in ../../uisrc/01_rtl/system_top.v(759)
+HDL-1007 : elaborate module system_top in ../../uisrc/01_rtl/system_top.v(13)
+HDL-1007 : elaborate module pll in ../../uisrc/03_ip/alip/pll.v(25)
+HDL-1007 : elaborate module PH1_LOGIC_BUFG in D:\TD\arch/ph1_macro.v(11395)
+HDL-1007 : elaborate module PH1_PHY_PLL(FBKCLK="VCO_PHASE0",FBCLK_DIV=55,CLKC0_CPHASE=9,CLKC1_CPHASE=1,CLKC2_CPHASE=19,CLKC3_CPHASE=56,CLKC0_DIV=10,CLKC1_DIV=2,CLKC2_DIV=20,CLKC3_DIV=57,CLKC0_DUTY_INT=5,CLKC2_DUTY_INT=10,CLKC3_DUTY_INT=29,CLKC0_ENABLE="ENABLE",CLKC1_ENABLE="ENABLE",CLKC2_ENABLE="ENABLE",CLKC3_ENABLE="ENABLE",FIN="25.000000",FEEDBK_MODE="NOCOMP",LPF_RES=3,ICP_CUR=11,GMC_GAIN=1,INTPI=1,SSC_RNGE=0) in D:\TD\arch/ph1_macro.v(856)
+HDL-1007 : elaborate module ae_set in ../../uisrc/03_ip/ae_set/ae_set.v(33)
+HDL-1007 : elaborate module key(REF_CLK=32'b01011011100011011000000000) in ../../uisrc/03_ip/ae_set/key.v(31)
+HDL-1007 : port 'O_iic_sda_dg' remains unconnected for this instance in ../../uisrc/03_ip/uimx_415_cfg/u_imx_415.v(140)
+HDL-1007 : elaborate module u_imx_415(CLK_DIV=239) in ../../uisrc/03_ip/uimx_415_cfg/u_imx_415.v(5)
+HDL-1007 : elaborate module uii2c(WMEN_LEN=4,RMEN_LEN=1,CLK_DIV=239) in ../../uisrc/03_ip/uimx_415_cfg/uii2c.v(41)
+HDL-1007 : elaborate module u_imx_415_reg in ../../uisrc/03_ip/uimx_415_cfg/u_imx_415_reg.v(35)
+HDL-5007 WARNING: actual bit length 8 differs from formal bit length 9 for port 'REG_INDEX' in ../../uisrc/03_ip/uimx_415_cfg/u_imx_415.v(167)
+HDL-5007 WARNING: actual bit length 24 differs from formal bit length 32 for port 'REG_DATA' in ../../uisrc/03_ip/uimx_415_cfg/u_imx_415.v(168)
+HDL-1007 : elaborate module PH1_LOGIC_ODDR in D:\TD\arch/ph1_macro.v(11498)
+HDL-1007 : elaborate module mipi_dphy_rx_ph1a_mipiio_wrapper in ../../uisrc/03_ip/alip/ph1a_mipi_dphy_rx/mipi_dphy_rx_ph1a_mipiio_wrapper.sv(4)
+HDL-1007 : elaborate module ** in ../../uisrc/03_ip/alip/ph1a_mipi_dphy_rx/mipi_dphy_rx_ph1a_mipiio_wrapper.sv(396)
+HDL-1007 : elaborate module ** in ../../uisrc/03_ip/alip/ph1a_mipi_dphy_rx/mipi_dphy_rx_ph1a_mipiio_wrapper.sv(442)
+HDL-1007 : elaborate module ** in ../../uisrc/03_ip/alip/ph1a_mipi_dphy_rx/mipi_dphy_rx_ph1a_mipiio_wrapper.sv(94)
+HDL-1007 : elaborate module ** in ../../uisrc/03_ip/alip/ph1a_mipi_dphy_rx/mipi_dphy_rx_ph1a_mipiio_wrapper.sv(177)
+HDL-1007 : elaborate module ** in ../../uisrc/03_ip/alip/ph1a_mipi_dphy_rx/mipi_dphy_rx_ph1a_mipiio_wrapper.sv(653)
+HDL-1007 : elaborate module ** in ../../uisrc/03_ip/alip/ph1a_mipi_dphy_rx/mipi_dphy_rx_ph1a_mipiio_wrapper.sv(559)
+HDL-1007 : elaborate module PH1_PHY_MIPIIO(RTERM_CTL_0=4'b1111,RTERM_CTL_1=4'b1111,RTERM_CTL_2=4'b1111,RTERM_CTL_3=4'b1111,RTERM_CTL_C=4'b1111) in D:\TD\arch/ph1_macro.v(8918)
+HDL-5317 WARNING: input port '**' is not connected on this instance in ../../uisrc/03_ip/alip/ph1a_mipi_dphy_rx/mipi_dphy_rx_ph1a_mipiio_wrapper.sv(949)
+HDL-5007 WARNING: actual bit length 8 differs from formal bit length 9 for port 'I_clk_lane_in_delay' in ../../uisrc/01_rtl/system_top.v(142)
+HDL-5007 WARNING: actual bit length 2 differs from formal bit length 4 for port 'O_lane_error' in ../../uisrc/01_rtl/system_top.v(158)
+HDL-1007 : elaborate module csi_unpacket_4lane in ../../uisrc/03_ip/uiisp_ph1a/csi_unpacket_4lane.v(34)
+HDL-1007 : elaborate module raw10_unpacket_4lane in ../../uisrc/03_ip/uiisp_ph1a/raw10_unpacket_4lane.v(33)
+HDL-1007 : elaborate module image_correction in ../../uisrc/01_rtl/image_correction.v(19)
+HDL-1007 : elaborate module isp_top in ../../uisrc/03_ip/isp/isp_top.v(1)
+HDL-1007 : elaborate module BLC(Black_level_offset_r0=50,Black_level_offset_r1=50,Black_level_offset_r2=50,Black_level_offset_r3=50) in ../../uisrc/03_ip/isp/BLC/BLC.v(11)
+HDL-1007 : elaborate module raw_matrix_3x3_buffer in ../../uisrc/03_ip/isp/raw_matrix_3x3_buffer/raw_matrix_3x3_buffer.v(21)
+HDL-1007 : elaborate module mipi_to_raw_converter in ../../uisrc/03_ip/isp/raw_matrix_3x3_buffer/mipi_to_raw_converter.v(20)
+HDL-5007 WARNING: actual bit length 32 differs from formal bit length 1 for port 'O_raw_tready' in ../../uisrc/03_ip/isp/raw_matrix_3x3_buffer/raw_matrix_3x3_buffer.v(148)
+HDL-1007 : port 'doa' remains unconnected for this instance in ../../uisrc/03_ip/isp/raw_matrix_3x3_buffer/zhenghe.v(167)
+HDL-1007 : elaborate module zhenghe(IMG_WIDTH=1920,IMG_HEIGHT=1080,DATA_WIDTH=32) in ../../uisrc/03_ip/isp/raw_matrix_3x3_buffer/zhenghe.v(21)
+HDL-1007 : elaborate module blk_mem_gen_zhenghe in ../../al_ip/blk_mem_gen_zhenghe.v(14)
+HDL-1007 : elaborate module PH1_LOGIC_ERAM(DATA_WIDTH_A=32,DATA_WIDTH_B=32,ADDR_WIDTH_A=11,ADDR_WIDTH_B=11,DATA_DEPTH_A=2048,DATA_DEPTH_B=2048,WRITEMODE_B="READBEFOREWRITE",OREGSET_A="RESET",OREGSET_B="RESET",SSROVERCE="DISABLE",ASYNC_RESET_RELEASE_A="ASYNC",ASYNC_RESET_RELEASE_B="ASYNC",IMPLEMENT="20K(FAST)") in D:\TD\arch/ph1_macro.v(22)
+HDL-5323 WARNING: input port 'dib[31]' remains unconnected for this instance in ../../uisrc/03_ip/isp/raw_matrix_3x3_buffer/zhenghe.v(167)
+HDL-1007 : port 'doa' remains unconnected for this instance in ../../uisrc/03_ip/isp/raw_matrix_3x3_buffer/line_buffer_demosaic.v(80)
+HDL-1007 : elaborate module line_buffer_demosaic in ../../uisrc/03_ip/isp/raw_matrix_3x3_buffer/line_buffer_demosaic.v(21)
+HDL-1007 : elaborate module blk_mem_gen_demosaic in ../../uisrc/03_ip/isp/raw_matrix_3x3_buffer/ram/blk_mem_gen_demosaic.v(14)
+HDL-1007 : elaborate module PH1_LOGIC_ERAM(DATA_WIDTH_A=33,DATA_WIDTH_B=33,ADDR_WIDTH_A=11,ADDR_WIDTH_B=11,DATA_DEPTH_A=2048,DATA_DEPTH_B=2048,WRITEMODE_B="READBEFOREWRITE",OREGSET_A="RESET",OREGSET_B="RESET",SSROVERCE="DISABLE",ASYNC_RESET_RELEASE_A="ASYNC",ASYNC_RESET_RELEASE_B="ASYNC",IMPLEMENT="20K(FAST)") in D:\TD\arch/ph1_macro.v(22)
+HDL-5323 WARNING: input port 'dib[32]' remains unconnected for this instance in ../../uisrc/03_ip/isp/raw_matrix_3x3_buffer/line_buffer_demosaic.v(80)
+HDL-1007 : elaborate module bilinear_interpolation in ../../uisrc/03_ip/isp/bilinear_interpolation/bilinear_interpolation.v(30)
+HDL-1007 : elaborate module data128_96 in ../../uisrc/03_ip/isp/data128_96/data128_96.v(10)
+HDL-1007 : port 'remainder' remains unconnected for this instance in ../../uisrc/03_ip/isp/awb_1_3/awb.v(215)
+HDL-1007 : port 'remainder' remains unconnected for this instance in ../../uisrc/03_ip/isp/awb_1_3/awb.v(225)
+HDL-1007 : elaborate module awb in ../../uisrc/03_ip/isp/awb_1_3/awb.v(20)
+HDL-1007 : elaborate module divider in ../../al_ip/divider_gate.v(5)
+HDL-1007 : elaborate module AL_DFF_X in D:\TD\arch/al_lmacro.v(277)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b10000000100000000000000010000000,EQN="(C*B*A*~(~E*D))") in D:\TD\arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b01,EQN="(~F*~E*~D*~C*~B*~A)") in D:\TD\arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b01000,EQN="(~F*~E*~D*~C*B*A)") in D:\TD\arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b01111111111111110000000000000000,EQN="(E*~(D*C*B*A))") in D:\TD\arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT2(INIT=4'b010,EQN="(~B*A)") in D:\TD\arch/al_lmacro.v(48)
+HDL-1007 : elaborate module AL_MAP_LUT3(INIT=8'b010,EQN="(~C*~B*A)") in D:\TD\arch/al_lmacro.v(36)
+HDL-1007 : elaborate module AL_MAP_ADDER(ALUTYPE="SUB_CARRY") in D:\TD\arch/al_lmacro.v(72)
+HDL-1007 : elaborate module AL_MAP_ADDER(ALUTYPE="SUB") in D:\TD\arch/al_lmacro.v(72)
+HDL-1007 : elaborate module AL_MAP_LUT3(INIT=8'b11011000,EQN="(C*~(B)*~(A)+C*B*~(A)+~(C)*B*A+C*B*A)") in D:\TD\arch/al_lmacro.v(36)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b01,EQN="(~D*~C*~B*~A)") in D:\TD\arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b1000000000000000,EQN="(D*C*B*A)") in D:\TD\arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT3(INIT=8'b11100100,EQN="(B*~(C)*~(A)+B*C*~(A)+~(B)*C*A+B*C*A)") in D:\TD\arch/al_lmacro.v(36)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b010000000,EQN="(~F*~E*~D*C*B*A)") in D:\TD\arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b010000000,EQN="(~E*~D*C*B*A)") in D:\TD\arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b010000000,EQN="(~D*C*B*A)") in D:\TD\arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT3(INIT=8'b10000000,EQN="(C*B*A)") in D:\TD\arch/al_lmacro.v(36)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b01,EQN="(~E*~D*~C*~B*~A)") in D:\TD\arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b01000,EQN="(~E*~D*~C*B*A)") in D:\TD\arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b01000,EQN="(~D*~C*B*A)") in D:\TD\arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT3(INIT=8'b01000,EQN="(~C*B*A)") in D:\TD\arch/al_lmacro.v(36)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b1000100010001000000010001000100000000000100010000000000000001000,EQN="(B*A*(~(D)*~((~E*C))*~(F)+~(D)*~((~E*C))*F+D*~((~E*C))*F+~(D)*(~E*C)*F))") in D:\TD\arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b0111111101111111000000001000000011111111011111110000000000000000,EQN="(~((C*B*A))*~(D)*E*~(F)+~((C*B*A))*D*E*~(F)+(C*B*A)*D*E*~(F)+(C*B*A)*~(D)*~(E)*F+~((C*B*A))*~(D)*E*F+~((C*B*A))*D*E*F)") in D:\TD\arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b0111011111111111111101110111111100000000000000000000000000000000,EQN="(F*~(B*A*(D@(~E*C))))") in D:\TD\arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT2(INIT=4'b1000,EQN="(B*A)") in D:\TD\arch/al_lmacro.v(48)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b010,EQN="(~F*~E*~D*~C*~B*A)") in D:\TD\arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b010,EQN="(~E*~D*~C*~B*A)") in D:\TD\arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b010,EQN="(~D*~C*~B*A)") in D:\TD\arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT3(INIT=8'b01,EQN="(~C*~B*~A)") in D:\TD\arch/al_lmacro.v(36)
+HDL-1007 : elaborate module AL_MAP_LUT2(INIT=4'b0100,EQN="(B*~A)") in D:\TD\arch/al_lmacro.v(48)
+HDL-1007 : elaborate module AL_MAP_LUT2(INIT=4'b01,EQN="(~B*~A)") in D:\TD\arch/al_lmacro.v(48)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b1000000000000000000000000000000000000000000000000000000000000000,EQN="(F*E*D*C*B*A)") in D:\TD\arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT4(INIT=16'b1011111101000000,EQN="(D@(C*B*~A))") in D:\TD\arch/al_lmacro.v(24)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b10000000111000001111100011111110,EQN="(A*~(B)*~(C)*~(D)*~(E)+~(A)*B*~(C)*~(D)*~(E)+A*B*~(C)*~(D)*~(E)+~(A)*~(B)*C*~(D)*~(E)+A*~(B)*C*~(D)*~(E)+~(A)*B*C*~(D)*~(E)+A*B*C*~(D)*~(E)+A*B*~(C)*D*~(E)+~(A)*~(B)*C*D*~(E)+A*~(B)*C*D*~(E)+~(A)*B*C*D*~(E)+A*B*C*D*~(E)+A*~(B)*C*~(D)*E+~(A)*B*C*~(D)*E+A*B*C*~(D)*E+A*B*C*D*E)") in D:\TD\arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b01000000000000001000000000000000,EQN="(D*C*B*(E@A))") in D:\TD\arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b1011111111111111111111111111111101000000000000000000000000000000,EQN="(F@(E*D*C*B*~A))") in D:\TD\arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b1101010101111111111111010101011100000000000000000000000000000000,EQN="(F*~(A*~(D@(~(B)*~(C)*~(E)+~(B)*~(C)*E+B*~(C)*E+~(B)*C*E))))") in D:\TD\arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT3(INIT=8'b11001010,EQN="(A*~(B)*~(C)+A*B*~(C)+~(A)*B*C+A*B*C)") in D:\TD\arch/al_lmacro.v(36)
+HDL-1007 : elaborate module AL_MAP_LUT3(INIT=8'b01000000,EQN="(C*B*~A)") in D:\TD\arch/al_lmacro.v(36)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b1111111101111111001111110001111100001111000001110000001100000001,EQN="(~(B)*~(C)*~((~D*A))*~(E)*~(F)+~(B)*~(C)*~((~D*A))*E*~(F)+B*~(C)*~((~D*A))*E*~(F)+~(B)*~(C)*(~D*A)*E*~(F)+~(B)*~(C)*~((~D*A))*~(E)*F+B*~(C)*~((~D*A))*~(E)*F+~(B)*C*~((~D*A))*~(E)*F+~(B)*~(C)*(~D*A)*~(E)*F+B*~(C)*(~D*A)*~(E)*F+~(B)*~(C)*~((~D*A))*E*F+B*~(C)*~((~D*A))*E*F+~(B)*C*~((~D*A))*E*F+B*C*~((~D*A))*E*F+~(B)*~(C)*(~D*A)*E*F+B*~(C)*(~D*A)*E*F+~(B)*C*(~D*A)*E*F)") in D:\TD\arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b10111111111111110100000000000000,EQN="(E@(D*C*B*~A))") in D:\TD\arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT3(INIT=8'b01001101,EQN="(~(A)*~(B)*~(C)+~(A)*B*~(C)+A*B*~(C)+~(A)*B*C)") in D:\TD\arch/al_lmacro.v(36)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b10001000000000000000100010000000,EQN="(B*A*(D@(~E*C)))") in D:\TD\arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b11110000011110000011110000011110,EQN="(C@(B*~((~D*A))*~(E)+~(B)*(~D*A)*~(E)+B*(~D*A)*~(E)+B*(~D*A)*E))") in D:\TD\arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b01111111111101110000000000000000,EQN="(E*~(B*A*~(D@C)))") in D:\TD\arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b01000000110100001111010011111101,EQN="(~(A)*~(B)*~(C)*~(D)*~(E)+~(A)*B*~(C)*~(D)*~(E)+A*B*~(C)*~(D)*~(E)+~(A)*~(B)*C*~(D)*~(E)+A*~(B)*C*~(D)*~(E)+~(A)*B*C*~(D)*~(E)+A*B*C*~(D)*~(E)+~(A)*B*~(C)*D*~(E)+~(A)*~(B)*C*D*~(E)+A*~(B)*C*D*~(E)+~(A)*B*C*D*~(E)+A*B*C*D*~(E)+~(A)*~(B)*C*~(D)*E+~(A)*B*C*~(D)*E+A*B*C*~(D)*E+~(A)*B*C*D*E)") in D:\TD\arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b10000000000000000000000000000000,EQN="(E*D*C*B*A)") in D:\TD\arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b10111111111110110100000000000100,EQN="(E@(B*~A*~(D@C)))") in D:\TD\arch/al_lmacro.v(13)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b0111010111011111111101110101110100000000000000000000000000000000,EQN="(F*~(A*~(D@(B*~(C)*~(E)+~(B)*~(C)*E+B*~(C)*E+B*C*E))))") in D:\TD\arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT6(INIT=64'b01000000000000000,EQN="(~F*~E*D*C*B*A)") in D:\TD\arch/al_lmacro.v(2)
+HDL-1007 : elaborate module AL_MAP_LUT5(INIT=32'b01000000000000000,EQN="(~E*D*C*B*A)") in D:\TD\arch/al_lmacro.v(13)
+HDL-5317 WARNING: input port 'b' is not connected on this instance in ../../al_ip/divider_gate.v(2727)
+HDL-5317 WARNING: input port 'a' is not connected on this instance in ../../al_ip/divider_gate.v(2809)
+HDL-5317 WARNING: input port 'b' is not connected on this instance in ../../al_ip/divider_gate.v(3781)
+HDL-5317 WARNING: input port 'a' is not connected on this instance in ../../al_ip/divider_gate.v(3870)
+HDL-5317 WARNING: input port 'b' is not connected on this instance in ../../al_ip/divider_gate.v(4852)
+HDL-5317 WARNING: input port 'a' is not connected on this instance in ../../al_ip/divider_gate.v(4948)
+HDL-5317 WARNING: input port 'b' is not connected on this instance in ../../al_ip/divider_gate.v(5946)
+HDL-5317 WARNING: input port 'a' is not connected on this instance in ../../al_ip/divider_gate.v(6049)
+HDL-5317 WARNING: input port 'b' is not connected on this instance in ../../al_ip/divider_gate.v(7063)
+HDL-5317 WARNING: input port 'a' is not connected on this instance in ../../al_ip/divider_gate.v(7173)
+HDL-5317 Similar messages will be suppressed.
+HDL-1007 : port 'doa' remains unconnected for this instance in ../../uisrc/03_ip/isp/awb_1_3/signal_delay.v(120)
+HDL-1007 : elaborate module signal_delay in ../../uisrc/03_ip/isp/awb_1_3/signal_delay.v(18)
+HDL-1007 : elaborate module blk_mem_gen_awb_delay_signal in ../../al_ip/blk_mem_gen_awb_delay_signal.v(14)
+HDL-1007 : elaborate module PH1_LOGIC_ERAM(DATA_WIDTH_A=96,DATA_WIDTH_B=96,ADDR_WIDTH_A=11,ADDR_WIDTH_B=11,DATA_DEPTH_A=2048,DATA_DEPTH_B=2048,WRITEMODE_B="READBEFOREWRITE",OREGSET_A="RESET",OREGSET_B="RESET",SSROVERCE="DISABLE",ASYNC_RESET_RELEASE_A="ASYNC",ASYNC_RESET_RELEASE_B="ASYNC",IMPLEMENT="20K(FAST)") in D:\TD\arch/ph1_macro.v(22)
+HDL-5323 WARNING: input port 'dib[95]' remains unconnected for this instance in ../../uisrc/03_ip/isp/awb_1_3/signal_delay.v(120)
+HDL-1007 : elaborate module image_cut(IMG_WIDTH=1920,IMG_HEIGHT=1080,SKIP_ROWS_top=0,SKIP_ROWS_bottom=0,SKIP_COLS_left=1,SKIP_COLS_right=0) in ../../uisrc/03_ip/isp/image_cut/uisrc/01_rtl/image_cut.v(20)
+HDL-1007 : elaborate module gamma in ../../uisrc/03_ip/isp/gamma/gamma.v(9)
+HDL-1007 : elaborate module lut_2_6 in ../../uisrc/03_ip/isp/gamma/lut_2_6.v(9)
+HDL-1007 : elaborate module lut_2_4 in ../../uisrc/03_ip/isp/gamma/lut_2_4.v(9)
+HDL-1007 : elaborate module lut_2_2 in ../../uisrc/03_ip/isp/gamma/lut_2_2.v(9)
+HDL-1007 : elaborate module lut_2_0 in ../../uisrc/03_ip/isp/gamma/lut_2_0.v(9)
+HDL-1007 : elaborate module lut_1_8 in ../../uisrc/03_ip/isp/gamma/lut_1_8.v(9)
+HDL-1007 : elaborate module lut_1_6 in ../../uisrc/03_ip/isp/gamma/lut_1_6.v(9)
+HDL-1007 : elaborate module lut_1_4 in ../../uisrc/03_ip/isp/gamma/lut_1_4.v(9)
+HDL-1007 : elaborate module lut_1_2 in ../../uisrc/03_ip/isp/gamma/lut_1_2.v(9)
+HDL-1007 : elaborate module lut_0_8 in ../../uisrc/03_ip/isp/gamma/lut_0_8.v(9)
+HDL-1007 : elaborate module Saturation_adj(ADJUST_VAL=145) in ../../uisrc/03_ip/isp/Saturation_adj/uisrc/01_rtl/Saturation_adj.v(25)
+HDL-1007 : elaborate module contrast_adj(contrast_level=140) in ../../uisrc/03_ip/isp/Contrast_adjustment/uisrc/01_rtl/contrast_adj.v(18)
+HDL-1007 : elaborate module Brightness_adjustment(BRIGHTNESS_ADD=0,BRIGHTNESS_MINUS=5) in ../../uisrc/03_ip/isp/Brightness_adjustment/uisrc/01_rtl/Brightness_adjustment.v(18)
+HDL-1007 : elaborate module data96_128 in ../../uisrc/03_ip/isp/data96_128/ip/data96_128.v(10)
+HDL-1007 : elaborate module face_recognition(R_VALUE=255,G_VALUE=0,B_VALUE=0,H_ActiveSize=1920,H_FrameSize=2200,H_SyncStart=2008,H_SyncEnd=2052,V_FrameSize=1125,V_SyncStart=1084,V_SyncEnd=1089) in ../../uisrc/01_rtl/face_recognition.v(1)
+HDL-1007 : elaborate module u128_to_24_to_888 in ../../uisrc/01_rtl/128_to_24_to_888.v(1)
+HDL-1007 : elaborate module skin_color_algorithm in ../../uisrc/01_rtl/skin_color_algorithm.v(1)
+HDL-1007 : elaborate module image_dilate_filtering(TOTAL_R_WIDTH=32) in ../../uisrc/01_rtl/image_dilate_filtering.v(1)
+HDL-1007 : elaborate module image_template in ../../uisrc/01_rtl/image_template.v(4)
+HDL-1007 : port 'rst' remains unconnected for this instance in ../../al_ip/Soft_FIFO_0/Soft_FIFO_0.v(32)
+HDL-1007 : port 'clkr' remains unconnected for this instance in ../../al_ip/Soft_FIFO_0/Soft_FIFO_0.v(32)
+HDL-1007 : port 'rrst' remains unconnected for this instance in ../../al_ip/Soft_FIFO_0/Soft_FIFO_0.v(32)
+HDL-1007 : port 'clkw' remains unconnected for this instance in ../../al_ip/Soft_FIFO_0/Soft_FIFO_0.v(32)
+HDL-1007 : port 'wrst' remains unconnected for this instance in ../../al_ip/Soft_FIFO_0/Soft_FIFO_0.v(32)
+HDL-1007 : elaborate module Soft_FIFO_0 in ../../al_ip/Soft_FIFO_0/Soft_FIFO_0.v(10)
+HDL-1007 : port '**' remains unconnected for this instance in ../../al_ip/Soft_FIFO_0/RTL/soft_fifo_3decfaec05bd.v(290)
+HDL-1007 : elaborate module ** in ../../al_ip/Soft_FIFO_0/RTL/soft_fifo_3decfaec05bd.v(2)
+HDL-1007 : elaborate module ** in ../../al_ip/Soft_FIFO_0/RTL/soft_fifo_3decfaec05bd.v(667)
+HDL-1007 : elaborate module ** in ../../al_ip/Soft_FIFO_0/RTL/soft_fifo_3decfaec05bd.v(848)
+HDL-1007 : extracting RAM for identifier '**' in ../../al_ip/Soft_FIFO_0/RTL/soft_fifo_3decfaec05bd.v(952)
+HDL-5323 WARNING: input port '**' remains unconnected for this instance in ../../al_ip/Soft_FIFO_0/RTL/soft_fifo_3decfaec05bd.v(813)
+HDL-5317 WARNING: input port '**' is not connected on this instance in ../../al_ip/Soft_FIFO_0/RTL/soft_fifo_3decfaec05bd.v(813)
+HDL-1007 : elaborate module ** in ../../al_ip/Soft_FIFO_0/RTL/soft_fifo_3decfaec05bd.v(1649)
+HDL-1007 : elaborate module ** in ../../al_ip/Soft_FIFO_0/RTL/soft_fifo_3decfaec05bd.v(2085)
+HDL-1007 : elaborate module ** in ../../al_ip/Soft_FIFO_0/RTL/soft_fifo_3decfaec05bd.v(544)
+HDL-1007 : elaborate module ** in ../../al_ip/Soft_FIFO_0/RTL/soft_fifo_3decfaec05bd.v(1564)
+HDL-5314 WARNING: net '**' does not have a driver in ../../al_ip/Soft_FIFO_0/RTL/soft_fifo_3decfaec05bd.v(1721)
+HDL-5314 WARNING: net '**' does not have a driver in ../../al_ip/Soft_FIFO_0/RTL/soft_fifo_3decfaec05bd.v(1722)
+HDL-1007 : elaborate module ** in ../../al_ip/Soft_FIFO_0/RTL/soft_fifo_3decfaec05bd.v(2470)
+HDL-1007 : elaborate module ** in ../../al_ip/Soft_FIFO_0/RTL/soft_fifo_3decfaec05bd.v(2262)
+HDL-1007 : elaborate module ** in ../../al_ip/Soft_FIFO_0/RTL/soft_fifo_3decfaec05bd.v(3021)
+HDL-1007 : elaborate module ** in ../../al_ip/Soft_FIFO_0/RTL/soft_fifo_3decfaec05bd.v(2849)
+HDL-5314 WARNING: net '**' does not have a driver in ../../al_ip/Soft_FIFO_0/RTL/soft_fifo_3decfaec05bd.v(86)
+HDL-5314 WARNING: net '**' does not have a driver in ../../al_ip/Soft_FIFO_0/RTL/soft_fifo_3decfaec05bd.v(87)
+HDL-5314 WARNING: net '**' does not have a driver in ../../al_ip/Soft_FIFO_0/RTL/soft_fifo_3decfaec05bd.v(88)
+HDL-5314 WARNING: net '**' does not have a driver in ../../al_ip/Soft_FIFO_0/RTL/soft_fifo_3decfaec05bd.v(89)
+HDL-5317 WARNING: input port 'rst' is not connected on this instance in ../../al_ip/Soft_FIFO_0/Soft_FIFO_0.v(50)
+HDL-5007 WARNING: actual bit length 8 differs from formal bit length 32 for port 'i_data' in ../../uisrc/01_rtl/image_dilate_filtering.v(57)
+HDL-5007 WARNING: actual bit length 8 differs from formal bit length 32 for port 'o_temp_11' in ../../uisrc/01_rtl/image_dilate_filtering.v(59)
+HDL-5007 WARNING: actual bit length 8 differs from formal bit length 32 for port 'o_temp_12' in ../../uisrc/01_rtl/image_dilate_filtering.v(60)
+HDL-5007 WARNING: actual bit length 8 differs from formal bit length 32 for port 'o_temp_13' in ../../uisrc/01_rtl/image_dilate_filtering.v(61)
+HDL-5007 WARNING: actual bit length 8 differs from formal bit length 32 for port 'o_temp_21' in ../../uisrc/01_rtl/image_dilate_filtering.v(62)
+HDL-5007 WARNING: actual bit length 8 differs from formal bit length 32 for port 'o_temp_22' in ../../uisrc/01_rtl/image_dilate_filtering.v(63)
+HDL-5007 WARNING: actual bit length 8 differs from formal bit length 32 for port 'o_temp_23' in ../../uisrc/01_rtl/image_dilate_filtering.v(64)
+HDL-5007 WARNING: actual bit length 8 differs from formal bit length 32 for port 'o_temp_31' in ../../uisrc/01_rtl/image_dilate_filtering.v(65)
+HDL-5007 WARNING: actual bit length 8 differs from formal bit length 32 for port 'o_temp_32' in ../../uisrc/01_rtl/image_dilate_filtering.v(66)
+HDL-5007 WARNING: actual bit length 8 differs from formal bit length 32 for port 'o_temp_33' in ../../uisrc/01_rtl/image_dilate_filtering.v(67)
+HDL-5007 Similar messages will be suppressed.
+HDL-5007 Similar messages will be suppressed.
+HDL-1007 : elaborate module image_erode_filtering(TOTAL_BIN_WIDTH=32) in ../../uisrc/01_rtl/image_erode_filtering.v(2)
+HDL-1007 : elaborate module image_skin_select(R_VALUE=255,G_VALUE=0,B_VALUE=0) in ../../uisrc/01_rtl/image_skin_select.v(1)
+HDL-1007 : elaborate module u888to_24_to_128 in ../../uisrc/01_rtl/u888to_24_to_128.v(1)
+HDL-1007 : port 'mcu_busy' remains unconnected for this instance in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(564)
+HDL-1007 : port 'pzq_cal_done_o' remains unconnected for this instance in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(564)
+HDL-1007 : port 'eccSingle' remains unconnected for this instance in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(792)
+HDL-1007 : port 'eccMultiple' remains unconnected for this instance in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(792)
+HDL-1007 : port 'ecc_err_addr' remains unconnected for this instance in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(792)
+HDL-1007 : port 'mc2phy_act_n' remains unconnected for this instance in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(792)
+HDL-1007 : port 'mc2phy_bg' remains unconnected for this instance in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(792)
+HDL-1007 : port 'mc2phy_act_n' remains unconnected for this instance in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(915)
+HDL-1007 : port 'mc2phy_bg' remains unconnected for this instance in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(915)
+HDL-1007 : port 'dfi_odt_p' remains unconnected for this instance in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(915)
+HDL-1007 : elaborate module ddr_ip in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(28)
+HDL-1007 : port 'pll_locked_to_phy' remains unconnected for this instance in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(10537)
+HDL-1007 : port 'zqcal_debug_data0' remains unconnected for this instance in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(10672)
+HDL-1007 : port 'zqcal_debug_data1' remains unconnected for this instance in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(10672)
+HDL-1007 : port 'zqcal_debug_data2' remains unconnected for this instance in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(10672)
+HDL-1007 : port 'dqsgr_debug_data0' remains unconnected for this instance in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(10672)
+HDL-1007 : port 'dqsgr_debug_data1' remains unconnected for this instance in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(10672)
+HDL-1007 : port 'dqsgr_debug_data2' remains unconnected for this instance in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(10672)
+HDL-1007 : elaborate module ph1_ddrphy_ip_top in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(10089)
+HDL-1007 : port 'clkb1_out' remains unconnected for this instance in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11173)
+HDL-1007 : port 'clkb2_out' remains unconnected for this instance in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11173)
+HDL-1007 : elaborate module ph1_logic_clk_management(BYTE_LANE_2=4'b1111,USER_CLK_EN=4'b0) in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11125)
+HDL-1007 : elaborate module ph1_logic_pll0 in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11320)
+HDL-1007 : elaborate module PH1_PHY_PLL(FBKCLK="VCO_PHASE0",FBCLK_DIV=16,CLKC0_FPHASE=3,CLKC0_CPHASE=7,CLKC1_CPHASE=7,CLKC2_CPHASE=1,CLKC3_CPHASE=31,CLKC0_DIV=8,CLKC1_DIV=8,CLKC2_DIV=2,CLKC3_DIV=32,CLKC0_DUTY_INT=4,CLKC1_DUTY_INT=4,CLKC3_DUTY_INT=16,CLKC0_ENABLE="ENABLE",CLKC1_ENABLE="ENABLE",CLKC2_ENABLE="ENABLE",CLKC3_ENABLE="ENABLE",FIN="100.000000",FEEDBK_MODE="NOCOMP",PLL_USR_RST="ENABLE",ICP_CUR=5,INTPI=2,SSC_RNGE=0) in D:\TD\arch/ph1_macro.v(856)
+HDL-1007 : elaborate module ph1_logic_pll1 in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11447)
+HDL-1007 : elaborate module PH1_PHY_PLL(CLKC0_CPHASE=4,CLKC1_CPHASE=9,CLKC2_CPHASE=9,CLKC3_CPHASE=9,CLKC4_CPHASE=9,CLKC0_DIV=5,CLKC1_DIV=10,CLKC2_DIV=10,CLKC3_DIV=10,CLKC4_DIV=10,CLKC0_DUTY_INT=3,CLKC1_DUTY_INT=5,CLKC2_DUTY_INT=5,CLKC3_DUTY_INT=5,CLKC4_DUTY_INT=5,CLKC0_ENABLE="ENABLE",CLKC1_ENABLE="ENABLE",CLKC2_ENABLE="ENABLE",CLKC3_ENABLE="ENABLE",CLKC4_ENABLE="ENABLE",FIN="200.000000",PLL_USR_RST="ENABLE",PLL_FEED_TYPE="EXTERNAL",LPF_RES=1,LPF_CAP=1,ICP_CUR=6,GMC_GAIN=3,SSC_RNGE=0) in D:\TD\arch/ph1_macro.v(856)
+HDL-1007 : elaborate module PH1_PHY_HP_MLCLK in D:\TD\arch/ph1_macro.v(3504)
+HDL-1007 : elaborate module PH1_PHY_HP_IOCLK in D:\TD\arch/ph1_macro.v(8886)
+HDL-1007 : elaborate module PH1_PHY_SCLK_V2(DELAY=2) in D:\TD\arch/ph1_macro.v(3517)
+HDL-1007 : elaborate module PH1_PHY_SCLK_V2(DELAY=1) in D:\TD\arch/ph1_macro.v(3517)
+HDL-5323 WARNING: input port 'clk1_en' remains unconnected for this instance in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11184)
+HDL-1007 : elaborate module ph1_logic_sopc_top(CLOCK_RATE=50000000) in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(20456)
+HDL-1007 : elaborate module ph1_logic_SOPC(CLOCK_RATE=50000000) in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(20590)
+HDL-1007 : elaborate module ph1_logic_BufferCC in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(21519)
+HDL-1007 : elaborate module ph1_logic_mcu in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(21894)
+HDL-1007 : extracting RAM for identifier 'RegFilePlugin_regFile' in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(22664)
+HDL-1007 : elaborate module ph1_logic_StreamFifoLowLatency in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(25186)
+HDL-5343 WARNING: system task 'display' is ignored for synthesis in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(24897)
+HDL-5343 WARNING: system task 'finish' is ignored for synthesis in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(24898)
+HDL-5343 WARNING: system task 'display' is ignored for synthesis in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(24907)
+HDL-5343 WARNING: system task 'finish' is ignored for synthesis in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(24908)
+HDL-5314 WARNING: net 'IBusSimplePlugin_rspJoin_fetchRsp_isRvc' does not have a driver in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(22405)
+HDL-1007 : elaborate module ph1_logic_MuraxMasterArbiter in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(21622)
+HDL-1007 : elaborate module ph1_logic_AlcPipelinedMemoryBusRam in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(21216)
+HDL-1007 : elaborate module ph1_logic_mcu_ram in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(21539)
+HDL-1007 : elaborate module PH1_LOGIC_ERAM(DATA_WIDTH_A=32,DATA_WIDTH_B=32,ADDR_WIDTH_A=13,ADDR_WIDTH_B=13,DATA_DEPTH_A=8192,DATA_DEPTH_B=8192,BYTE_ENABLE=8,BYTE_A=4,BYTE_B=4,MODE="SP",OREGSET_A="RESET",ASYNC_RESET_RELEASE_A="ASYNC",INIT_FILE="ddr_ip_dbg.mif") in D:\TD\arch/ph1_macro.v(22)
+HDL-5317 WARNING: input port 'ecc_sbiterrinj' is not connected on this instance in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(21596)
+HDL-1007 : elaborate module ph1_logic_PipelinedMemoryBusToApbBridge in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(21719)
+HDL-1007 : elaborate module ph1_logic_Apb3Decoder in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(21327)
+HDL-1007 : elaborate module ph1_logic_Apb3Router in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(21375)
+HDL-1007 : elaborate module ph1_logic_SopcUserRam in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(26219)
+HDL-1007 : extracting RAM for identifier 'ram_symbol' in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(26238)
+HDL-1007 : readmemh: reading from file './ddr_ip_1.txt' in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(26277)
+HDL-1007 : elaborate module ph1_logic_SopcTimer in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(26303)
+HDL-1007 : elaborate module ph1_logic_SopcGpio in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(26141)
+HDL-1007 : elaborate module ph1_logic_apb_uart(CLOCK_RATE=50000000) in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(25322)
+HDL-1007 : elaborate module ph1_logic_uart_fifo in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(25628)
+HDL-1007 : extracting RAM for identifier 'fifo_data' in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(25645)
+HDL-5007 WARNING: delay control is not supported for synthesis in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(25661)
+HDL-5007 WARNING: delay control is not supported for synthesis in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(25669)
+HDL-5007 WARNING: delay control is not supported for synthesis in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(25670)
+HDL-5007 WARNING: delay control is not supported for synthesis in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(25672)
+HDL-5007 WARNING: delay control is not supported for synthesis in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(25673)
+HDL-5007 WARNING: delay control is not supported for synthesis in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(25683)
+HDL-5007 WARNING: delay control is not supported for synthesis in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(25686)
+HDL-5007 WARNING: delay control is not supported for synthesis in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(25688)
+HDL-5007 WARNING: delay control is not supported for synthesis in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(25690)
+HDL-5007 WARNING: delay control is not supported for synthesis in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(25693)
+HDL-1007 : elaborate module ph1_logic_uart_tx(BAUD_RATE=115200) in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(26086)
+HDL-1007 : elaborate module ph1_logic_uart_baud_gen(BAUD_RATE=115200) in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(25552)
+HDL-1007 : elaborate module ph1_logic_uart_tx_ctl in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(25937)
+HDL-1007 : elaborate module ph1_logic_uart_rx in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(25866)
+HDL-1007 : elaborate module ph1_logic_meta_harden in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(25520)
+HDL-1007 : elaborate module ph1_logic_uart_rx_ctl in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(25707)
+HDL-5314 WARNING: net 'system_uartCtrl_io_interrupt' does not have a driver in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(20670)
+HDL-5314 WARNING: net 'system_interruptCtrl_io_timerInterruptClear' does not have a driver in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(20674)
+HDL-5314 WARNING: net 'system_interruptCtrl_io_externalInterruptClear' does not have a driver in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(20675)
+HDL-5314 WARNING: net 'system_interruptCtrl_io_softwareInterruptClear' does not have a driver in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(20676)
+HDL-1007 : elaborate module ph1_logic_dfi_bus_adjust(ADDR_WIDTH=15,ROW_WIDTH=15,BANK_WIDTH=3,DQ_WIDTH=32,DQS_WIDTH=4,DM_WIDTH=4) in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(18848)
+HDL-1007 : port 'hctrl_scan_out' remains unconnected for this instance in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(12076)
+HDL-1007 : port 'apb_age_toggle' remains unconnected for this instance in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(12076)
+HDL-1007 : port 'apb_age_toggle_inv' remains unconnected for this instance in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(12076)
+HDL-1007 : port 'zqcal_code_o' remains unconnected for this instance in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(12530)
+HDL-1007 : elaborate module ph1_logic_ddrphy_standard(DQS_GATE="Internal",BYTE_LANE_0=4'b0,DATA_CTRL_0=4'b0,DATA_CTRL_1=4'b0,ADDR_MAP=216'b0100001000000100111010000100000100000100000111000100111000000100111001000100100110000100001001000100100010000100000101000100100111000100011000000100110100000100010101000100110101,CK_MAP=24'b0100010011000100010010,BANK_MAP=36'b0100011010000100100011000100010100,CKE_MAP=24'b0100110110,ODT_MAP=24'b0100010111,CS_MAP=24'b0100010110,RAS_MAP=12'b0100011001,CAS_MAP=12'b0100000011,WE_MAP=12'b0100000110,DM_MAP=108'b01000011000001000111010001000000100001000101011,RESET_MAP=12'b0100011011,DQS_GATE_MAP=108'b0,DQS_BYTE_MAP=216'b01000010111001000010110001000110111001000110110001000000111001000000110001000100111001000100110,DATA0_MAP=96'b01000100010001000101001001000100101001000100000001000100001001000100100001000100011001000101000,DATA1_MAP=96'b01000001000001000000010001000000000001000001011001000000101001000001010001000001001001000000011,DATA2_MAP=96'b01000111001001000111000001000110010001000110000001000110011001000110001001000110100001000110101,DATA3_MAP=96'b01000010101001000010010001000011001001000010011001000011010001000010000001000011011001000010001,DATA4_MAP=96'b0,DATA5_MAP=96'b0,DATA6_MAP=96'b0,DATA7_MAP=96'b0,DATA8_MAP=96'b0,LOC_DX_BYTELANE_MAP=72'b0100001001000110010000000100010,LOC_AC_BYTELANE_MAP=32'b010010000100110001000000010001,DQS_GATE_WIDTH=1,ADDR_WIDTH=15,ROW_WIDTH=15,BANK_WIDTH=3,DQ_WIDTH=32,DQS_WIDTH=4,DM_WIDTH=4) in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(11581)
+HDL-1007 : elaborate module ph1_logic_apb_mux_1_3 in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(19186)
+HDL-1007 : elaborate module PH1_PHY_DDR4_CAL in D:\TD\arch/ph1_macro.v(8659)
+HDL-1007 : elaborate module ph1_logic_bus_matrix(BYTE_LANE_0=4'b0,DATA_CTRL_0=4'b0,DATA_CTRL_1=4'b0,ADDR_MAP=216'b0100001000000100111010000100000100000100000111000100111000000100111001000100100110000100001001000100100010000100000101000100100111000100011000000100110100000100010101000100110101,CK_MAP=24'b0100010011000100010010,BANK_MAP=36'b0100011010000100100011000100010100,CKE_MAP=24'b0100110110,ODT_MAP=24'b0100010111,CS_MAP=24'b0100010110,DQS_GATE_MAP=108'b0,DQS_BYTE_MAP=216'b01000010111001000010110001000110111001000110110001000000111001000000110001000100111001000100110,CAS_MAP=12'b0100000011,RAS_MAP=12'b0100011001,WE_MAP=12'b0100000110,DM_MAP=108'b01000011000001000111010001000000100001000101011,RESET_MAP=12'b0100011011,DATA0_MAP=96'b01000100010001000101001001000100101001000100000001000100001001000100100001000100011001000101000,DATA1_MAP=96'b01000001000001000000010001000000000001000001011001000000101001000001010001000001001001000000011,DATA2_MAP=96'b01000111001001000111000001000110010001000110000001000110011001000110001001000110100001000110101,DATA3_MAP=96'b01000010101001000010010001000011001001000010011001000011010001000010000001000011011001000010001,DATA4_MAP=96'b0,DATA5_MAP=96'b0,DATA6_MAP=96'b0,DATA7_MAP=96'b0,DATA8_MAP=96'b0,LOC_DX_BYTELANE_MAP=72'b0100001001000110010000000100010,LOC_AC_BYTELANE_MAP=32'b010010000100110001000000010001,DQS_GATE_WIDTH=1,ADDR_WIDTH=15,ROW_WIDTH=15,BANK_WIDTH=3,DQ_WIDTH=32,DQS_WIDTH=4,DM_WIDTH=4,DCI="ENABLE",AC_WIDTH=4) in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(12871)
+HDL-1007 : elaborate module ph1_logic_ddrphy_streamlined(BYTE_LANE_0=4'b0,DATA_CTRL_0=4'b0,DATA_CTRL_1=4'b0,ADDR_MAP=216'b0100001000000100111010000100000100000100000111000100111000000100111001000100100110000100001001000100100010000100000101000100100111000100011000000100110100000100010101000100110101,CK_MAP=24'b0100010011000100010010,BANK_MAP=36'b0100011010000100100011000100010100,CKE_MAP=24'b0100110110,ODT_MAP=24'b0100010111,CS_MAP=24'b0100010110,RAS_MAP=12'b0100011001,CAS_MAP=12'b0100000011,WE_MAP=12'b0100000110,DM_MAP=108'b01000011000001000111010001000000100001000101011,RESET_MAP=12'b0100011011,DQS_GATE_MAP=108'b0,DQS_BYTE_MAP=216'b01000010111001000010110001000110111001000110110001000000111001000000110001000100111001000100110,DATA0_MAP=96'b01000100010001000101001001000100101001000100000001000100001001000100100001000100011001000101000,DATA1_MAP=96'b01000001000001000000010001000000000001000001011001000000101001000001010001000001001001000000011,DATA2_MAP=96'b01000111001001000111000001000110010001000110000001000110011001000110001001000110100001000110101,DATA3_MAP=96'b01000010101001000010010001000011001001000010011001000011010001000010000001000011011001000010001,DATA4_MAP=96'b0,DATA5_MAP=96'b0,DATA6_MAP=96'b0,DATA7_MAP=96'b0,DATA8_MAP=96'b0,DQS_GATE_WIDTH=1,ADDR_WIDTH=15,ROW_WIDTH=15,BANK_WIDTH=3,DQS_WIDTH=4,DQ_WIDTH=32,DM_WIDTH=4,AC_WIDTH=4) in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(14008)
+HDL-1007 : elaborate module PH1_PHY_DDR_PAD(DATA_OUT_SYNC="SYNC_DISABLE",DISABLE_GSR="ENABLE",DLY_TEST_EN="ENABLE",DQS_PUPD="PD",DQS_PUPD_STRENGTH="OFF",MODE="OUT",INDEL=0,OUTDEL=0,SIGTYPE="AC",OUTPUT_IMP=60) in D:\TD\arch/ph1_macro.v(8530)
+HDL-1007 : elaborate module PH1_PHY_DDR_PAD(OSCLK_SEL="DDR_CLK_WDQ",OPCLK_SEL="CTL_CLK_WDQ",DATA_OUT_SYNC="SYNC_DISABLE",DISABLE_GSR="ENABLE",DDR_SIGNAL_TYPE="DX",DLY_TEST_EN="ENABLE",DQS_PUPD="PD",DQS_PUPD_STRENGTH="OFF",MODE="BI",INDEL=0,OUTDEL=0,SIGTYPE="DX",OUTPUT_IMP=60) in D:\TD\arch/ph1_macro.v(8530)
+HDL-1007 : elaborate module PH1_PHY_DDR_PAD(OSCLK_SEL="DDR_CLK_WL",OPCLK_SEL="CTL_CLK_WL",DATA_OUT_SYNC="SYNC_DISABLE",TS_SEL="DQS",PDR_MODE_SEL="DQS",DISABLE_GSR="ENABLE",DDR_SIGNAL_TYPE="DX",DLY_TEST_EN="ENABLE",ODT_SRC_SEL="DQS",DQS_PUPD_STRENGTH="OFF",MODE="BI",INDEL=0,OUTDEL=0,SIGTYPE="DX",OUTPUT_IMP=60) in D:\TD\arch/ph1_macro.v(8530)
+HDL-1007 : elaborate module PH1_PHY_DDR_PAD(OSCLK_SEL="DDR_CLK_WL",OPCLK_SEL="CTL_CLK_WL",DATA_OUT_SYNC="SYNC_DISABLE",TS_SEL="DQSN",PDR_MODE_SEL="DQSN",DISABLE_GSR="ENABLE",DDR_SIGNAL_TYPE="DX",DLY_TEST_EN="ENABLE",ODT_SRC_SEL="DQSN",DQS_PUPD="PD",DQS_PUPD_STRENGTH="OFF",MODE="BI",INDEL=0,OUTDEL=0,SIGTYPE="DX",OUTPUT_IMP=60) in D:\TD\arch/ph1_macro.v(8530)
+HDL-1007 : elaborate module PH1_PHY_DDR_BANK(A_DLY_TEST_EN="ENABLE",A_DDR_SIGNAL_TYPE_DQS="AC",A_DCC_EN="ENABLE",A_BYTE_TYPE="AC",B_DLY_TEST_EN="ENABLE",B_DDR_SIGNAL_TYPE_DQS="AC",B_DCC_EN="ENABLE",B_BYTE_TYPE="AC",C_DLY_TEST_EN="ENABLE",C_DDR_SIGNAL_TYPE_DQS="AC",C_DCC_EN="ENABLE",C_BYTE_TYPE="AC",D_DLY_TEST_EN="ENABLE",D_DDR_SIGNAL_TYPE_DQS="AC",D_DCC_EN="ENABLE",D_BYTE_TYPE="AC",DCI_EN="ENABLE",ZQ_VALUE=8'b10111101,ODTINIT_VALUE=0,VREF1_RANK0_MODE="DDR_DRAM",VREF1_RANK1_MODE="DDR_DRAM",VREF2_RANK0_MODE="DDR_DRAM",VREF2_RANK1_MODE="DDR_DRAM",VREF3_RANK0_MODE="DDR_DRAM",VREF3_RANK1_MODE="DDR_DRAM",VREF4_RANK0_MODE="DDR_DRAM",VREF4_RANK1_MODE="DDR_DRAM",A_DDR_SIGNAL_TYPE="AC",B_DDR_SIGNAL_TYPE="AC",C_DDR_SIGNAL_TYPE="AC",D_DDR_SIGNAL_TYPE="AC") in D:\TD\arch/ph1_macro.v(7596)
+HDL-1007 : elaborate module PH1_PHY_DDR_BANK(A_DLY_TEST_EN="ENABLE",A_DCC_EN="ENABLE",A_DCC_CLK_SEL="CLK_WL",B_DLY_TEST_EN="ENABLE",B_DCC_EN="ENABLE",B_DCC_CLK_SEL="CLK_WL",C_DLY_TEST_EN="ENABLE",C_DCC_EN="ENABLE",C_DCC_CLK_SEL="CLK_WL",D_DLY_TEST_EN="ENABLE",D_DCC_EN="ENABLE",D_DCC_CLK_SEL="CLK_WL",DCI_EN="ENABLE",ZQ_VALUE=8'b10111101,ODTINIT_VALUE=0,VREF1_RANK0_MODE="DDR_DRAM",VREF1_RANK1_MODE="DDR_DRAM",VREF2_RANK0_MODE="DDR_DRAM",VREF2_RANK1_MODE="DDR_DRAM",VREF3_RANK0_MODE="DDR_DRAM",VREF3_RANK1_MODE="DDR_DRAM",VREF4_RANK0_MODE="DDR_DRAM",VREF4_RANK1_MODE="DDR_DRAM") in D:\TD\arch/ph1_macro.v(7596)
+HDL-5314 WARNING: net 'dq_ts_md[79]' does not have a driver in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(14471)
+HDL-5314 WARNING: net 'dq_se_ts_md[3]' does not have a driver in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(14472)
+HDL-5314 WARNING: net 'dqs_ts_md[7]' does not have a driver in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(14473)
+HDL-5314 WARNING: net 'doq[319]' does not have a driver in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(14490)
+HDL-5314 WARNING: net 'dosp[31]' does not have a driver in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(14491)
+HDL-5314 WARNING: net 'dosn[31]' does not have a driver in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(14492)
+HDL-5314 WARNING: net 'in_dqsp_bdl_byp[3]' does not have a driver in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(14494)
+HDL-5314 WARNING: net 'in_dqsn_bdl_byp[3]' does not have a driver in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(14495)
+HDL-5314 WARNING: net 'in_bdl_byp[39]' does not have a driver in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(14496)
+HDL-5314 Similar messages will be suppressed.
+HDL-5317 WARNING: input port 'wr_path_rstn_upp' is not connected on this instance in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(16306)
+HDL-5317 WARNING: input port 'sect_sel_i' is not connected on this instance in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(12076)
+HDL-5323 WARNING: input port 'zqcal_code[167]' remains unconnected for this instance in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(12592)
+HDL-5317 WARNING: input port 'zqcal_code[55]' is not connected on this instance in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(12592)
+HDL-1007 : elaborate module alc_axi_bridge_top(AXI_ADDR_WIDTH=31,AXI_DATA_WIDTH=256,MC_DATA_WIDTH=256) in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(1017)
+HDL-1007 : elaborate module ** in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(2324)
+HDL-1007 : elaborate module ** in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(1130)
+HDL-1007 : elaborate module ** in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(1130)
+HDL-1007 : elaborate module ** in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(1130)
+HDL-1007 : elaborate module ** in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(1130)
+HDL-1007 : elaborate module ** in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(793)
+HDL-1007 : elaborate module ** in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(434)
+HDL-1007 : elaborate module ** in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(1978)
+HDL-1007 : elaborate module ** in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(2942)
+HDL-1007 : elaborate module ** in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(962)
+HDL-1007 : elaborate module ** in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(2805)
+HDL-1007 : elaborate module ** in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(1023)
+HDL-1007 : elaborate module ** in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(1874)
+HDL-1007 : elaborate module ** in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(575)
+HDL-1007 : elaborate module ** in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(434)
+HDL-1007 : elaborate module ** in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(1978)
+HDL-1007 : elaborate module ** in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(2942)
+HDL-1007 : elaborate module ** in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(736)
+HDL-1007 : elaborate module ** in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(2088)
+HDL-1007 : elaborate module ** in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(1874)
+HDL-1007 : elaborate module ** in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(1874)
+HDL-1007 : elaborate module ** in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(1634)
+HDL-1007 : elaborate module alc_mc_top(DQS_WIDTH=4,DQ_WIDTH=32,DM_WIDTH=4,MC_DATA_WIDTH=256,MC_MASK_WIDTH=32,PAYLOAD_WIDTH=32,REORDER="NORMAL",tRFC=208,tWR=12,tRAS=28,tRTP=6,tRTW=9) in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(5022)
+HDL-1007 : elaborate module ** in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(5781)
+HDL-1007 : elaborate module ** in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(4854)
+HDL-1007 : extracting RAM for identifier '**' in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(4870)
+HDL-1007 : elaborate module ** in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(4911)
+HDL-1007 : extracting RAM for identifier '**' in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(4927)
+HDL-1007 : elaborate module ** in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(5083)
+HDL-1007 : elaborate module ** in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(4969)
+HDL-1007 : extracting RAM for identifier '**' in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(4985)
+HDL-1007 : elaborate module ** in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(5026)
+HDL-1007 : extracting RAM for identifier '**' in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(5042)
+HDL-1007 : elaborate module ** in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(2110)
+HDL-1007 : elaborate module ** in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(3693)
+HDL-1007 : extracting RAM for identifier '**' in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(3787)
+HDL-1007 : extracting RAM for identifier '**' in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(3852)
+HDL-1007 : extracting RAM for identifier '**' in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(3870)
+HDL-1007 : extracting RAM for identifier '**' in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(3874)
+HDL-1007 : elaborate module ** in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(1260)
+HDL-1007 : extracting RAM for identifier '**' in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(1310)
+HDL-1007 : elaborate module ** in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(1901)
+HDL-1007 : elaborate module ** in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(6156)
+HDL-1007 : elaborate module ** in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(1017)
+HDL-1007 : elaborate module ** in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(858)
+HDL-1007 : elaborate module ** in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(1139)
+HDL-1007 : elaborate module ** in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(1568)
+HDL-1007 : elaborate module ** in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(1499)
+HDL-1007 : elaborate module ** in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(1658)
+HDL-1007 : elaborate module ** in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(1799)
+HDL-1007 : elaborate module ** in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(2532)
+HDL-1007 : elaborate module ** in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(2590)
+HDL-5369 WARNING: latch inferred for net '**' in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(2764)
+HDL-1007 : elaborate module ** in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(5562)
+HDL-1007 : elaborate module ** in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(4490)
+HDL-1007 : elaborate module alc_dfi_retiming(DQS_WIDTH=4,ADDR_WIDTH=15,ROW_WIDTH=15,CWL=8) in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(3406)
+HDL-5007 WARNING: using initial value of 'rdDataEnLatency' since it is never assigned in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(3881)
+HDL-5323 WARNING: input port 'pzq_cal_done_i' remains unconnected for this instance in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(578)
+HDL-5317 WARNING: input port 'phy2mc_per_rd_done' is not connected on this instance in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(932)
+HDL-5323 WARNING: input port 'mc2phy_act_n[6]' remains unconnected for this instance in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(932)
+HDL-1007 : elaborate module uiFDMA(M_AXI_ID_WIDTH=4,M_AXI_DATA_WIDTH=256) in ../../uisrc/03_ip/uifdma/uiFDMA.v(46)
+HDL-1007 : elaborate module uisetvbuf in ../../uisrc/03_ip/uisetvbuf/uisetvbuf.v(32)
+HDL-1007 : port 'valid' remains unconnected for this instance in ../../uisrc/03_ip/uifdmadbuf/uidbuf.v(384)
+HDL-1007 : port 'aempty' remains unconnected for this instance in ../../uisrc/03_ip/uifdmadbuf/uidbuf.v(384)
+HDL-1007 : port 'wr_rst_done' remains unconnected for this instance in ../../uisrc/03_ip/uifdmadbuf/uidbuf.v(384)
+HDL-1007 : port 'valid' remains unconnected for this instance in ../../uisrc/03_ip/uifdmadbuf/uidbuf.v(569)
+HDL-1007 : port 'full_flag' remains unconnected for this instance in ../../uisrc/03_ip/uifdmadbuf/uidbuf.v(569)
+HDL-1007 : port 'afull' remains unconnected for this instance in ../../uisrc/03_ip/uifdmadbuf/uidbuf.v(569)
+HDL-1007 : port 'aempty' remains unconnected for this instance in ../../uisrc/03_ip/uifdmadbuf/uidbuf.v(569)
+HDL-1007 : port 'rdusedw' remains unconnected for this instance in ../../uisrc/03_ip/uifdmadbuf/uidbuf.v(569)
+HDL-1007 : port 'wr_rst_done' remains unconnected for this instance in ../../uisrc/03_ip/uifdmadbuf/uidbuf.v(569)
+HDL-1007 : elaborate module uidbuf(AXI_DATA_WIDTH=256,W_DATAWIDTH=128,W_DSIZEBITS=23,W_XSIZE=480,W_XSTRIDE=480,W_XDIV=6,R_DSIZEBITS=23,R_XDIV=6) in ../../uisrc/03_ip/uifdmadbuf/uidbuf.v(46)
+HDL-1007 : port 'doa' remains unconnected for this instance in ../../uisrc/03_ip/uifdmadbuf/wfifo/wfifo.v(340)
+HDL-1007 : port 'dib' remains unconnected for this instance in ../../uisrc/03_ip/uifdmadbuf/wfifo/wfifo.v(340)
+HDL-1007 : elaborate module wfifo(ADDR_WIDTH_W=12,ADDR_WIDTH_R=11,AL_FULL_NUM=2046) in ../../uisrc/03_ip/uifdmadbuf/wfifo/wfifo.v(13)
+HDL-1007 : elaborate module fifo_cross_domain_addr_process_al_wfifo(ADDR_WIDTH=11) in ../../uisrc/03_ip/uifdmadbuf/wfifo/wfifo.v(369)
+HDL-1007 : elaborate module fifo_cross_domain_addr_process_al_wfifo(ADDR_WIDTH=12) in ../../uisrc/03_ip/uifdmadbuf/wfifo/wfifo.v(369)
+HDL-1007 : elaborate module ram_infer_wfifo(DATAWIDTH_A=128,ADDRWIDTH_A=12,DATAWIDTH_B=256,ADDRWIDTH_B=11) in ../../uisrc/03_ip/uifdmadbuf/wfifo/wfifo.v(457)
+HDL-1007 : extracting RAM for identifier 'memory' in ../../uisrc/03_ip/uifdmadbuf/wfifo/wfifo.v(522)
+HDL-5317 WARNING: input port 'dib[255]' is not connected on this instance in ../../uisrc/03_ip/uifdmadbuf/wfifo/wfifo.v(345)
+HDL-1007 : port 'doa' remains unconnected for this instance in ../../uisrc/03_ip/uifdmadbuf/rfifo/rfifo.v(340)
+HDL-1007 : port 'dib' remains unconnected for this instance in ../../uisrc/03_ip/uifdmadbuf/rfifo/rfifo.v(340)
+HDL-1007 : elaborate module rfifo(ADDR_WIDTH_W=9,ADDR_WIDTH_R=12,AL_FULL_NUM=254) in ../../uisrc/03_ip/uifdmadbuf/rfifo/rfifo.v(13)
+HDL-1007 : elaborate module fifo_cross_domain_addr_process_al_rfifo(ADDR_WIDTH=12) in ../../uisrc/03_ip/uifdmadbuf/rfifo/rfifo.v(369)
+HDL-1007 : elaborate module fifo_cross_domain_addr_process_al_rfifo in ../../uisrc/03_ip/uifdmadbuf/rfifo/rfifo.v(369)
+HDL-1007 : elaborate module ram_infer_rfifo(DATAWIDTH_A=256,ADDRWIDTH_A=9,DATAWIDTH_B=32,ADDRWIDTH_B=12) in ../../uisrc/03_ip/uifdmadbuf/rfifo/rfifo.v(457)
+HDL-1007 : extracting RAM for identifier 'memory' in ../../uisrc/03_ip/uifdmadbuf/rfifo/rfifo.v(522)
+HDL-5317 WARNING: input port 'dib[31]' is not connected on this instance in ../../uisrc/03_ip/uifdmadbuf/rfifo/rfifo.v(345)
+HDL-7181 CRITICAL-WARNING: 'o_face_data' was previously declared with a different range in ../../uisrc/01_rtl/system_top.v(253)
+HDL-1007 : elaborate module uivtc(H_FrameSize=2068,H_SyncStart=2008,H_SyncEnd=2052,V_FrameSize=1108,V_SyncStart=1084,V_SyncEnd=1089) in ../../uisrc/03_ip/vtc/uivtc.v(42)
+HDL-1007 : elaborate module hdmi_tx(H_ActiveSize=1920,H_SyncStart=2008,H_SyncEnd=2052,H_FrameSize=2068,V_SyncStart=1084,V_SyncEnd=1089,V_FrameSize=1108,VIDEO_TPG="Disable") in ../../uisrc/03_ip/alip/ph1a_hdmi_tx_lvds/hdmi_tx.v(48)
+HDL-1007 : elaborate module hdmi_edid_wrapper in ../../uisrc/03_ip/alip/ph1a_hdmi_tx_lvds/hdmi_edid_receiver_wrapper.v(4)
+HDL-1007 : elaborate module ** in ../../uisrc/03_ip/alip/ph1a_hdmi_tx_lvds/hdmi_edid_receiver_wrapper.v(58)
+HDL-1007 : elaborate module ** in ../../uisrc/03_ip/alip/ph1a_hdmi_tx_lvds/hdmi_edid_receiver_wrapper.v(135)
+HDL-1007 : elaborate module ** in ../../uisrc/03_ip/alip/ph1a_hdmi_tx_lvds/hdmi_edid_receiver_wrapper.v(240)
+HDL-1007 : elaborate module ** in ../../uisrc/03_ip/alip/ph1a_hdmi_tx_lvds/hdmi_edid_receiver_wrapper.v(656)
+HDL-1007 : elaborate module PH1_LOGIC_RAMFIFO(DATA_WIDTH=11,ADDR_WIDTH=10) in D:\TD\arch/ph1_macro.v(350)
+HDL-1007 : elaborate module ** in ../../uisrc/03_ip/alip/ph1a_hdmi_tx_lvds/hdmi_edid_receiver_wrapper.v(699)
+HDL-1007 : elaborate module ** in ../../uisrc/03_ip/alip/ph1a_hdmi_tx_lvds/hdmi_edid_receiver_wrapper.v(851)
+HDL-1007 : elaborate module PH1_LOGIC_RAMFIFO(DATA_WIDTH=9,ADDR_WIDTH=10) in D:\TD\arch/ph1_macro.v(350)
+HDL-1007 : elaborate module ** in ../../uisrc/03_ip/alip/ph1a_hdmi_tx_lvds/hdmi_edid_receiver_wrapper.v(894)
+HDL-1007 : port '**' remains unconnected for this instance in ../../uisrc/03_ip/alip/ph1a_hdmi_tx_lvds/hdmi_tx_controller_wrapper.v(282)
+HDL-1007 : elaborate module hdmi_tx_controller_wrapper(HTOTAL=2068,HBP=16,VTOTAL=1108,VBP=19,VIDEO_TPG="Disable") in ../../uisrc/03_ip/alip/ph1a_hdmi_tx_lvds/hdmi_tx_controller_wrapper.v(3)
+HDL-1007 : elaborate module ** in ../../uisrc/03_ip/alip/ph1a_hdmi_tx_lvds/hdmi_tx_controller_wrapper.v(390)
+HDL-1007 : elaborate module ** in ../../uisrc/03_ip/alip/ph1a_hdmi_tx_lvds/hdmi_tx_controller_wrapper.v(486)
+HDL-1007 : elaborate module ** in ../../uisrc/03_ip/alip/ph1a_hdmi_tx_lvds/hdmi_tx_controller_wrapper.v(686)
+HDL-1007 : elaborate module ** in ../../uisrc/03_ip/alip/ph1a_hdmi_tx_lvds/hdmi_tx_controller_wrapper.v(725)
+HDL-1007 : elaborate module ** in ../../uisrc/03_ip/alip/ph1a_hdmi_tx_lvds/hdmi_tx_controller_wrapper.v(1013)
+HDL-1007 : elaborate module ** in ../../uisrc/03_ip/alip/ph1a_hdmi_tx_lvds/hdmi_tx_controller_wrapper.v(1119)
+HDL-1007 : elaborate module ** in ../../uisrc/03_ip/alip/ph1a_hdmi_tx_lvds/hdmi_tx_controller_wrapper.v(1184)
+HDL-1007 : elaborate module ** in ../../uisrc/03_ip/alip/ph1a_hdmi_tx_lvds/hdmi_tx_controller_wrapper.v(1315)
+HDL-1007 : elaborate module ** in ../../uisrc/03_ip/alip/ph1a_hdmi_tx_lvds/hdmi_tx_controller_wrapper.v(1405)
+HDL-1007 : elaborate module ** in ../../uisrc/03_ip/alip/ph1a_hdmi_tx_lvds/hdmi_tx_controller_wrapper.v(1490)
+HDL-1007 : elaborate module ** in ../../uisrc/03_ip/alip/ph1a_hdmi_tx_lvds/hdmi_tx_controller_wrapper.v(1581)
+HDL-1007 : elaborate module ** in ../../uisrc/03_ip/alip/ph1a_hdmi_tx_lvds/hdmi_tx_controller_wrapper.v(1717)
+HDL-1007 : elaborate module PH1_LOGIC_RAMFIFO(DATA_WIDTH=64,ADDR_WIDTH=10) in D:\TD\arch/ph1_macro.v(350)
+HDL-1007 : elaborate module ** in ../../uisrc/03_ip/alip/ph1a_hdmi_tx_lvds/hdmi_tx_controller_wrapper.v(1760)
+HDL-1007 : elaborate module ** in ../../uisrc/03_ip/alip/ph1a_hdmi_tx_lvds/hdmi_tx_controller_wrapper.v(1862)
+HDL-1007 : elaborate module PH1_LOGIC_RAMFIFO(DATA_WIDTH=24,ADDR_WIDTH=10) in D:\TD\arch/ph1_macro.v(350)
+HDL-1007 : elaborate module ** in ../../uisrc/03_ip/alip/ph1a_hdmi_tx_lvds/hdmi_tx_controller_wrapper.v(1905)
+HDL-1007 : elaborate module ** in ../../uisrc/03_ip/alip/ph1a_hdmi_tx_lvds/hdmi_tx_controller_wrapper.v(2130)
+HDL-1007 : elaborate module ** in ../../uisrc/03_ip/alip/ph1a_hdmi_tx_lvds/hdmi_tx_controller_wrapper.v(2203)
+HDL-1007 : elaborate module ** in ../../uisrc/03_ip/alip/ph1a_hdmi_tx_lvds/hdmi_tx_controller_wrapper.v(2552)
+HDL-1007 : elaborate module ** in ../../uisrc/03_ip/alip/ph1a_hdmi_tx_lvds/hdmi_tx_controller_wrapper.v(2623)
+HDL-1007 : elaborate module ** in ../../uisrc/03_ip/alip/ph1a_hdmi_tx_lvds/hdmi_tx_controller_wrapper.v(2623)
+HDL-1007 : elaborate module ** in ../../uisrc/03_ip/alip/ph1a_hdmi_tx_lvds/hdmi_tx_controller_wrapper.v(2623)
+HDL-1007 : elaborate module hdmi_phy_wrapper in ../../uisrc/03_ip/alip/ph1a_hdmi_tx_lvds/hdmi_phy_wrapper.v(1)
+HDL-1007 : elaborate module lane_lvds_10_1 in ../../uisrc/03_ip/alip/ph1a_hdmi_tx_lvds/lane_lvds_10_1.v(4)
+HDL-1007 : elaborate module PH1_LOGIC_HP_OSERDES in D:\TD\arch/ph1_macro.v(11603)
+HDL-5323 WARNING: input port 'O_raw_tready' remains unconnected for this instance in ../../uisrc/01_rtl/system_top.v(210)
+HDL-5323 WARNING: input port 'I_tdest[9]' remains unconnected for this instance in ../../uisrc/01_rtl/system_top.v(234)
+HDL-5323 WARNING: input port 'I_edid_read_trig' remains unconnected for this instance in ../../uisrc/01_rtl/system_top.v(774)
+HDL-5001 WARNING: Contains anonymous inst(s) and/or net(s) that have not been renamed
+HDL-5001 WARNING: Contains anonymous inst(s) and/or net(s) that have not been renamed
+HDL-5001 WARNING: Contains anonymous inst(s) and/or net(s) that have not been renamed
+HDL-5001 WARNING: Contains anonymous inst(s) and/or net(s) that have not been renamed
+HDL-1200 : Current top model is system_top
+HDL-5106 WARNING: Initial value omitted on non-DFF net "al_soft_fifo_L0nva2P2[0]" in ../../al_ip/Soft_FIFO_0/RTL/soft_fifo_3decfaec05bd.v(0) 
+HDL-5106 WARNING: Initial value omitted on non-DFF net "al_soft_fifo_eospkg6_[11]" in ../../al_ip/Soft_FIFO_0/RTL/soft_fifo_3decfaec05bd.v(0) 
+HDL-5106 WARNING: Initial value omitted on non-DFF net "al_soft_fifo_eospkg6_[10]" in ../../al_ip/Soft_FIFO_0/RTL/soft_fifo_3decfaec05bd.v(0) 
+HDL-5106 WARNING: Initial value omitted on non-DFF net "al_soft_fifo_eospkg6_[9]" in ../../al_ip/Soft_FIFO_0/RTL/soft_fifo_3decfaec05bd.v(0) 
+HDL-5106 WARNING: Initial value omitted on non-DFF net "al_soft_fifo_eospkg6_[8]" in ../../al_ip/Soft_FIFO_0/RTL/soft_fifo_3decfaec05bd.v(0) 
+HDL-5106 WARNING: Initial value omitted on non-DFF net "al_soft_fifo_eospkg6_[7]" in ../../al_ip/Soft_FIFO_0/RTL/soft_fifo_3decfaec05bd.v(0) 
+HDL-5106 WARNING: Initial value omitted on non-DFF net "al_soft_fifo_eospkg6_[6]" in ../../al_ip/Soft_FIFO_0/RTL/soft_fifo_3decfaec05bd.v(0) 
+HDL-5106 WARNING: Initial value omitted on non-DFF net "al_soft_fifo_eospkg6_[5]" in ../../al_ip/Soft_FIFO_0/RTL/soft_fifo_3decfaec05bd.v(0) 
+HDL-5106 WARNING: Initial value omitted on non-DFF net "al_soft_fifo_eospkg6_[4]" in ../../al_ip/Soft_FIFO_0/RTL/soft_fifo_3decfaec05bd.v(0) 
+HDL-5106 WARNING: Initial value omitted on non-DFF net "al_soft_fifo_eospkg6_[3]" in ../../al_ip/Soft_FIFO_0/RTL/soft_fifo_3decfaec05bd.v(0) 
+HDL-5106 Similar messages will be suppressed.
+HDL-1100 : Inferred 15 RAMs.
+RUN-1003 : finish command "elaborate -top system_top" in  3.995844s wall, 3.843750s user + 0.140625s system = 3.984375s CPU (99.7%)
+
+RUN-1004 : used memory is 1852 MB, reserved memory is 1846 MB, peak memory is 1852 MB
+RUN-1002 : start command "read_adc ../../uisrc/04_pin/fpga_pin.adc"
+RUN-1002 : start command "set_pin_assignment  I_sys_clk_25m   LOCATION = Y23; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; "
+RUN-1002 : start command "set_pin_assignment  I_ddr_clk   LOCATION = AB11; IOSTANDARD = LVDS18; "
+RUN-1002 : start command "set_pin_assignment  I_button[0]   LOCATION = D8; IOSTANDARD = LVCMOS18; PULLTYPE = PULLUP; "
+RUN-1002 : start command "set_pin_assignment  I_button[1]   LOCATION = D9; IOSTANDARD = LVCMOS18; PULLTYPE = PULLUP; "
+RUN-1002 : start command "set_pin_assignment  O_cam_scl   LOCATION = Y21; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = PULLUP; "
+RUN-1002 : start command "set_pin_assignment  IO_cam_sda  LOCATION = Y22; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = PULLUP; "
+RUN-1002 : start command "set_pin_assignment  O_clk_24m   LOCATION = AC23; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; "
+RUN-1002 : start command "set_pin_assignment  O_hdmi_clk_p   LOCATION = AA4; IOSTANDARD = LVDS18; "
+RUN-1002 : start command "set_pin_assignment  O_hdmi_tx_p[0]   LOCATION = AB1; IOSTANDARD = LVDS18; "
+RUN-1002 : start command "set_pin_assignment  O_hdmi_tx_p[1]   LOCATION = V3; IOSTANDARD = LVDS18; "
+RUN-1002 : start command "set_pin_assignment  O_hdmi_tx_p[2]   LOCATION = W1; IOSTANDARD = LVDS18; "
+RUN-1002 : start command "set_inst_assignment  u_mipi_dphy_rx_ph1a_mipiio_wrapper/u_ph1a_mipiio_wrapper/u_PH1_PHY_MIPIIO   location=X5Y0Z0; "
+RUN-1001 : Starting of IO setups legality check.
+RUN-1002 : start command "read_ip_adc -ip ddr_ip -file ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.adc"
+RUN-1002 : start command "set_ippin_assignment ddr_ip  ddr_dq[0]  LOCATION = AB17; IOSTANDARD = SSTL135; "
+RUN-1002 : start command "set_ippin_assignment ddr_ip  ddr_dq[1]  LOCATION = AD19; IOSTANDARD = SSTL135; "
+RUN-1002 : start command "set_ippin_assignment ddr_ip  ddr_dq[2]  LOCATION = AA19; IOSTANDARD = SSTL135; "
+RUN-1002 : start command "set_ippin_assignment ddr_ip  ddr_dq[3]  LOCATION = AB20; IOSTANDARD = SSTL135; "
+RUN-1002 : start command "set_ippin_assignment ddr_ip  ddr_dq[4]  LOCATION = AB19; IOSTANDARD = SSTL135; "
+RUN-1002 : start command "set_ippin_assignment ddr_ip  ddr_dq[5]  LOCATION = AA20; IOSTANDARD = SSTL135; "
+RUN-1002 : start command "set_ippin_assignment ddr_ip  ddr_dq[6]  LOCATION = AC17; IOSTANDARD = SSTL135; "
+RUN-1002 : start command "set_ippin_assignment ddr_ip  ddr_dq[7]  LOCATION = AC19; IOSTANDARD = SSTL135; "
+RUN-1002 : start command "set_ippin_assignment ddr_ip  ddr_dq[8]  LOCATION = AF20; IOSTANDARD = SSTL135; "
+RUN-1002 : start command "set_ippin_assignment ddr_ip  ddr_dq[9]  LOCATION = AF15; IOSTANDARD = SSTL135; "
+RUN-1002 : start command "set_ippin_assignment ddr_ip  ddr_dq[10]  LOCATION = AE17; IOSTANDARD = SSTL135; "
+RUN-1002 : start command "set_ippin_assignment ddr_ip  ddr_dq[11]  LOCATION = AE15; IOSTANDARD = SSTL135; "
+RUN-1002 : start command "set_ippin_assignment ddr_ip  ddr_dq[12]  LOCATION = AF17; IOSTANDARD = SSTL135; "
+RUN-1002 : start command "set_ippin_assignment ddr_ip  ddr_dq[13]  LOCATION = AD16; IOSTANDARD = SSTL135; "
+RUN-1002 : start command "set_ippin_assignment ddr_ip  ddr_dq[14]  LOCATION = AF19; IOSTANDARD = SSTL135; "
+RUN-1002 : start command "set_ippin_assignment ddr_ip  ddr_dq[15]  LOCATION = AF14; IOSTANDARD = SSTL135; "
+RUN-1002 : start command "set_ippin_assignment ddr_ip  ddr_dq[16]  LOCATION = W16; IOSTANDARD = SSTL135; "
+RUN-1002 : start command "set_ippin_assignment ddr_ip  ddr_dq[17]  LOCATION = W15; IOSTANDARD = SSTL135; "
+RUN-1002 : start command "set_ippin_assignment ddr_ip  ddr_dq[18]  LOCATION = W14; IOSTANDARD = SSTL135; "
+RUN-1002 : start command "set_ippin_assignment ddr_ip  ddr_dq[19]  LOCATION = V19; IOSTANDARD = SSTL135; "
+RUN-1002 : start command "set_ippin_assignment ddr_ip  ddr_dq[20]  LOCATION = V14; IOSTANDARD = SSTL135; "
+RUN-1002 : start command "set_ippin_assignment ddr_ip  ddr_dq[21]  LOCATION = V18; IOSTANDARD = SSTL135; "
+RUN-1002 : start command "set_ippin_assignment ddr_ip  ddr_dq[22]  LOCATION = V16; IOSTANDARD = SSTL135; "
+RUN-1002 : start command "set_ippin_assignment ddr_ip  ddr_dq[23]  LOCATION = V17; IOSTANDARD = SSTL135; "
+RUN-1002 : start command "set_ippin_assignment ddr_ip  ddr_dq[24]  LOCATION = AC16; IOSTANDARD = SSTL135; "
+RUN-1002 : start command "set_ippin_assignment ddr_ip  ddr_dq[25]  LOCATION = AA15; IOSTANDARD = SSTL135; "
+RUN-1002 : start command "set_ippin_assignment ddr_ip  ddr_dq[26]  LOCATION = AB16; IOSTANDARD = SSTL135; "
+RUN-1002 : start command "set_ippin_assignment ddr_ip  ddr_dq[27]  LOCATION = AA14; IOSTANDARD = SSTL135; "
+RUN-1002 : start command "set_ippin_assignment ddr_ip  ddr_dq[28]  LOCATION = AA18; IOSTANDARD = SSTL135; "
+RUN-1002 : start command "set_ippin_assignment ddr_ip  ddr_dq[29]  LOCATION = AD14; IOSTANDARD = SSTL135; "
+RUN-1002 : start command "set_ippin_assignment ddr_ip  ddr_dq[30]  LOCATION = AA17; IOSTANDARD = SSTL135; "
+RUN-1002 : start command "set_ippin_assignment ddr_ip  ddr_dq[31]  LOCATION = AB15; IOSTANDARD = SSTL135; "
+RUN-1002 : start command "set_ippin_assignment ddr_ip  ddr_dqs_n[0]  LOCATION = AE20; IOSTANDARD = DIFF_SSTL135; "
+RUN-1002 : start command "set_ippin_assignment ddr_ip  ddr_dqs_p[0]  LOCATION = AD20; IOSTANDARD = DIFF_SSTL135; "
+RUN-1002 : start command "set_ippin_assignment ddr_ip  ddr_dqs_n[1]  LOCATION = AF18; IOSTANDARD = DIFF_SSTL135; "
+RUN-1002 : start command "set_ippin_assignment ddr_ip  ddr_dqs_p[1]  LOCATION = AE18; IOSTANDARD = DIFF_SSTL135; "
+RUN-1002 : start command "set_ippin_assignment ddr_ip  ddr_dqs_n[2]  LOCATION = W19; IOSTANDARD = DIFF_SSTL135; "
+RUN-1002 : start command "set_ippin_assignment ddr_ip  ddr_dqs_p[2]  LOCATION = W18; IOSTANDARD = DIFF_SSTL135; "
+RUN-1002 : start command "set_ippin_assignment ddr_ip  ddr_dqs_n[3]  LOCATION = Y16; IOSTANDARD = DIFF_SSTL135; "
+RUN-1002 : start command "set_ippin_assignment ddr_ip  ddr_dqs_p[3]  LOCATION = Y15; IOSTANDARD = DIFF_SSTL135; "
+RUN-1002 : start command "set_ippin_assignment ddr_ip  ddr_dm[0]  LOCATION = AD18; IOSTANDARD = SSTL135; "
+RUN-1002 : start command "set_ippin_assignment ddr_ip  ddr_dm[1]  LOCATION = AD15; IOSTANDARD = SSTL135; "
+RUN-1002 : start command "set_ippin_assignment ddr_ip  ddr_dm[2]  LOCATION = Y17; IOSTANDARD = SSTL135; "
+RUN-1002 : start command "set_ippin_assignment ddr_ip  ddr_dm[3]  LOCATION = AC14; IOSTANDARD = SSTL135; "
+RUN-1002 : start command "set_ippin_assignment ddr_ip  ddr_ck_n[0]  LOCATION = AB9; IOSTANDARD = DIFF_SSTL135; "
+RUN-1002 : start command "set_ippin_assignment ddr_ip  ddr_ck_p[0]  LOCATION = AA9; IOSTANDARD = DIFF_SSTL135; "
+RUN-1002 : start command "set_ippin_assignment ddr_ip  ddr_ras_n  LOCATION = AA7; IOSTANDARD = SSTL135; "
+RUN-1002 : start command "set_ippin_assignment ddr_ip  ddr_cas_n  LOCATION = Y10; IOSTANDARD = SSTL135; "
+RUN-1002 : start command "set_ippin_assignment ddr_ip  ddr_we_n  LOCATION = W10; IOSTANDARD = SSTL135; "
+RUN-1002 : start command "set_ippin_assignment ddr_ip  ddr_reset_n  LOCATION = AF7; IOSTANDARD = SSTL135; "
+RUN-1002 : start command "set_ippin_assignment ddr_ip  ddr_cke[0]  LOCATION = AE12; IOSTANDARD = SSTL135; "
+RUN-1002 : start command "set_ippin_assignment ddr_ip  ddr_cs_n[0]  LOCATION = AC8; IOSTANDARD = SSTL135; "
+RUN-1002 : start command "set_ippin_assignment ddr_ip  ddr_odt[0]  LOCATION = AD8; IOSTANDARD = SSTL135; "
+RUN-1002 : start command "set_ippin_assignment ddr_ip  ddr_addr[0]  LOCATION = AF8; IOSTANDARD = SSTL135; "
+RUN-1002 : start command "set_ippin_assignment ddr_ip  ddr_addr[1]  LOCATION = AC7; IOSTANDARD = SSTL135; "
+RUN-1002 : start command "set_ippin_assignment ddr_ip  ddr_addr[2]  LOCATION = AE8; IOSTANDARD = SSTL135; "
+RUN-1002 : start command "set_ippin_assignment ddr_ip  ddr_addr[3]  LOCATION = AA8; IOSTANDARD = SSTL135; "
+RUN-1002 : start command "set_ippin_assignment ddr_ip  ddr_addr[4]  LOCATION = AC12; IOSTANDARD = SSTL135; "
+RUN-1002 : start command "set_ippin_assignment ddr_ip  ddr_addr[5]  LOCATION = Y7; IOSTANDARD = SSTL135; "
+RUN-1002 : start command "set_ippin_assignment ddr_ip  ddr_addr[6]  LOCATION = AC13; IOSTANDARD = SSTL135; "
+RUN-1002 : start command "set_ippin_assignment ddr_ip  ddr_addr[7]  LOCATION = V7; IOSTANDARD = SSTL135; "
+RUN-1002 : start command "set_ippin_assignment ddr_ip  ddr_addr[8]  LOCATION = AB12; IOSTANDARD = SSTL135; "
+RUN-1002 : start command "set_ippin_assignment ddr_ip  ddr_addr[9]  LOCATION = AE10; IOSTANDARD = SSTL135; "
+RUN-1002 : start command "set_ippin_assignment ddr_ip  ddr_addr[10]  LOCATION = AD10; IOSTANDARD = SSTL135; "
+RUN-1002 : start command "set_ippin_assignment ddr_ip  ddr_addr[11]  LOCATION = W9; IOSTANDARD = SSTL135; "
+RUN-1002 : start command "set_ippin_assignment ddr_ip  ddr_addr[12]  LOCATION = Y8; IOSTANDARD = SSTL135; "
+RUN-1002 : start command "set_ippin_assignment ddr_ip  ddr_addr[13]  LOCATION = AD11; IOSTANDARD = SSTL135; "
+RUN-1002 : start command "set_ippin_assignment ddr_ip  ddr_addr[14]  LOCATION = V8; IOSTANDARD = SSTL135; "
+RUN-1002 : start command "set_ippin_assignment ddr_ip  ddr_ba[0]  LOCATION = AB7; IOSTANDARD = SSTL135; "
+RUN-1002 : start command "set_ippin_assignment ddr_ip  ddr_ba[1]  LOCATION = AD13; IOSTANDARD = SSTL135; "
+RUN-1002 : start command "set_ippin_assignment ddr_ip  ddr_ba[2]  LOCATION = AE7; IOSTANDARD = SSTL135; "
+RUN-1002 : start command "set_ipinst_assignment ddr_ip u_ph1_logic_standard_phy/u_ddrphy_standard/u_hard_controller_0 LOCATION = X97Y40Z0"
+RUN-1002 : start command "set_ipinst_assignment ddr_ip u_ph1_logic_standard_phy/u_ddrphy_standard/u_ddrphy/ddr_phy_4lanes_1$ph1_ddr_4lanes LOCATION = X113Y40Z0"
+RUN-1002 : start command "set_ipinst_assignment ddr_ip u_ph1_logic_standard_phy/u_ddrphy_standard/u_ddrphy/ddr_phy_4lanes_2$ph1_ddr_4lanes LOCATION = X113Y0Z0"
+RUN-1002 : start command "set_ipinst_assignment ddr_ip u_ph1_logic_standard_phy/u_clk/u_pll0/pll_inst  LOCATION = X113Y79Z0"
+RUN-1002 : start command "set_ipinst_assignment ddr_ip u_ph1_logic_standard_phy/u_clk/u_pll1/pll_inst  LOCATION = X113Y40Z0"
+RUN-1001 : Starting of IO setups legality check.
+RUN-1003 : finish command "read_ip_adc -ip ddr_ip -file ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.adc" in  4.587724s wall, 4.531250s user + 0.046875s system = 4.578125s CPU (99.8%)
+
+RUN-1004 : used memory is 1849 MB, reserved memory is 1843 MB, peak memory is 1852 MB
+RUN-1002 : start command "read_sdc ../../uisrc/04_pin/timing.sdc"
+RUN-1002 : start command "read_sdc -ip ddr_ip ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.sdc"
+RUN-1002 : start command "read_sdc -ip rfifo ../../uisrc/03_ip/uifdmadbuf/rfifo/rfifo.tcl"
+RUN-1002 : start command "read_sdc -ip wfifo ../../uisrc/03_ip/uifdmadbuf/wfifo/wfifo.tcl"
+RUN-1002 : start command "export_db imx_isp_elaborate.db"
+RUN-1001 : Exported flow parameters
+RUN-1001 : Exported /
+RUN-1001 : Exported libs
+RUN-1001 : Exported entities
+RUN-1001 : Exported ports
+RUN-1001 : Exported pins
+RUN-1001 : Exported instances
+RUN-1001 : Exported nets
+RUN-1001 : Exported buses
+RUN-1001 : Exported models
+RUN-1001 : Exported packer
+RUN-1001 : Exported congestions
+RUN-1001 : Exported violations
+RUN-1001 : Exported ATMR Setting
+RUN-1001 : Exported timing constraints
+RUN-1001 : Exported IO constraints
+RUN-1001 : Exported Inst constraints
+RUN-1001 : Exported ChipWatcher
+RUN-1002 : start command "commit_param -step rtl"
+RUN-1001 : Print Global Property
+RUN-1001 : -------------------------------------------------------------
+RUN-1001 :     Parameters    |   Settings   |  Default Values  |  Note  
+RUN-1001 : -------------------------------------------------------------
+RUN-1001 :    enable_seed    |     off      |       off        |        
+RUN-1001 :    hfn_to_clock   |  1000000000  |    1000000000    |        
+RUN-1001 :      message      |   standard   |     standard     |        
+RUN-1001 :    qor_monitor    |      on      |        on        |        
+RUN-1001 :   speedup_effort  |      0       |        0         |        
+RUN-1001 :    syn_ip_flow    |     off      |       off        |        
+RUN-1001 :       thread      |     auto     |       auto       |        
+RUN-1001 : -------------------------------------------------------------
+RUN-1001 : Print Rtl Property
+RUN-1001 : -------------------------------------------------------------------
+RUN-1001 :         Parameters        |  Settings  |  Default Values  |  Note  
+RUN-1001 : -------------------------------------------------------------------
+RUN-1001 :        fix_undriven       |     0      |        0         |        
+RUN-1001 :   gated_clock_conversion  |    off     |       off        |        
+RUN-1001 :         infer_fsm         |    auto    |       auto       |        
+RUN-1001 :         infer_rom         |     on     |        on        |        
+RUN-1001 :       infer_shifter       |     on     |        on        |        
+RUN-1001 :       keep_hierarchy      |    auto    |       auto       |        
+RUN-1001 :        merge_equal        |     on     |        on        |        
+RUN-1001 :      min_control_set      |     8      |        8         |        
+RUN-1001 :       min_ripple_len      |    auto    |       auto       |        
+RUN-1001 :          seq_syn          |     on     |        on        |        
+RUN-1001 : -------------------------------------------------------------------
+RUN-1002 : start command "insert_debugger ../../chip_debugger"
+RUN-1002 : start command "optimize_rtl"
+RUN-1001 : Open license file D:/TD/license/Anlogic.lic
+SYN-1001 : Stage 1 | Optimize RTL
+SYN-1001 : Stage 1.1 | Check Design Sanity
+SYN-5065 WARNING: Register "genCA$op" in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(0) is described with both an asynchronous reset and an asynchronous set. It may have an uncertainty of the timing. Please conside rewriting code.
+SYN-1001 : End Stage 1.1 | Check Design Sanity; Time: 0.054560s wall, 0.062500s user + 0.000000s system = 0.062500s CPU (114.6%); Memory(MB): used = 1874, reserved = 1956, peak = 1874;
+
+SYN-1079 : finish stage Check Design Sanity. Total instances: 125718, Total nets: 286424.
+
+SYN-1001 : Stage 1.2 | Initialize Design
+SYN-1001 : End Stage 1.2 | Initialize Design; Time: 4.899226s wall, 4.906250s user + 0.000000s system = 4.906250s CPU (100.1%); Memory(MB): used = 1874, reserved = 1956, peak = 1874;
+
+SYN-1079 : finish stage Initialize Design. Total instances: 31819, Total nets: 154462.
+
+SYN-1001 : Stage 1.3 | Flatten Module
+SYN-1011 : Flatten model system_top
+SYN-1001 : End Stage 1.3 | Flatten Module; Time: 1.666601s wall, 1.671875s user + 0.000000s system = 1.671875s CPU (100.3%); Memory(MB): used = 1875, reserved = 1957, peak = 1875;
+
+SYN-1079 : finish stage Flatten Module. Total instances: 56918, Total nets: 172733.
+
+SYN-1001 : Stage 1.4 | Uniform Instance
+SYN-5044 CRITICAL-WARNING: The pin "hctrl_jtag_tclk" of inst "u_ddr_phy/u_ph1_logic_standard_phy/u_ddrphy_standard/u_hard_controller_0" in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(12076) is hardwired pin, but connect to a const net, it will be disconnected. You can connect it to the related hardwired pin or just leave it undriven.
+SYN-5044 CRITICAL-WARNING: The pin "hctrl_jtag_tdi" of inst "u_ddr_phy/u_ph1_logic_standard_phy/u_ddrphy_standard/u_hard_controller_0" in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(12076) is hardwired pin, but connect to a const net, it will be disconnected. You can connect it to the related hardwired pin or just leave it undriven.
+SYN-5044 CRITICAL-WARNING: The pin "hctrl_jtag_tms" of inst "u_ddr_phy/u_ph1_logic_standard_phy/u_ddrphy_standard/u_hard_controller_0" in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(12076) is hardwired pin, but connect to a const net, it will be disconnected. You can connect it to the related hardwired pin or just leave it undriven.
+SYN-5044 CRITICAL-WARNING: The pin "hctrl_jtag_trst_n" of inst "u_ddr_phy/u_ph1_logic_standard_phy/u_ddrphy_standard/u_hard_controller_0" in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(12076) is hardwired pin, but connect to a const net, it will be disconnected. You can connect it to the related hardwired pin or just leave it undriven.
+SYN-5044 CRITICAL-WARNING: The pin "wakeup_mux_dly" of inst "u_ddr_phy/u_ph1_logic_standard_phy/u_ddrphy_standard/u_hard_controller_0" in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(12076) is hardwired pin, but connect to a const net, it will be disconnected. You can connect it to the related hardwired pin or just leave it undriven.
+SYN-5044 CRITICAL-WARNING: The pin "A_diq[103]" of inst "u_ddr_phy/u_ph1_logic_standard_phy/u_ddrphy_standard/u_ddrphy/ddr_phy_4lanes_1$ph1_ddr_4lanes" in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(17438) is hardwired pin, but connect to a const net, it will be disconnected. You can connect it to the related hardwired pin or just leave it undriven.
+SYN-5044 CRITICAL-WARNING: The pin "A_diq[102]" of inst "u_ddr_phy/u_ph1_logic_standard_phy/u_ddrphy_standard/u_ddrphy/ddr_phy_4lanes_1$ph1_ddr_4lanes" in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(17438) is hardwired pin, but connect to a const net, it will be disconnected. You can connect it to the related hardwired pin or just leave it undriven.
+SYN-5044 CRITICAL-WARNING: The pin "A_diq[101]" of inst "u_ddr_phy/u_ph1_logic_standard_phy/u_ddrphy_standard/u_ddrphy/ddr_phy_4lanes_1$ph1_ddr_4lanes" in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(17438) is hardwired pin, but connect to a const net, it will be disconnected. You can connect it to the related hardwired pin or just leave it undriven.
+SYN-5044 CRITICAL-WARNING: The pin "A_diq[100]" of inst "u_ddr_phy/u_ph1_logic_standard_phy/u_ddrphy_standard/u_ddrphy/ddr_phy_4lanes_1$ph1_ddr_4lanes" in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(17438) is hardwired pin, but connect to a const net, it will be disconnected. You can connect it to the related hardwired pin or just leave it undriven.
+SYN-5044 CRITICAL-WARNING: The pin "A_diq[99]" of inst "u_ddr_phy/u_ph1_logic_standard_phy/u_ddrphy_standard/u_ddrphy/ddr_phy_4lanes_1$ph1_ddr_4lanes" in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(17438) is hardwired pin, but connect to a const net, it will be disconnected. You can connect it to the related hardwired pin or just leave it undriven.
+SYN-5044 Similar messages will be suppressed.
+SYN-5011 WARNING: Undriven pin: model "system_top" / inst "u_ddr_phy/u_ph1_logic_standard_phy/u_mcu/u_cpu/system_ram/u_mcu_ram/inst" in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(21596) / pin "ecc_dbiterrinj"
+SYN-5011 WARNING: Undriven pin: model "system_top" / inst "u_ddr_phy/u_ph1_logic_standard_phy/u_mcu/u_cpu/system_ram/u_mcu_ram/inst" in ../../uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(21596) / pin "ecc_sbiterrinj"
+SYN-5013 WARNING: Undriven net: model "system_top" / net "face_recognition_inst/image_dilate_filtering_inst/template_core[0]$u_image_template/fifo_inst[0]$Soft_FIFO_0_inst_1/soft_fifo_3decfaec05bd_Inst/al_soft_fifo_ktZv2ExW/al_soft_fifo_BpJUKxcz/al_soft_fifo_Iackm5Am" in ../../al_ip/Soft_FIFO_0/RTL/soft_fifo_3decfaec05bd.v(0)
+		the net's pin: pin "ar[7]" in ../../al_ip/Soft_FIFO_0/RTL/soft_fifo_3decfaec05bd.v(0)
+		the net's pin: pin "ar[6]" in ../../al_ip/Soft_FIFO_0/RTL/soft_fifo_3decfaec05bd.v(0)
+		the net's pin: pin "ar[5]" in ../../al_ip/Soft_FIFO_0/RTL/soft_fifo_3decfaec05bd.v(0)
+		the net's pin: pin "ar[4]" in ../../al_ip/Soft_FIFO_0/RTL/soft_fifo_3decfaec05bd.v(0)
+		the net's pin: pin "ar[3]" in ../../al_ip/Soft_FIFO_0/RTL/soft_fifo_3decfaec05bd.v(0)
+		the net's pin: pin "ar[2]" in ../../al_ip/Soft_FIFO_0/RTL/soft_fifo_3decfaec05bd.v(0)
+		the net's pin: pin "ar[1]" in ../../al_ip/Soft_FIFO_0/RTL/soft_fifo_3decfaec05bd.v(0)
+		the net's pin: pin "ar[0]" in ../../al_ip/Soft_FIFO_0/RTL/soft_fifo_3decfaec05bd.v(0)
+SYN-5013 WARNING: Undriven net: model "system_top" / net "face_recognition_inst/image_dilate_filtering_inst/template_core[0]$u_image_template/fifo_inst[0]$Soft_FIFO_0_inst_2/soft_fifo_3decfaec05bd_Inst/al_soft_fifo_ktZv2ExW/al_soft_fifo_BpJUKxcz/al_soft_fifo_Iackm5Am" in ../../al_ip/Soft_FIFO_0/RTL/soft_fifo_3decfaec05bd.v(0)
+		the net's pin: pin "ar[7]" in ../../al_ip/Soft_FIFO_0/RTL/soft_fifo_3decfaec05bd.v(0)
+		the net's pin: pin "ar[6]" in ../../al_ip/Soft_FIFO_0/RTL/soft_fifo_3decfaec05bd.v(0)
+		the net's pin: pin "ar[5]" in ../../al_ip/Soft_FIFO_0/RTL/soft_fifo_3decfaec05bd.v(0)
+		the net's pin: pin "ar[4]" in ../../al_ip/Soft_FIFO_0/RTL/soft_fifo_3decfaec05bd.v(0)
+		the net's pin: pin "ar[3]" in ../../al_ip/Soft_FIFO_0/RTL/soft_fifo_3decfaec05bd.v(0)
+		the net's pin: pin "ar[2]" in ../../al_ip/Soft_FIFO_0/RTL/soft_fifo_3decfaec05bd.v(0)
+		the net's pin: pin "ar[1]" in ../../al_ip/Soft_FIFO_0/RTL/soft_fifo_3decfaec05bd.v(0)
+		the net's pin: pin "ar[0]" in ../../al_ip/Soft_FIFO_0/RTL/soft_fifo_3decfaec05bd.v(0)
+SYN-5013 WARNING: Undriven net: model "system_top" / net "face_recognition_inst/image_dilate_filtering_inst/template_core[0]$u_image_template/fifo_inst[1]$Soft_FIFO_0_inst_1/soft_fifo_3decfaec05bd_Inst/al_soft_fifo_ktZv2ExW/al_soft_fifo_BpJUKxcz/al_soft_fifo_Iackm5Am" in ../../al_ip/Soft_FIFO_0/RTL/soft_fifo_3decfaec05bd.v(0)
+		the net's pin: pin "ar[7]" in ../../al_ip/Soft_FIFO_0/RTL/soft_fifo_3decfaec05bd.v(0)
+		the net's pin: pin "ar[6]" in ../../al_ip/Soft_FIFO_0/RTL/soft_fifo_3decfaec05bd.v(0)
+		the net's pin: pin "ar[5]" in ../../al_ip/Soft_FIFO_0/RTL/soft_fifo_3decfaec05bd.v(0)
+		the net's pin: pin "ar[4]" in ../../al_ip/Soft_FIFO_0/RTL/soft_fifo_3decfaec05bd.v(0)
+		the net's pin: pin "ar[3]" in ../../al_ip/Soft_FIFO_0/RTL/soft_fifo_3decfaec05bd.v(0)
+		the net's pin: pin "ar[2]" in ../../al_ip/Soft_FIFO_0/RTL/soft_fifo_3decfaec05bd.v(0)
+		the net's pin: pin "ar[1]" in ../../al_ip/Soft_FIFO_0/RTL/soft_fifo_3decfaec05bd.v(0)
+		the net's pin: pin "ar[0]" in ../../al_ip/Soft_FIFO_0/RTL/soft_fifo_3decfaec05bd.v(0)
+SYN-5013 WARNING: Undriven net: model "system_top" / net "face_recognition_inst/image_dilate_filtering_inst/template_core[0]$u_image_template/fifo_inst[1]$Soft_FIFO_0_inst_2/soft_fifo_3decfaec05bd_Inst/al_soft_fifo_ktZv2ExW/al_soft_fifo_BpJUKxcz/al_soft_fifo_Iackm5Am" in ../../al_ip/Soft_FIFO_0/RTL/soft_fifo_3decfaec05bd.v(0)
+		the net's pin: pin "ar[7]" in ../../al_ip/Soft_FIFO_0/RTL/soft_fifo_3decfaec05bd.v(0)
+		the net's pin: pin "ar[6]" in ../../al_ip/Soft_FIFO_0/RTL/soft_fifo_3decfaec05bd.v(0)
+		the net's pin: pin "ar[5]" in ../../al_ip/Soft_FIFO_0/RTL/soft_fifo_3decfaec05bd.v(0)
+		the net's pin: pin "ar[4]" in ../../al_ip/Soft_FIFO_0/RTL/soft_fifo_3decfaec05bd.v(0)
+		the net's pin: pin "ar[3]" in ../../al_ip/Soft_FIFO_0/RTL/soft_fifo_3decfaec05bd.v(0)
+		the net's pin: pin "ar[2]" in ../../al_ip/Soft_FIFO_0/RTL/soft_fifo_3decfaec05bd.v(0)
+		the net's pin: pin "ar[1]" in ../../al_ip/Soft_FIFO_0/RTL/soft_fifo_3decfaec05bd.v(0)
+		the net's pin: pin "ar[0]" in ../../al_ip/Soft_FIFO_0/RTL/soft_fifo_3decfaec05bd.v(0)
+SYN-5013 WARNING: Undriven net: model "system_top" / net "face_recognition_inst/image_dilate_filtering_inst/template_core[0]$u_image_template/fifo_inst[2]$Soft_FIFO_0_inst_1/soft_fifo_3decfaec05bd_Inst/al_soft_fifo_ktZv2ExW/al_soft_fifo_BpJUKxcz/al_soft_fifo_Iackm5Am" in ../../al_ip/Soft_FIFO_0/RTL/soft_fifo_3decfaec05bd.v(0)
+		the net's pin: pin "ar[7]" in ../../al_ip/Soft_FIFO_0/RTL/soft_fifo_3decfaec05bd.v(0)
+		the net's pin: pin "ar[6]" in ../../al_ip/Soft_FIFO_0/RTL/soft_fifo_3decfaec05bd.v(0)
+		the net's pin: pin "ar[5]" in ../../al_ip/Soft_FIFO_0/RTL/soft_fifo_3decfaec05bd.v(0)
+		the net's pin: pin "ar[4]" in ../../al_ip/Soft_FIFO_0/RTL/soft_fifo_3decfaec05bd.v(0)
+		the net's pin: pin "ar[3]" in ../../al_ip/Soft_FIFO_0/RTL/soft_fifo_3decfaec05bd.v(0)
+		the net's pin: pin "ar[2]" in ../../al_ip/Soft_FIFO_0/RTL/soft_fifo_3decfaec05bd.v(0)
+		the net's pin: pin "ar[1]" in ../../al_ip/Soft_FIFO_0/RTL/soft_fifo_3decfaec05bd.v(0)
+		the net's pin: pin "ar[0]" in ../../al_ip/Soft_FIFO_0/RTL/soft_fifo_3decfaec05bd.v(0)
+SYN-5013 WARNING: Undriven net: model "system_top" / net "face_recognition_inst/image_dilate_filtering_inst/template_core[0]$u_image_template/fifo_inst[2]$Soft_FIFO_0_inst_2/soft_fifo_3decfaec05bd_Inst/al_soft_fifo_ktZv2ExW/al_soft_fifo_BpJUKxcz/al_soft_fifo_Iackm5Am" in ../../al_ip/Soft_FIFO_0/RTL/soft_fifo_3decfaec05bd.v(0)
+		the net's pin: pin "ar[7]" in ../../al_ip/Soft_FIFO_0/RTL/soft_fifo_3decfaec05bd.v(0)
+		the net's pin: pin "ar[6]" in ../../al_ip/Soft_FIFO_0/RTL/soft_fifo_3decfaec05bd.v(0)
+		the net's pin: pin "ar[5]" in ../../al_ip/Soft_FIFO_0/RTL/soft_fifo_3decfaec05bd.v(0)
+		the net's pin: pin "ar[4]" in ../../al_ip/Soft_FIFO_0/RTL/soft_fifo_3decfaec05bd.v(0)
+		the net's pin: pin "ar[3]" in ../../al_ip/Soft_FIFO_0/RTL/soft_fifo_3decfaec05bd.v(0)
+		the net's pin: pin "ar[2]" in ../../al_ip/Soft_FIFO_0/RTL/soft_fifo_3decfaec05bd.v(0)
+		the net's pin: pin "ar[1]" in ../../al_ip/Soft_FIFO_0/RTL/soft_fifo_3decfaec05bd.v(0)
+		the net's pin: pin "ar[0]" in ../../al_ip/Soft_FIFO_0/RTL/soft_fifo_3decfaec05bd.v(0)
+SYN-5013 WARNING: Undriven net: model "system_top" / net "face_recognition_inst/image_dilate_filtering_inst/template_core[0]$u_image_template/fifo_inst[3]$Soft_FIFO_0_inst_1/soft_fifo_3decfaec05bd_Inst/al_soft_fifo_ktZv2ExW/al_soft_fifo_BpJUKxcz/al_soft_fifo_Iackm5Am" in ../../al_ip/Soft_FIFO_0/RTL/soft_fifo_3decfaec05bd.v(0)
+		the net's pin: pin "ar[7]" in ../../al_ip/Soft_FIFO_0/RTL/soft_fifo_3decfaec05bd.v(0)
+		the net's pin: pin "ar[6]" in ../../al_ip/Soft_FIFO_0/RTL/soft_fifo_3decfaec05bd.v(0)
+		the net's pin: pin "ar[5]" in ../../al_ip/Soft_FIFO_0/RTL/soft_fifo_3decfaec05bd.v(0)
+		the net's pin: pin "ar[4]" in ../../al_ip/Soft_FIFO_0/RTL/soft_fifo_3decfaec05bd.v(0)
+		the net's pin: pin "ar[3]" in ../../al_ip/Soft_FIFO_0/RTL/soft_fifo_3decfaec05bd.v(0)
+		the net's pin: pin "ar[2]" in ../../al_ip/Soft_FIFO_0/RTL/soft_fifo_3decfaec05bd.v(0)
+		the net's pin: pin "ar[1]" in ../../al_ip/Soft_FIFO_0/RTL/soft_fifo_3decfaec05bd.v(0)
+		the net's pin: pin "ar[0]" in ../../al_ip/Soft_FIFO_0/RTL/soft_fifo_3decfaec05bd.v(0)
+SYN-5013 WARNING: Undriven net: model "system_top" / net "face_recognition_inst/image_dilate_filtering_inst/template_core[0]$u_image_template/fifo_inst[3]$Soft_FIFO_0_inst_2/soft_fifo_3decfaec05bd_Inst/al_soft_fifo_ktZv2ExW/al_soft_fifo_BpJUKxcz/al_soft_fifo_Iackm5Am" in ../../al_ip/Soft_FIFO_0/RTL/soft_fifo_3decfaec05bd.v(0)
+		the net's pin: pin "ar[7]" in ../../al_ip/Soft_FIFO_0/RTL/soft_fifo_3decfaec05bd.v(0)
+		the net's pin: pin "ar[6]" in ../../al_ip/Soft_FIFO_0/RTL/soft_fifo_3decfaec05bd.v(0)
+		the net's pin: pin "ar[5]" in ../../al_ip/Soft_FIFO_0/RTL/soft_fifo_3decfaec05bd.v(0)
+		the net's pin: pin "ar[4]" in ../../al_ip/Soft_FIFO_0/RTL/soft_fifo_3decfaec05bd.v(0)
+		the net's pin: pin "ar[3]" in ../../al_ip/Soft_FIFO_0/RTL/soft_fifo_3decfaec05bd.v(0)
+		the net's pin: pin "ar[2]" in ../../al_ip/Soft_FIFO_0/RTL/soft_fifo_3decfaec05bd.v(0)
+		the net's pin: pin "ar[1]" in ../../al_ip/Soft_FIFO_0/RTL/soft_fifo_3decfaec05bd.v(0)
+		the net's pin: pin "ar[0]" in ../../al_ip/Soft_FIFO_0/RTL/soft_fifo_3decfaec05bd.v(0)
+SYN-5013 WARNING: Undriven net: model "system_top" / net "face_recognition_inst/image_dilate_filtering_inst/template_core[1]$u_image_template/fifo_inst[0]$Soft_FIFO_0_inst_1/soft_fifo_3decfaec05bd_Inst/al_soft_fifo_ktZv2ExW/al_soft_fifo_BpJUKxcz/al_soft_fifo_Iackm5Am" in ../../al_ip/Soft_FIFO_0/RTL/soft_fifo_3decfaec05bd.v(0)
+		the net's pin: pin "ar[7]" in ../../al_ip/Soft_FIFO_0/RTL/soft_fifo_3decfaec05bd.v(0)
+		the net's pin: pin "ar[6]" in ../../al_ip/Soft_FIFO_0/RTL/soft_fifo_3decfaec05bd.v(0)
+		the net's pin: pin "ar[5]" in ../../al_ip/Soft_FIFO_0/RTL/soft_fifo_3decfaec05bd.v(0)
+		the net's pin: pin "ar[4]" in ../../al_ip/Soft_FIFO_0/RTL/soft_fifo_3decfaec05bd.v(0)
+		the net's pin: pin "ar[3]" in ../../al_ip/Soft_FIFO_0/RTL/soft_fifo_3decfaec05bd.v(0)
+		the net's pin: pin "ar[2]" in ../../al_ip/Soft_FIFO_0/RTL/soft_fifo_3decfaec05bd.v(0)
+		the net's pin: pin "ar[1]" in ../../al_ip/Soft_FIFO_0/RTL/soft_fifo_3decfaec05bd.v(0)
+		the net's pin: pin "ar[0]" in ../../al_ip/Soft_FIFO_0/RTL/soft_fifo_3decfaec05bd.v(0)
+SYN-5013 WARNING: Undriven net: model "system_top" / net "face_recognition_inst/image_dilate_filtering_inst/template_core[1]$u_image_template/fifo_inst[0]$Soft_FIFO_0_inst_2/soft_fifo_3decfaec05bd_Inst/al_soft_fifo_ktZv2ExW/al_soft_fifo_BpJUKxcz/al_soft_fifo_Iackm5Am" in ../../al_ip/Soft_FIFO_0/RTL/soft_fifo_3decfaec05bd.v(0)
+		the net's pin: pin "ar[7]" in ../../al_ip/Soft_FIFO_0/RTL/soft_fifo_3decfaec05bd.v(0)
+		the net's pin: pin "ar[6]" in ../../al_ip/Soft_FIFO_0/RTL/soft_fifo_3decfaec05bd.v(0)
+		the net's pin: pin "ar[5]" in ../../al_ip/Soft_FIFO_0/RTL/soft_fifo_3decfaec05bd.v(0)
+		the net's pin: pin "ar[4]" in ../../al_ip/Soft_FIFO_0/RTL/soft_fifo_3decfaec05bd.v(0)
+		the net's pin: pin "ar[3]" in ../../al_ip/Soft_FIFO_0/RTL/soft_fifo_3decfaec05bd.v(0)
+		the net's pin: pin "ar[2]" in ../../al_ip/Soft_FIFO_0/RTL/soft_fifo_3decfaec05bd.v(0)
+		the net's pin: pin "ar[1]" in ../../al_ip/Soft_FIFO_0/RTL/soft_fifo_3decfaec05bd.v(0)
+		the net's pin: pin "ar[0]" in ../../al_ip/Soft_FIFO_0/RTL/soft_fifo_3decfaec05bd.v(0)
+SYN-5013 Similar messages will be suppressed.
+SYN-5025 WARNING: Using 0 for all undriven pins and nets
+SYN-1001 : End Stage 1.4 | Uniform Instance; Time: 0.661384s wall, 0.609375s user + 0.046875s system = 0.656250s CPU (99.2%); Memory(MB): used = 1685, reserved = 1776, peak = 1875;
+
+SYN-1079 : finish stage Uniform Instance. Total instances: 46425, Total nets: 160988.
+
+SYN-1001 : Stage 1.5 | Optimize Design
+SYN-1066 : Inferred FSM for state register 'u_ddr_phy/u_alc_mc_top/bgr[0]$u_page_ctrl/gr_cas_state_reg' in module 'system_top'
+--------------------------------------------
+     Previous Encoding     New Encoding
+--------------------------------------------
+                    01               01
+                    10               10
+--------------------------------------------
+SYN-1067 : encoded FSM with state register 'u_ddr_phy/u_alc_mc_top/bgr[0]$u_page_ctrl/gr_cas_state_reg' using encoding 'one_hot' in model 'system_top'
+SYN-1066 : Inferred FSM for state register 'u_ddr_phy/u_alc_mc_top/bgr[1]$u_page_ctrl/gr_cas_state_reg' in module 'system_top'
+--------------------------------------------
+     Previous Encoding     New Encoding
+--------------------------------------------
+                    01               01
+                    10               10
+--------------------------------------------
+SYN-1067 : encoded FSM with state register 'u_ddr_phy/u_alc_mc_top/bgr[1]$u_page_ctrl/gr_cas_state_reg' using encoding 'one_hot' in model 'system_top'
+SYN-1066 : Inferred FSM for state register 'u_ddr_phy/u_alc_mc_top/bgr[2]$u_page_ctrl/gr_cas_state_reg' in module 'system_top'
+--------------------------------------------
+     Previous Encoding     New Encoding
+--------------------------------------------
+                    01               01
+                    10               10
+--------------------------------------------
+SYN-1067 : encoded FSM with state register 'u_ddr_phy/u_alc_mc_top/bgr[2]$u_page_ctrl/gr_cas_state_reg' using encoding 'one_hot' in model 'system_top'
+SYN-1066 : Inferred FSM for state register 'u_ddr_phy/u_alc_mc_top/bgr[3]$u_page_ctrl/gr_cas_state_reg' in module 'system_top'
+--------------------------------------------
+     Previous Encoding     New Encoding
+--------------------------------------------
+                    01               01
+                    10               10
+--------------------------------------------
+SYN-1067 : encoded FSM with state register 'u_ddr_phy/u_alc_mc_top/bgr[3]$u_page_ctrl/gr_cas_state_reg' using encoding 'one_hot' in model 'system_top'
+SYN-1066 : Inferred FSM for state register 'u_ddr_phy/u_alc_mc_top/u_ref_ctrl/ref_cst_reg' in module 'system_top'
+--------------------------------------------
+     Previous Encoding     New Encoding
+--------------------------------------------
+             000000001        000000001
+             000000010        000000010
+             000000100        000000100
+             000001000        000001000
+             000010000        000010000
+             000100000        000100000
+             001000000        001000000
+             010000000        010000000
+             100000000        100000000
+--------------------------------------------
+SYN-1067 : encoded FSM with state register 'u_ddr_phy/u_alc_mc_top/u_ref_ctrl/ref_cst_reg' using encoding 'one_hot' in model 'system_top'
+SYN-1066 : Inferred FSM for state register 'u_ddr_phy/u_ph1_logic_standard_phy/u_mcu/u_cpu/system_uartCtrl/u_uart_rx/uart_rx_ctl_i0/state_reg' in module 'system_top'
+--------------------------------------------
+     Previous Encoding     New Encoding
+--------------------------------------------
+                    00             0001
+                    01             0010
+                    10             0100
+                    11             1000
+--------------------------------------------
+SYN-1067 : encoded FSM with state register 'u_ddr_phy/u_ph1_logic_standard_phy/u_mcu/u_cpu/system_uartCtrl/u_uart_rx/uart_rx_ctl_i0/state_reg' using encoding 'one_hot' in model 'system_top'
+SYN-1066 : Inferred FSM for state register 'u_ddr_phy/u_ph1_logic_standard_phy/u_mcu/u_cpu/system_uartCtrl/u_uart_tx/uart_tx_ctl_i0/state_reg' in module 'system_top'
+--------------------------------------------
+     Previous Encoding     New Encoding
+--------------------------------------------
+                    00             0001
+                    01             0010
+                    10             0100
+                    11             1000
+--------------------------------------------
+SYN-1067 : encoded FSM with state register 'u_ddr_phy/u_ph1_logic_standard_phy/u_mcu/u_cpu/system_uartCtrl/u_uart_tx/uart_tx_ctl_i0/state_reg' using encoding 'one_hot' in model 'system_top'
+SYN-1066 : Inferred FSM for state register 'u_imx_415_inst/TS_S_reg' in module 'system_top'
+--------------------------------------------
+     Previous Encoding     New Encoding
+--------------------------------------------
+                    00             0001
+                    01             0010
+                    10             0100
+                    11             1000
+--------------------------------------------
+SYN-1067 : encoded FSM with state register 'u_imx_415_inst/TS_S_reg' using encoding 'one_hot' in model 'system_top'
+SYN-1066 : Inferred FSM for state register 'u_mipi_dphy_rx_ph1a_mipiio_wrapper/u_ph1a_mipiio_wrapper/u_lane0_hs_detect/S_lp_state_reg' in module 'system_top'
+--------------------------------------------
+     Previous Encoding     New Encoding
+--------------------------------------------
+                   000            00001
+                   001            00010
+                   010            00100
+                   011            01000
+                   100            10000
+--------------------------------------------
+SYN-1067 : encoded FSM with state register 'u_mipi_dphy_rx_ph1a_mipiio_wrapper/u_ph1a_mipiio_wrapper/u_lane0_hs_detect/S_lp_state_reg' using encoding 'one_hot' in model 'system_top'
+SYN-1066 : Inferred FSM for state register 'uidbuf_u0/WR_S_reg' in module 'system_top'
+--------------------------------------------
+     Previous Encoding     New Encoding
+--------------------------------------------
+                    00             0001
+                    01             0010
+                    11             0100
+                    10             1000
+--------------------------------------------
+SYN-1067 : encoded FSM with state register 'uidbuf_u0/WR_S_reg' using encoding 'one_hot' in model 'system_top'
+SYN-1057 : Inferred 10 FSM(s)
+SYN-1001 : Optimize 1 less-than instances
+SYN-1032 : 125809/2759 useful/useless nets, 37096/1173 useful/useless insts
+SYN-1001 : Bypass 5 mux instances
+SYN-1021 : Optimized 14 onehot mux instances.
+SYN-1068 : Optimized 4 binary mux instances.
+SYN-1019 : Optimized 5 mux instances.
+SYN-1021 : Optimized 1 onehot mux instances.
+SYN-1021 : Optimized 4 onehot mux instances.
+SYN-1021 : Optimized 10 onehot mux instances.
+SYN-1016 : Merged 5395 instances.
+SYN-1035 : Inferred 12 ROM(s)
+5.000000
+7.272000
+6.000000
+5.000000
+SYN-1016 : Merged 5100 instances.
+SYN-1001 : End Stage 1.5 | Optimize Design; Time: 35.487443s wall, 34.968750s user + 0.250000s system = 35.218750s CPU (99.2%); Memory(MB): used = 2715, reserved = 2706, peak = 2717;
+
+SYN-1079 : finish stage Optimize Design. Total instances: 73254, Total nets: 86904.
+
+SYN-1001 : Stage 1.6 | Optimize Iteratively
+SYN-1018 : Transformed 8 mux instances.
+SYN-1019 : Optimized 12 mux instances.
+SYN-1021 : Optimized 193 onehot mux instances.
+SYN-1014 : Optimize round 1
+SYN-1044 : Optimized 161 inv instances.
+SYN-1017 : Remove 119 const input seq instances
+SYN-1018 : Transformed 2 mux instances.
+SYN-1019 : Optimized 80 mux instances.
+SYN-1020 : Optimized 1157 distributor mux.
+SYN-1001 : Optimize 68 less-than instances
+SYN-5084 WARNING: Register "uiFDMA_inst/rburst_len[0]_syn_3" in ../../uisrc/03_ip/uifdma/uiFDMA.v(257) is described with both an asynchronous reset/set and an initialization value of the opposite polarity. Ignore the initialization value '1'
+SYN-1019 : Optimized 112 mux instances.
+SYN-2595 : bram inst: u_isp_top/u_awb/signal_delay_d/blk_mem_gen_awb_delay_signal_d/inst is set to PDPW/SP from DP for resource saving
+SYN-2595 : bram inst: u_isp_top/u_raw_matrix_3x3_buffer/two_line_buffer[1]$line_buffer_demosaic_r1/blk_mem_gen_demosaic_r0/inst is set to PDPW/SP from DP for resource saving
+SYN-2595 : bram inst: u_isp_top/u_raw_matrix_3x3_buffer/two_line_buffer[2]$line_buffer_demosaic_r1/blk_mem_gen_demosaic_r0/inst is set to PDPW/SP from DP for resource saving
+SYN-2595 : bram inst: u_isp_top/u_raw_matrix_3x3_buffer/zhenghe_d/blk_mem_gen_zhenghe_d1/inst is set to PDPW/SP from DP for resource saving
+SYN-2541 : Reading BRAM "u_ddr_phy/u_ph1_logic_standard_phy/u_mcu/u_cpu/system_ram/u_mcu_ram/inst" init file "..\..\uisrc\03_ip\alip\ph1a_ddr\ddr_ip_dbg.mif"
+SYN-2542 : Parsing MIF init file
+SYN-1016 : Merged 4339 instances.
+SYN-1015 : Optimize round 1, 21696 better
+SYN-1014 : Optimize round 2
+SYN-1044 : Optimized 13 inv instances.
+SYN-1017 : Remove 80 const input seq instances
+SYN-1019 : Optimized 883 mux instances.
+SYN-1020 : Optimized 299 distributor mux.
+SYN-1019 : Optimized 28 mux instances.
+SYN-2541 : Reading BRAM "u_ddr_phy/u_ph1_logic_standard_phy/u_mcu/u_cpu/system_ram/u_mcu_ram/inst" init file "..\..\uisrc\03_ip\alip\ph1a_ddr\ddr_ip_dbg.mif"
+SYN-2542 : Parsing MIF init file
+SYN-1016 : Merged 666 instances.
+SYN-1015 : Optimize round 2, 2516 better
+SYN-3010 : Optimized 212 DFF(s)
+SYN-1014 : Optimize round 1
+SYN-1017 : Remove 25 const input seq instances
+SYN-1019 : Optimized 4 mux instances.
+SYN-1020 : Optimized 35 distributor mux.
+SYN-1019 : Optimized 1 mux instances.
+SYN-2541 : Reading BRAM "u_ddr_phy/u_ph1_logic_standard_phy/u_mcu/u_cpu/system_ram/u_mcu_ram/inst" init file "..\..\uisrc\03_ip\alip\ph1a_ddr\ddr_ip_dbg.mif"
+SYN-2542 : Parsing MIF init file
+SYN-1016 : Merged 190 instances.
+SYN-1015 : Optimize round 1, 407 better
+SYN-1014 : Optimize round 2
+SYN-1044 : Optimized 1 inv instances.
+SYN-1017 : Remove 4 const input seq instances
+SYN-1019 : Optimized 5 mux instances.
+SYN-1020 : Optimized 32 distributor mux.
+SYN-2541 : Reading BRAM "u_ddr_phy/u_ph1_logic_standard_phy/u_mcu/u_cpu/system_ram/u_mcu_ram/inst" init file "..\..\uisrc\03_ip\alip\ph1a_ddr\ddr_ip_dbg.mif"
+SYN-2542 : Parsing MIF init file
+SYN-1016 : Merged 66 instances.
+SYN-1015 : Optimize round 2, 134 better
+SYN-1014 : Optimize round 3
+SYN-1017 : Remove 6 const input seq instances
+SYN-1019 : Optimized 36 mux instances.
+SYN-1020 : Optimized 32 distributor mux.
+SYN-1019 : Optimized 1 mux instances.
+SYN-2541 : Reading BRAM "u_ddr_phy/u_ph1_logic_standard_phy/u_mcu/u_cpu/system_ram/u_mcu_ram/inst" init file "..\..\uisrc\03_ip\alip\ph1a_ddr\ddr_ip_dbg.mif"
+SYN-2542 : Parsing MIF init file
+SYN-1016 : Merged 32 instances.
+SYN-1015 : Optimize round 3, 150 better
+SYN-1014 : Optimize round 4
+SYN-1017 : Remove 18 const input seq instances
+SYN-1019 : Optimized 93 mux instances.
+SYN-2541 : Reading BRAM "u_ddr_phy/u_ph1_logic_standard_phy/u_mcu/u_cpu/system_ram/u_mcu_ram/inst" init file "..\..\uisrc\03_ip\alip\ph1a_ddr\ddr_ip_dbg.mif"
+SYN-2542 : Parsing MIF init file
+SYN-1015 : Optimize round 4, 181 better
+SYN-1014 : Optimize round 5
+SYN-1017 : Remove 12 const input seq instances
+SYN-1019 : Optimized 15 mux instances.
+SYN-2541 : Reading BRAM "u_ddr_phy/u_ph1_logic_standard_phy/u_mcu/u_cpu/system_ram/u_mcu_ram/inst" init file "..\..\uisrc\03_ip\alip\ph1a_ddr\ddr_ip_dbg.mif"
+SYN-2542 : Parsing MIF init file
+SYN-1016 : Merged 2 instances.
+SYN-1015 : Optimize round 5, 32 better
+SYN-1014 : Optimize round 6
+SYN-1017 : Remove 13 const input seq instances
+SYN-1019 : Optimized 6 mux instances.
+SYN-2541 : Reading BRAM "u_ddr_phy/u_ph1_logic_standard_phy/u_mcu/u_cpu/system_ram/u_mcu_ram/inst" init file "..\..\uisrc\03_ip\alip\ph1a_ddr\ddr_ip_dbg.mif"
+SYN-2542 : Parsing MIF init file
+SYN-1016 : Merged 2 instances.
+SYN-1015 : Optimize round 6, 21 better
+SYN-1014 : Optimize round 7
+SYN-1017 : Remove 19 const input seq instances
+SYN-1019 : Optimized 15 mux instances.
+SYN-2541 : Reading BRAM "u_ddr_phy/u_ph1_logic_standard_phy/u_mcu/u_cpu/system_ram/u_mcu_ram/inst" init file "..\..\uisrc\03_ip\alip\ph1a_ddr\ddr_ip_dbg.mif"
+SYN-2542 : Parsing MIF init file
+SYN-1015 : Optimize round 7, 37 better
+SYN-1014 : Optimize round 8
+SYN-1017 : Remove 3 const input seq instances
+SYN-2541 : Reading BRAM "u_ddr_phy/u_ph1_logic_standard_phy/u_mcu/u_cpu/system_ram/u_mcu_ram/inst" init file "..\..\uisrc\03_ip\alip\ph1a_ddr\ddr_ip_dbg.mif"
+SYN-2542 : Parsing MIF init file
+SYN-1015 : Optimize round 8, 6 better
+SYN-1001 : End Stage 1.6 | Optimize Iteratively; Time: 70.845673s wall, 69.968750s user + 0.484375s system = 70.453125s CPU (99.4%); Memory(MB): used = 2856, reserved = 2856, peak = 2921;
+
+SYN-1079 : finish stage Optimize Iteratively. Total instances: 64291, Total nets: 76450.
+
+SYN-1001 : Stage 1.7 | Check Design
+SYN-1001 : End Stage 1.7 | Check Design; Time: 0.026743s wall, 0.031250s user + 0.000000s system = 0.031250s CPU (116.9%); Memory(MB): used = 2856, reserved = 2857, peak = 2921;
+
+SYN-1079 : finish stage Check Design. Total instances: 64291, Total nets: 76450.
+
+SYN-1001 : End Stage 1 | Optimize RTL; Time: 113.651497s wall, 112.218750s user + 0.781250s system = 113.000000s CPU (99.4%); Memory(MB): used = 2856, reserved = 2857, peak = 2921;
+
+SYN-1079 : finish stage Optimize RTL. Total instances: 64291, Total nets: 76450.
+
+RUN-1003 : finish command "optimize_rtl" in  113.670721s wall, 112.234375s user + 0.781250s system = 113.015625s CPU (99.4%)
+
+RUN-1004 : used memory is 2856 MB, reserved memory is 2857 MB, peak memory is 2921 MB
+RUN-1002 : start command "report_area -file imx_isp_rtl.area"
+RUN-1001 : standard
+***Report Model: system_top Device: PH1A180SFG676***
+
+IO Statistics
+#IO                        82
+  #input                    4
+  #output                  33
+  #inout                   45
+
+Gate Statistics
+#Basic gates            42397
+  #and                   3391
+  #nand                     0
+  #or                     948
+  #nor                      0
+  #xor                    133
+  #xnor                     0
+  #buf                      0
+  #not                   2789
+  #bufif1                   1
+  #MX21                  1437
+  #FADD                     0
+  #DFF                  33698
+  #LATCH                    0
+#MACRO_ADD                765
+#MACRO_EQ                 619
+#MACRO_MULT                74
+#MACRO_MUX               8628
+#MACRO_OTHERS              17
+
+LUT Statistics
+#Total_luts              4530
+  #lut4                  2054
+  #lut5                    44
+  #lut6                   178
+  #lut5_mx41                0
+  #lut4_alu1b            2254
+
+RUN-1002 : start command "export_db imx_isp_rtl.db"
+RUN-1001 : Exported flow parameters
+RUN-1001 : Exported /
+RUN-1001 : Exported libs
+RUN-1001 : Exported entities
+RUN-1001 : Exported ports
+RUN-1001 : Exported pins
+RUN-1001 : Exported instances
+RUN-1001 : Exported nets
+RUN-1001 : Exported buses
+RUN-1001 : Exported models
+RUN-1001 : Exported packer
+RUN-1001 : Exported congestions
+RUN-1001 : Exported violations
+RUN-1001 : Exported ATMR Setting
+RUN-1001 : Exported timing constraints
+RUN-1001 : Exported IO constraints
+RUN-1001 : Exported Inst constraints
+RUN-1001 : Exported ChipWatcher
+RUN-1003 : finish command "export_db imx_isp_rtl.db" in  1.085689s wall, 1.421875s user + 0.046875s system = 1.468750s CPU (135.3%)
+
+RUN-1004 : used memory is 2903 MB, reserved memory is 2902 MB, peak memory is 2921 MB
+RUN-1002 : start command "commit_param -step gate"
+RUN-1001 : Print Global Property
+RUN-1001 : -------------------------------------------------------------
+RUN-1001 :     Parameters    |   Settings   |  Default Values  |  Note  
+RUN-1001 : -------------------------------------------------------------
+RUN-1001 :    enable_seed    |     off      |       off        |        
+RUN-1001 :    hfn_to_clock   |  1000000000  |    1000000000    |        
+RUN-1001 :      message      |   standard   |     standard     |        
+RUN-1001 :    qor_monitor    |      on      |        on        |        
+RUN-1001 :   speedup_effort  |      0       |        0         |        
+RUN-1001 :    syn_ip_flow    |     off      |       off        |        
+RUN-1001 :       thread      |     auto     |       auto       |        
+RUN-1001 : -------------------------------------------------------------
+RUN-1001 : Print Gate Property
+RUN-1001 : ----------------------------------------------------------------
+RUN-1001 :       Parameters       |  Settings  |  Default Values  |  Note  
+RUN-1001 : ----------------------------------------------------------------
+RUN-1001 :   eram_cascade_height  |    auto    |       auto       |        
+RUN-1001 :        map_mode        |    auto    |       auto       |        
+RUN-1001 :      map_strategy      |     1      |        1         |        
+RUN-1001 :       pack_effort      |   medium   |      medium      |        
+RUN-1001 :     pack_seq_in_io     |    auto    |       auto       |        
+RUN-1001 :         report         |  standard  |     standard     |        
+RUN-1001 : ----------------------------------------------------------------
+RUN-1002 : start command "optimize_gate -packarea imx_isp_gate.area"
+RUN-1001 : Open license file D:/TD/license/Anlogic.lic
+SYN-1001 : Stage 2 | Optimize Gate
+SYN-1001 : Stage 2.1 | Map Reg
+SYN-1001 : End Stage 2.1 | Map Reg; Time: 1.980538s wall, 1.937500s user + 0.031250s system = 1.968750s CPU (99.4%); Memory(MB): used = 2857, reserved = 2857, peak = 2921;
+
+SYN-1079 : finish stage Map Reg. Total instances: 64291, Total nets: 76450.
+
+SYN-1001 : Stage 2.2 | Map IO
+SYN-6024 CRITICAL-WARNING: MapIO rule -- ODDR "CMOS_CLK" not have rst or rst is const or ASYNCRST is DISABLE, this may lead PAD tx data out of sync with other PAD. Please consider rewriting code in ../../uisrc/01_rtl/system_top.v(111).
+SYN-2001 : Map 82 IOs to PADs of model 'system_top'
+SYN-1001 : End Stage 2.2 | Map IO; Time: 0.484660s wall, 0.468750s user + 0.015625s system = 0.484375s CPU (99.9%); Memory(MB): used = 2859, reserved = 2858, peak = 2921;
+
+SYN-1001 : Stage 2.3 | Map Macro
+RUN-1002 : start command "update_pll_param -module system_top"
+SYN-6577 WARNING: The clock signal "S_hs_rx_clk" is added with the synthetic instruction (keep/mark_debug/dont_touch/max_fanout), which may create additional logic on this net
+SYN-6577 WARNING: The clock signal "u_ddr_phy/u_ph1_logic_standard_phy/u_clk/hctrl_clk_bufg" is added with the synthetic instruction (keep/mark_debug/dont_touch/max_fanout), which may create additional logic on this net
+SYN-2501 : Processed 0 LOGIC_BUF instances.
+SYN-2501 : 5 BUFG to GCLK
+SYN-2541 : Logic Ram FIFO "u_hdmi_tx/u_hdmi_tx_controller_wrapper/u_hdmi_island_data_gen/U_audio_sample_packet_2_channel/u_w64_d1024_fifo/logic_ramfifo"
+SYN-2541 : Logic Ram FIFO "u_hdmi_tx/u_hdmi_tx_controller_wrapper/u_video_axi_stream_receiver/u_w24_d1024_fifo/logic_ramfifo"
+SYN-2541 : Reading BRAM "u_ddr_phy/u_ph1_logic_standard_phy/u_mcu/u_cpu/system_ram/u_mcu_ram/inst" init file "..\..\uisrc\03_ip\alip\ph1a_ddr\ddr_ip_dbg.mif"
+SYN-2542 : Parsing MIF init file
+SYN-2571 : Map 74 macro multiplier
+SYN-2571 : Optimize after map_dsp, round 1
+SYN-1016 : Merged 98 instances.
+SYN-2571 : Optimize after map_dsp, round 1, 98 better
+SYN-2571 : Optimize after map_dsp, round 2
+SYN-2571 : Optimize after map_dsp, round 2, 0 better
+SYN-2601 : All the used dsp number is 74
+SYN-1001 : Throwback 933 control mux instances
+SYN-1001 : Generate 34 bigger adders
+SYN-1001 : Convert 28 adder
+5.000000
+7.272000
+6.000000
+5.000000
+SYN-1001 : Optimize 97 adders
+SYN-1001 : Convert 6 adder
+SYN-2501 : Optimize round 1
+SYN-1016 : Merged 977 instances.
+SYN-2501 : Optimize round 1, 3746 better
+SYN-2501 : Optimize round 2
+SYN-2501 : Optimize round 2, 12 better
+SYN-2501 : Optimize round 1
+SYN-2501 : Optimize round 1, 0 better
+SYN-1030 : Map 25 macro adder
+SYN-1031 : Map 68 macro less-than
+SYN-2501 : Map 615 macro adder(s)
+SYN-3009 : Map 72 FxMUX in MapMacro
+SYN-1019 : Optimized 598 mux instances.
+SYN-1016 : Merged 2268 instances.
+SYN-1001 : End Stage 2.3 | Map Macro; Time: 49.467289s wall, 45.687500s user + 3.593750s system = 49.281250s CPU (99.6%); Memory(MB): used = 2946, reserved = 2934, peak = 2946;
+
+SYN-1079 : finish stage Map Macro. Total instances: 71038, Total nets: 91041.
+
+SYN-1001 : Stage 2.4 | Map Gate
+SYN-3001 : Collect 15129 PI 9749 PO (49 timing unconstrained) for mapping
+SYN-2581 : Mapping with K=6, #lut = 13596 (3.89), #lev = 14 (2.19), #crit_level = 8
+SYN-2551 : Post LUT mapping optimization.
+SYN-2581 : Mapping with K=6, #lut = 13558 (3.87), #lev = 14 (2.18), #crit_level = 8
+SYN-3001 : Logic optimization opt = 21.62 sec, map = 1.58 sec, post map opt = 6.51 sec.
+SYN-1001 : End Stage 2.4 | Map Gate; Time: 72.377663s wall, 71.500000s user + 0.265625s system = 71.765625s CPU (99.2%); Memory(MB): used = 2998, reserved = 2986, peak = 2999;
+
+SYN-1001 : Packing model "system_top" ...
+SYN-1001 : Stage 2.5 | Pack Gate
+SYN-4010 : Pack lib has 88 rtl pack models with 59 top pack blocks
+SYN-1014 : Optimize round 1
+SYN-1015 : Optimize round 1, 0 better
+SYN-4002 : Packing 23293 DFF/LATCH to SEQ ...
+SYN-1001 : Remove 343 carry adders
+RUN-1002 : start command "start_timer"
+5.000000
+7.272000
+6.000000
+5.000000
+RUN-1003 : finish command "start_timer" in  24.249654s wall, 23.921875s user + 0.156250s system = 24.078125s CPU (99.3%)
+
+RUN-1004 : used memory is 2999 MB, reserved memory is 2986 MB, peak memory is 2999 MB
+RUN-1002 : start command "end_timer"
+SYN-4009 : Pack 264 carry chain into lslice
+SYN-1001 : End Stage 2.5 | Pack Gate; Time: 51.848575s wall, 33.750000s user + 17.687500s system = 51.437500s CPU (99.2%); Memory(MB): used = 2999, reserved = 2986, peak = 2999;
+
+RUN-1002 : start command "report_qor -step gate -file gate.qor"
+RUN-1002 : start command "start_timer"
+RUN-1003 : finish command "start_timer" in  17.242145s wall, 17.125000s user + 0.031250s system = 17.156250s CPU (99.5%)
+
+RUN-1004 : used memory is 3044 MB, reserved memory is 3031 MB, peak memory is 3044 MB
+-----------------------------------------------------------
+| QoR metrics               |         value               |
+-----------------------------------------------------------
+| Timing                    |                             |
+|     Setup WNS             |        -6977                |
+|     Setup TNS             |      -361276                |
+|     Num of violated S-EP  |          397                |
+|     Hold WNS              |           40                |
+|     Hold TNS              |            0                |
+|     Num of violated H-EP  |            0                |
+-----------------------------------------------------------
+| Utilization               |                             |
+|     #registers            |        23293                |
+|     #luts                 |        16069                |
+|     #lut1                 |          315                |
+|     #lut1(~A)             |          315                |
+|     #slices               |         5044                |
+|     slices percentage     |        4.32%                |
+|     #RAMs                 |           95                |
+|     #DSPs                 |           74                |
+|     #f7mux                |        0.08%                |
+|     #MACROs               |          432                |
+|     #insts in MACRO       |         5298                |
+-----------------------------------------------------------
+| kept_net                  |                             |
+|     #syn_keep             |         2959                |
+|     #keep_hier            |            0                |
+|     #dont_touch           |            0                |
+|     #mark_debug           |          571                |
+|     #max_fanout_keep      |            0                |
+|     #async_reg            |            0                |
+-----------------------------------------------------------
+| Top 10% datanet fanout#   |        27.70                |
+| dff(single fanout)->dff   |         2564                |
+| dff(single fanout)->dram  |            1                |
+-----------------------------------------------------------
+| Over-quota path num*      |                             |
+|     S_hs_rx_clk           |           33                |
+|     Total                 |           33                |
+-----------------------------------------------------------
+| Rent**                    |                             |
+|     uidbuf_u0             |         0.71                |
+-----------------------------------------------------------
+Note*: Over-quota path shows the over-path-level-threshold path number of each clock.
+       The clock will not be shown if no path is with path level over the threshold.
+       The threshold is defined as worst path_margin / 800ps.
+Note**: Rent shows the rent exponent value of the modules whose rent value exceeds the threshold.
+        Only modules under top are reported, and the threshold is defined as 0.7.
+
+Over-quota Path Details
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+     Clock     |  Index  |  Budget(Period)  |  Level(Quota)  |                                                                            Cell Type List                                                                            |  Reason  |  Slack  
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  S_hs_rx_clk  |    1    |    5856(6000)    |     15(8)      |  SEQ,BUFKEEP,BUFKEEP,LUT4,LUT5,LUT5,BUFKEEP,BUFKEEP,LUT2,LUT6,ADDER,ADDER,ADDER,ADDER,ADDER,ADDER,LUT3,ADDER,ADDER,ADDER,LUT3,ADDER,ADDER,ADDER,ADDER,LUT5,LUT4,SEQ  |  normal  |  -6169  
+               |    2    |    5856(6000)    |     15(8)      |  SEQ,BUFKEEP,BUFKEEP,LUT4,LUT5,LUT5,BUFKEEP,BUFKEEP,LUT2,LUT6,ADDER,ADDER,ADDER,ADDER,ADDER,ADDER,LUT3,ADDER,ADDER,ADDER,LUT3,ADDER,ADDER,ADDER,ADDER,LUT5,LUT4,SEQ  |  normal  |  -6169  
+               |    3    |    5856(6000)    |     15(8)      |  SEQ,BUFKEEP,BUFKEEP,LUT4,LUT5,LUT5,BUFKEEP,BUFKEEP,LUT2,LUT6,ADDER,ADDER,ADDER,ADDER,ADDER,ADDER,LUT3,ADDER,ADDER,ADDER,LUT3,ADDER,ADDER,ADDER,ADDER,LUT6,LUT2,SEQ  |  normal  |  -6168  
+               |    4    |    5856(6000)    |     15(8)      |  SEQ,BUFKEEP,BUFKEEP,LUT4,LUT5,LUT5,BUFKEEP,BUFKEEP,LUT2,LUT6,ADDER,ADDER,ADDER,ADDER,ADDER,ADDER,LUT3,ADDER,ADDER,ADDER,LUT3,ADDER,ADDER,ADDER,ADDER,LUT6,LUT2,SEQ  |  normal  |  -6168  
+               |    5    |    5856(6000)    |     15(8)      |  SEQ,BUFKEEP,BUFKEEP,LUT4,LUT5,LUT5,BUFKEEP,BUFKEEP,LUT2,LUT6,ADDER,ADDER,ADDER,ADDER,ADDER,ADDER,LUT3,ADDER,ADDER,ADDER,LUT3,ADDER,ADDER,ADDER,ADDER,LUT6,LUT2,SEQ  |  normal  |  -6168  
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Note: Table only show top 5 paths for each clock group in default
+
+Logic Level Distribution
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  Clock              |  Period             |  0      |  1     |  2     |  3     |  4     |  5    |  6    |  7    |  8   |  9   |  10  |  11  |  12  |  13  |  14  |  15
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  S_hs_rx_clk        |  6.000ns (166MHz)   |  8884   |  4955  |  4671  |  3396  |  1254  |  496  |  12   |  109  |  11  |  0   |  0   |  0   |  0   |  0   |  12  |  10
+  cam_clk_24m        |  41.456ns (24MHz)   |  61     |  39    |  57    |  26    |  49    |  31   |  0    |  0    |  0   |  0   |  0   |  0   |  0   |  0   |  0   |  0
+  clk_25m            |  40.000ns (25MHz)   |  0      |  0     |  0     |  0     |  0     |  0    |  0    |  0    |  0   |  0   |  0   |  0   |  0   |  0   |  0   |  0
+  cpu_clk_70m        |  14.545ns (68MHz)   |  5      |  3     |  2     |  0     |  0     |  0    |  0    |  0    |  0   |  0   |  0   |  0   |  0   |  0   |  0   |  0
+  ddr_clk            |  10.000ns (100MHz)  |  0      |  0     |  0     |  0     |  0     |  0    |  0    |  0    |  0   |  0   |  0   |  0   |  0   |  0   |  0   |  0
+  pclkx1             |  7.272ns (137MHz)   |  920    |  475   |  205   |  65    |  159   |  73   |  0    |  0    |  0   |  0   |  0   |  0   |  0   |  0   |  0   |  0
+  pclkx5             |  1.454ns (687MHz)   |  16     |  33    |  0     |  0     |  0     |  0    |  0    |  0    |  0   |  0   |  0   |  0   |  0   |  0   |  0   |  0
+  u_ddr_phy/ctl_clk  |  5.000ns (200MHz)   |  0      |  0     |  0     |  0     |  0     |  0    |  0    |  0    |  0   |  0   |  0   |  0   |  0   |  0   |  0   |  0
+  u_ddr_phy/ddr_clk  |  1.250ns (800MHz)   |  0      |  0     |  0     |  0     |  0     |  0    |  0    |  0    |  0   |  0   |  0   |  0   |  0   |  0   |  0   |  0
+  u_ddr_phy/dfi_clk  |  5.000ns (200MHz)   |  5215   |  2366  |  1240  |  1884  |  190   |  93   |  111  |  0    |  0   |  0   |  0   |  0   |  0   |  0   |  0   |  0
+  u_ddr_phy/fbk_clk  |  5.000ns (200MHz)   |  0      |  0     |  0     |  0     |  0     |  0    |  0    |  0    |  0   |  0   |  0   |  0   |  0   |  0   |  0   |  0
+  u_ddr_phy/mcu_clk  |  20.000ns (50MHz)   |  1036   |  426   |  176   |  102   |  477   |  63   |  46   |  107  |  36  |  65  |  32  |  2   |  4   |  36  |  3   |  0
+  u_ddr_phy/ref_clk  |  5.000ns (200MHz)   |  0      |  0     |  0     |  0     |  0     |  0    |  0    |  0    |  0   |  0   |  0   |  0   |  0   |  0   |  0   |  0
+  u_ddr_phy/sclk0    |  5.000ns (200MHz)   |  628    |  64    |  0     |  0     |  0     |  0    |  0    |  0    |  0   |  0   |  0   |  0   |  0   |  0   |  0   |  0
+  u_ddr_phy/sclk1    |  5.000ns (200MHz)   |  2700   |  330   |  0     |  0     |  0     |  0    |  0    |  0    |  0   |  0   |  0   |  0   |  0   |  0   |  0   |  0
+  u_ddr_phy/usr_clk  |  5.000ns (200MHz)   |  0      |  0     |  0     |  0     |  0     |  0    |  0    |  0    |  0   |  0   |  0   |  0   |  0   |  0   |  0   |  0
+  Total              |  NA                 |  19465  |  8691  |  6351  |  5473  |  2129  |  756  |  169  |  216  |  47  |  65  |  32  |  2   |  4   |  36  |  15  |  10
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Note: The table count the worst 100000 paths, each endpoint count only one time.(43461 paths analyzed)
+
+Hierarchical Rent Exponent Report
++-----------------------------------------------------------------------------------+
+|Inst                    |Model              |Rent     |Cell     |Pin     |Term     |
++-----------------------------------------------------------------------------------+
+|top                     |system_top         |0.15     |51902    |232064  |23       |
+|  uidbuf_u0             |uidbuf_13          |0.71     |1404     |6215    |747      |
+|  u_ddr_phy             |ddr_ip_5           |0.52     |15680    |74380   |726      |
+|  face_recognition_inst |face_recognition_1 |0.41     |11292    |51399   |203      |
+|  u_isp_top             |isp_top_8          |0.38     |18823    |82320   |176      |
+|  u_hdmi_tx             |hdmi_tx_6          |0.31     |1730     |6428    |38       |
++-----------------------------------------------------------------------------------+
+Note: Cell represents total number of cells inside module; Pin represents total number of pins
+      which have net connection inside module; Term represents total number of PIs and POs of module.
+      Rent represents the relationship between number of terms and number of cells in module.
+      A module with higher rent corresponds to highly connected logic and strong connectivity with others.
+Report gate stage QoR done.
+
+RUN-0008 : Do critical warning check and 0 issue(s) found.
+RUN-0008 : Do timing check and 2 issue(s) found.
+RUN-0008 : Do area check and 1 issue(s) found.
+QoR Evaluation
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+  ID        |  Priority  |  Description                                                     |  Suggestion
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+  QOR-1002  |  HIGH      |  - 33 over-quota path exist.                                     |  - Try following setting to reduce over-quota:
+            |            |                                                                  |      set_param gate map_mode logic_level_prior
+            |            |                                                                  |      set_param gate map_strategy 2
+            |            |                                                                  |      set_param gate multi_thread_mapping strategy
+            |            |                                                                  |      set_param place logic_level_opt on
+            |            |                                                                  |  
+  QOR-3100  |  HIGH      |  - Long carry chain on over quota path, which may introduce lar  |  - Try to use directive "use_ripple = 0" to break the carry cha
+            |            |    ge data path delay.                                           |    in.
+            |            |                                                                  |  
+  QOR-1001  |  LOW       |  - Gate timing is too bad, SWNS -6977ps and STNS -361276ps.      |  - Try following setting to improve timing:
+            |            |                                                                  |      set_param gate map_mode logic_level_prior
+            |            |                                                                  |      set_param gate map_strategy 2
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+Note* (*) means this parameter has been set already.
+      (+) means this parameter has been set, suggest to upgrade higher effort level.
+Note** plesae resolve priority MUST FIX and HIGH issues firstly
+       because these have highly possible to block the timing convergence even stop the flow.
+Note*** some suggested settings are not suitable to use together
+        take care of using them separately if suggestion mentioned.
+SYN-1001 : The design has 308 dangling syn_keep insts,2 dangling mark_debug insts.
+RUN-1003 : finish command "report_qor -step gate -file gate.qor" in  37.312280s wall, 36.921875s user + 0.156250s system = 37.078125s CPU (99.4%)
+
+RUN-1004 : used memory is 3044 MB, reserved memory is 3031 MB, peak memory is 3044 MB
+RUN-1002 : start command "report_area -file imx_isp_gate.area"
+SYN-4034 : The count of slices with lut is 621.
+SYN-4035 : The count of slices with lut+ripple is 3799.
+RUN-1001 : standard
+***Report Model: system_top Device: PH1A180SFG676***
+
+Design Statistics
+#IO                        82   out of    376   21.81%
+  #input                    4
+  #output                  33
+  #inout                   45
+#lut                    21113
+  #lut1                   315
+  #lut2                  2802
+  #lut3                  5608
+  #lut4                  2085
+  #lut5                  1983
+  #lut6                  8320
+#reg                    23294
+  #slice reg            23293   out of 233600    9.97%
+  #pad reg                  1
+
+Utilization Statistics
+#slice*                 17866   out of 116800   15.30%
+  #used ram               624
+    #dram lut             416
+    #shifter lut          208
+  #used logic           17242
+    #with luts*         11142
+    #with adder          3799
+    #reg only*           2301
+#f7mux                     48   out of  58400    0.08%
+#f8mux                     24   out of  29200    0.08%
+#eram                      95   out of    646   14.71%
+  #eram20k                 95
+  #fifo20k                  0
+#dsp                       74   out of    600   12.33%
+#pcie                       0   out of      1    0.00%
+#serdes dual                0   out of      4    0.00%
+#ddr_cal                    1   out of      1  100.00%
+#ddr_bank                   2   out of      3   66.67%
+#pad                       87   out of    376   23.14%
+#pll                        3   out of     16   18.75%
+#gclk                       5   out of     32   15.62%
+#lclk                       0   out of     40    0.00%
+#sclk                       2   out of    120    1.67%
+#mlclk                      2   out of     22    9.09%
+#ioclk                      4   out of     22   18.18%
+
+* Note! The LUT and Slice count after Optimize-Gate is not the final value, Run Optimize-place for a more realistic count.
+
+SYN-1001 : End Stage 2 | Optimize Gate; Time: 214.063679s wall, 190.859375s user + 21.750000s system = 212.609375s CPU (99.3%); Memory(MB): used = 3044, reserved = 3031, peak = 3044;
+
+RUN-1003 : finish command "optimize_gate -packarea imx_isp_gate.area" in  214.076955s wall, 190.875000s user + 21.750000s system = 212.625000s CPU (99.3%)
+
+RUN-1004 : used memory is 3044 MB, reserved memory is 3031 MB, peak memory is 3044 MB
+RUN-1002 : start command "legalize_phy_inst"
+SYN-1001 : Stage 3 | Legalize Phy Inst
+SYN-1011 : Flatten model system_top
+SYN-1001 : ADC: Instance "u_ddr_phy/u_ph1_logic_standard_phy/u_clk/u_pll0/pll_inst" LOCATION="X113Y79Z0"
+SYN-1001 : ADC: Instance "u_ddr_phy/u_ph1_logic_standard_phy/u_clk/u_pll1/pll_inst" LOCATION="X113Y40Z0"
+SYN-1001 : ADC: Instance "u_ddr_phy/u_ph1_logic_standard_phy/u_ddrphy_standard/u_ddrphy/ddr_phy_4lanes_1$ph1_ddr_4lanes" LOCATION="X113Y40Z0"
+SYN-1001 : ADC: Instance "u_ddr_phy/u_ph1_logic_standard_phy/u_ddrphy_standard/u_ddrphy/ddr_phy_4lanes_2$ph1_ddr_4lanes" LOCATION="X113Y0Z0"
+SYN-1001 : ADC: Instance "u_ddr_phy/u_ph1_logic_standard_phy/u_ddrphy_standard/u_hard_controller_0" LOCATION="X97Y40Z0"
+SYN-1001 : ADC: Instance "u_mipi_dphy_rx_ph1a_mipiio_wrapper/u_ph1a_mipiio_wrapper/u_PH1_PHY_MIPIIO" LOCATION="X5Y0Z0"
+SYN-1001 : End Stage 3 | Legalize Phy Inst; Time: 0.503774s wall, 0.484375s user + 0.015625s system = 0.500000s CPU (99.3%); Memory(MB): used = 3045, reserved = 3031, peak = 3045;
+
+RUN-1002 : start command "update_timing"
+RUN-1002 : start command "start_timer"
+RUN-1003 : finish command "start_timer" in  16.822543s wall, 16.593750s user + 0.093750s system = 16.687500s CPU (99.2%)
+
+RUN-1004 : used memory is 3069 MB, reserved memory is 3055 MB, peak memory is 3069 MB
+RUN-1003 : finish command "update_timing" in  20.797746s wall, 20.515625s user + 0.093750s system = 20.609375s CPU (99.1%)
+
+RUN-1004 : used memory is 3069 MB, reserved memory is 3055 MB, peak memory is 3069 MB
+RUN-1002 : start command "report_timing_status -file imx_isp_gate.ts"
+RUN-1002 : start command "report_timing_summary -file imx_isp_gate.timing"
+RUN-1002 : start command "flow_status -file flow.status"
+Location         : D:\TD\prj\imx_face\imx_isp_Runs\syn_1
+Running with     : Tang Dynasty v6.2.168116
+                   Copyright (c) 2012-2025 Anlogic Inc.
+Top Model        : system_top
+Device           : PH1A180SFG676
+Speed            : 2
+
+Timing Mode      : basic
+Setup            : WNS -6977ps  TNS  -361276ps  NUM_FEPS   397
+Hold             : WNS    40ps  TNS        0ps  NUM_FEPS     0
+
+Flow Statistics  :
+RUN-1001 : Flow Statistics:
+RUN-1001 : ---------------------------------------------------------------------------------------------------
+RUN-1001 :      command     |  #calls  |  wall time   |  cpu time(s)  |  used memory(mb)  |  peak memory(mb)  
+RUN-1001 : ---------------------------------------------------------------------------------------------------
+RUN-1001 :   optimize_gate  |    1     |  3m34s(64%)  |   211(64%)    |       3044        |       3044        
+RUN-1001 :   optimize_rtl   |    1     |  1m53s(34%)  |   112(34%)    |       2856        |       2921        
+RUN-1001 :   import_device  |    1     |    5s(1%)    |     3(0%)     |       1194        |       1194        
+RUN-1001 :     read_adc     |    1     |    0s(0%)    |     0(0%)     |       1851        |       1852        
+RUN-1001 :     read_sdc     |    4     |    0s(0%)    |     0(0%)     |       1849        |       1852        
+RUN-1001 : ---------------------------------------------------------------------------------------------------
+RUN-1001 :       total      |    8     |    5m32s     |      326      |       3044        |       3044        
+RUN-1001 : ---------------------------------------------------------------------------------------------------
+RUN-1002 : start command "export_db imx_isp_gate.db"
+RUN-1001 : Exported flow parameters
+RUN-1001 : Exported /
+RUN-1001 : Exported libs
+RUN-1001 : Exported entities
+RUN-1001 : Exported ports
+RUN-1001 : Exported pins
+RUN-1001 : Exported instances
+RUN-1001 : Exported nets
+RUN-1001 : Exported buses
+RUN-1001 : Exported models
+RUN-1001 : Exported packer
+RUN-1001 : Exported congestions
+RUN-1001 : Exported violations
+RUN-1001 : Exported ATMR Setting
+RUN-1001 : Exported timing constraints
+RUN-1001 : Exported IO constraints
+RUN-1001 : Exported Inst constraints
+RUN-1001 : Exported ChipWatcher
+RUN-1003 : finish command "export_db imx_isp_gate.db" in  1.831823s wall, 2.640625s user + 0.031250s system = 2.671875s CPU (145.9%)
+
+RUN-1004 : used memory is 3069 MB, reserved memory is 3055 MB, peak memory is 3069 MB
+RUN-1002 : start command "export_flow_status -s read_design -e opt_gate"
+RUN-1002 : start command "flow_status"
+
+Location         : D:\TD\prj\imx_face\imx_isp_Runs\syn_1
+Running with     : Tang Dynasty v6.2.168116
+                   Copyright (c) 2012-2025 Anlogic Inc.
+Top Model        : system_top
+Device           : PH1A180SFG676
+Speed            : 2
+
+Timing Mode      : basic
+Setup            : WNS -6977ps  TNS  -361276ps  NUM_FEPS   397
+Hold             : WNS    40ps  TNS        0ps  NUM_FEPS     0
+
+RUN-1001 : Flow Statistics:
+RUN-1001 : ---------------------------------------------------------------------------------------------------
+RUN-1001 :      command     |  #calls  |  wall time   |  cpu time(s)  |  used memory(mb)  |  peak memory(mb)  
+RUN-1001 : ---------------------------------------------------------------------------------------------------
+RUN-1001 :   optimize_gate  |    1     |  3m34s(64%)  |   211(64%)    |       3044        |       3044        
+RUN-1001 :   optimize_rtl   |    1     |  1m53s(34%)  |   112(34%)    |       2856        |       2921        
+RUN-1001 :   import_device  |    1     |    5s(1%)    |     3(0%)     |       1194        |       1194        
+RUN-1001 :     read_adc     |    1     |    0s(0%)    |     0(0%)     |       1851        |       1852        
+RUN-1001 :     read_sdc     |    4     |    0s(0%)    |     0(0%)     |       1849        |       1852        
+RUN-1001 : ---------------------------------------------------------------------------------------------------
+RUN-1001 :       total      |    8     |    5m32s     |      326      |       3044        |       3044        
+RUN-1001 : ---------------------------------------------------------------------------------------------------

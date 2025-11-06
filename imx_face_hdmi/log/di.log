@@ -1,0 +1,14 @@
+#[INFO] design_integrator V2025.07 (APP main), Windows 64bit (Release), Build 167996 2025/07/10, 13:53:39 Jul 10 2025 on WIN10-204
+#[INFO] Run at Tue Oct 28 14:15:53 2025
+#[INFO] The Design.xml (D:/TD/prj/imx_isp/al_ip/Design.xml) does not exist.
+#[INFO] The Design.xml (D:/TD/prj/imx_isp/imx_isp_Runs/Design.xml) does not exist.
+#[INFO] The Design.xml (D:/TD/prj/imx_isp/log/Design.xml) does not exist.
+#[INFO] The Design.xml (D:/TD/prj/imx_isp/uisrc/Design.xml) does not exist.
+si_select_window DesignIntegrator
+si_resize_window DesignIntegrator 2560 1494
+si_close_window DesignIntegrator
+si_select_dialog ExitDesignIntegrator
+si_resize_dialog ExitDesignIntegrator 900 300
+si_click_push_button ExitDesignIntegrator Exit
+si_exit
+#[INFO] Exit 0

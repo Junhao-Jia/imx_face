@@ -1,0 +1,6 @@
+2 0 1 QOR-1001 map_mode logic_level_prior
+2 0 1 QOR-1001 map_strategy 2
+2 2 1 QOR-1002 map_mode logic_level_prior
+2 2 1 QOR-1002 map_strategy 2
+2 2 1 QOR-1002 multi_thread_mapping strategy
+3 2 1 QOR-1002 logic_level_opt on

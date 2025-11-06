@@ -1,0 +1,58 @@
+-----------------------------------------------------------
+| QoR metrics               |         value               |
+-----------------------------------------------------------
+| Timing                    |                             |
+|     Setup WNS             |        -2325                |
+|     Setup TNS             |       -54680                |
+|     Num of violated S-EP  |           47                |
+|     FMAX                  |   120.120MHz                |
+|     SWNS path clock period |       6000ps                |
+|     Hold WNS              |         -208                |
+|     Hold TNS              |       -18104                |
+|     Num of violated H-EP  |          264                |
+-----------------------------------------------------------
+| Routing Resource          |                             |
+|     Wire length           |      7259592                |
+|     Route Net Num         |        82719                |
+|     DontRoute Net Num     |        36028                |
+|     RouteSinks Num        |       228003                |
+-----------------------------------------------------------
+| Utilization               |                             |
+|     #slices               |        47698                |
+|     slices percentage     |       40.84%                |
+|     #RAMs                 |          137                |
+|     #DSPs                 |           74                |
+|     #DRAMHARDCON          |           51                |
+-----------------------------------------------------------
+| Congestion                |                             |
+|     Top 1% tile util      |           81                |
+|     Top 1% tile avg util  |       88.05%                |
+|     Over 100% util #tile  |            5                |
+|     Max level             |            3                |
+|     Window                |  [104  34] - [110  64]      |
+-----------------------------------------------------------
+Report place stage QoR done.
+
+QoR Evaluation
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+  ID        |  Priority  |  Description                                                     |  Suggestion
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+  QOR-1201  |  HIGH      |  - Place SWNS -2325ps do not have enough margin, smaller than t  |  - Please adjust placement strategy to improve timing.
+            |            |    hreshold 2400ps.                                              |      set_param place effort high
+            |            |                                                                  |      set_param place opt_timing high
+            |            |                                                                  |      set_param place timing_driven_mode on
+            |            |                                                                  |      set_param place aggressive_opt 5
+            |            |                                                                  |  
+  QOR-5001  |  HIGH      |  - Clock net drive both clock and data pins, which may introduc  |  - Please check design to confirm the clock net:
+            |            |    e large data path delay or large clock skew, then cause bad   |    S_hs_rx_clk_syn_5
+            |            |    timing.                                                       |    u_uicfg_imx415/uii2c_inst/scl_clk
+            |            |                                                                  |    To separate clock and data sinks, please try following setti
+            |            |                                                                  |    ng:
+            |            |                                                                  |      set_param place split_data_from_clock on
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+Note* (*) means this parameter has been set already.
+      (+) means this parameter has been set, suggest to upgrade higher effort level.
+Note** plesae resolve priority MUST FIX and HIGH issues firstly
+       because these have highly possible to block the timing convergence even stop the flow.
+Note*** some suggested settings are not suitable to use together
+        take care of using them separately if suggestion mentioned.

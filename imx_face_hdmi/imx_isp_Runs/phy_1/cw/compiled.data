@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE chip_watcher_data>
+<cwc_data version="1.0">
+    <instance name="auto_created_cwc1">
+        <watcher_nodes>
+            <net name="face_recognition_inst/image_skin_select_inst/frame_end_pulse" original_name="face_recognition_inst/image_skin_select_inst/frame_end_pulse" synchronizable="true" color="#00ff00"/>
+            <bus name="face_recognition_inst/image_skin_select_inst/o_b[0][7:0]" original_name="face_recognition_inst/image_skin_select_inst/o_b[0][7:0]" bus_radix="3" synchronizable="true" color="#00ff00">
+                <net_in_bus name="[7]" original_name="face_recognition_inst/image_skin_select_inst/o_b[0][7]" synchronizable="true" color="#00ff00"/>
+                <net_in_bus name="[6]" original_name="face_recognition_inst/image_skin_select_inst/o_b[0][6]" synchronizable="true" color="#00ff00"/>
+                <net_in_bus name="[5]" original_name="face_recognition_inst/image_skin_select_inst/o_b[0][5]" synchronizable="true" color="#00ff00"/>
+                <net_in_bus name="[4]" original_name="face_recognition_inst/image_skin_select_inst/o_b[0][4]" synchronizable="true" color="#00ff00"/>
+                <net_in_bus name="[3]" original_name="face_recognition_inst/image_skin_select_inst/o_b[0][3]" synchronizable="true" color="#00ff00"/>
+                <net_in_bus name="[2]" original_name="face_recognition_inst/image_skin_select_inst/o_b[0][2]" synchronizable="true" color="#00ff00"/>
+                <net_in_bus name="[1]" original_name="face_recognition_inst/image_skin_select_inst/o_b[0][1]" synchronizable="true" color="#00ff00"/>
+                <net_in_bus name="[0]" original_name="face_recognition_inst/image_skin_select_inst/o_b[0][0]" synchronizable="true" color="#00ff00"/>
+            </bus>
+            <bus name="face_recognition_inst/image_skin_select_inst/o_g[0][7:0]" original_name="face_recognition_inst/image_skin_select_inst/o_g[0][7:0]" bus_radix="3" synchronizable="true" color="#00ff00">
+                <net_in_bus name="[7]" original_name="face_recognition_inst/image_skin_select_inst/o_g[0][7]" synchronizable="true" color="#00ff00"/>
+                <net_in_bus name="[6]" original_name="face_recognition_inst/image_skin_select_inst/o_g[0][6]" synchronizable="true" color="#00ff00"/>
+                <net_in_bus name="[5]" original_name="face_recognition_inst/image_skin_select_inst/o_g[0][5]" synchronizable="true" color="#00ff00"/>
+                <net_in_bus name="[4]" original_name="face_recognition_inst/image_skin_select_inst/o_g[0][4]" synchronizable="true" color="#00ff00"/>
+                <net_in_bus name="[3]" original_name="face_recognition_inst/image_skin_select_inst/o_g[0][3]" synchronizable="true" color="#00ff00"/>
+                <net_in_bus name="[2]" original_name="face_recognition_inst/image_skin_select_inst/o_g[0][2]" synchronizable="true" color="#00ff00"/>
+                <net_in_bus name="[1]" original_name="face_recognition_inst/image_skin_select_inst/o_g[0][1]" synchronizable="true" color="#00ff00"/>
+                <net_in_bus name="[0]" original_name="face_recognition_inst/image_skin_select_inst/o_g[0][0]" synchronizable="true" color="#00ff00"/>
+            </bus>
+            <bus name="face_recognition_inst/image_skin_select_inst/o_r[0][7:0]" original_name="face_recognition_inst/image_skin_select_inst/o_r[0][7:0]" bus_radix="3" synchronizable="true" color="#00ff00">
+                <net_in_bus name="[7]" original_name="face_recognition_inst/image_skin_select_inst/o_r[0][7]" synchronizable="true" color="#00ff00"/>
+                <net_in_bus name="[6]" original_name="face_recognition_inst/image_skin_select_inst/o_r[0][6]" synchronizable="true" color="#00ff00"/>
+                <net_in_bus name="[5]" original_name="face_recognition_inst/image_skin_select_inst/o_r[0][5]" synchronizable="true" color="#00ff00"/>
+                <net_in_bus name="[4]" original_name="face_recognition_inst/image_skin_select_inst/o_r[0][4]" synchronizable="true" color="#00ff00"/>
+                <net_in_bus name="[3]" original_name="face_recognition_inst/image_skin_select_inst/o_r[0][3]" synchronizable="true" color="#00ff00"/>
+                <net_in_bus name="[2]" original_name="face_recognition_inst/image_skin_select_inst/o_r[0][2]" synchronizable="true" color="#00ff00"/>
+                <net_in_bus name="[1]" original_name="face_recognition_inst/image_skin_select_inst/o_r[0][1]" synchronizable="true" color="#00ff00"/>
+                <net_in_bus name="[0]" original_name="face_recognition_inst/image_skin_select_inst/o_r[0][0]" synchronizable="true" color="#00ff00"/>
+            </bus>
+            <net name="face_recognition_inst/image_skin_select_inst/o_last" original_name="face_recognition_inst/image_skin_select_inst/o_last" synchronizable="true" color="#00ff00"/>
+            <net name="face_recognition_inst/image_skin_select_inst/o_user" original_name="face_recognition_inst/image_skin_select_inst/o_user" synchronizable="true" color="#00ff00"/>
+            <net name="face_recognition_inst/image_skin_select_inst/o_valid" original_name="face_recognition_inst/image_skin_select_inst/o_valid" synchronizable="true" color="#00ff00"/>
+            <bus name="face_recognition_inst/image_skin_select_inst/pixel_x[0][10:0]" original_name="face_recognition_inst/image_skin_select_inst/pixel_x[0][10:0]" bus_radix="3" synchronizable="true" color="#00ff00">
+                <net_in_bus name="[10]" original_name="face_recognition_inst/image_skin_select_inst/pixel_x[0][10]" synchronizable="true" color="#00ff00"/>
+                <net_in_bus name="[9]" original_name="face_recognition_inst/image_skin_select_inst/pixel_x[0][9]" synchronizable="true" color="#00ff00"/>
+                <net_in_bus name="[8]" original_name="face_recognition_inst/image_skin_select_inst/pixel_x[0][8]" synchronizable="true" color="#00ff00"/>
+                <net_in_bus name="[7]" original_name="face_recognition_inst/image_skin_select_inst/pixel_x[0][7]" synchronizable="true" color="#00ff00"/>
+                <net_in_bus name="[6]" original_name="face_recognition_inst/image_skin_select_inst/pixel_x[0][6]" synchronizable="true" color="#00ff00"/>
+                <net_in_bus name="[5]" original_name="face_recognition_inst/image_skin_select_inst/pixel_x[0][5]" synchronizable="true" color="#00ff00"/>
+                <net_in_bus name="[4]" original_name="face_recognition_inst/image_skin_select_inst/pixel_x[0][4]" synchronizable="true" color="#00ff00"/>
+                <net_in_bus name="[3]" original_name="face_recognition_inst/image_skin_select_inst/pixel_x[0][3]" synchronizable="true" color="#00ff00"/>
+                <net_in_bus name="[2]" original_name="face_recognition_inst/image_skin_select_inst/pixel_x[0][2]" synchronizable="true" color="#00ff00"/>
+                <net_in_bus name="[1]" original_name="face_recognition_inst/image_skin_select_inst/pixel_x[0][1]" synchronizable="true" color="#00ff00"/>
+                <net_in_bus name="[0]" original_name="face_recognition_inst/image_skin_select_inst/pixel_x[0][0]" synchronizable="true" color="#00ff00"/>
+            </bus>
+            <bus name="face_recognition_inst/image_skin_select_inst/skin_h_max[10:0]" original_name="face_recognition_inst/image_skin_select_inst/skin_h_max[10:0]" bus_radix="3" synchronizable="true" color="#00ff00">
+                <net_in_bus name="[10]" original_name="face_recognition_inst/image_skin_select_inst/skin_h_max[10]" synchronizable="true" color="#00ff00"/>
+                <net_in_bus name="[9]" original_name="face_recognition_inst/image_skin_select_inst/skin_h_max[9]" synchronizable="true" color="#00ff00"/>
+                <net_in_bus name="[8]" original_name="face_recognition_inst/image_skin_select_inst/skin_h_max[8]" synchronizable="true" color="#00ff00"/>
+                <net_in_bus name="[7]" original_name="face_recognition_inst/image_skin_select_inst/skin_h_max[7]" synchronizable="true" color="#00ff00"/>
+                <net_in_bus name="[6]" original_name="face_recognition_inst/image_skin_select_inst/skin_h_max[6]" synchronizable="true" color="#00ff00"/>
+                <net_in_bus name="[5]" original_name="face_recognition_inst/image_skin_select_inst/skin_h_max[5]" synchronizable="true" color="#00ff00"/>
+                <net_in_bus name="[4]" original_name="face_recognition_inst/image_skin_select_inst/skin_h_max[4]" synchronizable="true" color="#00ff00"/>
+                <net_in_bus name="[3]" original_name="face_recognition_inst/image_skin_select_inst/skin_h_max[3]" synchronizable="true" color="#00ff00"/>
+                <net_in_bus name="[2]" original_name="face_recognition_inst/image_skin_select_inst/skin_h_max[2]" synchronizable="true" color="#00ff00"/>
+                <net_in_bus name="[1]" original_name="face_recognition_inst/image_skin_select_inst/skin_h_max[1]" synchronizable="true" color="#00ff00"/>
+                <net_in_bus name="[0]" original_name="face_recognition_inst/image_skin_select_inst/skin_h_max[0]" synchronizable="true" color="#00ff00"/>
+            </bus>
+            <bus name="face_recognition_inst/image_skin_select_inst/skin_h_max_d[10:0]" original_name="face_recognition_inst/image_skin_select_inst/skin_h_max_d[10:0]" bus_radix="3" synchronizable="true" color="#00ff00">
+                <net_in_bus name="[10]" original_name="face_recognition_inst/image_skin_select_inst/skin_h_max_d[10]" synchronizable="true" color="#00ff00"/>
+                <net_in_bus name="[9]" original_name="face_recognition_inst/image_skin_select_inst/skin_h_max_d[9]" synchronizable="true" color="#00ff00"/>
+                <net_in_bus name="[8]" original_name="face_recognition_inst/image_skin_select_inst/skin_h_max_d[8]" synchronizable="true" color="#00ff00"/>
+                <net_in_bus name="[7]" original_name="face_recognition_inst/image_skin_select_inst/skin_h_max_d[7]" synchronizable="true" color="#00ff00"/>
+                <net_in_bus name="[6]" original_name="face_recognition_inst/image_skin_select_inst/skin_h_max_d[6]" synchronizable="true" color="#00ff00"/>
+                <net_in_bus name="[5]" original_name="face_recognition_inst/image_skin_select_inst/skin_h_max_d[5]" synchronizable="true" color="#00ff00"/>
+                <net_in_bus name="[4]" original_name="face_recognition_inst/image_skin_select_inst/skin_h_max_d[4]" synchronizable="true" color="#00ff00"/>
+                <net_in_bus name="[3]" original_name="face_recognition_inst/image_skin_select_inst/skin_h_max_d[3]" synchronizable="true" color="#00ff00"/>
+                <net_in_bus name="[2]" original_name="face_recognition_inst/image_skin_select_inst/skin_h_max_d[2]" synchronizable="true" color="#00ff00"/>
+                <net_in_bus name="[1]" original_name="face_recognition_inst/image_skin_select_inst/skin_h_max_d[1]" synchronizable="true" color="#00ff00"/>
+                <net_in_bus name="[0]" original_name="face_recognition_inst/image_skin_select_inst/skin_h_max_d[0]" synchronizable="true" color="#00ff00"/>
+            </bus>
+            <bus name="face_recognition_inst/image_skin_select_inst/skin_h_min[10:0]" original_name="face_recognition_inst/image_skin_select_inst/skin_h_min[10:0]" bus_radix="3" synchronizable="true" color="#00ff00">
+                <net_in_bus name="[10]" original_name="face_recognition_inst/image_skin_select_inst/skin_h_min[10]" synchronizable="true" color="#00ff00"/>
+                <net_in_bus name="[9]" original_name="face_recognition_inst/image_skin_select_inst/skin_h_min[9]" synchronizable="true" color="#00ff00"/>
+                <net_in_bus name="[8]" original_name="face_recognition_inst/image_skin_select_inst/skin_h_min[8]" synchronizable="true" color="#00ff00"/>
+                <net_in_bus name="[7]" original_name="face_recognition_inst/image_skin_select_inst/skin_h_min[7]" synchronizable="true" color="#00ff00"/>
+                <net_in_bus name="[6]" original_name="face_recognition_inst/image_skin_select_inst/skin_h_min[6]" synchronizable="true" color="#00ff00"/>
+                <net_in_bus name="[5]" original_name="face_recognition_inst/image_skin_select_inst/skin_h_min[5]" synchronizable="true" color="#00ff00"/>
+                <net_in_bus name="[4]" original_name="face_recognition_inst/image_skin_select_inst/skin_h_min[4]" synchronizable="true" color="#00ff00"/>
+                <net_in_bus name="[3]" original_name="face_recognition_inst/image_skin_select_inst/skin_h_min[3]" synchronizable="true" color="#00ff00"/>
+                <net_in_bus name="[2]" original_name="face_recognition_inst/image_skin_select_inst/skin_h_min[2]" synchronizable="true" color="#00ff00"/>
+                <net_in_bus name="[1]" original_name="face_recognition_inst/image_skin_select_inst/skin_h_min[1]" synchronizable="true" color="#00ff00"/>
+                <net_in_bus name="[0]" original_name="face_recognition_inst/image_skin_select_inst/skin_h_min[0]" synchronizable="true" color="#00ff00"/>
+            </bus>
+            <bus name="face_recognition_inst/image_skin_select_inst/skin_h_min_d[10:0]" original_name="face_recognition_inst/image_skin_select_inst/skin_h_min_d[10:0]" bus_radix="3" synchronizable="true" color="#00ff00">
+                <net_in_bus name="[10]" original_name="face_recognition_inst/image_skin_select_inst/skin_h_min_d[10]" synchronizable="true" color="#00ff00"/>
+                <net_in_bus name="[9]" original_name="face_recognition_inst/image_skin_select_inst/skin_h_min_d[9]" synchronizable="true" color="#00ff00"/>
+                <net_in_bus name="[8]" original_name="face_recognition_inst/image_skin_select_inst/skin_h_min_d[8]" synchronizable="true" color="#00ff00"/>
+                <net_in_bus name="[7]" original_name="face_recognition_inst/image_skin_select_inst/skin_h_min_d[7]" synchronizable="true" color="#00ff00"/>
+                <net_in_bus name="[6]" original_name="face_recognition_inst/image_skin_select_inst/skin_h_min_d[6]" synchronizable="true" color="#00ff00"/>
+                <net_in_bus name="[5]" original_name="face_recognition_inst/image_skin_select_inst/skin_h_min_d[5]" synchronizable="true" color="#00ff00"/>
+                <net_in_bus name="[4]" original_name="face_recognition_inst/image_skin_select_inst/skin_h_min_d[4]" synchronizable="true" color="#00ff00"/>
+                <net_in_bus name="[3]" original_name="face_recognition_inst/image_skin_select_inst/skin_h_min_d[3]" synchronizable="true" color="#00ff00"/>
+                <net_in_bus name="[2]" original_name="face_recognition_inst/image_skin_select_inst/skin_h_min_d[2]" synchronizable="true" color="#00ff00"/>
+                <net_in_bus name="[1]" original_name="face_recognition_inst/image_skin_select_inst/skin_h_min_d[1]" synchronizable="true" color="#00ff00"/>
+                <net_in_bus name="[0]" original_name="face_recognition_inst/image_skin_select_inst/skin_h_min_d[0]" synchronizable="true" color="#00ff00"/>
+            </bus>
+        </watcher_nodes>
+        <trigger_config>
+            <net name="face_recognition_inst/image_skin_select_inst/frame_end_pulse" original_name="face_recognition_inst/image_skin_select_inst/frame_end_pulse"/>
+            <net name="face_recognition_inst/image_skin_select_inst/o_last" original_name="face_recognition_inst/image_skin_select_inst/o_last"/>
+            <net name="face_recognition_inst/image_skin_select_inst/o_user" original_name="face_recognition_inst/image_skin_select_inst/o_user"/>
+            <net name="face_recognition_inst/image_skin_select_inst/o_valid" original_name="face_recognition_inst/image_skin_select_inst/o_valid"/>
+        </trigger_config>
+    </instance>
+    <instance name="auto_created_cwc2">
+        <watcher_nodes/>
+        <trigger_config/>
+    </instance>
+</cwc_data>

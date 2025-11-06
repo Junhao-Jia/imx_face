@@ -1,0 +1,125 @@
+-----------------------------------------------------------
+| QoR metrics               |         value               |
+-----------------------------------------------------------
+| Timing                    |                             |
+|     Setup WNS             |        -6977                |
+|     Setup TNS             |      -344209                |
+|     Num of violated S-EP  |          331                |
+|     Hold WNS              |           40                |
+|     Hold TNS              |            0                |
+|     Num of violated H-EP  |            0                |
+-----------------------------------------------------------
+| Utilization               |                             |
+|     #registers            |        42281                |
+|     #luts                 |        25429                |
+|     #lut1                 |          313                |
+|     #lut1(~A)             |          308                |
+|     #slices               |        12299                |
+|     slices percentage     |       10.53%                |
+|     #RAMs                 |          106                |
+|     #DSPs                 |           74                |
+|     #f7mux                |        0.08%                |
+|     #MACROs               |          756                |
+|     #insts in MACRO       |        12590                |
+-----------------------------------------------------------
+| kept_net                  |                             |
+|     #syn_keep             |         3286                |
+|     #keep_hier            |          484                |
+|     #dont_touch           |            0                |
+|     #mark_debug           |          595                |
+|     #max_fanout_keep      |            0                |
+|     #async_reg            |            0                |
+-----------------------------------------------------------
+| Top 10% datanet fanout#   |        25.41                |
+| dff(single fanout)->dff   |         2819                |
+| dff(single fanout)->dram  |            1                |
+-----------------------------------------------------------
+| Over-quota path num*      |                             |
+|     S_hs_rx_clk           |           33                |
+|     Total                 |           33                |
+-----------------------------------------------------------
+| Rent**                    |                             |
+-----------------------------------------------------------
+Note*: Over-quota path shows the over-path-level-threshold path number of each clock.
+       The clock will not be shown if no path is with path level over the threshold.
+       The threshold is defined as worst path_margin / 800ps.
+Note**: Rent shows the rent exponent value of the modules whose rent value exceeds the threshold.
+        Only modules under top are reported, and the threshold is defined as 0.7.
+
+Over-quota Path Details
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+     Clock     |  Index  |  Budget(Period)  |  Level(Quota)  |                                                                            Cell Type List                                                                            |  Reason  |  Slack  
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  S_hs_rx_clk  |    1    |    5856(6000)    |     15(8)      |  SEQ,BUFKEEP,BUFKEEP,LUT4,LUT5,LUT5,BUFKEEP,BUFKEEP,LUT2,LUT6,ADDER,ADDER,ADDER,ADDER,ADDER,ADDER,LUT3,ADDER,ADDER,ADDER,LUT3,ADDER,ADDER,ADDER,ADDER,LUT5,LUT4,SEQ  |  normal  |  -6169  
+               |    2    |    5856(6000)    |     15(8)      |  SEQ,BUFKEEP,BUFKEEP,LUT4,LUT5,LUT5,BUFKEEP,BUFKEEP,LUT2,LUT6,ADDER,ADDER,ADDER,ADDER,ADDER,ADDER,LUT3,ADDER,ADDER,ADDER,LUT3,ADDER,ADDER,ADDER,ADDER,LUT5,LUT4,SEQ  |  normal  |  -6169  
+               |    3    |    5856(6000)    |     15(8)      |  SEQ,BUFKEEP,BUFKEEP,LUT4,LUT5,LUT5,BUFKEEP,BUFKEEP,LUT2,LUT6,ADDER,ADDER,ADDER,ADDER,ADDER,ADDER,LUT3,ADDER,ADDER,ADDER,LUT3,ADDER,ADDER,ADDER,ADDER,LUT6,LUT2,SEQ  |  normal  |  -6168  
+               |    4    |    5856(6000)    |     15(8)      |  SEQ,BUFKEEP,BUFKEEP,LUT4,LUT5,LUT5,BUFKEEP,BUFKEEP,LUT2,LUT6,ADDER,ADDER,ADDER,ADDER,ADDER,ADDER,LUT3,ADDER,ADDER,ADDER,LUT3,ADDER,ADDER,ADDER,ADDER,LUT6,LUT2,SEQ  |  normal  |  -6168  
+               |    5    |    5856(6000)    |     15(8)      |  SEQ,BUFKEEP,BUFKEEP,LUT4,LUT5,LUT5,BUFKEEP,BUFKEEP,LUT2,LUT6,ADDER,ADDER,ADDER,ADDER,ADDER,ADDER,LUT3,ADDER,ADDER,ADDER,LUT3,ADDER,ADDER,ADDER,ADDER,LUT6,LUT2,SEQ  |  normal  |  -6168  
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Note: Table only show top 5 paths for each clock group in default
+
+Logic Level Distribution
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  Clock              |  Period             |  0      |  1      |  2     |  3     |  4     |  5     |  6    |  7    |  8   |  9   |  10  |  11  |  12  |  13  |  14  |  15
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  I_rx_clk           |  8.000ns (125MHz)   |  10     |  0      |  0     |  0     |  0     |  0     |  0    |  0    |  0   |  0   |  0   |  0   |  0   |  0   |  0   |  0
+  O_a_tx_clk         |  8.000ns (125MHz)   |  5      |  0      |  0     |  0     |  0     |  0     |  0    |  0    |  0   |  0   |  0   |  0   |  0   |  0   |  0   |  0
+  S_hs_rx_clk        |  6.000ns (166MHz)   |  18509  |  5997   |  5264  |  6685  |  3288  |  1552  |  12   |  109  |  11  |  0   |  0   |  0   |  0   |  0   |  12  |  10
+  a_tx_clk           |  8.000ns (125MHz)   |  1323   |  3356   |  1002  |  377   |  271   |  705   |  591  |  22   |  0   |  0   |  0   |  0   |  0   |  0   |  0   |  0
+  cam_clk_24m        |  41.716ns (23MHz)   |  31     |  37     |  46    |  17    |  43    |  12    |  0    |  0    |  0   |  0   |  0   |  0   |  0   |  0   |  0   |  0
+  cam_clk_35m        |  27.999ns (35MHz)   |  156    |  89     |  133   |  18    |  32    |  32    |  3    |  2    |  2   |  1   |  1   |  1   |  0   |  0   |  0   |  0
+  clk_25m            |  40.000ns (25MHz)   |  0      |  0      |  0     |  0     |  0     |  0     |  0    |  0    |  0   |  0   |  0   |  0   |  0   |  0   |  0   |  0
+  cpu_clk_70m        |  14.285ns (70MHz)   |  5      |  3      |  2     |  0     |  0     |  0     |  0    |  0    |  0   |  0   |  0   |  0   |  0   |  0   |  0   |  0
+  ddr_clk            |  10.000ns (100MHz)  |  0      |  0      |  0     |  0     |  0     |  0     |  0    |  0    |  0   |  0   |  0   |  0   |  0   |  0   |  0   |  0
+  rx_clk             |  8.000ns (125MHz)   |  469    |  216    |  83    |  7     |  123   |  23    |  14   |  0    |  0   |  0   |  0   |  0   |  0   |  0   |  0   |  0
+  u_ddr_phy/ctl_clk  |  5.000ns (200MHz)   |  0      |  0      |  0     |  0     |  0     |  0     |  0    |  0    |  0   |  0   |  0   |  0   |  0   |  0   |  0   |  0
+  u_ddr_phy/ddr_clk  |  1.250ns (800MHz)   |  0      |  0      |  0     |  0     |  0     |  0     |  0    |  0    |  0   |  0   |  0   |  0   |  0   |  0   |  0   |  0
+  u_ddr_phy/dfi_clk  |  5.000ns (200MHz)   |  5192   |  2306   |  1286  |  1872  |  189   |  74    |  106  |  0    |  0   |  0   |  0   |  0   |  0   |  0   |  0   |  0
+  u_ddr_phy/fbk_clk  |  5.000ns (200MHz)   |  0      |  0      |  0     |  0     |  0     |  0     |  0    |  0    |  0   |  0   |  0   |  0   |  0   |  0   |  0   |  0
+  u_ddr_phy/mcu_clk  |  20.000ns (50MHz)   |  1036   |  425    |  177   |  102   |  508   |  31    |  47   |  106  |  37  |  65  |  33  |  3   |  34  |  4   |  3   |  0
+  u_ddr_phy/ref_clk  |  5.000ns (200MHz)   |  0      |  0      |  0     |  0     |  0     |  0     |  0    |  0    |  0   |  0   |  0   |  0   |  0   |  0   |  0   |  0
+  u_ddr_phy/sclk0    |  5.000ns (200MHz)   |  628    |  64     |  0     |  0     |  0     |  0     |  0    |  0    |  0   |  0   |  0   |  0   |  0   |  0   |  0   |  0
+  u_ddr_phy/sclk1    |  5.000ns (200MHz)   |  2700   |  330    |  0     |  0     |  0     |  0     |  0    |  0    |  0   |  0   |  0   |  0   |  0   |  0   |  0   |  0
+  u_ddr_phy/usr_clk  |  5.000ns (200MHz)   |  0      |  0      |  0     |  0     |  0     |  0     |  0    |  0    |  0   |  0   |  0   |  0   |  0   |  0   |  0   |  0
+  Total              |  NA                 |  30064  |  12823  |  7993  |  9078  |  4454  |  2429  |  773  |  239  |  50  |  66  |  34  |  4   |  34  |  4   |  15  |  10
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Hierarchical Rent Exponent Report
++-----------------------------------------------------------------------------------+
+|Inst                    |Model              |Rent     |Cell     |Pin     |Term     |
++-----------------------------------------------------------------------------------+
+|top                     |system_top         |0.16     |88746    |376140  |27       |
+|  uidbuf_u0             |uidbuf_14          |0.70     |1740     |7235    |750      |
+|  u_ddr_phy             |ddr_ip_5           |0.52     |15670    |74253   |729      |
+|  face_recognition_inst |face_recognition_1 |0.41     |11294    |51400   |204      |
+|  u_isp_top             |isp_top_6          |0.35     |49476    |200505  |176      |
+|  udp_stack_inst        |uiudp_stack_11     |0.27     |7032     |29324   |46       |
++-----------------------------------------------------------------------------------+
+Note: Cell represents total number of cells inside module; Pin represents total number of pins
+      which have net connection inside module; Term represents total number of PIs and POs of module.
+      Rent represents the relationship between number of terms and number of cells in module.
+      A module with higher rent corresponds to highly connected logic and strong connectivity with others.
+Report gate stage QoR done.
+
+QoR Evaluation
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+  ID        |  Priority  |  Description                                                     |  Suggestion
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+  QOR-1002  |  HIGH      |  - 33 over-quota path exist.                                     |  - Try following setting to reduce over-quota:
+            |            |                                                                  |      set_param gate map_mode logic_level_prior
+            |            |                                                                  |      set_param gate map_strategy 2
+            |            |                                                                  |      set_param gate multi_thread_mapping strategy
+            |            |                                                                  |      set_param place logic_level_opt on
+            |            |                                                                  |  
+  QOR-3100  |  HIGH      |  - Long carry chain on over quota path, which may introduce lar  |  - Try to use directive "use_ripple = 0" to break the carry cha
+            |            |    ge data path delay.                                           |    in.
+            |            |                                                                  |  
+  QOR-1001  |  LOW       |  - Gate timing is too bad, SWNS -6977ps and STNS -344209ps.      |  - Try following setting to improve timing:
+            |            |                                                                  |      set_param gate map_mode logic_level_prior
+            |            |                                                                  |      set_param gate map_strategy 2
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+Note* (*) means this parameter has been set already.
+      (+) means this parameter has been set, suggest to upgrade higher effort level.
+Note** plesae resolve priority MUST FIX and HIGH issues firstly
+       because these have highly possible to block the timing convergence even stop the flow.
+Note*** some suggested settings are not suitable to use together
+        take care of using them separately if suggestion mentioned.

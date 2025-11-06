@@ -1,0 +1,5 @@
+3 2 4100 QOR-1201 effort high
+3 2 2052 QOR-1201 opt_timing high
+3 2 4100 QOR-1201 timing_driven_mode on
+3 2 2052 QOR-1201 aggressive_opt 5
+3 2 1036 QOR-5001 split_data_from_clock on

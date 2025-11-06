@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Ph1aMipiIOConfig>
+    <Config>
+        <CH_0_DESKEW_TYPE>0</CH_0_DESKEW_TYPE>
+        <CH_0_DESKEW_VAL>0</CH_0_DESKEW_VAL>
+        <CH_0_EQUAL_CAP>1</CH_0_EQUAL_CAP>
+        <CH_0_EQUAL_RES>3</CH_0_EQUAL_RES>
+        <CH_0_EQUAL_TYPE>0</CH_0_EQUAL_TYPE>
+        <CH_0_HYSTER_EN>0</CH_0_HYSTER_EN>
+        <CH_0_TERM_EN>0</CH_0_TERM_EN>
+        <CH_1_DESKEW_TYPE>0</CH_1_DESKEW_TYPE>
+        <CH_1_DESKEW_VAL>0</CH_1_DESKEW_VAL>
+        <CH_1_EQUAL_CAP>1</CH_1_EQUAL_CAP>
+        <CH_1_EQUAL_RES>3</CH_1_EQUAL_RES>
+        <CH_1_EQUAL_TYPE>0</CH_1_EQUAL_TYPE>
+        <CH_1_HYSTER_EN>0</CH_1_HYSTER_EN>
+        <CH_1_TERM_EN>0</CH_1_TERM_EN>
+        <CH_2_DESKEW_TYPE>0</CH_2_DESKEW_TYPE>
+        <CH_2_DESKEW_VAL>0</CH_2_DESKEW_VAL>
+        <CH_2_EQUAL_CAP>1</CH_2_EQUAL_CAP>
+        <CH_2_EQUAL_RES>3</CH_2_EQUAL_RES>
+        <CH_2_EQUAL_TYPE>0</CH_2_EQUAL_TYPE>
+        <CH_2_HYSTER_EN>0</CH_2_HYSTER_EN>
+        <CH_2_TERM_EN>0</CH_2_TERM_EN>
+        <CH_3_DESKEW_TYPE>0</CH_3_DESKEW_TYPE>
+        <CH_3_DESKEW_VAL>0</CH_3_DESKEW_VAL>
+        <CH_3_EQUAL_CAP>1</CH_3_EQUAL_CAP>
+        <CH_3_EQUAL_RES>3</CH_3_EQUAL_RES>
+        <CH_3_EQUAL_TYPE>0</CH_3_EQUAL_TYPE>
+        <CH_3_HYSTER_EN>0</CH_3_HYSTER_EN>
+        <CH_3_TERM_EN>0</CH_3_TERM_EN>
+        <CH_4_DESKEW_TYPE>0</CH_4_DESKEW_TYPE>
+        <CH_4_DESKEW_VAL>0</CH_4_DESKEW_VAL>
+        <CH_4_EQUAL_CAP>1</CH_4_EQUAL_CAP>
+        <CH_4_EQUAL_RES>3</CH_4_EQUAL_RES>
+        <CH_4_EQUAL_TYPE>0</CH_4_EQUAL_TYPE>
+        <CH_4_HYSTER_EN>0</CH_4_HYSTER_EN>
+        <CH_4_TERM_EN>0</CH_4_TERM_EN>
+        <ELECTRICAL_MODE>0</ELECTRICAL_MODE>
+        <ENABLE_CHANNEL_0>1</ENABLE_CHANNEL_0>
+        <ENABLE_CHANNEL_1>1</ENABLE_CHANNEL_1>
+        <ENABLE_CHANNEL_2>1</ENABLE_CHANNEL_2>
+        <ENABLE_CHANNEL_3>1</ENABLE_CHANNEL_3>
+        <ENABLE_CLK_LANE>0</ENABLE_CLK_LANE>
+        <ENABLE_FIFO>0</ENABLE_FIFO>
+        <ENABLE_GPLL_CLK>0</ENABLE_GPLL_CLK>
+        <FIFO_WIDTH>8</FIFO_WIDTH>
+        <PROTOCOL_LOCATION>MIPI IO 0</PROTOCOL_LOCATION>
+    </Config>
+    <GeneralConfig>
+        <Device>PH1A180SFG676</Device>
+        <IP_ID>66</IP_ID>
+        <Type>MIPI IO</Type>
+        <Version>1.0</Version>
+        <create_VHDL>false</create_VHDL>
+        <inst>MIPI_IO_0</inst>
+    </GeneralConfig>
+    <GeneratedFiles>
+        <ADC_FILE Enable="true">MIPI_IO_0.adc</ADC_FILE>
+        <Verilog Enable="true">MIPI_IO_0.v</Verilog>
+    </GeneratedFiles>
+</Ph1aMipiIOConfig>

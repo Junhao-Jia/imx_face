@@ -1,0 +1,20 @@
+set_pin_assignment	{ I_sys_clk_25m }	{ LOCATION = Y23; IOSTANDARD = LVCMOS33; PULLTYPE = PULLUP; }
+set_pin_assignment	{ I_ddr_clk }		{ LOCATION = AB11; IOSTANDARD = LVDS18; }
+
+set_pin_assignment	{ I_button[0] }		{ LOCATION = D8; IOSTANDARD = LVCMOS18; PULLTYPE = PULLUP; }
+set_pin_assignment	{ I_button[1] }		{ LOCATION = D9; IOSTANDARD = LVCMOS18; PULLTYPE = PULLUP; }
+
+set_pin_assignment	{ O_cam_scl }		{ LOCATION = Y21; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = PULLUP; }
+set_pin_assignment	{ IO_cam_sda}		{ LOCATION = Y22; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = PULLUP; }
+set_pin_assignment	{ O_clk_24m }		{ LOCATION = AC23; IOSTANDARD = LVCMOS33; DRIVESTRENGTH = 8; PULLTYPE = NONE; }
+
+set_pin_assignment	{ O_hdmi_clk_p }	{ LOCATION = AA4; IOSTANDARD = LVDS18; }
+set_pin_assignment	{ O_hdmi_tx_p[0] }	{ LOCATION = AB1; IOSTANDARD = LVDS18; }
+set_pin_assignment	{ O_hdmi_tx_p[1] }	{ LOCATION = V3; IOSTANDARD = LVDS18; }
+set_pin_assignment	{ O_hdmi_tx_p[2] }	{ LOCATION = W1; IOSTANDARD = LVDS18; }
+
+
+
+#set_inst_assignment { u_mipi_dphy_rx_wrapper/u_PH1A90_MIPIIO_RX/u_mipiio/u_PH1_PHY_MIPIIO } { location=X5Y0Z0; }
+set_inst_assignment { u_mipi_dphy_rx_ph1a_mipiio_wrapper/u_ph1a_mipiio_wrapper/u_PH1_PHY_MIPIIO } { location=X5Y0Z0; }
+

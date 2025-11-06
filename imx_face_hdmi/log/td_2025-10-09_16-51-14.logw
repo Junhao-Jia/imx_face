@@ -1,0 +1,1605 @@
+============================================================
+   Tang Dynasty, V6.2.168116
+   Copyright (c) 2012-2025 Anlogic Inc.
+   Executable = D:/TD/bin/td.exe
+   Built at =   16:32:07 Jun 12 2025
+   Run by =     sean
+   Run Date =   Thu Oct  9 16:51:14 2025
+
+   Run on =     LAPTOP-18IJM237
+============================================================
+HDL-5007 WARNING: could not find top-level module/unit; aborting hierarchy tree creation
+HDL-5007 WARNING: /* is inside a comment in uisrc/01_rtl/system_top.v(248)
+HDL-5333 WARNING: data object 'I_video_in_user' is already declared in uisrc/01_rtl/system_top.v(735)
+HDL-5007 WARNING: second declaration of 'I_video_in_user' is ignored in uisrc/01_rtl/system_top.v(735)
+HDL-5333 WARNING: data object 'I_video_in_valid' is already declared in uisrc/01_rtl/system_top.v(736)
+HDL-5007 WARNING: second declaration of 'I_video_in_valid' is ignored in uisrc/01_rtl/system_top.v(736)
+HDL-5333 WARNING: data object 'I_video_in_last' is already declared in uisrc/01_rtl/system_top.v(737)
+HDL-5007 WARNING: second declaration of 'I_video_in_last' is ignored in uisrc/01_rtl/system_top.v(737)
+HDL-5333 WARNING: data object 'I_video_in_data' is already declared in uisrc/01_rtl/system_top.v(738)
+HDL-5007 WARNING: second declaration of 'I_video_in_data' is ignored in uisrc/01_rtl/system_top.v(738)
+HDL-5007 WARNING: /* is inside a comment in uisrc/01_rtl/system_top.v(248)
+HDL-5333 WARNING: data object 'I_video_in_user' is already declared in uisrc/01_rtl/system_top.v(735)
+HDL-5007 WARNING: second declaration of 'I_video_in_user' is ignored in uisrc/01_rtl/system_top.v(735)
+HDL-5333 WARNING: data object 'I_video_in_valid' is already declared in uisrc/01_rtl/system_top.v(736)
+HDL-5007 WARNING: second declaration of 'I_video_in_valid' is ignored in uisrc/01_rtl/system_top.v(736)
+HDL-5333 WARNING: data object 'I_video_in_last' is already declared in uisrc/01_rtl/system_top.v(737)
+HDL-5007 WARNING: second declaration of 'I_video_in_last' is ignored in uisrc/01_rtl/system_top.v(737)
+HDL-5333 WARNING: data object 'I_video_in_data' is already declared in uisrc/01_rtl/system_top.v(738)
+HDL-5007 WARNING: second declaration of 'I_video_in_data' is ignored in uisrc/01_rtl/system_top.v(738)
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/isp/BLC/BLC.v) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/isp/BLC/BLC.v
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/isp/isp_top.v) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/isp/isp_top.v
+HDL-5007 WARNING: /* is inside a comment in uisrc/01_rtl/system_top.v(248)
+HDL-5333 WARNING: data object 'I_video_in_user' is already declared in uisrc/01_rtl/system_top.v(735)
+HDL-5007 WARNING: second declaration of 'I_video_in_user' is ignored in uisrc/01_rtl/system_top.v(735)
+HDL-5333 WARNING: data object 'I_video_in_valid' is already declared in uisrc/01_rtl/system_top.v(736)
+HDL-5007 WARNING: second declaration of 'I_video_in_valid' is ignored in uisrc/01_rtl/system_top.v(736)
+HDL-5333 WARNING: data object 'I_video_in_last' is already declared in uisrc/01_rtl/system_top.v(737)
+HDL-5007 WARNING: second declaration of 'I_video_in_last' is ignored in uisrc/01_rtl/system_top.v(737)
+HDL-5333 WARNING: data object 'I_video_in_data' is already declared in uisrc/01_rtl/system_top.v(738)
+HDL-5007 WARNING: second declaration of 'I_video_in_data' is ignored in uisrc/01_rtl/system_top.v(738)
+HDL-5370 WARNING: parameter 'T10MS' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(43)
+HDL-5370 WARNING: parameter 'KEY_S0' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(44)
+HDL-5370 WARNING: parameter 'KEY_S1' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(45)
+HDL-5370 WARNING: parameter 'KEY_S2' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(46)
+HDL-5370 WARNING: parameter 'KEY_S3' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(47)
+HDL-8007 ERROR: concurrent assignment to a non-net 'REG_SIZE' is not permitted in uisrc/03_ip/uics500_cfg/uics500regAE.v(38)
+HDL-8007 ERROR: 'I_AG' is not declared in uisrc/03_ip/uics500_cfg/uics500regAE.v(46)
+HDL-8007 ERROR: 'I_AG' is not declared in uisrc/03_ip/uics500_cfg/uics500regAE.v(47)
+HDL-8007 ERROR: ignore module module due to previous errors in uisrc/03_ip/uics500_cfg/uics500regAE.v(29)
+Copyright (c) 1998-2019 The OpenSSL Project.  All rights reserved.
+This product includes software developed by the OpenSSL Project
+for use in the OpenSSL Toolkit (http://www.openssl.org/)
+Copyright (C) 1995-1998 Eric Young (eay@cryptsoft.com)
+All rights reserved.
+This product includes cryptographic software written by Eric Young (eay@cryptsoft.com)
+HDL-5007 WARNING: block identifier is required on this block in uisrc/03_ip/isp/Brightness_adjustment/uisrc/01_rtl/Brightness_adjustment.v(83)
+HDL-5007 WARNING: block identifier is required on this block in uisrc/03_ip/isp/Contrast_adjustment/uisrc/01_rtl/contrast_adj.v(95)
+HDL-5370 WARNING: parameter 'C0' becomes localparam in 'Saturation_adj' with formal parameter declaration list in uisrc/03_ip/isp/Saturation_adj/uisrc/01_rtl/Saturation_adj.v(125)
+HDL-5370 WARNING: parameter 'C1' becomes localparam in 'Saturation_adj' with formal parameter declaration list in uisrc/03_ip/isp/Saturation_adj/uisrc/01_rtl/Saturation_adj.v(126)
+HDL-5370 WARNING: parameter 'C2' becomes localparam in 'Saturation_adj' with formal parameter declaration list in uisrc/03_ip/isp/Saturation_adj/uisrc/01_rtl/Saturation_adj.v(127)
+HDL-5370 WARNING: parameter 'C0' becomes localparam in 'image_saturation_adjust' with formal parameter declaration list in uisrc/03_ip/isp/image_saturation_adjust/uisrc/01_rtl/saturation_adjust.v(123)
+HDL-5370 WARNING: parameter 'C1' becomes localparam in 'image_saturation_adjust' with formal parameter declaration list in uisrc/03_ip/isp/image_saturation_adjust/uisrc/01_rtl/saturation_adjust.v(124)
+HDL-5370 WARNING: parameter 'C2' becomes localparam in 'image_saturation_adjust' with formal parameter declaration list in uisrc/03_ip/isp/image_saturation_adjust/uisrc/01_rtl/saturation_adjust.v(125)
+HDL-7001 CRITICAL-WARNING: check keyowner failed
+HDL-7001 CRITICAL-WARNING: store key failed
+HDL-7001 CRITICAL-WARNING: unidentified key owner
+HDL-7201 CRITICAL-WARNING: overwrite current module 'blk_mem_gen_demosaic' in uisrc/03_ip/isp/raw_matrix_3x3_buffer/tmp_edit_project.gen/sources_1/ip/blk_mem_gen_demosaic/sim/blk_mem_gen_demosaic.v(56)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'blk_mem_gen_demosaic' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/isp/raw_matrix_3x3_buffer/ram/blk_mem_gen_demosaic.v(14)
+HDL-8007 ERROR: 'blk_mem_gen_v8_4_4' is not compiled in library 'blk_mem_gen_v8_4_4' in uisrc/03_ip/isp/raw_matrix_3x3_buffer/tmp_edit_project.gen/sources_1/ip/blk_mem_gen_demosaic/synth/blk_mem_gen_demosaic.vhd(57)
+HDL-8007 ERROR: ignore unit blk_mem_gen_demosaic due to previous errors in uisrc/03_ip/isp/raw_matrix_3x3_buffer/tmp_edit_project.gen/sources_1/ip/blk_mem_gen_demosaic/synth/blk_mem_gen_demosaic.vhd(59)
+HDL-8007 ERROR: cannot find port 'dia' on this module in uisrc/03_ip/isp/raw_matrix_3x3_buffer/line_buffer_demosaic.v(84)
+HDL-8007 ERROR: cannot find port 'dob' on this module in uisrc/03_ip/isp/raw_matrix_3x3_buffer/line_buffer_demosaic.v(87)
+HDL-5007 WARNING: /* is inside a comment in uisrc/01_rtl/system_top.v(248)
+HDL-5333 WARNING: data object 'I_video_in_user' is already declared in uisrc/01_rtl/system_top.v(735)
+HDL-5007 WARNING: second declaration of 'I_video_in_user' is ignored in uisrc/01_rtl/system_top.v(735)
+HDL-5333 WARNING: data object 'I_video_in_valid' is already declared in uisrc/01_rtl/system_top.v(736)
+HDL-5007 WARNING: second declaration of 'I_video_in_valid' is ignored in uisrc/01_rtl/system_top.v(736)
+HDL-5333 WARNING: data object 'I_video_in_last' is already declared in uisrc/01_rtl/system_top.v(737)
+HDL-5007 WARNING: second declaration of 'I_video_in_last' is ignored in uisrc/01_rtl/system_top.v(737)
+HDL-5333 WARNING: data object 'I_video_in_data' is already declared in uisrc/01_rtl/system_top.v(738)
+HDL-5007 WARNING: second declaration of 'I_video_in_data' is ignored in uisrc/01_rtl/system_top.v(738)
+HDL-5370 WARNING: parameter 'T10MS' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(43)
+HDL-5370 WARNING: parameter 'KEY_S0' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(44)
+HDL-5370 WARNING: parameter 'KEY_S1' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(45)
+HDL-5370 WARNING: parameter 'KEY_S2' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(46)
+HDL-5370 WARNING: parameter 'KEY_S3' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(47)
+HDL-8007 ERROR: concurrent assignment to a non-net 'REG_SIZE' is not permitted in uisrc/03_ip/uics500_cfg/uics500regAE.v(38)
+HDL-8007 ERROR: 'I_AG' is not declared in uisrc/03_ip/uics500_cfg/uics500regAE.v(46)
+HDL-8007 ERROR: 'I_AG' is not declared in uisrc/03_ip/uics500_cfg/uics500regAE.v(47)
+HDL-8007 ERROR: ignore module module due to previous errors in uisrc/03_ip/uics500_cfg/uics500regAE.v(29)
+HDL-5007 WARNING: block identifier is required on this block in uisrc/03_ip/isp/Brightness_adjustment/uisrc/01_rtl/Brightness_adjustment.v(83)
+HDL-5007 WARNING: block identifier is required on this block in uisrc/03_ip/isp/Contrast_adjustment/uisrc/01_rtl/contrast_adj.v(95)
+HDL-5370 WARNING: parameter 'C0' becomes localparam in 'Saturation_adj' with formal parameter declaration list in uisrc/03_ip/isp/Saturation_adj/uisrc/01_rtl/Saturation_adj.v(125)
+HDL-5370 WARNING: parameter 'C1' becomes localparam in 'Saturation_adj' with formal parameter declaration list in uisrc/03_ip/isp/Saturation_adj/uisrc/01_rtl/Saturation_adj.v(126)
+HDL-5370 WARNING: parameter 'C2' becomes localparam in 'Saturation_adj' with formal parameter declaration list in uisrc/03_ip/isp/Saturation_adj/uisrc/01_rtl/Saturation_adj.v(127)
+HDL-7001 CRITICAL-WARNING: check keyowner failed
+HDL-7001 CRITICAL-WARNING: store key failed
+HDL-7001 CRITICAL-WARNING: unidentified key owner
+HDL-7201 CRITICAL-WARNING: overwrite current module 'blk_mem_gen_demosaic' in uisrc/03_ip/isp/raw_matrix_3x3_buffer/tmp_edit_project.gen/sources_1/ip/blk_mem_gen_demosaic/sim/blk_mem_gen_demosaic.v(56)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'blk_mem_gen_demosaic' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/isp/raw_matrix_3x3_buffer/ram/blk_mem_gen_demosaic.v(14)
+HDL-8007 ERROR: 'blk_mem_gen_v8_4_4' is not compiled in library 'blk_mem_gen_v8_4_4' in uisrc/03_ip/isp/raw_matrix_3x3_buffer/tmp_edit_project.gen/sources_1/ip/blk_mem_gen_demosaic/synth/blk_mem_gen_demosaic.vhd(57)
+HDL-8007 ERROR: ignore unit blk_mem_gen_demosaic due to previous errors in uisrc/03_ip/isp/raw_matrix_3x3_buffer/tmp_edit_project.gen/sources_1/ip/blk_mem_gen_demosaic/synth/blk_mem_gen_demosaic.vhd(59)
+HDL-8007 ERROR: cannot find port 'dia' on this module in uisrc/03_ip/isp/raw_matrix_3x3_buffer/line_buffer_demosaic.v(84)
+HDL-8007 ERROR: cannot find port 'dob' on this module in uisrc/03_ip/isp/raw_matrix_3x3_buffer/line_buffer_demosaic.v(87)
+HDL-5007 WARNING: /* is inside a comment in uisrc/01_rtl/system_top.v(248)
+HDL-5333 WARNING: data object 'I_video_in_user' is already declared in uisrc/01_rtl/system_top.v(735)
+HDL-5007 WARNING: second declaration of 'I_video_in_user' is ignored in uisrc/01_rtl/system_top.v(735)
+HDL-5333 WARNING: data object 'I_video_in_valid' is already declared in uisrc/01_rtl/system_top.v(736)
+HDL-5007 WARNING: second declaration of 'I_video_in_valid' is ignored in uisrc/01_rtl/system_top.v(736)
+HDL-5333 WARNING: data object 'I_video_in_last' is already declared in uisrc/01_rtl/system_top.v(737)
+HDL-5007 WARNING: second declaration of 'I_video_in_last' is ignored in uisrc/01_rtl/system_top.v(737)
+HDL-5333 WARNING: data object 'I_video_in_data' is already declared in uisrc/01_rtl/system_top.v(738)
+HDL-5007 WARNING: second declaration of 'I_video_in_data' is ignored in uisrc/01_rtl/system_top.v(738)
+HDL-5370 WARNING: parameter 'T10MS' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(43)
+HDL-5370 WARNING: parameter 'KEY_S0' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(44)
+HDL-5370 WARNING: parameter 'KEY_S1' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(45)
+HDL-5370 WARNING: parameter 'KEY_S2' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(46)
+HDL-5370 WARNING: parameter 'KEY_S3' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(47)
+HDL-8007 ERROR: concurrent assignment to a non-net 'REG_SIZE' is not permitted in uisrc/03_ip/uics500_cfg/uics500regAE.v(38)
+HDL-8007 ERROR: 'I_AG' is not declared in uisrc/03_ip/uics500_cfg/uics500regAE.v(46)
+HDL-8007 ERROR: 'I_AG' is not declared in uisrc/03_ip/uics500_cfg/uics500regAE.v(47)
+HDL-8007 ERROR: ignore module module due to previous errors in uisrc/03_ip/uics500_cfg/uics500regAE.v(29)
+HDL-5007 WARNING: block identifier is required on this block in uisrc/03_ip/isp/Brightness_adjustment/uisrc/01_rtl/Brightness_adjustment.v(83)
+HDL-5007 WARNING: block identifier is required on this block in uisrc/03_ip/isp/Contrast_adjustment/uisrc/01_rtl/contrast_adj.v(95)
+HDL-5370 WARNING: parameter 'C0' becomes localparam in 'Saturation_adj' with formal parameter declaration list in uisrc/03_ip/isp/Saturation_adj/uisrc/01_rtl/Saturation_adj.v(125)
+HDL-5370 WARNING: parameter 'C1' becomes localparam in 'Saturation_adj' with formal parameter declaration list in uisrc/03_ip/isp/Saturation_adj/uisrc/01_rtl/Saturation_adj.v(126)
+HDL-5370 WARNING: parameter 'C2' becomes localparam in 'Saturation_adj' with formal parameter declaration list in uisrc/03_ip/isp/Saturation_adj/uisrc/01_rtl/Saturation_adj.v(127)
+HDL-7001 CRITICAL-WARNING: check keyowner failed
+HDL-7001 CRITICAL-WARNING: store key failed
+HDL-7001 CRITICAL-WARNING: unidentified key owner
+HDL-7201 CRITICAL-WARNING: overwrite current module 'blk_mem_gen_demosaic' in uisrc/03_ip/isp/raw_matrix_3x3_buffer/tmp_edit_project.gen/sources_1/ip/blk_mem_gen_demosaic/sim/blk_mem_gen_demosaic.v(56)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'blk_mem_gen_demosaic' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/isp/raw_matrix_3x3_buffer/ram/blk_mem_gen_demosaic.v(14)
+HDL-8007 ERROR: 'blk_mem_gen_v8_4_4' is not compiled in library 'blk_mem_gen_v8_4_4' in uisrc/03_ip/isp/raw_matrix_3x3_buffer/tmp_edit_project.gen/sources_1/ip/blk_mem_gen_demosaic/synth/blk_mem_gen_demosaic.vhd(57)
+HDL-8007 ERROR: ignore unit blk_mem_gen_demosaic due to previous errors in uisrc/03_ip/isp/raw_matrix_3x3_buffer/tmp_edit_project.gen/sources_1/ip/blk_mem_gen_demosaic/synth/blk_mem_gen_demosaic.vhd(59)
+HDL-8007 ERROR: cannot find port 'dia' on this module in uisrc/03_ip/isp/raw_matrix_3x3_buffer/line_buffer_demosaic.v(84)
+HDL-8007 ERROR: cannot find port 'dob' on this module in uisrc/03_ip/isp/raw_matrix_3x3_buffer/line_buffer_demosaic.v(87)
+HDL-5007 WARNING: /* is inside a comment in uisrc/01_rtl/system_top.v(248)
+HDL-5333 WARNING: data object 'I_video_in_user' is already declared in uisrc/01_rtl/system_top.v(735)
+HDL-5007 WARNING: second declaration of 'I_video_in_user' is ignored in uisrc/01_rtl/system_top.v(735)
+HDL-5333 WARNING: data object 'I_video_in_valid' is already declared in uisrc/01_rtl/system_top.v(736)
+HDL-5007 WARNING: second declaration of 'I_video_in_valid' is ignored in uisrc/01_rtl/system_top.v(736)
+HDL-5333 WARNING: data object 'I_video_in_last' is already declared in uisrc/01_rtl/system_top.v(737)
+HDL-5007 WARNING: second declaration of 'I_video_in_last' is ignored in uisrc/01_rtl/system_top.v(737)
+HDL-5333 WARNING: data object 'I_video_in_data' is already declared in uisrc/01_rtl/system_top.v(738)
+HDL-5007 WARNING: second declaration of 'I_video_in_data' is ignored in uisrc/01_rtl/system_top.v(738)
+HDL-5370 WARNING: parameter 'T10MS' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(43)
+HDL-5370 WARNING: parameter 'KEY_S0' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(44)
+HDL-5370 WARNING: parameter 'KEY_S1' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(45)
+HDL-5370 WARNING: parameter 'KEY_S2' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(46)
+HDL-5370 WARNING: parameter 'KEY_S3' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(47)
+HDL-8007 ERROR: concurrent assignment to a non-net 'REG_SIZE' is not permitted in uisrc/03_ip/uics500_cfg/uics500regAE.v(38)
+HDL-8007 ERROR: 'I_AG' is not declared in uisrc/03_ip/uics500_cfg/uics500regAE.v(46)
+HDL-8007 ERROR: 'I_AG' is not declared in uisrc/03_ip/uics500_cfg/uics500regAE.v(47)
+HDL-8007 ERROR: ignore module module due to previous errors in uisrc/03_ip/uics500_cfg/uics500regAE.v(29)
+HDL-5007 WARNING: block identifier is required on this block in uisrc/03_ip/isp/Brightness_adjustment/uisrc/01_rtl/Brightness_adjustment.v(83)
+HDL-5007 WARNING: block identifier is required on this block in uisrc/03_ip/isp/Contrast_adjustment/uisrc/01_rtl/contrast_adj.v(95)
+HDL-5370 WARNING: parameter 'C0' becomes localparam in 'Saturation_adj' with formal parameter declaration list in uisrc/03_ip/isp/Saturation_adj/uisrc/01_rtl/Saturation_adj.v(125)
+HDL-5370 WARNING: parameter 'C1' becomes localparam in 'Saturation_adj' with formal parameter declaration list in uisrc/03_ip/isp/Saturation_adj/uisrc/01_rtl/Saturation_adj.v(126)
+HDL-5370 WARNING: parameter 'C2' becomes localparam in 'Saturation_adj' with formal parameter declaration list in uisrc/03_ip/isp/Saturation_adj/uisrc/01_rtl/Saturation_adj.v(127)
+HDL-7001 CRITICAL-WARNING: check keyowner failed
+HDL-7001 CRITICAL-WARNING: store key failed
+HDL-7001 CRITICAL-WARNING: unidentified key owner
+HDL-7201 CRITICAL-WARNING: overwrite current module 'blk_mem_gen_demosaic' in uisrc/03_ip/isp/raw_matrix_3x3_buffer/tmp_edit_project.gen/sources_1/ip/blk_mem_gen_demosaic/sim/blk_mem_gen_demosaic.v(56)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'blk_mem_gen_demosaic' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/isp/raw_matrix_3x3_buffer/ram/blk_mem_gen_demosaic.v(14)
+HDL-8007 ERROR: 'blk_mem_gen_v8_4_4' is not compiled in library 'blk_mem_gen_v8_4_4' in uisrc/03_ip/isp/raw_matrix_3x3_buffer/tmp_edit_project.gen/sources_1/ip/blk_mem_gen_demosaic/synth/blk_mem_gen_demosaic.vhd(57)
+HDL-8007 ERROR: ignore unit blk_mem_gen_demosaic due to previous errors in uisrc/03_ip/isp/raw_matrix_3x3_buffer/tmp_edit_project.gen/sources_1/ip/blk_mem_gen_demosaic/synth/blk_mem_gen_demosaic.vhd(59)
+HDL-8007 ERROR: cannot find port 'dia' on this module in uisrc/03_ip/isp/raw_matrix_3x3_buffer/line_buffer_demosaic.v(84)
+HDL-8007 ERROR: cannot find port 'dob' on this module in uisrc/03_ip/isp/raw_matrix_3x3_buffer/line_buffer_demosaic.v(87)
+HDL-5370 WARNING: parameter '**' becomes localparam in '**' with formal parameter declaration list in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(2)
+HDL-5370 WARNING: parameter '**' becomes localparam in '**' with formal parameter declaration list in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(3)
+HDL-5370 WARNING: parameter '**' becomes localparam in '**' with formal parameter declaration list in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(4)
+HDL-5370 WARNING: parameter '**' becomes localparam in '**' with formal parameter declaration list in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(5)
+HDL-5007 WARNING: /* is inside a comment in uisrc/01_rtl/system_top.v(248)
+HDL-5333 WARNING: data object 'I_video_in_user' is already declared in uisrc/01_rtl/system_top.v(735)
+HDL-5007 WARNING: second declaration of 'I_video_in_user' is ignored in uisrc/01_rtl/system_top.v(735)
+HDL-5333 WARNING: data object 'I_video_in_valid' is already declared in uisrc/01_rtl/system_top.v(736)
+HDL-5007 WARNING: second declaration of 'I_video_in_valid' is ignored in uisrc/01_rtl/system_top.v(736)
+HDL-5333 WARNING: data object 'I_video_in_last' is already declared in uisrc/01_rtl/system_top.v(737)
+HDL-5007 WARNING: second declaration of 'I_video_in_last' is ignored in uisrc/01_rtl/system_top.v(737)
+HDL-5333 WARNING: data object 'I_video_in_data' is already declared in uisrc/01_rtl/system_top.v(738)
+HDL-5007 WARNING: second declaration of 'I_video_in_data' is ignored in uisrc/01_rtl/system_top.v(738)
+HDL-5370 WARNING: parameter 'T10MS' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(43)
+HDL-5370 WARNING: parameter 'KEY_S0' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(44)
+HDL-5370 WARNING: parameter 'KEY_S1' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(45)
+HDL-5370 WARNING: parameter 'KEY_S2' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(46)
+HDL-5370 WARNING: parameter 'KEY_S3' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(47)
+HDL-8007 ERROR: concurrent assignment to a non-net 'REG_SIZE' is not permitted in uisrc/03_ip/uics500_cfg/uics500regAE.v(38)
+HDL-8007 ERROR: 'I_AG' is not declared in uisrc/03_ip/uics500_cfg/uics500regAE.v(46)
+HDL-8007 ERROR: 'I_AG' is not declared in uisrc/03_ip/uics500_cfg/uics500regAE.v(47)
+HDL-8007 ERROR: ignore module module due to previous errors in uisrc/03_ip/uics500_cfg/uics500regAE.v(29)
+HDL-5007 WARNING: block identifier is required on this block in uisrc/03_ip/isp/Brightness_adjustment/uisrc/01_rtl/Brightness_adjustment.v(83)
+HDL-5007 WARNING: block identifier is required on this block in uisrc/03_ip/isp/Contrast_adjustment/uisrc/01_rtl/contrast_adj.v(95)
+HDL-5370 WARNING: parameter 'C0' becomes localparam in 'Saturation_adj' with formal parameter declaration list in uisrc/03_ip/isp/Saturation_adj/uisrc/01_rtl/Saturation_adj.v(125)
+HDL-5370 WARNING: parameter 'C1' becomes localparam in 'Saturation_adj' with formal parameter declaration list in uisrc/03_ip/isp/Saturation_adj/uisrc/01_rtl/Saturation_adj.v(126)
+HDL-5370 WARNING: parameter 'C2' becomes localparam in 'Saturation_adj' with formal parameter declaration list in uisrc/03_ip/isp/Saturation_adj/uisrc/01_rtl/Saturation_adj.v(127)
+HDL-7001 CRITICAL-WARNING: check keyowner failed
+HDL-7001 CRITICAL-WARNING: store key failed
+HDL-7001 CRITICAL-WARNING: unidentified key owner
+HDL-7201 CRITICAL-WARNING: overwrite current module 'blk_mem_gen_demosaic' in uisrc/03_ip/isp/raw_matrix_3x3_buffer/tmp_edit_project.gen/sources_1/ip/blk_mem_gen_demosaic/sim/blk_mem_gen_demosaic.v(56)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'blk_mem_gen_demosaic' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/isp/raw_matrix_3x3_buffer/ram/blk_mem_gen_demosaic.v(14)
+HDL-8007 ERROR: 'blk_mem_gen_v8_4_4' is not compiled in library 'blk_mem_gen_v8_4_4' in uisrc/03_ip/isp/raw_matrix_3x3_buffer/tmp_edit_project.gen/sources_1/ip/blk_mem_gen_demosaic/synth/blk_mem_gen_demosaic.vhd(57)
+HDL-8007 ERROR: ignore unit blk_mem_gen_demosaic due to previous errors in uisrc/03_ip/isp/raw_matrix_3x3_buffer/tmp_edit_project.gen/sources_1/ip/blk_mem_gen_demosaic/synth/blk_mem_gen_demosaic.vhd(59)
+HDL-8007 ERROR: cannot find port 'dia' on this module in uisrc/03_ip/isp/raw_matrix_3x3_buffer/line_buffer_demosaic.v(84)
+HDL-8007 ERROR: cannot find port 'dob' on this module in uisrc/03_ip/isp/raw_matrix_3x3_buffer/line_buffer_demosaic.v(87)
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/ae_set/ae_set.v) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/ae_set/ae_set.v
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/ae_set/key.v) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/ae_set/key.v
+PRJ-9201 ERROR: D:/TD/prj/imx_isp/uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v already exists in IP uisrc/03_ip/alip/ph1a_ddr/ddr_ip.ipc
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/alip/ph1a_mipi_dphy_rx/mipi_dphy_rx_ph1a_mipiio_wrapper.sv) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/alip/ph1a_mipi_dphy_rx/mipi_dphy_rx_ph1a_mipiio_wrapper.sv
+PRJ-9201 ERROR: D:/TD/prj/imx_isp/uisrc/03_ip/alip/pll.v already exists in IP uisrc/03_ip/alip/pll.ipc
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/alip/pll.v
+PRJ-9201 ERROR: D:/TD/prj/imx_isp/uisrc/03_ip/alip/pll.vhd already exists in IP uisrc/03_ip/alip/pll.ipc
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/alip/pll.vhd
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/isp/BLC/BLC.v) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/isp/BLC/BLC.v
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/isp/Brightness_adjustment/uisrc/01_rtl/Brightness_adjustment.v) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/isp/Brightness_adjustment/uisrc/01_rtl/Brightness_adjustment.v
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/isp/Contrast_adjustment/uisrc/01_rtl/contrast_adj.v) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/isp/Contrast_adjustment/uisrc/01_rtl/contrast_adj.v
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/isp/Saturation_adj/uisrc/01_rtl/Saturation_adj.v) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/isp/Saturation_adj/uisrc/01_rtl/Saturation_adj.v
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/isp/awb_1_3/awb.v) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/isp/awb_1_3/awb.v
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/isp/awb_1_3/signal_delay.v) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/isp/awb_1_3/signal_delay.v
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/isp/bilinear_interpolation/bilinear_interpolation.v) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/isp/bilinear_interpolation/bilinear_interpolation.v
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/isp/data128_96/data128_96.v) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/isp/data128_96/data128_96.v
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/isp/data96_128/ip/data96_128.v) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/isp/data96_128/ip/data96_128.v
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/isp/gamma/gamma.v) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/isp/gamma/gamma.v
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/isp/gamma/lut_0_8.v) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/isp/gamma/lut_0_8.v
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/isp/gamma/lut_1_2.v) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/isp/gamma/lut_1_2.v
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/isp/gamma/lut_1_4.v) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/isp/gamma/lut_1_4.v
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/isp/gamma/lut_1_6.v) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/isp/gamma/lut_1_6.v
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/isp/gamma/lut_1_8.v) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/isp/gamma/lut_1_8.v
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/isp/gamma/lut_2_0.v) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/isp/gamma/lut_2_0.v
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/isp/gamma/lut_2_2.v) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/isp/gamma/lut_2_2.v
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/isp/gamma/lut_2_4.v) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/isp/gamma/lut_2_4.v
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/isp/gamma/lut_2_6.v) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/isp/gamma/lut_2_6.v
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/isp/image_cut/uisrc/01_rtl/image_cut.v) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/isp/image_cut/uisrc/01_rtl/image_cut.v
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/isp/raw_matrix_3x3_buffer/ram/blk_mem_gen_demosaic.v) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/isp/raw_matrix_3x3_buffer/ram/blk_mem_gen_demosaic.v
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/isp/raw_matrix_3x3_buffer/tmp_edit_project.gen/sources_1/ip/blk_mem_gen_demosaic/hdl/blk_mem_gen_v8_4_vhsyn_rfs.vhd) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/isp/raw_matrix_3x3_buffer/tmp_edit_project.gen/sources_1/ip/blk_mem_gen_demosaic/hdl/blk_mem_gen_v8_4_vhsyn_rfs.vhd
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/isp/raw_matrix_3x3_buffer/tmp_edit_project.gen/sources_1/ip/blk_mem_gen_demosaic/sim/blk_mem_gen_demosaic.v) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/isp/raw_matrix_3x3_buffer/tmp_edit_project.gen/sources_1/ip/blk_mem_gen_demosaic/sim/blk_mem_gen_demosaic.v
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/isp/raw_matrix_3x3_buffer/tmp_edit_project.gen/sources_1/ip/blk_mem_gen_demosaic/simulation/blk_mem_gen_v8_4.v) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/isp/raw_matrix_3x3_buffer/tmp_edit_project.gen/sources_1/ip/blk_mem_gen_demosaic/simulation/blk_mem_gen_v8_4.v
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/isp/raw_matrix_3x3_buffer/tmp_edit_project.gen/sources_1/ip/blk_mem_gen_demosaic/synth/blk_mem_gen_demosaic.vhd) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/isp/raw_matrix_3x3_buffer/tmp_edit_project.gen/sources_1/ip/blk_mem_gen_demosaic/synth/blk_mem_gen_demosaic.vhd
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/isp/raw_matrix_3x3_buffer/line_buffer_demosaic.v) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/isp/raw_matrix_3x3_buffer/line_buffer_demosaic.v
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/isp/raw_matrix_3x3_buffer/mipi_to_raw_converter.v) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/isp/raw_matrix_3x3_buffer/mipi_to_raw_converter.v
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/isp/raw_matrix_3x3_buffer/raw_matrix_3x3_buffer.v) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/isp/raw_matrix_3x3_buffer/raw_matrix_3x3_buffer.v
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/isp/raw_matrix_3x3_buffer/zhenghe.v) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/isp/raw_matrix_3x3_buffer/zhenghe.v
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/isp/isp_top.v) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/isp/isp_top.v
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/uics500_cfg/uicfgcs500.v) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/uics500_cfg/uicfgcs500.v
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/uics500_cfg/uics500reg.v) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/uics500_cfg/uics500reg.v
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/uics500_cfg/uics500regAE.v) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/uics500_cfg/uics500regAE.v
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/uics500_cfg/uii2c.v) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/uics500_cfg/uii2c.v
+PRJ-9201 ERROR: D:/TD/prj/imx_isp/uisrc/03_ip/uifdmadbuf/rfifo/rfifo.v already exists in IP uisrc/03_ip/uifdmadbuf/rfifo/rfifo.ipc
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/uifdmadbuf/rfifo/rfifo.v
+PRJ-9201 ERROR: D:/TD/prj/imx_isp/uisrc/03_ip/uifdmadbuf/wfifo/wfifo.v already exists in IP uisrc/03_ip/uifdmadbuf/wfifo/wfifo.ipc
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/uifdmadbuf/wfifo/wfifo.v
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/uiisp_ph1a/csi_unpacket_4lane.v) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/uiisp_ph1a/csi_unpacket_4lane.v
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/uiisp_ph1a/raw10_unpacket_4lane.v) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/uiisp_ph1a/raw10_unpacket_4lane.v
+HDL-5370 WARNING: parameter '**' becomes localparam in '**' with formal parameter declaration list in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(2)
+HDL-5370 WARNING: parameter '**' becomes localparam in '**' with formal parameter declaration list in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(3)
+HDL-5370 WARNING: parameter '**' becomes localparam in '**' with formal parameter declaration list in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(4)
+HDL-5370 WARNING: parameter '**' becomes localparam in '**' with formal parameter declaration list in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(5)
+HDL-5007 WARNING: /* is inside a comment in uisrc/01_rtl/system_top.v(248)
+HDL-5333 WARNING: data object 'I_video_in_user' is already declared in uisrc/01_rtl/system_top.v(735)
+HDL-5007 WARNING: second declaration of 'I_video_in_user' is ignored in uisrc/01_rtl/system_top.v(735)
+HDL-5333 WARNING: data object 'I_video_in_valid' is already declared in uisrc/01_rtl/system_top.v(736)
+HDL-5007 WARNING: second declaration of 'I_video_in_valid' is ignored in uisrc/01_rtl/system_top.v(736)
+HDL-5333 WARNING: data object 'I_video_in_last' is already declared in uisrc/01_rtl/system_top.v(737)
+HDL-5007 WARNING: second declaration of 'I_video_in_last' is ignored in uisrc/01_rtl/system_top.v(737)
+HDL-5333 WARNING: data object 'I_video_in_data' is already declared in uisrc/01_rtl/system_top.v(738)
+HDL-5007 WARNING: second declaration of 'I_video_in_data' is ignored in uisrc/01_rtl/system_top.v(738)
+HDL-5370 WARNING: parameter 'T10MS' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(43)
+HDL-5370 WARNING: parameter 'KEY_S0' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(44)
+HDL-5370 WARNING: parameter 'KEY_S1' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(45)
+HDL-5370 WARNING: parameter 'KEY_S2' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(46)
+HDL-5370 WARNING: parameter 'KEY_S3' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(47)
+HDL-8007 ERROR: concurrent assignment to a non-net 'REG_SIZE' is not permitted in uisrc/03_ip/uics500_cfg/uics500regAE.v(38)
+HDL-8007 ERROR: 'I_AG' is not declared in uisrc/03_ip/uics500_cfg/uics500regAE.v(46)
+HDL-8007 ERROR: 'I_AG' is not declared in uisrc/03_ip/uics500_cfg/uics500regAE.v(47)
+HDL-8007 ERROR: ignore module module due to previous errors in uisrc/03_ip/uics500_cfg/uics500regAE.v(29)
+HDL-5007 WARNING: block identifier is required on this block in uisrc/03_ip/isp/Brightness_adjustment/uisrc/01_rtl/Brightness_adjustment.v(83)
+HDL-5007 WARNING: block identifier is required on this block in uisrc/03_ip/isp/Contrast_adjustment/uisrc/01_rtl/contrast_adj.v(95)
+HDL-5370 WARNING: parameter 'C0' becomes localparam in 'Saturation_adj' with formal parameter declaration list in uisrc/03_ip/isp/Saturation_adj/uisrc/01_rtl/Saturation_adj.v(125)
+HDL-5370 WARNING: parameter 'C1' becomes localparam in 'Saturation_adj' with formal parameter declaration list in uisrc/03_ip/isp/Saturation_adj/uisrc/01_rtl/Saturation_adj.v(126)
+HDL-5370 WARNING: parameter 'C2' becomes localparam in 'Saturation_adj' with formal parameter declaration list in uisrc/03_ip/isp/Saturation_adj/uisrc/01_rtl/Saturation_adj.v(127)
+HDL-7001 CRITICAL-WARNING: check keyowner failed
+HDL-7001 CRITICAL-WARNING: store key failed
+HDL-7001 CRITICAL-WARNING: unidentified key owner
+HDL-7201 CRITICAL-WARNING: overwrite current module 'blk_mem_gen_demosaic' in uisrc/03_ip/isp/raw_matrix_3x3_buffer/tmp_edit_project.gen/sources_1/ip/blk_mem_gen_demosaic/sim/blk_mem_gen_demosaic.v(56)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'blk_mem_gen_demosaic' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/isp/raw_matrix_3x3_buffer/ram/blk_mem_gen_demosaic.v(14)
+HDL-8007 ERROR: 'blk_mem_gen_v8_4_4' is not compiled in library 'blk_mem_gen_v8_4_4' in uisrc/03_ip/isp/raw_matrix_3x3_buffer/tmp_edit_project.gen/sources_1/ip/blk_mem_gen_demosaic/synth/blk_mem_gen_demosaic.vhd(57)
+HDL-8007 ERROR: ignore unit blk_mem_gen_demosaic due to previous errors in uisrc/03_ip/isp/raw_matrix_3x3_buffer/tmp_edit_project.gen/sources_1/ip/blk_mem_gen_demosaic/synth/blk_mem_gen_demosaic.vhd(59)
+HDL-7201 CRITICAL-WARNING: overwrite current module 'w40_d512_fifo' in uisrc/03_ip/alip/w40_d512_fifo_sim.v(5)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'w40_d512_fifo' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/alip/w40_d512_fifo.v(14)
+HDL-5370 WARNING: parameter 'C0' becomes localparam in 'image_saturation_adjust' with formal parameter declaration list in uisrc/03_ip/isp/image_saturation_adjust/uisrc/01_rtl/saturation_adjust.v(123)
+HDL-5370 WARNING: parameter 'C1' becomes localparam in 'image_saturation_adjust' with formal parameter declaration list in uisrc/03_ip/isp/image_saturation_adjust/uisrc/01_rtl/saturation_adjust.v(124)
+HDL-5370 WARNING: parameter 'C2' becomes localparam in 'image_saturation_adjust' with formal parameter declaration list in uisrc/03_ip/isp/image_saturation_adjust/uisrc/01_rtl/saturation_adjust.v(125)
+HDL-7201 CRITICAL-WARNING: overwrite current module 'Line_Shift_RAM_8Bit' in uisrc/03_ip/raw8_2_rgb888/Line_Shift_RAM_8Bit.v(2)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'Line_Shift_RAM_8Bit' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/alip/Line_Shift_RAM_8Bit.v(2)
+HDL-8007 ERROR: cannot find port 'dia' on this module in uisrc/03_ip/isp/raw_matrix_3x3_buffer/line_buffer_demosaic.v(84)
+HDL-8007 ERROR: cannot find port 'dob' on this module in uisrc/03_ip/isp/raw_matrix_3x3_buffer/line_buffer_demosaic.v(87)
+HDL-5370 WARNING: parameter '**' becomes localparam in '**' with formal parameter declaration list in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(2)
+HDL-5370 WARNING: parameter '**' becomes localparam in '**' with formal parameter declaration list in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(3)
+HDL-5370 WARNING: parameter '**' becomes localparam in '**' with formal parameter declaration list in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(4)
+HDL-5370 WARNING: parameter '**' becomes localparam in '**' with formal parameter declaration list in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(5)
+HDL-5007 WARNING: /* is inside a comment in uisrc/01_rtl/system_top.v(248)
+HDL-5333 WARNING: data object 'I_video_in_user' is already declared in uisrc/01_rtl/system_top.v(735)
+HDL-5007 WARNING: second declaration of 'I_video_in_user' is ignored in uisrc/01_rtl/system_top.v(735)
+HDL-5333 WARNING: data object 'I_video_in_valid' is already declared in uisrc/01_rtl/system_top.v(736)
+HDL-5007 WARNING: second declaration of 'I_video_in_valid' is ignored in uisrc/01_rtl/system_top.v(736)
+HDL-5333 WARNING: data object 'I_video_in_last' is already declared in uisrc/01_rtl/system_top.v(737)
+HDL-5007 WARNING: second declaration of 'I_video_in_last' is ignored in uisrc/01_rtl/system_top.v(737)
+HDL-5333 WARNING: data object 'I_video_in_data' is already declared in uisrc/01_rtl/system_top.v(738)
+HDL-5007 WARNING: second declaration of 'I_video_in_data' is ignored in uisrc/01_rtl/system_top.v(738)
+HDL-5370 WARNING: parameter 'T10MS' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(43)
+HDL-5370 WARNING: parameter 'KEY_S0' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(44)
+HDL-5370 WARNING: parameter 'KEY_S1' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(45)
+HDL-5370 WARNING: parameter 'KEY_S2' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(46)
+HDL-5370 WARNING: parameter 'KEY_S3' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(47)
+HDL-8007 ERROR: concurrent assignment to a non-net 'REG_SIZE' is not permitted in uisrc/03_ip/uics500_cfg/uics500regAE.v(38)
+HDL-8007 ERROR: 'I_AG' is not declared in uisrc/03_ip/uics500_cfg/uics500regAE.v(46)
+HDL-8007 ERROR: 'I_AG' is not declared in uisrc/03_ip/uics500_cfg/uics500regAE.v(47)
+HDL-8007 ERROR: ignore module module due to previous errors in uisrc/03_ip/uics500_cfg/uics500regAE.v(29)
+HDL-5007 WARNING: block identifier is required on this block in uisrc/03_ip/isp/Brightness_adjustment/uisrc/01_rtl/Brightness_adjustment.v(83)
+HDL-5007 WARNING: block identifier is required on this block in uisrc/03_ip/isp/Contrast_adjustment/uisrc/01_rtl/contrast_adj.v(95)
+HDL-5370 WARNING: parameter 'C0' becomes localparam in 'Saturation_adj' with formal parameter declaration list in uisrc/03_ip/isp/Saturation_adj/uisrc/01_rtl/Saturation_adj.v(125)
+HDL-5370 WARNING: parameter 'C1' becomes localparam in 'Saturation_adj' with formal parameter declaration list in uisrc/03_ip/isp/Saturation_adj/uisrc/01_rtl/Saturation_adj.v(126)
+HDL-5370 WARNING: parameter 'C2' becomes localparam in 'Saturation_adj' with formal parameter declaration list in uisrc/03_ip/isp/Saturation_adj/uisrc/01_rtl/Saturation_adj.v(127)
+HDL-7001 CRITICAL-WARNING: check keyowner failed
+HDL-7001 CRITICAL-WARNING: store key failed
+HDL-7001 CRITICAL-WARNING: unidentified key owner
+HDL-7201 CRITICAL-WARNING: overwrite current module 'blk_mem_gen_demosaic' in uisrc/03_ip/isp/raw_matrix_3x3_buffer/tmp_edit_project.gen/sources_1/ip/blk_mem_gen_demosaic/sim/blk_mem_gen_demosaic.v(56)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'blk_mem_gen_demosaic' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/isp/raw_matrix_3x3_buffer/ram/blk_mem_gen_demosaic.v(14)
+HDL-8007 ERROR: 'blk_mem_gen_v8_4_4' is not compiled in library 'blk_mem_gen_v8_4_4' in uisrc/03_ip/isp/raw_matrix_3x3_buffer/tmp_edit_project.gen/sources_1/ip/blk_mem_gen_demosaic/synth/blk_mem_gen_demosaic.vhd(57)
+HDL-8007 ERROR: ignore unit blk_mem_gen_demosaic due to previous errors in uisrc/03_ip/isp/raw_matrix_3x3_buffer/tmp_edit_project.gen/sources_1/ip/blk_mem_gen_demosaic/synth/blk_mem_gen_demosaic.vhd(59)
+HDL-7201 CRITICAL-WARNING: overwrite current module 'Line_Shift_RAM_8Bit' in uisrc/03_ip/raw8_2_rgb888/Line_Shift_RAM_8Bit.v(2)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'Line_Shift_RAM_8Bit' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/alip/Line_Shift_RAM_8Bit.v(2)
+HDL-8007 ERROR: cannot find port 'dia' on this module in uisrc/03_ip/isp/raw_matrix_3x3_buffer/line_buffer_demosaic.v(84)
+HDL-8007 ERROR: cannot find port 'dob' on this module in uisrc/03_ip/isp/raw_matrix_3x3_buffer/line_buffer_demosaic.v(87)
+HDL-5370 WARNING: parameter '**' becomes localparam in '**' with formal parameter declaration list in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(2)
+HDL-5370 WARNING: parameter '**' becomes localparam in '**' with formal parameter declaration list in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(3)
+HDL-5370 WARNING: parameter '**' becomes localparam in '**' with formal parameter declaration list in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(4)
+HDL-5370 WARNING: parameter '**' becomes localparam in '**' with formal parameter declaration list in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(5)
+HDL-5007 WARNING: /* is inside a comment in uisrc/01_rtl/system_top.v(248)
+HDL-5333 WARNING: data object 'I_video_in_user' is already declared in uisrc/01_rtl/system_top.v(735)
+HDL-5007 WARNING: second declaration of 'I_video_in_user' is ignored in uisrc/01_rtl/system_top.v(735)
+HDL-5333 WARNING: data object 'I_video_in_valid' is already declared in uisrc/01_rtl/system_top.v(736)
+HDL-5007 WARNING: second declaration of 'I_video_in_valid' is ignored in uisrc/01_rtl/system_top.v(736)
+HDL-5333 WARNING: data object 'I_video_in_last' is already declared in uisrc/01_rtl/system_top.v(737)
+HDL-5007 WARNING: second declaration of 'I_video_in_last' is ignored in uisrc/01_rtl/system_top.v(737)
+HDL-5333 WARNING: data object 'I_video_in_data' is already declared in uisrc/01_rtl/system_top.v(738)
+HDL-5007 WARNING: second declaration of 'I_video_in_data' is ignored in uisrc/01_rtl/system_top.v(738)
+HDL-5370 WARNING: parameter 'T10MS' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(43)
+HDL-5370 WARNING: parameter 'KEY_S0' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(44)
+HDL-5370 WARNING: parameter 'KEY_S1' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(45)
+HDL-5370 WARNING: parameter 'KEY_S2' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(46)
+HDL-5370 WARNING: parameter 'KEY_S3' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(47)
+HDL-8007 ERROR: concurrent assignment to a non-net 'REG_SIZE' is not permitted in uisrc/03_ip/uics500_cfg/uics500regAE.v(38)
+HDL-8007 ERROR: 'I_AG' is not declared in uisrc/03_ip/uics500_cfg/uics500regAE.v(46)
+HDL-8007 ERROR: 'I_AG' is not declared in uisrc/03_ip/uics500_cfg/uics500regAE.v(47)
+HDL-8007 ERROR: ignore module module due to previous errors in uisrc/03_ip/uics500_cfg/uics500regAE.v(29)
+HDL-5007 WARNING: block identifier is required on this block in uisrc/03_ip/isp/Brightness_adjustment/uisrc/01_rtl/Brightness_adjustment.v(83)
+HDL-5007 WARNING: block identifier is required on this block in uisrc/03_ip/isp/Contrast_adjustment/uisrc/01_rtl/contrast_adj.v(95)
+HDL-5370 WARNING: parameter 'C0' becomes localparam in 'Saturation_adj' with formal parameter declaration list in uisrc/03_ip/isp/Saturation_adj/uisrc/01_rtl/Saturation_adj.v(125)
+HDL-5370 WARNING: parameter 'C1' becomes localparam in 'Saturation_adj' with formal parameter declaration list in uisrc/03_ip/isp/Saturation_adj/uisrc/01_rtl/Saturation_adj.v(126)
+HDL-5370 WARNING: parameter 'C2' becomes localparam in 'Saturation_adj' with formal parameter declaration list in uisrc/03_ip/isp/Saturation_adj/uisrc/01_rtl/Saturation_adj.v(127)
+HDL-7001 CRITICAL-WARNING: check keyowner failed
+HDL-7001 CRITICAL-WARNING: store key failed
+HDL-7001 CRITICAL-WARNING: unidentified key owner
+HDL-7201 CRITICAL-WARNING: overwrite current module 'blk_mem_gen_demosaic' in uisrc/03_ip/isp/raw_matrix_3x3_buffer/tmp_edit_project.gen/sources_1/ip/blk_mem_gen_demosaic/sim/blk_mem_gen_demosaic.v(56)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'blk_mem_gen_demosaic' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/isp/raw_matrix_3x3_buffer/ram/blk_mem_gen_demosaic.v(14)
+HDL-8007 ERROR: 'blk_mem_gen_v8_4_4' is not compiled in library 'blk_mem_gen_v8_4_4' in uisrc/03_ip/isp/raw_matrix_3x3_buffer/tmp_edit_project.gen/sources_1/ip/blk_mem_gen_demosaic/synth/blk_mem_gen_demosaic.vhd(57)
+HDL-8007 ERROR: ignore unit blk_mem_gen_demosaic due to previous errors in uisrc/03_ip/isp/raw_matrix_3x3_buffer/tmp_edit_project.gen/sources_1/ip/blk_mem_gen_demosaic/synth/blk_mem_gen_demosaic.vhd(59)
+HDL-8007 ERROR: cannot find port 'dia' on this module in uisrc/03_ip/isp/raw_matrix_3x3_buffer/line_buffer_demosaic.v(84)
+HDL-8007 ERROR: cannot find port 'dob' on this module in uisrc/03_ip/isp/raw_matrix_3x3_buffer/line_buffer_demosaic.v(87)
+HDL-5370 WARNING: parameter '**' becomes localparam in '**' with formal parameter declaration list in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(2)
+HDL-5370 WARNING: parameter '**' becomes localparam in '**' with formal parameter declaration list in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(3)
+HDL-5370 WARNING: parameter '**' becomes localparam in '**' with formal parameter declaration list in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(4)
+HDL-5370 WARNING: parameter '**' becomes localparam in '**' with formal parameter declaration list in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(5)
+HDL-5007 WARNING: /* is inside a comment in uisrc/01_rtl/system_top.v(248)
+HDL-5333 WARNING: data object 'I_video_in_user' is already declared in uisrc/01_rtl/system_top.v(735)
+HDL-5007 WARNING: second declaration of 'I_video_in_user' is ignored in uisrc/01_rtl/system_top.v(735)
+HDL-5333 WARNING: data object 'I_video_in_valid' is already declared in uisrc/01_rtl/system_top.v(736)
+HDL-5007 WARNING: second declaration of 'I_video_in_valid' is ignored in uisrc/01_rtl/system_top.v(736)
+HDL-5333 WARNING: data object 'I_video_in_last' is already declared in uisrc/01_rtl/system_top.v(737)
+HDL-5007 WARNING: second declaration of 'I_video_in_last' is ignored in uisrc/01_rtl/system_top.v(737)
+HDL-5333 WARNING: data object 'I_video_in_data' is already declared in uisrc/01_rtl/system_top.v(738)
+HDL-5007 WARNING: second declaration of 'I_video_in_data' is ignored in uisrc/01_rtl/system_top.v(738)
+HDL-5370 WARNING: parameter 'T10MS' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(43)
+HDL-5370 WARNING: parameter 'KEY_S0' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(44)
+HDL-5370 WARNING: parameter 'KEY_S1' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(45)
+HDL-5370 WARNING: parameter 'KEY_S2' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(46)
+HDL-5370 WARNING: parameter 'KEY_S3' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(47)
+HDL-8007 ERROR: concurrent assignment to a non-net 'REG_SIZE' is not permitted in uisrc/03_ip/uics500_cfg/uics500regAE.v(38)
+HDL-8007 ERROR: 'I_AG' is not declared in uisrc/03_ip/uics500_cfg/uics500regAE.v(46)
+HDL-8007 ERROR: 'I_AG' is not declared in uisrc/03_ip/uics500_cfg/uics500regAE.v(47)
+HDL-8007 ERROR: ignore module module due to previous errors in uisrc/03_ip/uics500_cfg/uics500regAE.v(29)
+HDL-5007 WARNING: block identifier is required on this block in uisrc/03_ip/isp/Brightness_adjustment/uisrc/01_rtl/Brightness_adjustment.v(83)
+HDL-5007 WARNING: block identifier is required on this block in uisrc/03_ip/isp/Contrast_adjustment/uisrc/01_rtl/contrast_adj.v(95)
+HDL-5370 WARNING: parameter 'C0' becomes localparam in 'Saturation_adj' with formal parameter declaration list in uisrc/03_ip/isp/Saturation_adj/uisrc/01_rtl/Saturation_adj.v(125)
+HDL-5370 WARNING: parameter 'C1' becomes localparam in 'Saturation_adj' with formal parameter declaration list in uisrc/03_ip/isp/Saturation_adj/uisrc/01_rtl/Saturation_adj.v(126)
+HDL-5370 WARNING: parameter 'C2' becomes localparam in 'Saturation_adj' with formal parameter declaration list in uisrc/03_ip/isp/Saturation_adj/uisrc/01_rtl/Saturation_adj.v(127)
+HDL-7001 CRITICAL-WARNING: check keyowner failed
+HDL-7001 CRITICAL-WARNING: store key failed
+HDL-7001 CRITICAL-WARNING: unidentified key owner
+HDL-7201 CRITICAL-WARNING: overwrite current module 'blk_mem_gen_demosaic' in uisrc/03_ip/isp/raw_matrix_3x3_buffer/tmp_edit_project.gen/sources_1/ip/blk_mem_gen_demosaic/sim/blk_mem_gen_demosaic.v(56)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'blk_mem_gen_demosaic' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/isp/raw_matrix_3x3_buffer/ram/blk_mem_gen_demosaic.v(14)
+HDL-8007 ERROR: 'blk_mem_gen_v8_4_4' is not compiled in library 'blk_mem_gen_v8_4_4' in uisrc/03_ip/isp/raw_matrix_3x3_buffer/tmp_edit_project.gen/sources_1/ip/blk_mem_gen_demosaic/synth/blk_mem_gen_demosaic.vhd(57)
+HDL-8007 ERROR: ignore unit blk_mem_gen_demosaic due to previous errors in uisrc/03_ip/isp/raw_matrix_3x3_buffer/tmp_edit_project.gen/sources_1/ip/blk_mem_gen_demosaic/synth/blk_mem_gen_demosaic.vhd(59)
+HDL-8007 ERROR: cannot find port 'dia' on this module in uisrc/03_ip/isp/raw_matrix_3x3_buffer/line_buffer_demosaic.v(84)
+HDL-8007 ERROR: cannot find port 'dob' on this module in uisrc/03_ip/isp/raw_matrix_3x3_buffer/line_buffer_demosaic.v(87)
+GUI-5005 WARNING: Unknown file icon ...
+GUI-5005 WARNING: Unknown file icon ...
+HDL-5370 WARNING: parameter '**' becomes localparam in '**' with formal parameter declaration list in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(2)
+HDL-5370 WARNING: parameter '**' becomes localparam in '**' with formal parameter declaration list in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(3)
+HDL-5370 WARNING: parameter '**' becomes localparam in '**' with formal parameter declaration list in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(4)
+HDL-5370 WARNING: parameter '**' becomes localparam in '**' with formal parameter declaration list in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(5)
+HDL-5007 WARNING: /* is inside a comment in uisrc/01_rtl/system_top.v(248)
+HDL-5333 WARNING: data object 'I_video_in_user' is already declared in uisrc/01_rtl/system_top.v(735)
+HDL-5007 WARNING: second declaration of 'I_video_in_user' is ignored in uisrc/01_rtl/system_top.v(735)
+HDL-5333 WARNING: data object 'I_video_in_valid' is already declared in uisrc/01_rtl/system_top.v(736)
+HDL-5007 WARNING: second declaration of 'I_video_in_valid' is ignored in uisrc/01_rtl/system_top.v(736)
+HDL-5333 WARNING: data object 'I_video_in_last' is already declared in uisrc/01_rtl/system_top.v(737)
+HDL-5007 WARNING: second declaration of 'I_video_in_last' is ignored in uisrc/01_rtl/system_top.v(737)
+HDL-5333 WARNING: data object 'I_video_in_data' is already declared in uisrc/01_rtl/system_top.v(738)
+HDL-5007 WARNING: second declaration of 'I_video_in_data' is ignored in uisrc/01_rtl/system_top.v(738)
+HDL-5370 WARNING: parameter 'T10MS' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(43)
+HDL-5370 WARNING: parameter 'KEY_S0' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(44)
+HDL-5370 WARNING: parameter 'KEY_S1' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(45)
+HDL-5370 WARNING: parameter 'KEY_S2' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(46)
+HDL-5370 WARNING: parameter 'KEY_S3' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(47)
+HDL-8007 ERROR: concurrent assignment to a non-net 'REG_SIZE' is not permitted in uisrc/03_ip/uics500_cfg/uics500regAE.v(38)
+HDL-8007 ERROR: 'I_AG' is not declared in uisrc/03_ip/uics500_cfg/uics500regAE.v(46)
+HDL-8007 ERROR: 'I_AG' is not declared in uisrc/03_ip/uics500_cfg/uics500regAE.v(47)
+HDL-8007 ERROR: ignore module module due to previous errors in uisrc/03_ip/uics500_cfg/uics500regAE.v(29)
+HDL-5007 WARNING: block identifier is required on this block in uisrc/03_ip/isp/Brightness_adjustment/uisrc/01_rtl/Brightness_adjustment.v(83)
+HDL-5007 WARNING: block identifier is required on this block in uisrc/03_ip/isp/Contrast_adjustment/uisrc/01_rtl/contrast_adj.v(95)
+HDL-5370 WARNING: parameter 'C0' becomes localparam in 'Saturation_adj' with formal parameter declaration list in uisrc/03_ip/isp/Saturation_adj/uisrc/01_rtl/Saturation_adj.v(125)
+HDL-5370 WARNING: parameter 'C1' becomes localparam in 'Saturation_adj' with formal parameter declaration list in uisrc/03_ip/isp/Saturation_adj/uisrc/01_rtl/Saturation_adj.v(126)
+HDL-5370 WARNING: parameter 'C2' becomes localparam in 'Saturation_adj' with formal parameter declaration list in uisrc/03_ip/isp/Saturation_adj/uisrc/01_rtl/Saturation_adj.v(127)
+HDL-7001 CRITICAL-WARNING: check keyowner failed
+HDL-7001 CRITICAL-WARNING: store key failed
+HDL-7001 CRITICAL-WARNING: unidentified key owner
+HDL-7201 CRITICAL-WARNING: overwrite current module 'blk_mem_gen_demosaic' in uisrc/03_ip/isp/raw_matrix_3x3_buffer/tmp_edit_project.gen/sources_1/ip/blk_mem_gen_demosaic/sim/blk_mem_gen_demosaic.v(56)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'blk_mem_gen_demosaic' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/isp/raw_matrix_3x3_buffer/ram/blk_mem_gen_demosaic.v(14)
+HDL-8007 ERROR: 'blk_mem_gen_v8_4_4' is not compiled in library 'blk_mem_gen_v8_4_4' in uisrc/03_ip/isp/raw_matrix_3x3_buffer/tmp_edit_project.gen/sources_1/ip/blk_mem_gen_demosaic/synth/blk_mem_gen_demosaic.vhd(57)
+HDL-8007 ERROR: ignore unit blk_mem_gen_demosaic due to previous errors in uisrc/03_ip/isp/raw_matrix_3x3_buffer/tmp_edit_project.gen/sources_1/ip/blk_mem_gen_demosaic/synth/blk_mem_gen_demosaic.vhd(59)
+HDL-8007 ERROR: cannot find port 'dia' on this module in uisrc/03_ip/isp/raw_matrix_3x3_buffer/line_buffer_demosaic.v(84)
+HDL-8007 ERROR: cannot find port 'dob' on this module in uisrc/03_ip/isp/raw_matrix_3x3_buffer/line_buffer_demosaic.v(87)
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/isp/BLC/BLC.v) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/isp/BLC/BLC.v
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/isp/Brightness_adjustment/uisrc/01_rtl/Brightness_adjustment.v) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/isp/Brightness_adjustment/uisrc/01_rtl/Brightness_adjustment.v
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/isp/Contrast_adjustment/uisrc/01_rtl/contrast_adj.v) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/isp/Contrast_adjustment/uisrc/01_rtl/contrast_adj.v
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/isp/Saturation_adj/uisrc/01_rtl/Saturation_adj.v) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/isp/Saturation_adj/uisrc/01_rtl/Saturation_adj.v
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/isp/awb_1_3/awb.v) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/isp/awb_1_3/awb.v
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/isp/awb_1_3/signal_delay.v) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/isp/awb_1_3/signal_delay.v
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/isp/bilinear_interpolation/bilinear_interpolation.v) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/isp/bilinear_interpolation/bilinear_interpolation.v
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/isp/data128_96/data128_96.v) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/isp/data128_96/data128_96.v
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/isp/data96_128/ip/data96_128.v) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/isp/data96_128/ip/data96_128.v
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/isp/gamma/gamma.v) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/isp/gamma/gamma.v
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/isp/gamma/lut_0_8.v) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/isp/gamma/lut_0_8.v
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/isp/gamma/lut_1_2.v) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/isp/gamma/lut_1_2.v
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/isp/gamma/lut_1_4.v) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/isp/gamma/lut_1_4.v
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/isp/gamma/lut_1_6.v) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/isp/gamma/lut_1_6.v
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/isp/gamma/lut_1_8.v) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/isp/gamma/lut_1_8.v
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/isp/gamma/lut_2_0.v) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/isp/gamma/lut_2_0.v
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/isp/gamma/lut_2_2.v) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/isp/gamma/lut_2_2.v
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/isp/gamma/lut_2_4.v) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/isp/gamma/lut_2_4.v
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/isp/gamma/lut_2_6.v) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/isp/gamma/lut_2_6.v
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/isp/image_cut/uisrc/01_rtl/image_cut.v) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/isp/image_cut/uisrc/01_rtl/image_cut.v
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/isp/raw_matrix_3x3_buffer/ram/blk_mem_gen_demosaic.v) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/isp/raw_matrix_3x3_buffer/ram/blk_mem_gen_demosaic.v
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/isp/raw_matrix_3x3_buffer/tmp_edit_project.gen/sources_1/ip/blk_mem_gen_demosaic/hdl/blk_mem_gen_v8_4_vhsyn_rfs.vhd) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/isp/raw_matrix_3x3_buffer/tmp_edit_project.gen/sources_1/ip/blk_mem_gen_demosaic/hdl/blk_mem_gen_v8_4_vhsyn_rfs.vhd
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/isp/raw_matrix_3x3_buffer/tmp_edit_project.gen/sources_1/ip/blk_mem_gen_demosaic/sim/blk_mem_gen_demosaic.v) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/isp/raw_matrix_3x3_buffer/tmp_edit_project.gen/sources_1/ip/blk_mem_gen_demosaic/sim/blk_mem_gen_demosaic.v
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/isp/raw_matrix_3x3_buffer/tmp_edit_project.gen/sources_1/ip/blk_mem_gen_demosaic/simulation/blk_mem_gen_v8_4.v) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/isp/raw_matrix_3x3_buffer/tmp_edit_project.gen/sources_1/ip/blk_mem_gen_demosaic/simulation/blk_mem_gen_v8_4.v
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/isp/raw_matrix_3x3_buffer/tmp_edit_project.gen/sources_1/ip/blk_mem_gen_demosaic/synth/blk_mem_gen_demosaic.vhd) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/isp/raw_matrix_3x3_buffer/tmp_edit_project.gen/sources_1/ip/blk_mem_gen_demosaic/synth/blk_mem_gen_demosaic.vhd
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/isp/raw_matrix_3x3_buffer/line_buffer_demosaic.v) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/isp/raw_matrix_3x3_buffer/line_buffer_demosaic.v
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/isp/raw_matrix_3x3_buffer/mipi_to_raw_converter.v) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/isp/raw_matrix_3x3_buffer/mipi_to_raw_converter.v
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/isp/raw_matrix_3x3_buffer/raw_matrix_3x3_buffer.v) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/isp/raw_matrix_3x3_buffer/raw_matrix_3x3_buffer.v
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/isp/raw_matrix_3x3_buffer/zhenghe.v) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/isp/raw_matrix_3x3_buffer/zhenghe.v
+HDL-5370 WARNING: parameter '**' becomes localparam in '**' with formal parameter declaration list in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(2)
+HDL-5370 WARNING: parameter '**' becomes localparam in '**' with formal parameter declaration list in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(3)
+HDL-5370 WARNING: parameter '**' becomes localparam in '**' with formal parameter declaration list in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(4)
+HDL-5370 WARNING: parameter '**' becomes localparam in '**' with formal parameter declaration list in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(5)
+HDL-5007 WARNING: /* is inside a comment in uisrc/01_rtl/system_top.v(248)
+HDL-5333 WARNING: data object 'I_video_in_user' is already declared in uisrc/01_rtl/system_top.v(735)
+HDL-5007 WARNING: second declaration of 'I_video_in_user' is ignored in uisrc/01_rtl/system_top.v(735)
+HDL-5333 WARNING: data object 'I_video_in_valid' is already declared in uisrc/01_rtl/system_top.v(736)
+HDL-5007 WARNING: second declaration of 'I_video_in_valid' is ignored in uisrc/01_rtl/system_top.v(736)
+HDL-5333 WARNING: data object 'I_video_in_last' is already declared in uisrc/01_rtl/system_top.v(737)
+HDL-5007 WARNING: second declaration of 'I_video_in_last' is ignored in uisrc/01_rtl/system_top.v(737)
+HDL-5333 WARNING: data object 'I_video_in_data' is already declared in uisrc/01_rtl/system_top.v(738)
+HDL-5007 WARNING: second declaration of 'I_video_in_data' is ignored in uisrc/01_rtl/system_top.v(738)
+HDL-5370 WARNING: parameter 'T10MS' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(43)
+HDL-5370 WARNING: parameter 'KEY_S0' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(44)
+HDL-5370 WARNING: parameter 'KEY_S1' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(45)
+HDL-5370 WARNING: parameter 'KEY_S2' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(46)
+HDL-5370 WARNING: parameter 'KEY_S3' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(47)
+HDL-8007 ERROR: concurrent assignment to a non-net 'REG_SIZE' is not permitted in uisrc/03_ip/uics500_cfg/uics500regAE.v(38)
+HDL-8007 ERROR: 'I_AG' is not declared in uisrc/03_ip/uics500_cfg/uics500regAE.v(46)
+HDL-8007 ERROR: 'I_AG' is not declared in uisrc/03_ip/uics500_cfg/uics500regAE.v(47)
+HDL-8007 ERROR: ignore module module due to previous errors in uisrc/03_ip/uics500_cfg/uics500regAE.v(29)
+HDL-5007 WARNING: block identifier is required on this block in uisrc/03_ip/isp/Brightness_adjustment/uisrc/01_rtl/Brightness_adjustment.v(83)
+HDL-5007 WARNING: block identifier is required on this block in uisrc/03_ip/isp/Contrast_adjustment/uisrc/01_rtl/contrast_adj.v(95)
+HDL-5370 WARNING: parameter 'C0' becomes localparam in 'Saturation_adj' with formal parameter declaration list in uisrc/03_ip/isp/Saturation_adj/uisrc/01_rtl/Saturation_adj.v(125)
+HDL-5370 WARNING: parameter 'C1' becomes localparam in 'Saturation_adj' with formal parameter declaration list in uisrc/03_ip/isp/Saturation_adj/uisrc/01_rtl/Saturation_adj.v(126)
+HDL-5370 WARNING: parameter 'C2' becomes localparam in 'Saturation_adj' with formal parameter declaration list in uisrc/03_ip/isp/Saturation_adj/uisrc/01_rtl/Saturation_adj.v(127)
+HDL-7001 CRITICAL-WARNING: check keyowner failed
+HDL-7001 CRITICAL-WARNING: store key failed
+HDL-7001 CRITICAL-WARNING: unidentified key owner
+HDL-7201 CRITICAL-WARNING: overwrite current module 'blk_mem_gen_demosaic' in uisrc/03_ip/isp/raw_matrix_3x3_buffer/tmp_edit_project.gen/sources_1/ip/blk_mem_gen_demosaic/sim/blk_mem_gen_demosaic.v(56)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'blk_mem_gen_demosaic' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/isp/raw_matrix_3x3_buffer/ram/blk_mem_gen_demosaic.v(14)
+HDL-8007 ERROR: 'blk_mem_gen_v8_4_4' is not compiled in library 'blk_mem_gen_v8_4_4' in uisrc/03_ip/isp/raw_matrix_3x3_buffer/tmp_edit_project.gen/sources_1/ip/blk_mem_gen_demosaic/synth/blk_mem_gen_demosaic.vhd(57)
+HDL-8007 ERROR: ignore unit blk_mem_gen_demosaic due to previous errors in uisrc/03_ip/isp/raw_matrix_3x3_buffer/tmp_edit_project.gen/sources_1/ip/blk_mem_gen_demosaic/synth/blk_mem_gen_demosaic.vhd(59)
+HDL-5370 WARNING: parameter 'C0' becomes localparam in 'image_saturation_adjust' with formal parameter declaration list in uisrc/03_ip/isp/image_saturation_adjust/uisrc/01_rtl/saturation_adjust.v(123)
+HDL-5370 WARNING: parameter 'C1' becomes localparam in 'image_saturation_adjust' with formal parameter declaration list in uisrc/03_ip/isp/image_saturation_adjust/uisrc/01_rtl/saturation_adjust.v(124)
+HDL-5370 WARNING: parameter 'C2' becomes localparam in 'image_saturation_adjust' with formal parameter declaration list in uisrc/03_ip/isp/image_saturation_adjust/uisrc/01_rtl/saturation_adjust.v(125)
+HDL-8007 ERROR: cannot find port 'dia' on this module in uisrc/03_ip/isp/raw_matrix_3x3_buffer/line_buffer_demosaic.v(84)
+HDL-8007 ERROR: cannot find port 'dob' on this module in uisrc/03_ip/isp/raw_matrix_3x3_buffer/line_buffer_demosaic.v(87)
+HDL-5370 WARNING: parameter '**' becomes localparam in '**' with formal parameter declaration list in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(2)
+HDL-5370 WARNING: parameter '**' becomes localparam in '**' with formal parameter declaration list in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(3)
+HDL-5370 WARNING: parameter '**' becomes localparam in '**' with formal parameter declaration list in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(4)
+HDL-5370 WARNING: parameter '**' becomes localparam in '**' with formal parameter declaration list in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(5)
+HDL-5007 WARNING: /* is inside a comment in uisrc/01_rtl/system_top.v(248)
+HDL-5333 WARNING: data object 'I_video_in_user' is already declared in uisrc/01_rtl/system_top.v(735)
+HDL-5007 WARNING: second declaration of 'I_video_in_user' is ignored in uisrc/01_rtl/system_top.v(735)
+HDL-5333 WARNING: data object 'I_video_in_valid' is already declared in uisrc/01_rtl/system_top.v(736)
+HDL-5007 WARNING: second declaration of 'I_video_in_valid' is ignored in uisrc/01_rtl/system_top.v(736)
+HDL-5333 WARNING: data object 'I_video_in_last' is already declared in uisrc/01_rtl/system_top.v(737)
+HDL-5007 WARNING: second declaration of 'I_video_in_last' is ignored in uisrc/01_rtl/system_top.v(737)
+HDL-5333 WARNING: data object 'I_video_in_data' is already declared in uisrc/01_rtl/system_top.v(738)
+HDL-5007 WARNING: second declaration of 'I_video_in_data' is ignored in uisrc/01_rtl/system_top.v(738)
+HDL-5370 WARNING: parameter 'T10MS' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(43)
+HDL-5370 WARNING: parameter 'KEY_S0' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(44)
+HDL-5370 WARNING: parameter 'KEY_S1' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(45)
+HDL-5370 WARNING: parameter 'KEY_S2' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(46)
+HDL-5370 WARNING: parameter 'KEY_S3' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(47)
+HDL-8007 ERROR: concurrent assignment to a non-net 'REG_SIZE' is not permitted in uisrc/03_ip/uics500_cfg/uics500regAE.v(38)
+HDL-8007 ERROR: 'I_AG' is not declared in uisrc/03_ip/uics500_cfg/uics500regAE.v(46)
+HDL-8007 ERROR: 'I_AG' is not declared in uisrc/03_ip/uics500_cfg/uics500regAE.v(47)
+HDL-8007 ERROR: ignore module module due to previous errors in uisrc/03_ip/uics500_cfg/uics500regAE.v(29)
+HDL-5007 WARNING: block identifier is required on this block in uisrc/03_ip/isp/Brightness_adjustment/uisrc/01_rtl/Brightness_adjustment.v(83)
+HDL-5007 WARNING: block identifier is required on this block in uisrc/03_ip/isp/Contrast_adjustment/uisrc/01_rtl/contrast_adj.v(95)
+HDL-5370 WARNING: parameter 'C0' becomes localparam in 'Saturation_adj' with formal parameter declaration list in uisrc/03_ip/isp/Saturation_adj/uisrc/01_rtl/Saturation_adj.v(125)
+HDL-5370 WARNING: parameter 'C1' becomes localparam in 'Saturation_adj' with formal parameter declaration list in uisrc/03_ip/isp/Saturation_adj/uisrc/01_rtl/Saturation_adj.v(126)
+HDL-5370 WARNING: parameter 'C2' becomes localparam in 'Saturation_adj' with formal parameter declaration list in uisrc/03_ip/isp/Saturation_adj/uisrc/01_rtl/Saturation_adj.v(127)
+HDL-7001 CRITICAL-WARNING: check keyowner failed
+HDL-7001 CRITICAL-WARNING: store key failed
+HDL-7001 CRITICAL-WARNING: unidentified key owner
+HDL-7201 CRITICAL-WARNING: overwrite current module 'blk_mem_gen_demosaic' in uisrc/03_ip/isp/raw_matrix_3x3_buffer/tmp_edit_project.gen/sources_1/ip/blk_mem_gen_demosaic/sim/blk_mem_gen_demosaic.v(56)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'blk_mem_gen_demosaic' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/isp/raw_matrix_3x3_buffer/ram/blk_mem_gen_demosaic.v(14)
+HDL-8007 ERROR: 'blk_mem_gen_v8_4_4' is not compiled in library 'blk_mem_gen_v8_4_4' in uisrc/03_ip/isp/raw_matrix_3x3_buffer/tmp_edit_project.gen/sources_1/ip/blk_mem_gen_demosaic/synth/blk_mem_gen_demosaic.vhd(57)
+HDL-8007 ERROR: ignore unit blk_mem_gen_demosaic due to previous errors in uisrc/03_ip/isp/raw_matrix_3x3_buffer/tmp_edit_project.gen/sources_1/ip/blk_mem_gen_demosaic/synth/blk_mem_gen_demosaic.vhd(59)
+HDL-8007 ERROR: cannot find port 'dia' on this module in uisrc/03_ip/isp/raw_matrix_3x3_buffer/line_buffer_demosaic.v(84)
+HDL-8007 ERROR: cannot find port 'dob' on this module in uisrc/03_ip/isp/raw_matrix_3x3_buffer/line_buffer_demosaic.v(87)
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/uics500_cfg/uicfgcs500.v) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/uics500_cfg/uicfgcs500.v
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/uics500_cfg/uics500reg.v) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/uics500_cfg/uics500reg.v
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/uics500_cfg/uics500regAE.v) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/uics500_cfg/uics500regAE.v
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/uics500_cfg/uii2c.v) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/uics500_cfg/uii2c.v
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/uics500_cfg/uii2c.v) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/uics500_cfg/uii2c.v
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/uics500_cfg/uii2c.v) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/uics500_cfg/uii2c.v
+GUI-5005 WARNING: Unknown file icon ...
+GUI-5005 WARNING: Unknown file icon ...
+HDL-5370 WARNING: parameter '**' becomes localparam in '**' with formal parameter declaration list in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(2)
+HDL-5370 WARNING: parameter '**' becomes localparam in '**' with formal parameter declaration list in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(3)
+HDL-5370 WARNING: parameter '**' becomes localparam in '**' with formal parameter declaration list in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(4)
+HDL-5370 WARNING: parameter '**' becomes localparam in '**' with formal parameter declaration list in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(5)
+HDL-5007 WARNING: /* is inside a comment in uisrc/01_rtl/system_top.v(248)
+HDL-5333 WARNING: data object 'I_video_in_user' is already declared in uisrc/01_rtl/system_top.v(735)
+HDL-5007 WARNING: second declaration of 'I_video_in_user' is ignored in uisrc/01_rtl/system_top.v(735)
+HDL-5333 WARNING: data object 'I_video_in_valid' is already declared in uisrc/01_rtl/system_top.v(736)
+HDL-5007 WARNING: second declaration of 'I_video_in_valid' is ignored in uisrc/01_rtl/system_top.v(736)
+HDL-5333 WARNING: data object 'I_video_in_last' is already declared in uisrc/01_rtl/system_top.v(737)
+HDL-5007 WARNING: second declaration of 'I_video_in_last' is ignored in uisrc/01_rtl/system_top.v(737)
+HDL-5333 WARNING: data object 'I_video_in_data' is already declared in uisrc/01_rtl/system_top.v(738)
+HDL-5007 WARNING: second declaration of 'I_video_in_data' is ignored in uisrc/01_rtl/system_top.v(738)
+HDL-5370 WARNING: parameter 'T10MS' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(43)
+HDL-5370 WARNING: parameter 'KEY_S0' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(44)
+HDL-5370 WARNING: parameter 'KEY_S1' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(45)
+HDL-5370 WARNING: parameter 'KEY_S2' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(46)
+HDL-5370 WARNING: parameter 'KEY_S3' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(47)
+HDL-8007 ERROR: concurrent assignment to a non-net 'REG_SIZE' is not permitted in uisrc/03_ip/uics500_cfg/uics500regAE.v(38)
+HDL-8007 ERROR: 'I_AG' is not declared in uisrc/03_ip/uics500_cfg/uics500regAE.v(46)
+HDL-8007 ERROR: 'I_AG' is not declared in uisrc/03_ip/uics500_cfg/uics500regAE.v(47)
+HDL-8007 ERROR: ignore module module due to previous errors in uisrc/03_ip/uics500_cfg/uics500regAE.v(29)
+HDL-5007 WARNING: block identifier is required on this block in uisrc/03_ip/isp/Brightness_adjustment/uisrc/01_rtl/Brightness_adjustment.v(83)
+HDL-5007 WARNING: block identifier is required on this block in uisrc/03_ip/isp/Contrast_adjustment/uisrc/01_rtl/contrast_adj.v(95)
+HDL-5370 WARNING: parameter 'C0' becomes localparam in 'Saturation_adj' with formal parameter declaration list in uisrc/03_ip/isp/Saturation_adj/uisrc/01_rtl/Saturation_adj.v(125)
+HDL-5370 WARNING: parameter 'C1' becomes localparam in 'Saturation_adj' with formal parameter declaration list in uisrc/03_ip/isp/Saturation_adj/uisrc/01_rtl/Saturation_adj.v(126)
+HDL-5370 WARNING: parameter 'C2' becomes localparam in 'Saturation_adj' with formal parameter declaration list in uisrc/03_ip/isp/Saturation_adj/uisrc/01_rtl/Saturation_adj.v(127)
+HDL-7001 CRITICAL-WARNING: check keyowner failed
+HDL-7001 CRITICAL-WARNING: store key failed
+HDL-7001 CRITICAL-WARNING: unidentified key owner
+HDL-7201 CRITICAL-WARNING: overwrite current module 'blk_mem_gen_demosaic' in uisrc/03_ip/isp/raw_matrix_3x3_buffer/tmp_edit_project.gen/sources_1/ip/blk_mem_gen_demosaic/sim/blk_mem_gen_demosaic.v(56)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'blk_mem_gen_demosaic' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/isp/raw_matrix_3x3_buffer/ram/blk_mem_gen_demosaic.v(14)
+HDL-8007 ERROR: 'blk_mem_gen_v8_4_4' is not compiled in library 'blk_mem_gen_v8_4_4' in uisrc/03_ip/isp/raw_matrix_3x3_buffer/tmp_edit_project.gen/sources_1/ip/blk_mem_gen_demosaic/synth/blk_mem_gen_demosaic.vhd(57)
+HDL-8007 ERROR: ignore unit blk_mem_gen_demosaic due to previous errors in uisrc/03_ip/isp/raw_matrix_3x3_buffer/tmp_edit_project.gen/sources_1/ip/blk_mem_gen_demosaic/synth/blk_mem_gen_demosaic.vhd(59)
+HDL-8007 ERROR: cannot find port 'dia' on this module in uisrc/03_ip/isp/raw_matrix_3x3_buffer/line_buffer_demosaic.v(84)
+HDL-8007 ERROR: cannot find port 'dob' on this module in uisrc/03_ip/isp/raw_matrix_3x3_buffer/line_buffer_demosaic.v(87)
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/uics500_cfg/uics500reg.v) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/uics500_cfg/uics500reg.v
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/uics500_cfg/uics500regAE.v) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/uics500_cfg/uics500regAE.v
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/uics500_cfg/uii2c.v) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/uics500_cfg/uii2c.v
+HDL-5370 WARNING: parameter '**' becomes localparam in '**' with formal parameter declaration list in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(2)
+HDL-5370 WARNING: parameter '**' becomes localparam in '**' with formal parameter declaration list in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(3)
+HDL-5370 WARNING: parameter '**' becomes localparam in '**' with formal parameter declaration list in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(4)
+HDL-5370 WARNING: parameter '**' becomes localparam in '**' with formal parameter declaration list in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(5)
+HDL-5007 WARNING: /* is inside a comment in uisrc/01_rtl/system_top.v(248)
+HDL-5333 WARNING: data object 'I_video_in_user' is already declared in uisrc/01_rtl/system_top.v(735)
+HDL-5007 WARNING: second declaration of 'I_video_in_user' is ignored in uisrc/01_rtl/system_top.v(735)
+HDL-5333 WARNING: data object 'I_video_in_valid' is already declared in uisrc/01_rtl/system_top.v(736)
+HDL-5007 WARNING: second declaration of 'I_video_in_valid' is ignored in uisrc/01_rtl/system_top.v(736)
+HDL-5333 WARNING: data object 'I_video_in_last' is already declared in uisrc/01_rtl/system_top.v(737)
+HDL-5007 WARNING: second declaration of 'I_video_in_last' is ignored in uisrc/01_rtl/system_top.v(737)
+HDL-5333 WARNING: data object 'I_video_in_data' is already declared in uisrc/01_rtl/system_top.v(738)
+HDL-5007 WARNING: second declaration of 'I_video_in_data' is ignored in uisrc/01_rtl/system_top.v(738)
+HDL-5370 WARNING: parameter 'T10MS' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(43)
+HDL-5370 WARNING: parameter 'KEY_S0' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(44)
+HDL-5370 WARNING: parameter 'KEY_S1' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(45)
+HDL-5370 WARNING: parameter 'KEY_S2' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(46)
+HDL-5370 WARNING: parameter 'KEY_S3' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(47)
+HDL-8007 ERROR: concurrent assignment to a non-net 'REG_SIZE' is not permitted in uisrc/03_ip/uics500_cfg/uics500regAE.v(38)
+HDL-8007 ERROR: 'I_AG' is not declared in uisrc/03_ip/uics500_cfg/uics500regAE.v(46)
+HDL-8007 ERROR: 'I_AG' is not declared in uisrc/03_ip/uics500_cfg/uics500regAE.v(47)
+HDL-8007 ERROR: ignore module module due to previous errors in uisrc/03_ip/uics500_cfg/uics500regAE.v(29)
+HDL-5007 WARNING: block identifier is required on this block in uisrc/03_ip/isp/Brightness_adjustment/uisrc/01_rtl/Brightness_adjustment.v(83)
+HDL-5007 WARNING: block identifier is required on this block in uisrc/03_ip/isp/Contrast_adjustment/uisrc/01_rtl/contrast_adj.v(95)
+HDL-5370 WARNING: parameter 'C0' becomes localparam in 'Saturation_adj' with formal parameter declaration list in uisrc/03_ip/isp/Saturation_adj/uisrc/01_rtl/Saturation_adj.v(125)
+HDL-5370 WARNING: parameter 'C1' becomes localparam in 'Saturation_adj' with formal parameter declaration list in uisrc/03_ip/isp/Saturation_adj/uisrc/01_rtl/Saturation_adj.v(126)
+HDL-5370 WARNING: parameter 'C2' becomes localparam in 'Saturation_adj' with formal parameter declaration list in uisrc/03_ip/isp/Saturation_adj/uisrc/01_rtl/Saturation_adj.v(127)
+HDL-7001 CRITICAL-WARNING: check keyowner failed
+HDL-7001 CRITICAL-WARNING: store key failed
+HDL-7001 CRITICAL-WARNING: unidentified key owner
+HDL-7201 CRITICAL-WARNING: overwrite current module 'blk_mem_gen_demosaic' in uisrc/03_ip/isp/raw_matrix_3x3_buffer/tmp_edit_project.gen/sources_1/ip/blk_mem_gen_demosaic/sim/blk_mem_gen_demosaic.v(56)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'blk_mem_gen_demosaic' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/isp/raw_matrix_3x3_buffer/ram/blk_mem_gen_demosaic.v(14)
+HDL-8007 ERROR: 'blk_mem_gen_v8_4_4' is not compiled in library 'blk_mem_gen_v8_4_4' in uisrc/03_ip/isp/raw_matrix_3x3_buffer/tmp_edit_project.gen/sources_1/ip/blk_mem_gen_demosaic/synth/blk_mem_gen_demosaic.vhd(57)
+HDL-8007 ERROR: ignore unit blk_mem_gen_demosaic due to previous errors in uisrc/03_ip/isp/raw_matrix_3x3_buffer/tmp_edit_project.gen/sources_1/ip/blk_mem_gen_demosaic/synth/blk_mem_gen_demosaic.vhd(59)
+HDL-8007 ERROR: cannot find port 'dia' on this module in uisrc/03_ip/isp/raw_matrix_3x3_buffer/line_buffer_demosaic.v(84)
+HDL-8007 ERROR: cannot find port 'dob' on this module in uisrc/03_ip/isp/raw_matrix_3x3_buffer/line_buffer_demosaic.v(87)
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/uics500_cfg/uii2c.v) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/uics500_cfg/uii2c.v
+HDL-5370 WARNING: parameter 'T10MS' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(43)
+HDL-5370 WARNING: parameter 'KEY_S0' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(44)
+HDL-5370 WARNING: parameter 'KEY_S1' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(45)
+HDL-5370 WARNING: parameter 'KEY_S2' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(46)
+HDL-5370 WARNING: parameter 'KEY_S3' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(47)
+HDL-8007 ERROR: concurrent assignment to a non-net 'REG_SIZE' is not permitted in uisrc/03_ip/uics500_cfg/uics500regAE.v(38)
+HDL-8007 ERROR: 'I_AG' is not declared in uisrc/03_ip/uics500_cfg/uics500regAE.v(46)
+HDL-8007 ERROR: 'I_AG' is not declared in uisrc/03_ip/uics500_cfg/uics500regAE.v(47)
+HDL-8007 ERROR: ignore module module due to previous errors in uisrc/03_ip/uics500_cfg/uics500regAE.v(29)
+HDL-7001 CRITICAL-WARNING: check keyowner failed
+HDL-7001 CRITICAL-WARNING: store key failed
+HDL-7001 CRITICAL-WARNING: unidentified key owner
+HDL-8007 ERROR: 'blk_mem_gen_v8_4_4' is not compiled in library 'blk_mem_gen_v8_4_4' in uisrc/03_ip/isp/raw_matrix_3x3_buffer/tmp_edit_project.gen/sources_1/ip/blk_mem_gen_demosaic/synth/blk_mem_gen_demosaic.vhd(57)
+HDL-8007 ERROR: ignore unit blk_mem_gen_demosaic due to previous errors in uisrc/03_ip/isp/raw_matrix_3x3_buffer/tmp_edit_project.gen/sources_1/ip/blk_mem_gen_demosaic/synth/blk_mem_gen_demosaic.vhd(59)
+HDL-8007 ERROR: cannot find port 'dia' on this module in uisrc/03_ip/isp/raw_matrix_3x3_buffer/line_buffer_demosaic.v(84)
+HDL-8007 ERROR: cannot find port 'dob' on this module in uisrc/03_ip/isp/raw_matrix_3x3_buffer/line_buffer_demosaic.v(87)
+HDL-8007 ERROR: concurrent assignment to a non-net 'REG_SIZE' is not permitted in uisrc/03_ip/uics500_cfg/uics500regAE.v(38)
+HDL-8007 ERROR: 'I_AG' is not declared in uisrc/03_ip/uics500_cfg/uics500regAE.v(46)
+HDL-8007 ERROR: 'I_AG' is not declared in uisrc/03_ip/uics500_cfg/uics500regAE.v(47)
+HDL-8007 ERROR: ignore module module due to previous errors in uisrc/03_ip/uics500_cfg/uics500regAE.v(29)
+HDL-7001 CRITICAL-WARNING: check keyowner failed
+HDL-7001 CRITICAL-WARNING: store key failed
+HDL-7001 CRITICAL-WARNING: unidentified key owner
+HDL-8007 ERROR: 'blk_mem_gen_v8_4_4' is not compiled in library 'blk_mem_gen_v8_4_4' in uisrc/03_ip/isp/raw_matrix_3x3_buffer/tmp_edit_project.gen/sources_1/ip/blk_mem_gen_demosaic/synth/blk_mem_gen_demosaic.vhd(57)
+HDL-8007 ERROR: ignore unit blk_mem_gen_demosaic due to previous errors in uisrc/03_ip/isp/raw_matrix_3x3_buffer/tmp_edit_project.gen/sources_1/ip/blk_mem_gen_demosaic/synth/blk_mem_gen_demosaic.vhd(59)
+HDL-8007 ERROR: cannot find port 'dia' on this module in uisrc/03_ip/isp/raw_matrix_3x3_buffer/line_buffer_demosaic.v(84)
+HDL-8007 ERROR: cannot find port 'dob' on this module in uisrc/03_ip/isp/raw_matrix_3x3_buffer/line_buffer_demosaic.v(87)
+HDL-8007 ERROR: concurrent assignment to a non-net 'REG_SIZE' is not permitted in uisrc/03_ip/uics500_cfg/uics500regAE.v(38)
+HDL-8007 ERROR: 'I_AG' is not declared in uisrc/03_ip/uics500_cfg/uics500regAE.v(46)
+HDL-8007 ERROR: 'I_AG' is not declared in uisrc/03_ip/uics500_cfg/uics500regAE.v(47)
+HDL-8007 ERROR: ignore module module due to previous errors in uisrc/03_ip/uics500_cfg/uics500regAE.v(29)
+HDL-7001 CRITICAL-WARNING: check keyowner failed
+HDL-7001 CRITICAL-WARNING: store key failed
+HDL-7001 CRITICAL-WARNING: unidentified key owner
+HDL-8007 ERROR: 'blk_mem_gen_v8_4_4' is not compiled in library 'blk_mem_gen_v8_4_4' in uisrc/03_ip/isp/raw_matrix_3x3_buffer/tmp_edit_project.gen/sources_1/ip/blk_mem_gen_demosaic/synth/blk_mem_gen_demosaic.vhd(57)
+HDL-8007 ERROR: ignore unit blk_mem_gen_demosaic due to previous errors in uisrc/03_ip/isp/raw_matrix_3x3_buffer/tmp_edit_project.gen/sources_1/ip/blk_mem_gen_demosaic/synth/blk_mem_gen_demosaic.vhd(59)
+HDL-8007 ERROR: concurrent assignment to a non-net 'REG_SIZE' is not permitted in uisrc/03_ip/uics500_cfg/uics500regAE.v(38)
+HDL-8007 ERROR: 'I_AG' is not declared in uisrc/03_ip/uics500_cfg/uics500regAE.v(46)
+HDL-8007 ERROR: 'I_AG' is not declared in uisrc/03_ip/uics500_cfg/uics500regAE.v(47)
+HDL-8007 ERROR: ignore module module due to previous errors in uisrc/03_ip/uics500_cfg/uics500regAE.v(29)
+HDL-7001 CRITICAL-WARNING: check keyowner failed
+HDL-7001 CRITICAL-WARNING: store key failed
+HDL-7001 CRITICAL-WARNING: unidentified key owner
+HDL-8007 ERROR: 'blk_mem_gen_v8_4_4' is not compiled in library 'blk_mem_gen_v8_4_4' in uisrc/03_ip/isp/raw_matrix_3x3_buffer/tmp_edit_project.gen/sources_1/ip/blk_mem_gen_demosaic/synth/blk_mem_gen_demosaic.vhd(57)
+HDL-8007 ERROR: ignore unit blk_mem_gen_demosaic due to previous errors in uisrc/03_ip/isp/raw_matrix_3x3_buffer/tmp_edit_project.gen/sources_1/ip/blk_mem_gen_demosaic/synth/blk_mem_gen_demosaic.vhd(59)
+HDL-5007 WARNING: could not find top-level module/unit; aborting hierarchy tree creation
+HDL-5007 WARNING: block identifier is required on this block in uisrc/03_ip/isp/Brightness_adjustment/uisrc/01_rtl/Brightness_adjustment.v(83)
+HDL-5007 WARNING: block identifier is required on this block in uisrc/03_ip/isp/Contrast_adjustment/uisrc/01_rtl/contrast_adj.v(95)
+HDL-5370 WARNING: parameter 'C0' becomes localparam in 'Saturation_adj' with formal parameter declaration list in uisrc/03_ip/isp/Saturation_adj/uisrc/01_rtl/Saturation_adj.v(125)
+HDL-5370 WARNING: parameter 'C1' becomes localparam in 'Saturation_adj' with formal parameter declaration list in uisrc/03_ip/isp/Saturation_adj/uisrc/01_rtl/Saturation_adj.v(126)
+HDL-5370 WARNING: parameter 'C2' becomes localparam in 'Saturation_adj' with formal parameter declaration list in uisrc/03_ip/isp/Saturation_adj/uisrc/01_rtl/Saturation_adj.v(127)
+HDL-7001 CRITICAL-WARNING: check keyowner failed
+HDL-7001 CRITICAL-WARNING: store key failed
+HDL-7001 CRITICAL-WARNING: unidentified key owner
+HDL-7001 CRITICAL-WARNING: check keyowner failed
+HDL-7001 CRITICAL-WARNING: store key failed
+HDL-7001 CRITICAL-WARNING: unidentified key owner
+HDL-7001 CRITICAL-WARNING: check keyowner failed
+HDL-7001 CRITICAL-WARNING: store key failed
+HDL-7001 CRITICAL-WARNING: unidentified key owner
+HDL-7001 CRITICAL-WARNING: check keyowner failed
+HDL-7001 CRITICAL-WARNING: store key failed
+HDL-7001 CRITICAL-WARNING: unidentified key owner
+HDL-5007 WARNING: could not find top-level module/unit; aborting hierarchy tree creation
+HDL-7001 CRITICAL-WARNING: check keyowner failed
+HDL-7001 CRITICAL-WARNING: store key failed
+HDL-7001 CRITICAL-WARNING: unidentified key owner
+HDL-5007 WARNING: /* is inside a comment in uisrc/01_rtl/system_top.v(248)
+HDL-5333 WARNING: data object 'I_video_in_user' is already declared in uisrc/01_rtl/system_top.v(735)
+HDL-5007 WARNING: second declaration of 'I_video_in_user' is ignored in uisrc/01_rtl/system_top.v(735)
+HDL-5333 WARNING: data object 'I_video_in_valid' is already declared in uisrc/01_rtl/system_top.v(736)
+HDL-5007 WARNING: second declaration of 'I_video_in_valid' is ignored in uisrc/01_rtl/system_top.v(736)
+HDL-5333 WARNING: data object 'I_video_in_last' is already declared in uisrc/01_rtl/system_top.v(737)
+HDL-5007 WARNING: second declaration of 'I_video_in_last' is ignored in uisrc/01_rtl/system_top.v(737)
+HDL-5333 WARNING: data object 'I_video_in_data' is already declared in uisrc/01_rtl/system_top.v(738)
+HDL-5007 WARNING: second declaration of 'I_video_in_data' is ignored in uisrc/01_rtl/system_top.v(738)
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/isp/raw_matrix_3x3_buffer/tmp_edit_project.gen/sources_1/ip/blk_mem_gen_demosaic/hdl/blk_mem_gen_v8_4_vhsyn_rfs.vhd) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/isp/raw_matrix_3x3_buffer/tmp_edit_project.gen/sources_1/ip/blk_mem_gen_demosaic/hdl/blk_mem_gen_v8_4_vhsyn_rfs.vhd
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/vtc/uivtc.v) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/vtc/uivtc.v
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/uisetvbuf/uisetvbuf.v) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/uisetvbuf/uisetvbuf.v
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/uiisp_ph1a/csi_unpacket_4lane.v) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/uiisp_ph1a/csi_unpacket_4lane.v
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/uiisp_ph1a/raw10_unpacket_4lane.v) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/uiisp_ph1a/raw10_unpacket_4lane.v
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/uifdmadbuf/rfifo/rfifo.v) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/uifdmadbuf/rfifo/rfifo.v
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/uifdmadbuf/wfifo/wfifo.v) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/uifdmadbuf/wfifo/wfifo.v
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/uifdmadbuf/fs_cap.v) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/uifdmadbuf/fs_cap.v
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/uifdmadbuf/uidbuf.v) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/uifdmadbuf/uidbuf.v
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/uifdma/uiFDMA.v) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/uifdma/uiFDMA.v
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/uics500_cfg/uicfgcs500.v) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/uics500_cfg/uicfgcs500.v
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/uics500_cfg/uics500reg.v) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/uics500_cfg/uics500reg.v
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/uics500_cfg/uics500regAE.v) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/uics500_cfg/uics500regAE.v
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/uics500_cfg/uii2c.v) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/uics500_cfg/uii2c.v
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/raw8_2_rgb888/Line_Shift_RAM_8Bit.v) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/raw8_2_rgb888/Line_Shift_RAM_8Bit.v
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/raw8_2_rgb888/raw8_2_rgb888.v) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/raw8_2_rgb888/raw8_2_rgb888.v
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/isp/BLC/BLC.v) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/isp/BLC/BLC.v
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/isp/BLC_measurement/BLC_measurement.v) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/isp/BLC_measurement/BLC_measurement.v
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/isp/Brightness_adjustment/uisrc/01_rtl/Brightness_adjustment.v) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/isp/Brightness_adjustment/uisrc/01_rtl/Brightness_adjustment.v
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/isp/Contrast_adjustment/uisrc/01_rtl/contrast_adj.v) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/isp/Contrast_adjustment/uisrc/01_rtl/contrast_adj.v
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/isp/Saturation_adj/uisrc/01_rtl/Saturation_adj.v) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/isp/Saturation_adj/uisrc/01_rtl/Saturation_adj.v
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/isp/awb_1_3/awb.v) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/isp/awb_1_3/awb.v
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/isp/awb_1_3/signal_delay.v) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/isp/awb_1_3/signal_delay.v
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/isp/bilinear_interpolation/bilinear_interpolation.v) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/isp/bilinear_interpolation/bilinear_interpolation.v
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/isp/data128_96/data128_96.v) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/isp/data128_96/data128_96.v
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/isp/data96_128/ip/data96_128.v) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/isp/data96_128/ip/data96_128.v
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/isp/gamma/gamma.v) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/isp/gamma/gamma.v
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/isp/gamma/lut_0_8.v) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/isp/gamma/lut_0_8.v
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/isp/gamma/lut_1_2.v) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/isp/gamma/lut_1_2.v
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/isp/gamma/lut_1_4.v) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/isp/gamma/lut_1_4.v
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/isp/gamma/lut_1_6.v) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/isp/gamma/lut_1_6.v
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/isp/gamma/lut_1_8.v) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/isp/gamma/lut_1_8.v
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/isp/gamma/lut_2_0.v) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/isp/gamma/lut_2_0.v
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/isp/gamma/lut_2_2.v) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/isp/gamma/lut_2_2.v
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/isp/gamma/lut_2_4.v) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/isp/gamma/lut_2_4.v
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/isp/gamma/lut_2_6.v) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/isp/gamma/lut_2_6.v
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/isp/image_cut/uisrc/01_rtl/image_cut.v) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/isp/image_cut/uisrc/01_rtl/image_cut.v
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/isp/image_saturation_adjust/uisrc/01_rtl/saturation_adjust.v) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/isp/image_saturation_adjust/uisrc/01_rtl/saturation_adjust.v
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/isp/raw_matrix_3x3_buffer/ram/blk_mem_gen_demosaic.v) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/isp/raw_matrix_3x3_buffer/ram/blk_mem_gen_demosaic.v
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/isp/raw_matrix_3x3_buffer/ram/blk_mem_gen_demosaic.vhd) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/isp/raw_matrix_3x3_buffer/ram/blk_mem_gen_demosaic.vhd
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/isp/raw_matrix_3x3_buffer/tmp_edit_project.gen/sources_1/ip/blk_mem_gen_demosaic/hdl/blk_mem_gen_v8_4_vhsyn_rfs.vhd) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/isp/raw_matrix_3x3_buffer/tmp_edit_project.gen/sources_1/ip/blk_mem_gen_demosaic/hdl/blk_mem_gen_v8_4_vhsyn_rfs.vhd
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/isp/raw_matrix_3x3_buffer/tmp_edit_project.gen/sources_1/ip/blk_mem_gen_demosaic/misc/blk_mem_gen_v8_4.vhd) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/isp/raw_matrix_3x3_buffer/tmp_edit_project.gen/sources_1/ip/blk_mem_gen_demosaic/misc/blk_mem_gen_v8_4.vhd
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/isp/raw_matrix_3x3_buffer/tmp_edit_project.gen/sources_1/ip/blk_mem_gen_demosaic/sim/blk_mem_gen_demosaic.v) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/isp/raw_matrix_3x3_buffer/tmp_edit_project.gen/sources_1/ip/blk_mem_gen_demosaic/sim/blk_mem_gen_demosaic.v
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/isp/raw_matrix_3x3_buffer/tmp_edit_project.gen/sources_1/ip/blk_mem_gen_demosaic/simulation/blk_mem_gen_v8_4.v) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/isp/raw_matrix_3x3_buffer/tmp_edit_project.gen/sources_1/ip/blk_mem_gen_demosaic/simulation/blk_mem_gen_v8_4.v
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/isp/raw_matrix_3x3_buffer/tmp_edit_project.gen/sources_1/ip/blk_mem_gen_demosaic/synth/blk_mem_gen_demosaic.vhd) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/isp/raw_matrix_3x3_buffer/tmp_edit_project.gen/sources_1/ip/blk_mem_gen_demosaic/synth/blk_mem_gen_demosaic.vhd
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/isp/raw_matrix_3x3_buffer/line_buffer_demosaic.v) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/isp/raw_matrix_3x3_buffer/line_buffer_demosaic.v
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/isp/raw_matrix_3x3_buffer/mipi_to_raw_converter.v) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/isp/raw_matrix_3x3_buffer/mipi_to_raw_converter.v
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/isp/raw_matrix_3x3_buffer/raw_matrix_3x3_buffer.v) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/isp/raw_matrix_3x3_buffer/raw_matrix_3x3_buffer.v
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/isp/raw_matrix_3x3_buffer/zhenghe.v) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/isp/raw_matrix_3x3_buffer/zhenghe.v
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/isp/isp_top.v) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/isp/isp_top.v
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/ae_set/ae_set.v) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/ae_set/ae_set.v
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/ae_set/key.v) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/ae_set/key.v
+HDL-7001 CRITICAL-WARNING: check keyowner failed
+HDL-7001 CRITICAL-WARNING: store key failed
+HDL-7001 CRITICAL-WARNING: unidentified key owner
+HDL-5007 WARNING: /* is inside a comment in uisrc/01_rtl/system_top.v(248)
+HDL-5333 WARNING: data object 'I_video_in_user' is already declared in uisrc/01_rtl/system_top.v(735)
+HDL-5007 WARNING: second declaration of 'I_video_in_user' is ignored in uisrc/01_rtl/system_top.v(735)
+HDL-5333 WARNING: data object 'I_video_in_valid' is already declared in uisrc/01_rtl/system_top.v(736)
+HDL-5007 WARNING: second declaration of 'I_video_in_valid' is ignored in uisrc/01_rtl/system_top.v(736)
+HDL-5333 WARNING: data object 'I_video_in_last' is already declared in uisrc/01_rtl/system_top.v(737)
+HDL-5007 WARNING: second declaration of 'I_video_in_last' is ignored in uisrc/01_rtl/system_top.v(737)
+HDL-5333 WARNING: data object 'I_video_in_data' is already declared in uisrc/01_rtl/system_top.v(738)
+HDL-5007 WARNING: second declaration of 'I_video_in_data' is ignored in uisrc/01_rtl/system_top.v(738)
+HDL-5370 WARNING: parameter 'T10MS' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(43)
+HDL-5370 WARNING: parameter 'KEY_S0' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(44)
+HDL-5370 WARNING: parameter 'KEY_S1' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(45)
+HDL-5370 WARNING: parameter 'KEY_S2' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(46)
+HDL-5370 WARNING: parameter 'KEY_S3' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(47)
+HDL-5370 WARNING: parameter '**' becomes localparam in '**' with formal parameter declaration list in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(2)
+HDL-5370 WARNING: parameter '**' becomes localparam in '**' with formal parameter declaration list in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(3)
+HDL-5370 WARNING: parameter '**' becomes localparam in '**' with formal parameter declaration list in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(4)
+HDL-5370 WARNING: parameter '**' becomes localparam in '**' with formal parameter declaration list in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(5)
+HDL-7201 CRITICAL-WARNING: overwrite current module 'w40_d512_fifo' in uisrc/03_ip/alip/w40_d512_fifo_sim.v(5)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'w40_d512_fifo' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/alip/w40_d512_fifo.v(14)
+HDL-5007 WARNING: block identifier is required on this block in uisrc/03_ip/isp/Brightness_adjustment/uisrc/01_rtl/Brightness_adjustment.v(83)
+HDL-5007 WARNING: block identifier is required on this block in uisrc/03_ip/isp/Contrast_adjustment/uisrc/01_rtl/contrast_adj.v(95)
+HDL-5370 WARNING: parameter 'C0' becomes localparam in 'Saturation_adj' with formal parameter declaration list in uisrc/03_ip/isp/Saturation_adj/uisrc/01_rtl/Saturation_adj.v(125)
+HDL-5370 WARNING: parameter 'C1' becomes localparam in 'Saturation_adj' with formal parameter declaration list in uisrc/03_ip/isp/Saturation_adj/uisrc/01_rtl/Saturation_adj.v(126)
+HDL-5370 WARNING: parameter 'C2' becomes localparam in 'Saturation_adj' with formal parameter declaration list in uisrc/03_ip/isp/Saturation_adj/uisrc/01_rtl/Saturation_adj.v(127)
+HDL-5370 WARNING: parameter 'C0' becomes localparam in 'image_saturation_adjust' with formal parameter declaration list in uisrc/03_ip/isp/image_saturation_adjust/uisrc/01_rtl/saturation_adjust.v(123)
+HDL-5370 WARNING: parameter 'C1' becomes localparam in 'image_saturation_adjust' with formal parameter declaration list in uisrc/03_ip/isp/image_saturation_adjust/uisrc/01_rtl/saturation_adjust.v(124)
+HDL-5370 WARNING: parameter 'C2' becomes localparam in 'image_saturation_adjust' with formal parameter declaration list in uisrc/03_ip/isp/image_saturation_adjust/uisrc/01_rtl/saturation_adjust.v(125)
+HDL-7201 CRITICAL-WARNING: overwrite current module 'blk_mem_gen_demosaic' in uisrc/03_ip/isp/raw_matrix_3x3_buffer/tmp_edit_project.gen/sources_1/ip/blk_mem_gen_demosaic/sim/blk_mem_gen_demosaic.v(56)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'blk_mem_gen_demosaic' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/isp/raw_matrix_3x3_buffer/ram/blk_mem_gen_demosaic.v(14)
+HDL-8007 ERROR: 'blk_mem_gen_v8_4_4' is not compiled in library 'blk_mem_gen_v8_4_4' in uisrc/03_ip/isp/raw_matrix_3x3_buffer/tmp_edit_project.gen/sources_1/ip/blk_mem_gen_demosaic/synth/blk_mem_gen_demosaic.vhd(57)
+HDL-8007 ERROR: ignore unit blk_mem_gen_demosaic due to previous errors in uisrc/03_ip/isp/raw_matrix_3x3_buffer/tmp_edit_project.gen/sources_1/ip/blk_mem_gen_demosaic/synth/blk_mem_gen_demosaic.vhd(59)
+HDL-7201 CRITICAL-WARNING: overwrite current module 'Line_Shift_RAM_8Bit' in uisrc/03_ip/raw8_2_rgb888/Line_Shift_RAM_8Bit.v(2)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'Line_Shift_RAM_8Bit' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/alip/Line_Shift_RAM_8Bit.v(2)
+HDL-8007 ERROR: concurrent assignment to a non-net 'REG_SIZE' is not permitted in uisrc/03_ip/uics500_cfg/uics500regAE.v(38)
+HDL-8007 ERROR: 'I_AG' is not declared in uisrc/03_ip/uics500_cfg/uics500regAE.v(46)
+HDL-8007 ERROR: 'I_AG' is not declared in uisrc/03_ip/uics500_cfg/uics500regAE.v(47)
+HDL-8007 ERROR: ignore module module due to previous errors in uisrc/03_ip/uics500_cfg/uics500regAE.v(29)
+HDL-8007 ERROR: cannot find port 'dia' on this module in uisrc/03_ip/isp/raw_matrix_3x3_buffer/line_buffer_demosaic.v(84)
+HDL-8007 ERROR: cannot find port 'dob' on this module in uisrc/03_ip/isp/raw_matrix_3x3_buffer/line_buffer_demosaic.v(87)
+HDL-7001 CRITICAL-WARNING: check keyowner failed
+HDL-7001 CRITICAL-WARNING: store key failed
+HDL-7001 CRITICAL-WARNING: unidentified key owner
+HDL-5007 WARNING: /* is inside a comment in uisrc/01_rtl/system_top.v(248)
+HDL-5333 WARNING: data object 'I_video_in_user' is already declared in uisrc/01_rtl/system_top.v(735)
+HDL-5007 WARNING: second declaration of 'I_video_in_user' is ignored in uisrc/01_rtl/system_top.v(735)
+HDL-5333 WARNING: data object 'I_video_in_valid' is already declared in uisrc/01_rtl/system_top.v(736)
+HDL-5007 WARNING: second declaration of 'I_video_in_valid' is ignored in uisrc/01_rtl/system_top.v(736)
+HDL-5333 WARNING: data object 'I_video_in_last' is already declared in uisrc/01_rtl/system_top.v(737)
+HDL-5007 WARNING: second declaration of 'I_video_in_last' is ignored in uisrc/01_rtl/system_top.v(737)
+HDL-5333 WARNING: data object 'I_video_in_data' is already declared in uisrc/01_rtl/system_top.v(738)
+HDL-5007 WARNING: second declaration of 'I_video_in_data' is ignored in uisrc/01_rtl/system_top.v(738)
+HDL-5370 WARNING: parameter 'T10MS' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(43)
+HDL-5370 WARNING: parameter 'KEY_S0' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(44)
+HDL-5370 WARNING: parameter 'KEY_S1' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(45)
+HDL-5370 WARNING: parameter 'KEY_S2' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(46)
+HDL-5370 WARNING: parameter 'KEY_S3' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(47)
+HDL-5007 WARNING: block identifier is required on this block in uisrc/03_ip/isp/Brightness_adjustment/uisrc/01_rtl/Brightness_adjustment.v(83)
+HDL-5007 WARNING: block identifier is required on this block in uisrc/03_ip/isp/Contrast_adjustment/uisrc/01_rtl/contrast_adj.v(95)
+HDL-5370 WARNING: parameter 'C0' becomes localparam in 'Saturation_adj' with formal parameter declaration list in uisrc/03_ip/isp/Saturation_adj/uisrc/01_rtl/Saturation_adj.v(125)
+HDL-5370 WARNING: parameter 'C1' becomes localparam in 'Saturation_adj' with formal parameter declaration list in uisrc/03_ip/isp/Saturation_adj/uisrc/01_rtl/Saturation_adj.v(126)
+HDL-5370 WARNING: parameter 'C2' becomes localparam in 'Saturation_adj' with formal parameter declaration list in uisrc/03_ip/isp/Saturation_adj/uisrc/01_rtl/Saturation_adj.v(127)
+HDL-7201 CRITICAL-WARNING: overwrite current module 'blk_mem_gen_demosaic' in uisrc/03_ip/isp/raw_matrix_3x3_buffer/tmp_edit_project.gen/sources_1/ip/blk_mem_gen_demosaic/sim/blk_mem_gen_demosaic.v(56)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'blk_mem_gen_demosaic' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/isp/raw_matrix_3x3_buffer/ram/blk_mem_gen_demosaic.v(14)
+HDL-8007 ERROR: 'blk_mem_gen_v8_4_4' is not compiled in library 'blk_mem_gen_v8_4_4' in uisrc/03_ip/isp/raw_matrix_3x3_buffer/tmp_edit_project.gen/sources_1/ip/blk_mem_gen_demosaic/synth/blk_mem_gen_demosaic.vhd(57)
+HDL-8007 ERROR: ignore unit blk_mem_gen_demosaic due to previous errors in uisrc/03_ip/isp/raw_matrix_3x3_buffer/tmp_edit_project.gen/sources_1/ip/blk_mem_gen_demosaic/synth/blk_mem_gen_demosaic.vhd(59)
+HDL-7201 CRITICAL-WARNING: overwrite current module 'Line_Shift_RAM_8Bit' in uisrc/03_ip/raw8_2_rgb888/Line_Shift_RAM_8Bit.v(2)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'Line_Shift_RAM_8Bit' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/alip/Line_Shift_RAM_8Bit.v(2)
+HDL-8007 ERROR: concurrent assignment to a non-net 'REG_SIZE' is not permitted in uisrc/03_ip/uics500_cfg/uics500regAE.v(38)
+HDL-8007 ERROR: 'I_AG' is not declared in uisrc/03_ip/uics500_cfg/uics500regAE.v(46)
+HDL-8007 ERROR: 'I_AG' is not declared in uisrc/03_ip/uics500_cfg/uics500regAE.v(47)
+HDL-8007 ERROR: ignore module module due to previous errors in uisrc/03_ip/uics500_cfg/uics500regAE.v(29)
+HDL-8007 ERROR: cannot find port 'dia' on this module in uisrc/03_ip/isp/raw_matrix_3x3_buffer/line_buffer_demosaic.v(84)
+HDL-8007 ERROR: cannot find port 'dob' on this module in uisrc/03_ip/isp/raw_matrix_3x3_buffer/line_buffer_demosaic.v(87)
+HDL-7001 CRITICAL-WARNING: check keyowner failed
+HDL-7001 CRITICAL-WARNING: store key failed
+HDL-7001 CRITICAL-WARNING: unidentified key owner
+HDL-5370 WARNING: parameter 'T10MS' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(43)
+HDL-5370 WARNING: parameter 'KEY_S0' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(44)
+HDL-5370 WARNING: parameter 'KEY_S1' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(45)
+HDL-5370 WARNING: parameter 'KEY_S2' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(46)
+HDL-5370 WARNING: parameter 'KEY_S3' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(47)
+HDL-5007 WARNING: block identifier is required on this block in uisrc/03_ip/isp/Brightness_adjustment/uisrc/01_rtl/Brightness_adjustment.v(83)
+HDL-5007 WARNING: block identifier is required on this block in uisrc/03_ip/isp/Contrast_adjustment/uisrc/01_rtl/contrast_adj.v(95)
+HDL-5370 WARNING: parameter 'C0' becomes localparam in 'Saturation_adj' with formal parameter declaration list in uisrc/03_ip/isp/Saturation_adj/uisrc/01_rtl/Saturation_adj.v(125)
+HDL-5370 WARNING: parameter 'C1' becomes localparam in 'Saturation_adj' with formal parameter declaration list in uisrc/03_ip/isp/Saturation_adj/uisrc/01_rtl/Saturation_adj.v(126)
+HDL-5370 WARNING: parameter 'C2' becomes localparam in 'Saturation_adj' with formal parameter declaration list in uisrc/03_ip/isp/Saturation_adj/uisrc/01_rtl/Saturation_adj.v(127)
+HDL-7201 CRITICAL-WARNING: overwrite current module 'blk_mem_gen_demosaic' in uisrc/03_ip/isp/raw_matrix_3x3_buffer/tmp_edit_project.gen/sources_1/ip/blk_mem_gen_demosaic/sim/blk_mem_gen_demosaic.v(56)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'blk_mem_gen_demosaic' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/isp/raw_matrix_3x3_buffer/ram/blk_mem_gen_demosaic.v(14)
+HDL-8007 ERROR: 'blk_mem_gen_v8_4_4' is not compiled in library 'blk_mem_gen_v8_4_4' in uisrc/03_ip/isp/raw_matrix_3x3_buffer/tmp_edit_project.gen/sources_1/ip/blk_mem_gen_demosaic/synth/blk_mem_gen_demosaic.vhd(57)
+HDL-8007 ERROR: ignore unit blk_mem_gen_demosaic due to previous errors in uisrc/03_ip/isp/raw_matrix_3x3_buffer/tmp_edit_project.gen/sources_1/ip/blk_mem_gen_demosaic/synth/blk_mem_gen_demosaic.vhd(59)
+HDL-8007 ERROR: concurrent assignment to a non-net 'REG_SIZE' is not permitted in uisrc/03_ip/uics500_cfg/uics500regAE.v(38)
+HDL-8007 ERROR: 'I_AG' is not declared in uisrc/03_ip/uics500_cfg/uics500regAE.v(46)
+HDL-8007 ERROR: 'I_AG' is not declared in uisrc/03_ip/uics500_cfg/uics500regAE.v(47)
+HDL-8007 ERROR: ignore module module due to previous errors in uisrc/03_ip/uics500_cfg/uics500regAE.v(29)
+HDL-8007 ERROR: cannot find port 'dia' on this module in uisrc/03_ip/isp/raw_matrix_3x3_buffer/line_buffer_demosaic.v(84)
+HDL-8007 ERROR: cannot find port 'dob' on this module in uisrc/03_ip/isp/raw_matrix_3x3_buffer/line_buffer_demosaic.v(87)
+HDL-7001 CRITICAL-WARNING: check keyowner failed
+HDL-7001 CRITICAL-WARNING: store key failed
+HDL-7001 CRITICAL-WARNING: unidentified key owner
+HDL-5370 WARNING: parameter 'T10MS' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(43)
+HDL-5370 WARNING: parameter 'KEY_S0' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(44)
+HDL-5370 WARNING: parameter 'KEY_S1' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(45)
+HDL-5370 WARNING: parameter 'KEY_S2' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(46)
+HDL-5370 WARNING: parameter 'KEY_S3' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(47)
+HDL-5007 WARNING: block identifier is required on this block in uisrc/03_ip/isp/Brightness_adjustment/uisrc/01_rtl/Brightness_adjustment.v(83)
+HDL-5007 WARNING: block identifier is required on this block in uisrc/03_ip/isp/Contrast_adjustment/uisrc/01_rtl/contrast_adj.v(95)
+HDL-5370 WARNING: parameter 'C0' becomes localparam in 'Saturation_adj' with formal parameter declaration list in uisrc/03_ip/isp/Saturation_adj/uisrc/01_rtl/Saturation_adj.v(125)
+HDL-5370 WARNING: parameter 'C1' becomes localparam in 'Saturation_adj' with formal parameter declaration list in uisrc/03_ip/isp/Saturation_adj/uisrc/01_rtl/Saturation_adj.v(126)
+HDL-5370 WARNING: parameter 'C2' becomes localparam in 'Saturation_adj' with formal parameter declaration list in uisrc/03_ip/isp/Saturation_adj/uisrc/01_rtl/Saturation_adj.v(127)
+HDL-7201 CRITICAL-WARNING: overwrite current module 'blk_mem_gen_demosaic' in uisrc/03_ip/isp/raw_matrix_3x3_buffer/tmp_edit_project.gen/sources_1/ip/blk_mem_gen_demosaic/sim/blk_mem_gen_demosaic.v(56)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'blk_mem_gen_demosaic' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/isp/raw_matrix_3x3_buffer/ram/blk_mem_gen_demosaic.v(14)
+HDL-8007 ERROR: 'blk_mem_gen_v8_4_4' is not compiled in library 'blk_mem_gen_v8_4_4' in uisrc/03_ip/isp/raw_matrix_3x3_buffer/tmp_edit_project.gen/sources_1/ip/blk_mem_gen_demosaic/synth/blk_mem_gen_demosaic.vhd(57)
+HDL-8007 ERROR: ignore unit blk_mem_gen_demosaic due to previous errors in uisrc/03_ip/isp/raw_matrix_3x3_buffer/tmp_edit_project.gen/sources_1/ip/blk_mem_gen_demosaic/synth/blk_mem_gen_demosaic.vhd(59)
+HDL-8007 ERROR: concurrent assignment to a non-net 'REG_SIZE' is not permitted in uisrc/03_ip/uics500_cfg/uics500regAE.v(38)
+HDL-8007 ERROR: 'I_AG' is not declared in uisrc/03_ip/uics500_cfg/uics500regAE.v(46)
+HDL-8007 ERROR: 'I_AG' is not declared in uisrc/03_ip/uics500_cfg/uics500regAE.v(47)
+HDL-8007 ERROR: ignore module module due to previous errors in uisrc/03_ip/uics500_cfg/uics500regAE.v(29)
+HDL-8007 ERROR: cannot find port 'dia' on this module in uisrc/03_ip/isp/raw_matrix_3x3_buffer/line_buffer_demosaic.v(84)
+HDL-8007 ERROR: cannot find port 'dob' on this module in uisrc/03_ip/isp/raw_matrix_3x3_buffer/line_buffer_demosaic.v(87)
+HDL-7001 CRITICAL-WARNING: check keyowner failed
+HDL-7001 CRITICAL-WARNING: store key failed
+HDL-7001 CRITICAL-WARNING: unidentified key owner
+HDL-7201 CRITICAL-WARNING: overwrite current module 'blk_mem_gen_demosaic' in uisrc/03_ip/isp/raw_matrix_3x3_buffer/tmp_edit_project.gen/sources_1/ip/blk_mem_gen_demosaic/sim/blk_mem_gen_demosaic.v(56)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'blk_mem_gen_demosaic' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/isp/raw_matrix_3x3_buffer/ram/blk_mem_gen_demosaic.v(14)
+HDL-8007 ERROR: 'blk_mem_gen_v8_4_4' is not compiled in library 'blk_mem_gen_v8_4_4' in uisrc/03_ip/isp/raw_matrix_3x3_buffer/tmp_edit_project.gen/sources_1/ip/blk_mem_gen_demosaic/synth/blk_mem_gen_demosaic.vhd(57)
+HDL-8007 ERROR: ignore unit blk_mem_gen_demosaic due to previous errors in uisrc/03_ip/isp/raw_matrix_3x3_buffer/tmp_edit_project.gen/sources_1/ip/blk_mem_gen_demosaic/synth/blk_mem_gen_demosaic.vhd(59)
+HDL-8007 ERROR: concurrent assignment to a non-net 'REG_SIZE' is not permitted in uisrc/03_ip/uics500_cfg/uics500regAE.v(38)
+HDL-8007 ERROR: 'I_AG' is not declared in uisrc/03_ip/uics500_cfg/uics500regAE.v(46)
+HDL-8007 ERROR: 'I_AG' is not declared in uisrc/03_ip/uics500_cfg/uics500regAE.v(47)
+HDL-8007 ERROR: ignore module module due to previous errors in uisrc/03_ip/uics500_cfg/uics500regAE.v(29)
+HDL-8007 ERROR: cannot find port 'dia' on this module in uisrc/03_ip/isp/raw_matrix_3x3_buffer/line_buffer_demosaic.v(84)
+HDL-8007 ERROR: cannot find port 'dob' on this module in uisrc/03_ip/isp/raw_matrix_3x3_buffer/line_buffer_demosaic.v(87)
+HDL-7001 CRITICAL-WARNING: check keyowner failed
+HDL-7001 CRITICAL-WARNING: store key failed
+HDL-7001 CRITICAL-WARNING: unidentified key owner
+HDL-7201 CRITICAL-WARNING: overwrite current module 'blk_mem_gen_demosaic' in uisrc/03_ip/isp/raw_matrix_3x3_buffer/tmp_edit_project.gen/sources_1/ip/blk_mem_gen_demosaic/sim/blk_mem_gen_demosaic.v(56)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'blk_mem_gen_demosaic' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/isp/raw_matrix_3x3_buffer/ram/blk_mem_gen_demosaic.v(14)
+HDL-8007 ERROR: 'blk_mem_gen_v8_4_4' is not compiled in library 'blk_mem_gen_v8_4_4' in uisrc/03_ip/isp/raw_matrix_3x3_buffer/tmp_edit_project.gen/sources_1/ip/blk_mem_gen_demosaic/synth/blk_mem_gen_demosaic.vhd(57)
+HDL-8007 ERROR: ignore unit blk_mem_gen_demosaic due to previous errors in uisrc/03_ip/isp/raw_matrix_3x3_buffer/tmp_edit_project.gen/sources_1/ip/blk_mem_gen_demosaic/synth/blk_mem_gen_demosaic.vhd(59)
+HDL-8007 ERROR: concurrent assignment to a non-net 'REG_SIZE' is not permitted in uisrc/03_ip/uics500_cfg/uics500regAE.v(38)
+HDL-8007 ERROR: 'I_AG' is not declared in uisrc/03_ip/uics500_cfg/uics500regAE.v(46)
+HDL-8007 ERROR: 'I_AG' is not declared in uisrc/03_ip/uics500_cfg/uics500regAE.v(47)
+HDL-8007 ERROR: ignore module module due to previous errors in uisrc/03_ip/uics500_cfg/uics500regAE.v(29)
+HDL-7001 CRITICAL-WARNING: check keyowner failed
+HDL-7001 CRITICAL-WARNING: store key failed
+HDL-7001 CRITICAL-WARNING: unidentified key owner
+HDL-8007 ERROR: 'blk_mem_gen_v8_4_4' is not compiled in library 'blk_mem_gen_v8_4_4' in uisrc/03_ip/isp/raw_matrix_3x3_buffer/tmp_edit_project.gen/sources_1/ip/blk_mem_gen_demosaic/synth/blk_mem_gen_demosaic.vhd(57)
+HDL-8007 ERROR: ignore unit blk_mem_gen_demosaic due to previous errors in uisrc/03_ip/isp/raw_matrix_3x3_buffer/tmp_edit_project.gen/sources_1/ip/blk_mem_gen_demosaic/synth/blk_mem_gen_demosaic.vhd(59)
+HDL-8007 ERROR: concurrent assignment to a non-net 'REG_SIZE' is not permitted in uisrc/03_ip/uics500_cfg/uics500regAE.v(38)
+HDL-8007 ERROR: 'I_AG' is not declared in uisrc/03_ip/uics500_cfg/uics500regAE.v(46)
+HDL-8007 ERROR: 'I_AG' is not declared in uisrc/03_ip/uics500_cfg/uics500regAE.v(47)
+HDL-8007 ERROR: ignore module module due to previous errors in uisrc/03_ip/uics500_cfg/uics500regAE.v(29)
+HDL-7001 CRITICAL-WARNING: check keyowner failed
+HDL-7001 CRITICAL-WARNING: store key failed
+HDL-7001 CRITICAL-WARNING: unidentified key owner
+HDL-8007 ERROR: 'blk_mem_gen_v8_4_4' is not compiled in library 'blk_mem_gen_v8_4_4' in uisrc/03_ip/isp/raw_matrix_3x3_buffer/tmp_edit_project.gen/sources_1/ip/blk_mem_gen_demosaic/synth/blk_mem_gen_demosaic.vhd(57)
+HDL-8007 ERROR: ignore unit blk_mem_gen_demosaic due to previous errors in uisrc/03_ip/isp/raw_matrix_3x3_buffer/tmp_edit_project.gen/sources_1/ip/blk_mem_gen_demosaic/synth/blk_mem_gen_demosaic.vhd(59)
+HDL-8007 ERROR: concurrent assignment to a non-net 'REG_SIZE' is not permitted in uisrc/03_ip/uics500_cfg/uics500regAE.v(38)
+HDL-8007 ERROR: 'I_AG' is not declared in uisrc/03_ip/uics500_cfg/uics500regAE.v(46)
+HDL-8007 ERROR: 'I_AG' is not declared in uisrc/03_ip/uics500_cfg/uics500regAE.v(47)
+HDL-8007 ERROR: ignore module module due to previous errors in uisrc/03_ip/uics500_cfg/uics500regAE.v(29)
+HDL-5007 WARNING: could not find top-level module/unit; aborting hierarchy tree creation
+HDL-7001 CRITICAL-WARNING: check keyowner failed
+HDL-7001 CRITICAL-WARNING: store key failed
+HDL-7001 CRITICAL-WARNING: unidentified key owner
+HDL-7001 CRITICAL-WARNING: check keyowner failed
+HDL-7001 CRITICAL-WARNING: store key failed
+HDL-7001 CRITICAL-WARNING: unidentified key owner
+HDL-7001 CRITICAL-WARNING: check keyowner failed
+HDL-7001 CRITICAL-WARNING: store key failed
+HDL-7001 CRITICAL-WARNING: unidentified key owner
+HDL-5007 WARNING: could not find top-level module/unit; aborting hierarchy tree creation
+HDL-7001 CRITICAL-WARNING: check keyowner failed
+HDL-7001 CRITICAL-WARNING: store key failed
+HDL-7001 CRITICAL-WARNING: unidentified key owner
+HDL-5007 WARNING: /* is inside a comment in uisrc/01_rtl/system_top.v(248)
+HDL-5333 WARNING: data object 'I_video_in_user' is already declared in uisrc/01_rtl/system_top.v(735)
+HDL-5007 WARNING: second declaration of 'I_video_in_user' is ignored in uisrc/01_rtl/system_top.v(735)
+HDL-5333 WARNING: data object 'I_video_in_valid' is already declared in uisrc/01_rtl/system_top.v(736)
+HDL-5007 WARNING: second declaration of 'I_video_in_valid' is ignored in uisrc/01_rtl/system_top.v(736)
+HDL-5333 WARNING: data object 'I_video_in_last' is already declared in uisrc/01_rtl/system_top.v(737)
+HDL-5007 WARNING: second declaration of 'I_video_in_last' is ignored in uisrc/01_rtl/system_top.v(737)
+HDL-5333 WARNING: data object 'I_video_in_data' is already declared in uisrc/01_rtl/system_top.v(738)
+HDL-5007 WARNING: second declaration of 'I_video_in_data' is ignored in uisrc/01_rtl/system_top.v(738)
+HDL-7001 CRITICAL-WARNING: check keyowner failed
+HDL-7001 CRITICAL-WARNING: store key failed
+HDL-7001 CRITICAL-WARNING: unidentified key owner
+HDL-5007 WARNING: /* is inside a comment in uisrc/01_rtl/system_top.v(248)
+HDL-5333 WARNING: data object 'I_video_in_user' is already declared in uisrc/01_rtl/system_top.v(735)
+HDL-5007 WARNING: second declaration of 'I_video_in_user' is ignored in uisrc/01_rtl/system_top.v(735)
+HDL-5333 WARNING: data object 'I_video_in_valid' is already declared in uisrc/01_rtl/system_top.v(736)
+HDL-5007 WARNING: second declaration of 'I_video_in_valid' is ignored in uisrc/01_rtl/system_top.v(736)
+HDL-5333 WARNING: data object 'I_video_in_last' is already declared in uisrc/01_rtl/system_top.v(737)
+HDL-5007 WARNING: second declaration of 'I_video_in_last' is ignored in uisrc/01_rtl/system_top.v(737)
+HDL-5333 WARNING: data object 'I_video_in_data' is already declared in uisrc/01_rtl/system_top.v(738)
+HDL-5007 WARNING: second declaration of 'I_video_in_data' is ignored in uisrc/01_rtl/system_top.v(738)
+HDL-5370 WARNING: parameter 'T10MS' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(43)
+HDL-5370 WARNING: parameter 'KEY_S0' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(44)
+HDL-5370 WARNING: parameter 'KEY_S1' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(45)
+HDL-5370 WARNING: parameter 'KEY_S2' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(46)
+HDL-5370 WARNING: parameter 'KEY_S3' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(47)
+HDL-7001 CRITICAL-WARNING: check keyowner failed
+HDL-7001 CRITICAL-WARNING: store key failed
+HDL-7001 CRITICAL-WARNING: unidentified key owner
+HDL-5007 WARNING: /* is inside a comment in uisrc/01_rtl/system_top.v(248)
+HDL-5333 WARNING: data object 'I_video_in_user' is already declared in uisrc/01_rtl/system_top.v(735)
+HDL-5007 WARNING: second declaration of 'I_video_in_user' is ignored in uisrc/01_rtl/system_top.v(735)
+HDL-5333 WARNING: data object 'I_video_in_valid' is already declared in uisrc/01_rtl/system_top.v(736)
+HDL-5007 WARNING: second declaration of 'I_video_in_valid' is ignored in uisrc/01_rtl/system_top.v(736)
+HDL-5333 WARNING: data object 'I_video_in_last' is already declared in uisrc/01_rtl/system_top.v(737)
+HDL-5007 WARNING: second declaration of 'I_video_in_last' is ignored in uisrc/01_rtl/system_top.v(737)
+HDL-5333 WARNING: data object 'I_video_in_data' is already declared in uisrc/01_rtl/system_top.v(738)
+HDL-5007 WARNING: second declaration of 'I_video_in_data' is ignored in uisrc/01_rtl/system_top.v(738)
+HDL-5370 WARNING: parameter 'T10MS' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(43)
+HDL-5370 WARNING: parameter 'KEY_S0' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(44)
+HDL-5370 WARNING: parameter 'KEY_S1' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(45)
+HDL-5370 WARNING: parameter 'KEY_S2' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(46)
+HDL-5370 WARNING: parameter 'KEY_S3' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(47)
+HDL-8007 ERROR: concurrent assignment to a non-net 'REG_SIZE' is not permitted in uisrc/03_ip/uics500_cfg/uics500regAE.v(38)
+HDL-8007 ERROR: 'I_AG' is not declared in uisrc/03_ip/uics500_cfg/uics500regAE.v(46)
+HDL-8007 ERROR: 'I_AG' is not declared in uisrc/03_ip/uics500_cfg/uics500regAE.v(47)
+HDL-8007 ERROR: ignore module module due to previous errors in uisrc/03_ip/uics500_cfg/uics500regAE.v(29)
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/uics500_cfg/uii2c.v) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/uics500_cfg/uii2c.v
+HDL-7001 CRITICAL-WARNING: check keyowner failed
+HDL-7001 CRITICAL-WARNING: store key failed
+HDL-7001 CRITICAL-WARNING: unidentified key owner
+HDL-5007 WARNING: /* is inside a comment in uisrc/01_rtl/system_top.v(248)
+HDL-5333 WARNING: data object 'I_video_in_user' is already declared in uisrc/01_rtl/system_top.v(735)
+HDL-5007 WARNING: second declaration of 'I_video_in_user' is ignored in uisrc/01_rtl/system_top.v(735)
+HDL-5333 WARNING: data object 'I_video_in_valid' is already declared in uisrc/01_rtl/system_top.v(736)
+HDL-5007 WARNING: second declaration of 'I_video_in_valid' is ignored in uisrc/01_rtl/system_top.v(736)
+HDL-5333 WARNING: data object 'I_video_in_last' is already declared in uisrc/01_rtl/system_top.v(737)
+HDL-5007 WARNING: second declaration of 'I_video_in_last' is ignored in uisrc/01_rtl/system_top.v(737)
+HDL-5333 WARNING: data object 'I_video_in_data' is already declared in uisrc/01_rtl/system_top.v(738)
+HDL-5007 WARNING: second declaration of 'I_video_in_data' is ignored in uisrc/01_rtl/system_top.v(738)
+HDL-5370 WARNING: parameter 'T10MS' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(43)
+HDL-5370 WARNING: parameter 'KEY_S0' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(44)
+HDL-5370 WARNING: parameter 'KEY_S1' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(45)
+HDL-5370 WARNING: parameter 'KEY_S2' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(46)
+HDL-5370 WARNING: parameter 'KEY_S3' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(47)
+HDL-8007 ERROR: concurrent assignment to a non-net 'REG_SIZE' is not permitted in uisrc/03_ip/uics500_cfg/uics500regAE.v(38)
+HDL-8007 ERROR: 'I_AG' is not declared in uisrc/03_ip/uics500_cfg/uics500regAE.v(46)
+HDL-8007 ERROR: 'I_AG' is not declared in uisrc/03_ip/uics500_cfg/uics500regAE.v(47)
+HDL-8007 ERROR: ignore module module due to previous errors in uisrc/03_ip/uics500_cfg/uics500regAE.v(29)
+HDL-7001 CRITICAL-WARNING: check keyowner failed
+HDL-7001 CRITICAL-WARNING: store key failed
+HDL-7001 CRITICAL-WARNING: unidentified key owner
+HDL-5370 WARNING: parameter 'T10MS' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(43)
+HDL-5370 WARNING: parameter 'KEY_S0' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(44)
+HDL-5370 WARNING: parameter 'KEY_S1' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(45)
+HDL-5370 WARNING: parameter 'KEY_S2' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(46)
+HDL-5370 WARNING: parameter 'KEY_S3' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(47)
+HDL-8007 ERROR: concurrent assignment to a non-net 'REG_SIZE' is not permitted in uisrc/03_ip/uics500_cfg/uics500regAE.v(38)
+HDL-8007 ERROR: 'I_AG' is not declared in uisrc/03_ip/uics500_cfg/uics500regAE.v(46)
+HDL-8007 ERROR: 'I_AG' is not declared in uisrc/03_ip/uics500_cfg/uics500regAE.v(47)
+HDL-8007 ERROR: ignore module module due to previous errors in uisrc/03_ip/uics500_cfg/uics500regAE.v(29)
+HDL-7001 CRITICAL-WARNING: check keyowner failed
+HDL-7001 CRITICAL-WARNING: store key failed
+HDL-7001 CRITICAL-WARNING: unidentified key owner
+HDL-8007 ERROR: concurrent assignment to a non-net 'REG_SIZE' is not permitted in uisrc/03_ip/uics500_cfg/uics500regAE.v(38)
+HDL-8007 ERROR: 'I_AG' is not declared in uisrc/03_ip/uics500_cfg/uics500regAE.v(46)
+HDL-8007 ERROR: 'I_AG' is not declared in uisrc/03_ip/uics500_cfg/uics500regAE.v(47)
+HDL-8007 ERROR: ignore module module due to previous errors in uisrc/03_ip/uics500_cfg/uics500regAE.v(29)
+HDL-7001 CRITICAL-WARNING: check keyowner failed
+HDL-7001 CRITICAL-WARNING: store key failed
+HDL-7001 CRITICAL-WARNING: unidentified key owner
+HDL-8007 ERROR: concurrent assignment to a non-net 'REG_SIZE' is not permitted in uisrc/03_ip/uics500_cfg/uics500regAE.v(38)
+HDL-8007 ERROR: 'I_AG' is not declared in uisrc/03_ip/uics500_cfg/uics500regAE.v(46)
+HDL-8007 ERROR: 'I_AG' is not declared in uisrc/03_ip/uics500_cfg/uics500regAE.v(47)
+HDL-8007 ERROR: ignore module module due to previous errors in uisrc/03_ip/uics500_cfg/uics500regAE.v(29)
+HDL-5007 WARNING: could not find top-level module/unit; aborting hierarchy tree creation
+HDL-7001 CRITICAL-WARNING: check keyowner failed
+HDL-7001 CRITICAL-WARNING: store key failed
+HDL-7001 CRITICAL-WARNING: unidentified key owner
+HDL-7001 CRITICAL-WARNING: check keyowner failed
+HDL-7001 CRITICAL-WARNING: store key failed
+HDL-7001 CRITICAL-WARNING: unidentified key owner
+HDL-5007 WARNING: could not find top-level module/unit; aborting hierarchy tree creation
+HDL-7001 CRITICAL-WARNING: check keyowner failed
+HDL-7001 CRITICAL-WARNING: store key failed
+HDL-7001 CRITICAL-WARNING: unidentified key owner
+HDL-5007 WARNING: /* is inside a comment in uisrc/01_rtl/system_top.v(248)
+HDL-5333 WARNING: data object 'I_video_in_user' is already declared in uisrc/01_rtl/system_top.v(735)
+HDL-5007 WARNING: second declaration of 'I_video_in_user' is ignored in uisrc/01_rtl/system_top.v(735)
+HDL-5333 WARNING: data object 'I_video_in_valid' is already declared in uisrc/01_rtl/system_top.v(736)
+HDL-5007 WARNING: second declaration of 'I_video_in_valid' is ignored in uisrc/01_rtl/system_top.v(736)
+HDL-5333 WARNING: data object 'I_video_in_last' is already declared in uisrc/01_rtl/system_top.v(737)
+HDL-5007 WARNING: second declaration of 'I_video_in_last' is ignored in uisrc/01_rtl/system_top.v(737)
+HDL-5333 WARNING: data object 'I_video_in_data' is already declared in uisrc/01_rtl/system_top.v(738)
+HDL-5007 WARNING: second declaration of 'I_video_in_data' is ignored in uisrc/01_rtl/system_top.v(738)
+HDL-8007 ERROR: concurrent assignment to a non-net 'REG_SIZE' is not permitted in uisrc/03_ip/uics500_cfg/uics500regAE.v(38)
+HDL-8007 ERROR: 'I_AG' is not declared in uisrc/03_ip/uics500_cfg/uics500regAE.v(46)
+HDL-8007 ERROR: 'I_AG' is not declared in uisrc/03_ip/uics500_cfg/uics500regAE.v(47)
+HDL-8007 ERROR: ignore module module due to previous errors in uisrc/03_ip/uics500_cfg/uics500regAE.v(29)
+HDL-7001 CRITICAL-WARNING: check keyowner failed
+HDL-7001 CRITICAL-WARNING: store key failed
+HDL-7001 CRITICAL-WARNING: unidentified key owner
+HDL-5007 WARNING: /* is inside a comment in uisrc/01_rtl/system_top.v(248)
+HDL-5333 WARNING: data object 'I_video_in_user' is already declared in uisrc/01_rtl/system_top.v(735)
+HDL-5007 WARNING: second declaration of 'I_video_in_user' is ignored in uisrc/01_rtl/system_top.v(735)
+HDL-5333 WARNING: data object 'I_video_in_valid' is already declared in uisrc/01_rtl/system_top.v(736)
+HDL-5007 WARNING: second declaration of 'I_video_in_valid' is ignored in uisrc/01_rtl/system_top.v(736)
+HDL-5333 WARNING: data object 'I_video_in_last' is already declared in uisrc/01_rtl/system_top.v(737)
+HDL-5007 WARNING: second declaration of 'I_video_in_last' is ignored in uisrc/01_rtl/system_top.v(737)
+HDL-5333 WARNING: data object 'I_video_in_data' is already declared in uisrc/01_rtl/system_top.v(738)
+HDL-5007 WARNING: second declaration of 'I_video_in_data' is ignored in uisrc/01_rtl/system_top.v(738)
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/isp/raw_matrix_3x3_buffer/tmp_edit_project.gen/sources_1/ip/blk_mem_gen_demosaic/hdl/blk_mem_gen_v8_4_vhsyn_rfs.vhd) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/isp/raw_matrix_3x3_buffer/tmp_edit_project.gen/sources_1/ip/blk_mem_gen_demosaic/hdl/blk_mem_gen_v8_4_vhsyn_rfs.vhd
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/03_ip/isp/isp_top.v) is already in fileSet(design_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/isp/isp_top.v
+HDL-7001 CRITICAL-WARNING: check keyowner failed
+HDL-7001 CRITICAL-WARNING: store key failed
+HDL-7001 CRITICAL-WARNING: unidentified key owner
+HDL-5007 WARNING: /* is inside a comment in uisrc/01_rtl/system_top.v(248)
+HDL-5333 WARNING: data object 'I_video_in_user' is already declared in uisrc/01_rtl/system_top.v(735)
+HDL-5007 WARNING: second declaration of 'I_video_in_user' is ignored in uisrc/01_rtl/system_top.v(735)
+HDL-5333 WARNING: data object 'I_video_in_valid' is already declared in uisrc/01_rtl/system_top.v(736)
+HDL-5007 WARNING: second declaration of 'I_video_in_valid' is ignored in uisrc/01_rtl/system_top.v(736)
+HDL-5333 WARNING: data object 'I_video_in_last' is already declared in uisrc/01_rtl/system_top.v(737)
+HDL-5007 WARNING: second declaration of 'I_video_in_last' is ignored in uisrc/01_rtl/system_top.v(737)
+HDL-5333 WARNING: data object 'I_video_in_data' is already declared in uisrc/01_rtl/system_top.v(738)
+HDL-5007 WARNING: second declaration of 'I_video_in_data' is ignored in uisrc/01_rtl/system_top.v(738)
+HDL-5370 WARNING: parameter 'T10MS' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(43)
+HDL-5370 WARNING: parameter 'KEY_S0' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(44)
+HDL-5370 WARNING: parameter 'KEY_S1' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(45)
+HDL-5370 WARNING: parameter 'KEY_S2' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(46)
+HDL-5370 WARNING: parameter 'KEY_S3' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(47)
+HDL-5007 WARNING: block identifier is required on this block in uisrc/03_ip/isp/Brightness_adjustment/uisrc/01_rtl/Brightness_adjustment.v(83)
+HDL-5007 WARNING: block identifier is required on this block in uisrc/03_ip/isp/Contrast_adjustment/uisrc/01_rtl/contrast_adj.v(95)
+HDL-5370 WARNING: parameter 'C0' becomes localparam in 'Saturation_adj' with formal parameter declaration list in uisrc/03_ip/isp/Saturation_adj/uisrc/01_rtl/Saturation_adj.v(125)
+HDL-5370 WARNING: parameter 'C1' becomes localparam in 'Saturation_adj' with formal parameter declaration list in uisrc/03_ip/isp/Saturation_adj/uisrc/01_rtl/Saturation_adj.v(126)
+HDL-5370 WARNING: parameter 'C2' becomes localparam in 'Saturation_adj' with formal parameter declaration list in uisrc/03_ip/isp/Saturation_adj/uisrc/01_rtl/Saturation_adj.v(127)
+HDL-5370 WARNING: parameter 'C0' becomes localparam in 'image_saturation_adjust' with formal parameter declaration list in uisrc/03_ip/isp/image_saturation_adjust/uisrc/01_rtl/saturation_adjust.v(123)
+HDL-5370 WARNING: parameter 'C1' becomes localparam in 'image_saturation_adjust' with formal parameter declaration list in uisrc/03_ip/isp/image_saturation_adjust/uisrc/01_rtl/saturation_adjust.v(124)
+HDL-5370 WARNING: parameter 'C2' becomes localparam in 'image_saturation_adjust' with formal parameter declaration list in uisrc/03_ip/isp/image_saturation_adjust/uisrc/01_rtl/saturation_adjust.v(125)
+HDL-7201 CRITICAL-WARNING: overwrite current module 'blk_mem_gen_demosaic' in uisrc/03_ip/isp/raw_matrix_3x3_buffer/tmp_edit_project.gen/sources_1/ip/blk_mem_gen_demosaic/sim/blk_mem_gen_demosaic.v(56)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'blk_mem_gen_demosaic' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/isp/raw_matrix_3x3_buffer/ram/blk_mem_gen_demosaic.v(14)
+HDL-8007 ERROR: 'blk_mem_gen_v8_4_4' is not compiled in library 'blk_mem_gen_v8_4_4' in uisrc/03_ip/isp/raw_matrix_3x3_buffer/tmp_edit_project.gen/sources_1/ip/blk_mem_gen_demosaic/synth/blk_mem_gen_demosaic.vhd(57)
+HDL-8007 ERROR: ignore unit blk_mem_gen_demosaic due to previous errors in uisrc/03_ip/isp/raw_matrix_3x3_buffer/tmp_edit_project.gen/sources_1/ip/blk_mem_gen_demosaic/synth/blk_mem_gen_demosaic.vhd(59)
+HDL-8007 ERROR: cannot find port 'dia' on this module in uisrc/03_ip/isp/raw_matrix_3x3_buffer/line_buffer_demosaic.v(84)
+HDL-8007 ERROR: cannot find port 'dob' on this module in uisrc/03_ip/isp/raw_matrix_3x3_buffer/line_buffer_demosaic.v(87)
+HDL-7001 CRITICAL-WARNING: check keyowner failed
+HDL-7001 CRITICAL-WARNING: store key failed
+HDL-7001 CRITICAL-WARNING: unidentified key owner
+HDL-5007 WARNING: /* is inside a comment in uisrc/01_rtl/system_top.v(248)
+HDL-5333 WARNING: data object 'I_video_in_user' is already declared in uisrc/01_rtl/system_top.v(735)
+HDL-5007 WARNING: second declaration of 'I_video_in_user' is ignored in uisrc/01_rtl/system_top.v(735)
+HDL-5333 WARNING: data object 'I_video_in_valid' is already declared in uisrc/01_rtl/system_top.v(736)
+HDL-5007 WARNING: second declaration of 'I_video_in_valid' is ignored in uisrc/01_rtl/system_top.v(736)
+HDL-5333 WARNING: data object 'I_video_in_last' is already declared in uisrc/01_rtl/system_top.v(737)
+HDL-5007 WARNING: second declaration of 'I_video_in_last' is ignored in uisrc/01_rtl/system_top.v(737)
+HDL-5333 WARNING: data object 'I_video_in_data' is already declared in uisrc/01_rtl/system_top.v(738)
+HDL-5007 WARNING: second declaration of 'I_video_in_data' is ignored in uisrc/01_rtl/system_top.v(738)
+HDL-5370 WARNING: parameter 'T10MS' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(43)
+HDL-5370 WARNING: parameter 'KEY_S0' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(44)
+HDL-5370 WARNING: parameter 'KEY_S1' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(45)
+HDL-5370 WARNING: parameter 'KEY_S2' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(46)
+HDL-5370 WARNING: parameter 'KEY_S3' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(47)
+HDL-5007 WARNING: block identifier is required on this block in uisrc/03_ip/isp/Brightness_adjustment/uisrc/01_rtl/Brightness_adjustment.v(83)
+HDL-5007 WARNING: block identifier is required on this block in uisrc/03_ip/isp/Contrast_adjustment/uisrc/01_rtl/contrast_adj.v(95)
+HDL-5370 WARNING: parameter 'C0' becomes localparam in 'Saturation_adj' with formal parameter declaration list in uisrc/03_ip/isp/Saturation_adj/uisrc/01_rtl/Saturation_adj.v(125)
+HDL-5370 WARNING: parameter 'C1' becomes localparam in 'Saturation_adj' with formal parameter declaration list in uisrc/03_ip/isp/Saturation_adj/uisrc/01_rtl/Saturation_adj.v(126)
+HDL-5370 WARNING: parameter 'C2' becomes localparam in 'Saturation_adj' with formal parameter declaration list in uisrc/03_ip/isp/Saturation_adj/uisrc/01_rtl/Saturation_adj.v(127)
+HDL-5370 WARNING: parameter 'C0' becomes localparam in 'image_saturation_adjust' with formal parameter declaration list in uisrc/03_ip/isp/image_saturation_adjust/uisrc/01_rtl/saturation_adjust.v(123)
+HDL-5370 WARNING: parameter 'C1' becomes localparam in 'image_saturation_adjust' with formal parameter declaration list in uisrc/03_ip/isp/image_saturation_adjust/uisrc/01_rtl/saturation_adjust.v(124)
+HDL-5370 WARNING: parameter 'C2' becomes localparam in 'image_saturation_adjust' with formal parameter declaration list in uisrc/03_ip/isp/image_saturation_adjust/uisrc/01_rtl/saturation_adjust.v(125)
+HDL-7201 CRITICAL-WARNING: overwrite current module 'blk_mem_gen_demosaic' in uisrc/03_ip/isp/raw_matrix_3x3_buffer/tmp_edit_project.gen/sources_1/ip/blk_mem_gen_demosaic/sim/blk_mem_gen_demosaic.v(56)
+HDL-7307 CRITICAL-WARNING: previous definition of design element module 'blk_mem_gen_demosaic' is here. This is because multiple modules(values) with the same name are defined. Please consider rewriting code in uisrc/03_ip/isp/raw_matrix_3x3_buffer/ram/blk_mem_gen_demosaic.v(14)
+HDL-7001 CRITICAL-WARNING: check keyowner failed
+HDL-7001 CRITICAL-WARNING: store key failed
+HDL-7001 CRITICAL-WARNING: unidentified key owner
+HDL-5007 WARNING: /* is inside a comment in uisrc/01_rtl/system_top.v(248)
+HDL-5333 WARNING: data object 'I_video_in_user' is already declared in uisrc/01_rtl/system_top.v(735)
+HDL-5007 WARNING: second declaration of 'I_video_in_user' is ignored in uisrc/01_rtl/system_top.v(735)
+HDL-5333 WARNING: data object 'I_video_in_valid' is already declared in uisrc/01_rtl/system_top.v(736)
+HDL-5007 WARNING: second declaration of 'I_video_in_valid' is ignored in uisrc/01_rtl/system_top.v(736)
+HDL-5333 WARNING: data object 'I_video_in_last' is already declared in uisrc/01_rtl/system_top.v(737)
+HDL-5007 WARNING: second declaration of 'I_video_in_last' is ignored in uisrc/01_rtl/system_top.v(737)
+HDL-5333 WARNING: data object 'I_video_in_data' is already declared in uisrc/01_rtl/system_top.v(738)
+HDL-5007 WARNING: second declaration of 'I_video_in_data' is ignored in uisrc/01_rtl/system_top.v(738)
+HDL-5370 WARNING: parameter 'T10MS' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(43)
+HDL-5370 WARNING: parameter 'KEY_S0' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(44)
+HDL-5370 WARNING: parameter 'KEY_S1' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(45)
+HDL-5370 WARNING: parameter 'KEY_S2' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(46)
+HDL-5370 WARNING: parameter 'KEY_S3' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(47)
+HDL-5007 WARNING: block identifier is required on this block in uisrc/03_ip/isp/Brightness_adjustment/uisrc/01_rtl/Brightness_adjustment.v(83)
+HDL-5007 WARNING: block identifier is required on this block in uisrc/03_ip/isp/Contrast_adjustment/uisrc/01_rtl/contrast_adj.v(95)
+HDL-5370 WARNING: parameter 'C0' becomes localparam in 'Saturation_adj' with formal parameter declaration list in uisrc/03_ip/isp/Saturation_adj/uisrc/01_rtl/Saturation_adj.v(125)
+HDL-5370 WARNING: parameter 'C1' becomes localparam in 'Saturation_adj' with formal parameter declaration list in uisrc/03_ip/isp/Saturation_adj/uisrc/01_rtl/Saturation_adj.v(126)
+HDL-5370 WARNING: parameter 'C2' becomes localparam in 'Saturation_adj' with formal parameter declaration list in uisrc/03_ip/isp/Saturation_adj/uisrc/01_rtl/Saturation_adj.v(127)
+HDL-7001 CRITICAL-WARNING: check keyowner failed
+HDL-7001 CRITICAL-WARNING: store key failed
+HDL-7001 CRITICAL-WARNING: unidentified key owner
+HDL-5007 WARNING: /* is inside a comment in uisrc/01_rtl/system_top.v(248)
+HDL-5333 WARNING: data object 'I_video_in_user' is already declared in uisrc/01_rtl/system_top.v(735)
+HDL-5007 WARNING: second declaration of 'I_video_in_user' is ignored in uisrc/01_rtl/system_top.v(735)
+HDL-5333 WARNING: data object 'I_video_in_valid' is already declared in uisrc/01_rtl/system_top.v(736)
+HDL-5007 WARNING: second declaration of 'I_video_in_valid' is ignored in uisrc/01_rtl/system_top.v(736)
+HDL-5333 WARNING: data object 'I_video_in_last' is already declared in uisrc/01_rtl/system_top.v(737)
+HDL-5007 WARNING: second declaration of 'I_video_in_last' is ignored in uisrc/01_rtl/system_top.v(737)
+HDL-5333 WARNING: data object 'I_video_in_data' is already declared in uisrc/01_rtl/system_top.v(738)
+HDL-5007 WARNING: second declaration of 'I_video_in_data' is ignored in uisrc/01_rtl/system_top.v(738)
+HDL-5370 WARNING: parameter 'T10MS' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(43)
+HDL-5370 WARNING: parameter 'KEY_S0' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(44)
+HDL-5370 WARNING: parameter 'KEY_S1' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(45)
+HDL-5370 WARNING: parameter 'KEY_S2' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(46)
+HDL-5370 WARNING: parameter 'KEY_S3' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(47)
+HDL-5007 WARNING: block identifier is required on this block in uisrc/03_ip/isp/Brightness_adjustment/uisrc/01_rtl/Brightness_adjustment.v(83)
+HDL-5007 WARNING: block identifier is required on this block in uisrc/03_ip/isp/Contrast_adjustment/uisrc/01_rtl/contrast_adj.v(95)
+HDL-5370 WARNING: parameter 'C0' becomes localparam in 'Saturation_adj' with formal parameter declaration list in uisrc/03_ip/isp/Saturation_adj/uisrc/01_rtl/Saturation_adj.v(125)
+HDL-5370 WARNING: parameter 'C1' becomes localparam in 'Saturation_adj' with formal parameter declaration list in uisrc/03_ip/isp/Saturation_adj/uisrc/01_rtl/Saturation_adj.v(126)
+HDL-5370 WARNING: parameter 'C2' becomes localparam in 'Saturation_adj' with formal parameter declaration list in uisrc/03_ip/isp/Saturation_adj/uisrc/01_rtl/Saturation_adj.v(127)
+HDL-7001 CRITICAL-WARNING: check keyowner failed
+HDL-7001 CRITICAL-WARNING: store key failed
+HDL-7001 CRITICAL-WARNING: unidentified key owner
+HDL-5007 WARNING: /* is inside a comment in uisrc/01_rtl/system_top.v(248)
+HDL-5333 WARNING: data object 'I_video_in_user' is already declared in uisrc/01_rtl/system_top.v(735)
+HDL-5007 WARNING: second declaration of 'I_video_in_user' is ignored in uisrc/01_rtl/system_top.v(735)
+HDL-5333 WARNING: data object 'I_video_in_valid' is already declared in uisrc/01_rtl/system_top.v(736)
+HDL-5007 WARNING: second declaration of 'I_video_in_valid' is ignored in uisrc/01_rtl/system_top.v(736)
+HDL-5333 WARNING: data object 'I_video_in_last' is already declared in uisrc/01_rtl/system_top.v(737)
+HDL-5007 WARNING: second declaration of 'I_video_in_last' is ignored in uisrc/01_rtl/system_top.v(737)
+HDL-5333 WARNING: data object 'I_video_in_data' is already declared in uisrc/01_rtl/system_top.v(738)
+HDL-5007 WARNING: second declaration of 'I_video_in_data' is ignored in uisrc/01_rtl/system_top.v(738)
+HDL-5370 WARNING: parameter 'T10MS' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(43)
+HDL-5370 WARNING: parameter 'KEY_S0' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(44)
+HDL-5370 WARNING: parameter 'KEY_S1' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(45)
+HDL-5370 WARNING: parameter 'KEY_S2' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(46)
+HDL-5370 WARNING: parameter 'KEY_S3' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(47)
+HDL-5007 WARNING: block identifier is required on this block in uisrc/03_ip/isp/Brightness_adjustment/uisrc/01_rtl/Brightness_adjustment.v(83)
+HDL-5007 WARNING: block identifier is required on this block in uisrc/03_ip/isp/Contrast_adjustment/uisrc/01_rtl/contrast_adj.v(95)
+HDL-5370 WARNING: parameter 'C0' becomes localparam in 'Saturation_adj' with formal parameter declaration list in uisrc/03_ip/isp/Saturation_adj/uisrc/01_rtl/Saturation_adj.v(125)
+HDL-5370 WARNING: parameter 'C1' becomes localparam in 'Saturation_adj' with formal parameter declaration list in uisrc/03_ip/isp/Saturation_adj/uisrc/01_rtl/Saturation_adj.v(126)
+HDL-5370 WARNING: parameter 'C2' becomes localparam in 'Saturation_adj' with formal parameter declaration list in uisrc/03_ip/isp/Saturation_adj/uisrc/01_rtl/Saturation_adj.v(127)
+HDL-7001 CRITICAL-WARNING: check keyowner failed
+HDL-7001 CRITICAL-WARNING: store key failed
+HDL-7001 CRITICAL-WARNING: unidentified key owner
+HDL-5007 WARNING: /* is inside a comment in uisrc/01_rtl/system_top.v(248)
+HDL-5333 WARNING: data object 'I_video_in_user' is already declared in uisrc/01_rtl/system_top.v(735)
+HDL-5007 WARNING: second declaration of 'I_video_in_user' is ignored in uisrc/01_rtl/system_top.v(735)
+HDL-5333 WARNING: data object 'I_video_in_valid' is already declared in uisrc/01_rtl/system_top.v(736)
+HDL-5007 WARNING: second declaration of 'I_video_in_valid' is ignored in uisrc/01_rtl/system_top.v(736)
+HDL-5333 WARNING: data object 'I_video_in_last' is already declared in uisrc/01_rtl/system_top.v(737)
+HDL-5007 WARNING: second declaration of 'I_video_in_last' is ignored in uisrc/01_rtl/system_top.v(737)
+HDL-5333 WARNING: data object 'I_video_in_data' is already declared in uisrc/01_rtl/system_top.v(738)
+HDL-5007 WARNING: second declaration of 'I_video_in_data' is ignored in uisrc/01_rtl/system_top.v(738)
+HDL-5370 WARNING: parameter 'T10MS' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(43)
+HDL-5370 WARNING: parameter 'KEY_S0' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(44)
+HDL-5370 WARNING: parameter 'KEY_S1' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(45)
+HDL-5370 WARNING: parameter 'KEY_S2' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(46)
+HDL-5370 WARNING: parameter 'KEY_S3' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(47)
+HDL-5007 WARNING: block identifier is required on this block in uisrc/03_ip/isp/Brightness_adjustment/uisrc/01_rtl/Brightness_adjustment.v(83)
+HDL-5007 WARNING: block identifier is required on this block in uisrc/03_ip/isp/Contrast_adjustment/uisrc/01_rtl/contrast_adj.v(95)
+HDL-5370 WARNING: parameter 'C0' becomes localparam in 'Saturation_adj' with formal parameter declaration list in uisrc/03_ip/isp/Saturation_adj/uisrc/01_rtl/Saturation_adj.v(125)
+HDL-5370 WARNING: parameter 'C1' becomes localparam in 'Saturation_adj' with formal parameter declaration list in uisrc/03_ip/isp/Saturation_adj/uisrc/01_rtl/Saturation_adj.v(126)
+HDL-5370 WARNING: parameter 'C2' becomes localparam in 'Saturation_adj' with formal parameter declaration list in uisrc/03_ip/isp/Saturation_adj/uisrc/01_rtl/Saturation_adj.v(127)
+HDL-7001 CRITICAL-WARNING: check keyowner failed
+HDL-7001 CRITICAL-WARNING: store key failed
+HDL-7001 CRITICAL-WARNING: unidentified key owner
+HDL-5007 WARNING: /* is inside a comment in uisrc/01_rtl/system_top.v(248)
+HDL-5333 WARNING: data object 'I_video_in_user' is already declared in uisrc/01_rtl/system_top.v(735)
+HDL-5007 WARNING: second declaration of 'I_video_in_user' is ignored in uisrc/01_rtl/system_top.v(735)
+HDL-5333 WARNING: data object 'I_video_in_valid' is already declared in uisrc/01_rtl/system_top.v(736)
+HDL-5007 WARNING: second declaration of 'I_video_in_valid' is ignored in uisrc/01_rtl/system_top.v(736)
+HDL-5333 WARNING: data object 'I_video_in_last' is already declared in uisrc/01_rtl/system_top.v(737)
+HDL-5007 WARNING: second declaration of 'I_video_in_last' is ignored in uisrc/01_rtl/system_top.v(737)
+HDL-5333 WARNING: data object 'I_video_in_data' is already declared in uisrc/01_rtl/system_top.v(738)
+HDL-5007 WARNING: second declaration of 'I_video_in_data' is ignored in uisrc/01_rtl/system_top.v(738)
+HDL-5370 WARNING: parameter 'T10MS' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(43)
+HDL-5370 WARNING: parameter 'KEY_S0' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(44)
+HDL-5370 WARNING: parameter 'KEY_S1' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(45)
+HDL-5370 WARNING: parameter 'KEY_S2' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(46)
+HDL-5370 WARNING: parameter 'KEY_S3' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(47)
+HDL-5007 WARNING: block identifier is required on this block in uisrc/03_ip/isp/Brightness_adjustment/uisrc/01_rtl/Brightness_adjustment.v(83)
+HDL-5007 WARNING: block identifier is required on this block in uisrc/03_ip/isp/Contrast_adjustment/uisrc/01_rtl/contrast_adj.v(95)
+HDL-5370 WARNING: parameter 'C0' becomes localparam in 'Saturation_adj' with formal parameter declaration list in uisrc/03_ip/isp/Saturation_adj/uisrc/01_rtl/Saturation_adj.v(125)
+HDL-5370 WARNING: parameter 'C1' becomes localparam in 'Saturation_adj' with formal parameter declaration list in uisrc/03_ip/isp/Saturation_adj/uisrc/01_rtl/Saturation_adj.v(126)
+HDL-5370 WARNING: parameter 'C2' becomes localparam in 'Saturation_adj' with formal parameter declaration list in uisrc/03_ip/isp/Saturation_adj/uisrc/01_rtl/Saturation_adj.v(127)
+HDL-7001 CRITICAL-WARNING: check keyowner failed
+HDL-7001 CRITICAL-WARNING: store key failed
+HDL-7001 CRITICAL-WARNING: unidentified key owner
+HDL-5007 WARNING: /* is inside a comment in uisrc/01_rtl/system_top.v(248)
+HDL-5333 WARNING: data object 'I_video_in_user' is already declared in uisrc/01_rtl/system_top.v(735)
+HDL-5007 WARNING: second declaration of 'I_video_in_user' is ignored in uisrc/01_rtl/system_top.v(735)
+HDL-5333 WARNING: data object 'I_video_in_valid' is already declared in uisrc/01_rtl/system_top.v(736)
+HDL-5007 WARNING: second declaration of 'I_video_in_valid' is ignored in uisrc/01_rtl/system_top.v(736)
+HDL-5333 WARNING: data object 'I_video_in_last' is already declared in uisrc/01_rtl/system_top.v(737)
+HDL-5007 WARNING: second declaration of 'I_video_in_last' is ignored in uisrc/01_rtl/system_top.v(737)
+HDL-5333 WARNING: data object 'I_video_in_data' is already declared in uisrc/01_rtl/system_top.v(738)
+HDL-5007 WARNING: second declaration of 'I_video_in_data' is ignored in uisrc/01_rtl/system_top.v(738)
+HDL-5370 WARNING: parameter 'T10MS' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(43)
+HDL-5370 WARNING: parameter 'KEY_S0' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(44)
+HDL-5370 WARNING: parameter 'KEY_S1' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(45)
+HDL-5370 WARNING: parameter 'KEY_S2' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(46)
+HDL-5370 WARNING: parameter 'KEY_S3' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(47)
+HDL-5007 WARNING: block identifier is required on this block in uisrc/03_ip/isp/Brightness_adjustment/uisrc/01_rtl/Brightness_adjustment.v(83)
+HDL-5007 WARNING: block identifier is required on this block in uisrc/03_ip/isp/Contrast_adjustment/uisrc/01_rtl/contrast_adj.v(95)
+HDL-5370 WARNING: parameter 'C0' becomes localparam in 'Saturation_adj' with formal parameter declaration list in uisrc/03_ip/isp/Saturation_adj/uisrc/01_rtl/Saturation_adj.v(125)
+HDL-5370 WARNING: parameter 'C1' becomes localparam in 'Saturation_adj' with formal parameter declaration list in uisrc/03_ip/isp/Saturation_adj/uisrc/01_rtl/Saturation_adj.v(126)
+HDL-5370 WARNING: parameter 'C2' becomes localparam in 'Saturation_adj' with formal parameter declaration list in uisrc/03_ip/isp/Saturation_adj/uisrc/01_rtl/Saturation_adj.v(127)
+HDL-7001 CRITICAL-WARNING: check keyowner failed
+HDL-7001 CRITICAL-WARNING: store key failed
+HDL-7001 CRITICAL-WARNING: unidentified key owner
+HDL-5007 WARNING: /* is inside a comment in uisrc/01_rtl/system_top.v(248)
+HDL-5333 WARNING: data object 'I_video_in_user' is already declared in uisrc/01_rtl/system_top.v(735)
+HDL-5007 WARNING: second declaration of 'I_video_in_user' is ignored in uisrc/01_rtl/system_top.v(735)
+HDL-5333 WARNING: data object 'I_video_in_valid' is already declared in uisrc/01_rtl/system_top.v(736)
+HDL-5007 WARNING: second declaration of 'I_video_in_valid' is ignored in uisrc/01_rtl/system_top.v(736)
+HDL-5333 WARNING: data object 'I_video_in_last' is already declared in uisrc/01_rtl/system_top.v(737)
+HDL-5007 WARNING: second declaration of 'I_video_in_last' is ignored in uisrc/01_rtl/system_top.v(737)
+HDL-5333 WARNING: data object 'I_video_in_data' is already declared in uisrc/01_rtl/system_top.v(738)
+HDL-5007 WARNING: second declaration of 'I_video_in_data' is ignored in uisrc/01_rtl/system_top.v(738)
+HDL-5370 WARNING: parameter 'T10MS' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(43)
+HDL-5370 WARNING: parameter 'KEY_S0' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(44)
+HDL-5370 WARNING: parameter 'KEY_S1' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(45)
+HDL-5370 WARNING: parameter 'KEY_S2' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(46)
+HDL-5370 WARNING: parameter 'KEY_S3' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(47)
+HDL-5007 WARNING: block identifier is required on this block in uisrc/03_ip/isp/Brightness_adjustment/uisrc/01_rtl/Brightness_adjustment.v(83)
+HDL-5007 WARNING: block identifier is required on this block in uisrc/03_ip/isp/Contrast_adjustment/uisrc/01_rtl/contrast_adj.v(95)
+HDL-5370 WARNING: parameter 'C0' becomes localparam in 'Saturation_adj' with formal parameter declaration list in uisrc/03_ip/isp/Saturation_adj/uisrc/01_rtl/Saturation_adj.v(125)
+HDL-5370 WARNING: parameter 'C1' becomes localparam in 'Saturation_adj' with formal parameter declaration list in uisrc/03_ip/isp/Saturation_adj/uisrc/01_rtl/Saturation_adj.v(126)
+HDL-5370 WARNING: parameter 'C2' becomes localparam in 'Saturation_adj' with formal parameter declaration list in uisrc/03_ip/isp/Saturation_adj/uisrc/01_rtl/Saturation_adj.v(127)
+HDL-7001 CRITICAL-WARNING: check keyowner failed
+HDL-7001 CRITICAL-WARNING: store key failed
+HDL-7001 CRITICAL-WARNING: unidentified key owner
+HDL-5007 WARNING: /* is inside a comment in uisrc/01_rtl/system_top.v(248)
+HDL-5333 WARNING: data object 'I_video_in_user' is already declared in uisrc/01_rtl/system_top.v(735)
+HDL-5007 WARNING: second declaration of 'I_video_in_user' is ignored in uisrc/01_rtl/system_top.v(735)
+HDL-5333 WARNING: data object 'I_video_in_valid' is already declared in uisrc/01_rtl/system_top.v(736)
+HDL-5007 WARNING: second declaration of 'I_video_in_valid' is ignored in uisrc/01_rtl/system_top.v(736)
+HDL-5333 WARNING: data object 'I_video_in_last' is already declared in uisrc/01_rtl/system_top.v(737)
+HDL-5007 WARNING: second declaration of 'I_video_in_last' is ignored in uisrc/01_rtl/system_top.v(737)
+HDL-5333 WARNING: data object 'I_video_in_data' is already declared in uisrc/01_rtl/system_top.v(738)
+HDL-5007 WARNING: second declaration of 'I_video_in_data' is ignored in uisrc/01_rtl/system_top.v(738)
+HDL-5370 WARNING: parameter 'T10MS' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(43)
+HDL-5370 WARNING: parameter 'KEY_S0' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(44)
+HDL-5370 WARNING: parameter 'KEY_S1' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(45)
+HDL-5370 WARNING: parameter 'KEY_S2' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(46)
+HDL-5370 WARNING: parameter 'KEY_S3' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(47)
+HDL-5007 WARNING: block identifier is required on this block in uisrc/03_ip/isp/Brightness_adjustment/uisrc/01_rtl/Brightness_adjustment.v(83)
+HDL-5007 WARNING: block identifier is required on this block in uisrc/03_ip/isp/Contrast_adjustment/uisrc/01_rtl/contrast_adj.v(95)
+HDL-5370 WARNING: parameter 'C0' becomes localparam in 'Saturation_adj' with formal parameter declaration list in uisrc/03_ip/isp/Saturation_adj/uisrc/01_rtl/Saturation_adj.v(125)
+HDL-5370 WARNING: parameter 'C1' becomes localparam in 'Saturation_adj' with formal parameter declaration list in uisrc/03_ip/isp/Saturation_adj/uisrc/01_rtl/Saturation_adj.v(126)
+HDL-5370 WARNING: parameter 'C2' becomes localparam in 'Saturation_adj' with formal parameter declaration list in uisrc/03_ip/isp/Saturation_adj/uisrc/01_rtl/Saturation_adj.v(127)
+HDL-5370 WARNING: parameter '**' becomes localparam in '**' with formal parameter declaration list in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(2)
+HDL-5370 WARNING: parameter '**' becomes localparam in '**' with formal parameter declaration list in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(3)
+HDL-5370 WARNING: parameter '**' becomes localparam in '**' with formal parameter declaration list in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(4)
+HDL-5370 WARNING: parameter '**' becomes localparam in '**' with formal parameter declaration list in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(5)
+HDL-7001 CRITICAL-WARNING: check keyowner failed
+HDL-7001 CRITICAL-WARNING: store key failed
+HDL-7001 CRITICAL-WARNING: unidentified key owner
+HDL-5007 WARNING: /* is inside a comment in uisrc/01_rtl/system_top.v(248)
+HDL-5333 WARNING: data object 'I_video_in_user' is already declared in uisrc/01_rtl/system_top.v(735)
+HDL-5007 WARNING: second declaration of 'I_video_in_user' is ignored in uisrc/01_rtl/system_top.v(735)
+HDL-5333 WARNING: data object 'I_video_in_valid' is already declared in uisrc/01_rtl/system_top.v(736)
+HDL-5007 WARNING: second declaration of 'I_video_in_valid' is ignored in uisrc/01_rtl/system_top.v(736)
+HDL-5333 WARNING: data object 'I_video_in_last' is already declared in uisrc/01_rtl/system_top.v(737)
+HDL-5007 WARNING: second declaration of 'I_video_in_last' is ignored in uisrc/01_rtl/system_top.v(737)
+HDL-5333 WARNING: data object 'I_video_in_data' is already declared in uisrc/01_rtl/system_top.v(738)
+HDL-5007 WARNING: second declaration of 'I_video_in_data' is ignored in uisrc/01_rtl/system_top.v(738)
+HDL-5370 WARNING: parameter 'T10MS' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(43)
+HDL-5370 WARNING: parameter 'KEY_S0' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(44)
+HDL-5370 WARNING: parameter 'KEY_S1' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(45)
+HDL-5370 WARNING: parameter 'KEY_S2' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(46)
+HDL-5370 WARNING: parameter 'KEY_S3' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(47)
+HDL-5007 WARNING: block identifier is required on this block in uisrc/03_ip/isp/Brightness_adjustment/uisrc/01_rtl/Brightness_adjustment.v(83)
+HDL-5007 WARNING: block identifier is required on this block in uisrc/03_ip/isp/Contrast_adjustment/uisrc/01_rtl/contrast_adj.v(95)
+HDL-5370 WARNING: parameter 'C0' becomes localparam in 'Saturation_adj' with formal parameter declaration list in uisrc/03_ip/isp/Saturation_adj/uisrc/01_rtl/Saturation_adj.v(125)
+HDL-5370 WARNING: parameter 'C1' becomes localparam in 'Saturation_adj' with formal parameter declaration list in uisrc/03_ip/isp/Saturation_adj/uisrc/01_rtl/Saturation_adj.v(126)
+HDL-5370 WARNING: parameter 'C2' becomes localparam in 'Saturation_adj' with formal parameter declaration list in uisrc/03_ip/isp/Saturation_adj/uisrc/01_rtl/Saturation_adj.v(127)
+PRJ-9201 ERROR: D:/TD/prj/imx_isp/uisrc/03_ip/uifdmadbuf/rfifo/rfifo.v already exists in IP uisrc/03_ip/uifdmadbuf/rfifo/rfifo.ipc
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/uifdmadbuf/rfifo/rfifo.v
+PRJ-9201 ERROR: D:/TD/prj/imx_isp/uisrc/03_ip/uifdmadbuf/wfifo/wfifo.v already exists in IP uisrc/03_ip/uifdmadbuf/wfifo/wfifo.ipc
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/03_ip/uifdmadbuf/wfifo/wfifo.v
+HDL-5370 WARNING: parameter '**' becomes localparam in '**' with formal parameter declaration list in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(2)
+HDL-5370 WARNING: parameter '**' becomes localparam in '**' with formal parameter declaration list in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(3)
+HDL-5370 WARNING: parameter '**' becomes localparam in '**' with formal parameter declaration list in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(4)
+HDL-5370 WARNING: parameter '**' becomes localparam in '**' with formal parameter declaration list in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(5)
+HDL-7001 CRITICAL-WARNING: check keyowner failed
+HDL-7001 CRITICAL-WARNING: store key failed
+HDL-7001 CRITICAL-WARNING: unidentified key owner
+HDL-5007 WARNING: /* is inside a comment in uisrc/01_rtl/system_top.v(248)
+HDL-5333 WARNING: data object 'I_video_in_user' is already declared in uisrc/01_rtl/system_top.v(735)
+HDL-5007 WARNING: second declaration of 'I_video_in_user' is ignored in uisrc/01_rtl/system_top.v(735)
+HDL-5333 WARNING: data object 'I_video_in_valid' is already declared in uisrc/01_rtl/system_top.v(736)
+HDL-5007 WARNING: second declaration of 'I_video_in_valid' is ignored in uisrc/01_rtl/system_top.v(736)
+HDL-5333 WARNING: data object 'I_video_in_last' is already declared in uisrc/01_rtl/system_top.v(737)
+HDL-5007 WARNING: second declaration of 'I_video_in_last' is ignored in uisrc/01_rtl/system_top.v(737)
+HDL-5333 WARNING: data object 'I_video_in_data' is already declared in uisrc/01_rtl/system_top.v(738)
+HDL-5007 WARNING: second declaration of 'I_video_in_data' is ignored in uisrc/01_rtl/system_top.v(738)
+HDL-5370 WARNING: parameter 'T10MS' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(43)
+HDL-5370 WARNING: parameter 'KEY_S0' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(44)
+HDL-5370 WARNING: parameter 'KEY_S1' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(45)
+HDL-5370 WARNING: parameter 'KEY_S2' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(46)
+HDL-5370 WARNING: parameter 'KEY_S3' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(47)
+HDL-5007 WARNING: block identifier is required on this block in uisrc/03_ip/isp/Brightness_adjustment/uisrc/01_rtl/Brightness_adjustment.v(83)
+HDL-5007 WARNING: block identifier is required on this block in uisrc/03_ip/isp/Contrast_adjustment/uisrc/01_rtl/contrast_adj.v(95)
+HDL-5370 WARNING: parameter 'C0' becomes localparam in 'Saturation_adj' with formal parameter declaration list in uisrc/03_ip/isp/Saturation_adj/uisrc/01_rtl/Saturation_adj.v(125)
+HDL-5370 WARNING: parameter 'C1' becomes localparam in 'Saturation_adj' with formal parameter declaration list in uisrc/03_ip/isp/Saturation_adj/uisrc/01_rtl/Saturation_adj.v(126)
+HDL-5370 WARNING: parameter 'C2' becomes localparam in 'Saturation_adj' with formal parameter declaration list in uisrc/03_ip/isp/Saturation_adj/uisrc/01_rtl/Saturation_adj.v(127)
+HDL-5370 WARNING: parameter '**' becomes localparam in '**' with formal parameter declaration list in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(2)
+HDL-5370 WARNING: parameter '**' becomes localparam in '**' with formal parameter declaration list in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(3)
+HDL-5370 WARNING: parameter '**' becomes localparam in '**' with formal parameter declaration list in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(4)
+HDL-5370 WARNING: parameter '**' becomes localparam in '**' with formal parameter declaration list in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(5)
+HDL-7001 CRITICAL-WARNING: check keyowner failed
+HDL-7001 CRITICAL-WARNING: store key failed
+HDL-7001 CRITICAL-WARNING: unidentified key owner
+HDL-5007 WARNING: /* is inside a comment in uisrc/01_rtl/system_top.v(248)
+HDL-5333 WARNING: data object 'I_video_in_user' is already declared in uisrc/01_rtl/system_top.v(735)
+HDL-5007 WARNING: second declaration of 'I_video_in_user' is ignored in uisrc/01_rtl/system_top.v(735)
+HDL-5333 WARNING: data object 'I_video_in_valid' is already declared in uisrc/01_rtl/system_top.v(736)
+HDL-5007 WARNING: second declaration of 'I_video_in_valid' is ignored in uisrc/01_rtl/system_top.v(736)
+HDL-5333 WARNING: data object 'I_video_in_last' is already declared in uisrc/01_rtl/system_top.v(737)
+HDL-5007 WARNING: second declaration of 'I_video_in_last' is ignored in uisrc/01_rtl/system_top.v(737)
+HDL-5333 WARNING: data object 'I_video_in_data' is already declared in uisrc/01_rtl/system_top.v(738)
+HDL-5007 WARNING: second declaration of 'I_video_in_data' is ignored in uisrc/01_rtl/system_top.v(738)
+HDL-5370 WARNING: parameter 'T10MS' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(43)
+HDL-5370 WARNING: parameter 'KEY_S0' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(44)
+HDL-5370 WARNING: parameter 'KEY_S1' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(45)
+HDL-5370 WARNING: parameter 'KEY_S2' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(46)
+HDL-5370 WARNING: parameter 'KEY_S3' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(47)
+HDL-5007 WARNING: block identifier is required on this block in uisrc/03_ip/isp/Brightness_adjustment/uisrc/01_rtl/Brightness_adjustment.v(83)
+HDL-5007 WARNING: block identifier is required on this block in uisrc/03_ip/isp/Contrast_adjustment/uisrc/01_rtl/contrast_adj.v(95)
+HDL-5370 WARNING: parameter 'C0' becomes localparam in 'Saturation_adj' with formal parameter declaration list in uisrc/03_ip/isp/Saturation_adj/uisrc/01_rtl/Saturation_adj.v(125)
+HDL-5370 WARNING: parameter 'C1' becomes localparam in 'Saturation_adj' with formal parameter declaration list in uisrc/03_ip/isp/Saturation_adj/uisrc/01_rtl/Saturation_adj.v(126)
+HDL-5370 WARNING: parameter 'C2' becomes localparam in 'Saturation_adj' with formal parameter declaration list in uisrc/03_ip/isp/Saturation_adj/uisrc/01_rtl/Saturation_adj.v(127)
+HDL-5370 WARNING: parameter '**' becomes localparam in '**' with formal parameter declaration list in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(2)
+HDL-5370 WARNING: parameter '**' becomes localparam in '**' with formal parameter declaration list in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(3)
+HDL-5370 WARNING: parameter '**' becomes localparam in '**' with formal parameter declaration list in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(4)
+HDL-5370 WARNING: parameter '**' becomes localparam in '**' with formal parameter declaration list in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(5)
+HDL-7001 CRITICAL-WARNING: check keyowner failed
+HDL-7001 CRITICAL-WARNING: store key failed
+HDL-7001 CRITICAL-WARNING: unidentified key owner
+HDL-5007 WARNING: /* is inside a comment in uisrc/01_rtl/system_top.v(248)
+HDL-5333 WARNING: data object 'I_video_in_user' is already declared in uisrc/01_rtl/system_top.v(735)
+HDL-5007 WARNING: second declaration of 'I_video_in_user' is ignored in uisrc/01_rtl/system_top.v(735)
+HDL-5333 WARNING: data object 'I_video_in_valid' is already declared in uisrc/01_rtl/system_top.v(736)
+HDL-5007 WARNING: second declaration of 'I_video_in_valid' is ignored in uisrc/01_rtl/system_top.v(736)
+HDL-5333 WARNING: data object 'I_video_in_last' is already declared in uisrc/01_rtl/system_top.v(737)
+HDL-5007 WARNING: second declaration of 'I_video_in_last' is ignored in uisrc/01_rtl/system_top.v(737)
+HDL-5333 WARNING: data object 'I_video_in_data' is already declared in uisrc/01_rtl/system_top.v(738)
+HDL-5007 WARNING: second declaration of 'I_video_in_data' is ignored in uisrc/01_rtl/system_top.v(738)
+HDL-5370 WARNING: parameter 'T10MS' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(43)
+HDL-5370 WARNING: parameter 'KEY_S0' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(44)
+HDL-5370 WARNING: parameter 'KEY_S1' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(45)
+HDL-5370 WARNING: parameter 'KEY_S2' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(46)
+HDL-5370 WARNING: parameter 'KEY_S3' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(47)
+HDL-5007 WARNING: block identifier is required on this block in uisrc/03_ip/isp/Brightness_adjustment/uisrc/01_rtl/Brightness_adjustment.v(83)
+HDL-5007 WARNING: block identifier is required on this block in uisrc/03_ip/isp/Contrast_adjustment/uisrc/01_rtl/contrast_adj.v(95)
+HDL-5370 WARNING: parameter 'C0' becomes localparam in 'Saturation_adj' with formal parameter declaration list in uisrc/03_ip/isp/Saturation_adj/uisrc/01_rtl/Saturation_adj.v(125)
+HDL-5370 WARNING: parameter 'C1' becomes localparam in 'Saturation_adj' with formal parameter declaration list in uisrc/03_ip/isp/Saturation_adj/uisrc/01_rtl/Saturation_adj.v(126)
+HDL-5370 WARNING: parameter 'C2' becomes localparam in 'Saturation_adj' with formal parameter declaration list in uisrc/03_ip/isp/Saturation_adj/uisrc/01_rtl/Saturation_adj.v(127)
+HDL-5370 WARNING: parameter '**' becomes localparam in '**' with formal parameter declaration list in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(2)
+HDL-5370 WARNING: parameter '**' becomes localparam in '**' with formal parameter declaration list in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(3)
+HDL-5370 WARNING: parameter '**' becomes localparam in '**' with formal parameter declaration list in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(4)
+HDL-5370 WARNING: parameter '**' becomes localparam in '**' with formal parameter declaration list in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(5)
+HDL-7001 CRITICAL-WARNING: check keyowner failed
+HDL-7001 CRITICAL-WARNING: store key failed
+HDL-7001 CRITICAL-WARNING: unidentified key owner
+HDL-5007 WARNING: /* is inside a comment in uisrc/01_rtl/system_top.v(248)
+HDL-5333 WARNING: data object 'I_video_in_user' is already declared in uisrc/01_rtl/system_top.v(735)
+HDL-5007 WARNING: second declaration of 'I_video_in_user' is ignored in uisrc/01_rtl/system_top.v(735)
+HDL-5333 WARNING: data object 'I_video_in_valid' is already declared in uisrc/01_rtl/system_top.v(736)
+HDL-5007 WARNING: second declaration of 'I_video_in_valid' is ignored in uisrc/01_rtl/system_top.v(736)
+HDL-5333 WARNING: data object 'I_video_in_last' is already declared in uisrc/01_rtl/system_top.v(737)
+HDL-5007 WARNING: second declaration of 'I_video_in_last' is ignored in uisrc/01_rtl/system_top.v(737)
+HDL-5333 WARNING: data object 'I_video_in_data' is already declared in uisrc/01_rtl/system_top.v(738)
+HDL-5007 WARNING: second declaration of 'I_video_in_data' is ignored in uisrc/01_rtl/system_top.v(738)
+HDL-5370 WARNING: parameter 'T10MS' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(43)
+HDL-5370 WARNING: parameter 'KEY_S0' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(44)
+HDL-5370 WARNING: parameter 'KEY_S1' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(45)
+HDL-5370 WARNING: parameter 'KEY_S2' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(46)
+HDL-5370 WARNING: parameter 'KEY_S3' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(47)
+HDL-5007 WARNING: block identifier is required on this block in uisrc/03_ip/isp/Brightness_adjustment/uisrc/01_rtl/Brightness_adjustment.v(83)
+HDL-5007 WARNING: block identifier is required on this block in uisrc/03_ip/isp/Contrast_adjustment/uisrc/01_rtl/contrast_adj.v(95)
+HDL-5370 WARNING: parameter 'C0' becomes localparam in 'Saturation_adj' with formal parameter declaration list in uisrc/03_ip/isp/Saturation_adj/uisrc/01_rtl/Saturation_adj.v(125)
+HDL-5370 WARNING: parameter 'C1' becomes localparam in 'Saturation_adj' with formal parameter declaration list in uisrc/03_ip/isp/Saturation_adj/uisrc/01_rtl/Saturation_adj.v(126)
+HDL-5370 WARNING: parameter 'C2' becomes localparam in 'Saturation_adj' with formal parameter declaration list in uisrc/03_ip/isp/Saturation_adj/uisrc/01_rtl/Saturation_adj.v(127)
+HDL-5370 WARNING: parameter '**' becomes localparam in '**' with formal parameter declaration list in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(2)
+HDL-5370 WARNING: parameter '**' becomes localparam in '**' with formal parameter declaration list in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(3)
+HDL-5370 WARNING: parameter '**' becomes localparam in '**' with formal parameter declaration list in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(4)
+HDL-5370 WARNING: parameter '**' becomes localparam in '**' with formal parameter declaration list in uisrc/03_ip/alip/ph1a_ddr/ddr_ip.v(5)
+HDL-7001 CRITICAL-WARNING: check keyowner failed
+HDL-7001 CRITICAL-WARNING: store key failed
+HDL-7001 CRITICAL-WARNING: unidentified key owner
+HDL-5007 WARNING: /* is inside a comment in uisrc/01_rtl/system_top.v(248)
+HDL-5333 WARNING: data object 'I_video_in_user' is already declared in uisrc/01_rtl/system_top.v(735)
+HDL-5007 WARNING: second declaration of 'I_video_in_user' is ignored in uisrc/01_rtl/system_top.v(735)
+HDL-5333 WARNING: data object 'I_video_in_valid' is already declared in uisrc/01_rtl/system_top.v(736)
+HDL-5007 WARNING: second declaration of 'I_video_in_valid' is ignored in uisrc/01_rtl/system_top.v(736)
+HDL-5333 WARNING: data object 'I_video_in_last' is already declared in uisrc/01_rtl/system_top.v(737)
+HDL-5007 WARNING: second declaration of 'I_video_in_last' is ignored in uisrc/01_rtl/system_top.v(737)
+HDL-5333 WARNING: data object 'I_video_in_data' is already declared in uisrc/01_rtl/system_top.v(738)
+HDL-5007 WARNING: second declaration of 'I_video_in_data' is ignored in uisrc/01_rtl/system_top.v(738)
+HDL-5370 WARNING: parameter 'T10MS' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(43)
+HDL-5370 WARNING: parameter 'KEY_S0' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(44)
+HDL-5370 WARNING: parameter 'KEY_S1' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(45)
+HDL-5370 WARNING: parameter 'KEY_S2' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(46)
+HDL-5370 WARNING: parameter 'KEY_S3' becomes localparam in 'key' with formal parameter declaration list in uisrc/03_ip/ae_set/key.v(47)
+HDL-5007 WARNING: block identifier is required on this block in uisrc/03_ip/isp/Brightness_adjustment/uisrc/01_rtl/Brightness_adjustment.v(83)
+HDL-5007 WARNING: block identifier is required on this block in uisrc/03_ip/isp/Contrast_adjustment/uisrc/01_rtl/contrast_adj.v(95)
+HDL-5370 WARNING: parameter 'C0' becomes localparam in 'Saturation_adj' with formal parameter declaration list in uisrc/03_ip/isp/Saturation_adj/uisrc/01_rtl/Saturation_adj.v(125)
+HDL-5370 WARNING: parameter 'C1' becomes localparam in 'Saturation_adj' with formal parameter declaration list in uisrc/03_ip/isp/Saturation_adj/uisrc/01_rtl/Saturation_adj.v(126)
+HDL-5370 WARNING: parameter 'C2' becomes localparam in 'Saturation_adj' with formal parameter declaration list in uisrc/03_ip/isp/Saturation_adj/uisrc/01_rtl/Saturation_adj.v(127)
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/04_pin/fpga_pin.adc) is already in fileSet(constraint_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/04_pin/fpga_pin.adc
+PRJ-8403 ERROR: File(D:/TD/prj/imx_isp/uisrc/04_pin/timing.sdc) is already in fileSet(constraint_1).
+GUI-5001 WARNING: Failed to add the file: D:/TD/prj/imx_isp/uisrc/04_pin/timing.sdc
